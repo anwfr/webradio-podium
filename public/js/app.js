@@ -22,6 +22,8 @@ import {
   openPodcastDetail,
   syncPodcastFromUrl,
   stashPodcastFromUrl,
+  getPendingPodcastSlug,
+  getPendingShareMode,
   openPendingPodcast,
 } from './podcast-detail.js';
 import {
@@ -46,7 +48,11 @@ import {
   renderMyEstablishmentSummary,
   renderMyEstablishmentNeighbors,
 } from './establishment-ranking-view.js';
-import { clearUserEstablishment, getUserEstablishment } from './user-establishment.js';
+import {
+  clearUserEstablishment,
+  getUserEstablishment,
+  setUserEstablishment,
+} from './user-establishment.js';
 import { initOnboarding, setOnboardingEntries, showOnboarding } from './onboarding.js';
 import { initNavigation, setActiveTab, getActiveTab } from './navigation.js';
 import { showChampionSplash } from './champion-splash.js';
@@ -309,17 +315,20 @@ function showAppShell({ openPendingPodcastAfter = false, showChampionSplashOnOpe
   setActiveTab(getActiveTab(), { updateHash: false, notify: false });
   refreshActiveTab();
   initPodcastRouting();
-  const pendingPodcastSlug = stashPodcastFromUrl();
+  stashPodcastFromUrl();
 
-  if (showChampionSplashOnOpen && !pendingPodcastSlug) {
+  const pendingPodcastSlug = getPendingPodcastSlug();
+  const pendingShareMode = getPendingShareMode();
+
+  if (showChampionSplashOnOpen && !pendingPodcastSlug && !pendingShareMode) {
     showChampionSplash(state.allRows, {
       getEstablishmentLabel: canonicalEstablishmentLabel,
       onOpenPodcast: (slug) => openPodcastDetail(slug),
     });
   }
 
-  if (openPendingPodcastAfter) {
-    window.setTimeout(() => openPendingPodcast(), 150);
+  if (openPendingPodcastAfter && pendingPodcastSlug) {
+    window.setTimeout(() => openPendingPodcast(), pendingShareMode ? 0 : 150);
   }
 }
 
@@ -413,9 +422,30 @@ function loadRankingsData(participants, history) {
   setOnboardingEntries(state.establishmentEntries);
 }
 
-function onEstablishmentSelected({ key, label }) {
+function applyUserEstablishment({ key, label }) {
   state.userEstablishment = { key, label };
+  setUserEstablishment(key, label);
   setActiveTab('mon-ecole');
+}
+
+function tryAutoSelectEstablishmentFromPendingPodcast() {
+  const slug = getPendingPodcastSlug();
+  if (!slug) return null;
+
+  const row = state.allRows.find((r) => r.slug === slug);
+  if (!row?.establishmentKey) return null;
+
+  const entry = findEstablishmentEntry(state.establishmentEntries, row.establishmentKey);
+  if (!entry) return null;
+
+  return {
+    key: entry.key,
+    label: entry.label || row.establishment || row.school || entry.key,
+  };
+}
+
+function onEstablishmentSelected({ key, label }) {
+  applyUserEstablishment({ key, label });
   showAppShell({ openPendingPodcastAfter: true });
 }
 
@@ -458,6 +488,13 @@ async function main() {
     }
 
     if (!state.userEstablishment) {
+      const autoSelected = tryAutoSelectEstablishmentFromPendingPodcast();
+      if (autoSelected) {
+        applyUserEstablishment(autoSelected);
+        showAppShell({ openPendingPodcastAfter: true });
+        return;
+      }
+
       showOnboarding({ reason: 'onboarding' });
       return;
     }

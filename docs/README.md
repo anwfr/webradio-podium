@@ -12,7 +12,7 @@ Classement public des votes du [concours de podcasts AFD](https://offre-pedagogi
 
 ```bash
 cp .env.example .env
-# Éditer GITHUB_OWNER et GITHUB_REPO dans .env
+# Éditer SITE_BASE_URL dans .env (optionnel)
 
 npm install
 npm run seed-demo    # données de démo (sans scraper l'AFD)
@@ -56,7 +56,7 @@ Comme Pipeline B, le cron votes affiche en console une barre de progression (`[p
 
 ```bash
 npm install
-cp .env.example .env   # optionnel : liens GitHub dans le front après publish
+cp .env.example .env   # optionnel : SITE_BASE_URL et GITHUB_REPOSITORY pour publish
 ```
 
 ### Lancer
@@ -130,7 +130,8 @@ scripts/          Scraping, détection, pipelines
 
 Fichier **`.env`** (non versionné) — voir `.env.example` :
 
-- `GITHUB_OWNER` / `GITHUB_REPO` — liens GitHub dans le front
+- `SITE_BASE_URL` — URL publique du site
+- `GITHUB_REPOSITORY` — optionnel en local (`owner/repo`, injecté en Actions)
 - `HTTP_TIMEOUT_MS` — optionnel (défaut 15 s)
 
 Le front lit `public/js/site-config.json` (généré par `publish`, gitignored) ou `site-config.defaults.json`.

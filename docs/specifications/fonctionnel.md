@@ -62,7 +62,7 @@ La découverte passe par la liste paginée, mais **chaque fiche est validée** a
 | Hébergement | Gratuit, avec cron intégré — voir [technique.md](technique.md) |
 | Stack | Node.js 20 · Vanilla JS · Chart.js · GitHub Pages + Actions |
 | Repo | **Public** — aucun secret ni donnée confidentielle ([public-repo.md](public-repo.md)) |
-| Config locale | **`.env`** (non versionné) pour `GITHUB_OWNER` / liens du site |
+| Config locale | **`.env`** (non versionné) pour `SITE_BASE_URL` et options locales |
 | Données initiales | JSON vides auto-créés · **`npm run seed-demo`** pour extrait fictif de dev |
 
 ---

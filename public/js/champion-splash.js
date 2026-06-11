@@ -13,6 +13,7 @@ import { getBadgeLabel } from './badge-labels.js';
 import { computePodcastBadges } from './podcast-badges.js';
 
 const SPLASH_DURATION_MS = 4000;
+const SHARE_VOTE_SPLASH_DURATION_MS = 3200;
 const LAST_STORY_KEY = 'webradio-podium-splash-last';
 
 const SPLASH_VARIANTS = {
@@ -39,6 +40,10 @@ const SPLASH_VARIANTS = {
   'voltage-pulse': {
     id: 'voltage-pulse',
     particleEmojis: ['⚡', '💥', '⚡'],
+  },
+  'vote-call': {
+    id: 'vote-call',
+    particleEmojis: ['🗳️', '⭐', '📣'],
   },
 };
 
@@ -226,32 +231,60 @@ function buildParticles(variant) {
 
 let activeSplash = null;
 
-export function showChampionSplash(rows, { getEstablishmentLabel, onOpenPodcast, onDismiss } = {}) {
-  const story = pickSplashStory(buildPodcastSplashStories(rows));
-  if (!story) return;
+export function buildShareVoteSplashStory(row, total = 0) {
+  const votingOpen = row.voteStatus === 'open';
+  const votesFormatted = formatVotes(row.votes);
+  const rankLine =
+    total > 0 && row.rank
+      ? `<span class="champion-splash-rank-hint">${row.rank}<sup>e</sup> sur ${total} podcasts</span>`
+      : '';
+
+  const statHtml = votingOpen
+    ? `Déjà <strong class="champion-splash-votes">${votesFormatted}</strong> votes — aidez-nous à le faire monter dans le classement !${rankLine ? `<br>${rankLine}` : ''}`
+    : `Déjà <strong class="champion-splash-votes">${votesFormatted}</strong> votes — partagez ce lien pour le soutenir !${rankLine ? `<br>${rankLine}` : ''}`;
+
+  return {
+    storyId: 'share-vote',
+    slug: row.slug,
+    title: row.title,
+    label: votingOpen ? 'Vote pour ce podcast' : 'Soutenez ce podcast',
+    badge: { emoji: '🗳️', label: 'Appel à votes' },
+    statHtml,
+    heroEmoji: '🗳️',
+    variantIds: ['vote-call'],
+  };
+}
+
+function mountSplash(story, {
+  establishment = '',
+  durationMs = SPLASH_DURATION_MS,
+  hint = 'Touche pour continuer',
+  variant = null,
+  onActivate,
+  onDismiss,
+} = {}) {
   dismissChampionSplash();
 
   const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  const variant = pickVariant(story);
-  const establishment = getEstablishmentLabel?.(rows.find((row) => row.slug === story.slug)) ?? '';
+  const pickedVariant = variant ?? pickVariant(story);
   const establishmentLine = establishment
     ? `<p class="champion-splash-establishment">${escapeHtml(establishment)}</p>`
     : '';
-  const badgeLabel = story.badge.type ? resolveBoostBadgeLabel(story.badge) : story.badge.label;
+  const badgeLabel = story.badge?.type ? resolveBoostBadgeLabel(story.badge) : story.badge?.label;
   const badgeLine =
     badgeLabel && badgeLabel !== story.label
       ? `<span class="champion-splash-badge" aria-hidden="true">${story.badge.emoji} ${escapeHtml(badgeLabel)}</span>`
       : '';
 
   const overlay = document.createElement('div');
-  overlay.className = `champion-splash champion-splash--${variant.id} champion-splash--story-${story.storyId}`;
+  overlay.className = `champion-splash champion-splash--${pickedVariant.id} champion-splash--story-${story.storyId}`;
   overlay.setAttribute('role', 'dialog');
   overlay.setAttribute('aria-modal', 'true');
   overlay.setAttribute('aria-label', `${story.label} : ${story.title}`);
 
   overlay.innerHTML = `
     <button type="button" class="champion-splash-backdrop" aria-label="Fermer"></button>
-    <div class="champion-splash-particles">${buildParticles(variant)}</div>
+    <div class="champion-splash-particles">${buildParticles(pickedVariant)}</div>
     <article class="champion-splash-card" tabindex="0">
       <button type="button" class="champion-splash-crown" aria-label="${escapeHtml(story.label)}">${story.heroEmoji}</button>
       <p class="champion-splash-label">${escapeHtml(story.label)}</p>
@@ -259,7 +292,7 @@ export function showChampionSplash(rows, { getEstablishmentLabel, onOpenPodcast,
       ${establishmentLine}
       <p class="champion-splash-stat">${story.statHtml}</p>
       ${badgeLine}
-      <p class="champion-splash-hint">Touche pour voir le podcast · se ferme dans 4 s</p>
+      <p class="champion-splash-hint">${escapeHtml(hint)}</p>
       <div class="champion-splash-progress" aria-hidden="true">
         <span class="champion-splash-progress-bar"></span>
       </div>
@@ -267,7 +300,7 @@ export function showChampionSplash(rows, { getEstablishmentLabel, onOpenPodcast,
 
   document.body.appendChild(overlay);
 
-  const duration = reducedMotion ? 2500 : SPLASH_DURATION_MS;
+  const duration = reducedMotion ? Math.min(durationMs, 2500) : durationMs;
   const progressBar = overlay.querySelector('.champion-splash-progress-bar');
   if (progressBar) {
     progressBar.style.animationDuration = `${duration}ms`;
@@ -291,6 +324,10 @@ export function showChampionSplash(rows, { getEstablishmentLabel, onOpenPodcast,
     }, reducedMotion ? 120 : 280);
   };
 
+  const activate = () => {
+    if (story.slug && onActivate) onActivate(story.slug);
+  };
+
   const autoTimer = window.setTimeout(() => close('auto'), duration);
   activeSplash = overlay;
 
@@ -299,7 +336,7 @@ export function showChampionSplash(rows, { getEstablishmentLabel, onOpenPodcast,
   const card = overlay.querySelector('.champion-splash-card');
   card?.addEventListener('click', (e) => {
     if (e.target.closest('.champion-splash-crown')) return;
-    if (story.slug && onOpenPodcast) onOpenPodcast(story.slug);
+    activate();
     close('card');
   });
 
@@ -315,9 +352,40 @@ export function showChampionSplash(rows, { getEstablishmentLabel, onOpenPodcast,
     if (e.key === 'Escape') close('escape');
     if (e.key === 'Enter' || e.key === ' ') {
       e.preventDefault();
-      if (story.slug && onOpenPodcast) onOpenPodcast(story.slug);
+      activate();
       close('keyboard');
     }
+  });
+}
+
+export function showShareVoteSplash(row, { getEstablishmentLabel, getTotalCount, onContinue, onDismiss } = {}) {
+  if (!row) return;
+
+  const votingOpen = row.voteStatus === 'open';
+  const story = buildShareVoteSplashStory(row, getTotalCount?.() ?? 0);
+
+  mountSplash(story, {
+    establishment: getEstablishmentLabel?.(row) ?? '',
+    durationMs: SHARE_VOTE_SPLASH_DURATION_MS,
+    hint: votingOpen
+      ? 'Touche pour voter · se ferme dans 3 s'
+      : 'Touche pour continuer · se ferme dans 3 s',
+    variant: SPLASH_VARIANTS['vote-call'],
+    onActivate: onContinue ? () => onContinue(row.slug) : undefined,
+    onDismiss,
+  });
+}
+
+export function showChampionSplash(rows, { getEstablishmentLabel, onOpenPodcast, onDismiss } = {}) {
+  const story = pickSplashStory(buildPodcastSplashStories(rows));
+  if (!story) return;
+
+  mountSplash(story, {
+    establishment: getEstablishmentLabel?.(rows.find((row) => row.slug === story.slug)) ?? '',
+    durationMs: SPLASH_DURATION_MS,
+    hint: 'Touche pour voir le podcast · se ferme dans 4 s',
+    onActivate: onOpenPodcast,
+    onDismiss,
   });
 }
 

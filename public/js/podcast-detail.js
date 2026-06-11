@@ -1,4 +1,4 @@
-import { formatDeltaMarkup } from './data.js';
+import { formatDeltaMarkup, formatRankDeltaMarkup } from './data.js';
 import {
   resolveEstablishment,
   podiumEstablishmentMarkup,
@@ -15,13 +15,17 @@ import {
   tabFromHash,
   normalizeTabId,
 } from './navigation.js';
+import { buildFlyerTeaser, printPodcastFlyers } from './flyer-print.js';
 
 const PODCAST_PARAM = 'podcast';
-
+const SHARE_PARAM = 'partage';
 let context = null;
 let pendingPodcastSlug = null;
+let pendingShareMode = false;
+let activeShareMode = false;
 let popstateBound = false;
 let podcastUrlPushed = false;
+let sheetControlsBound = false;
 
 function escapeHtml(str) {
   return String(str)
@@ -35,9 +39,23 @@ export function getPodcastSlugFromUrl() {
   return new URLSearchParams(location.search).get(PODCAST_PARAM) || null;
 }
 
+export function isShareModeFromUrl() {
+  return new URLSearchParams(location.search).get(SHARE_PARAM) === '1';
+}
+
+export function buildPodcastShareUrl(slug) {
+  const url = new URL(location.origin + location.pathname);
+  url.searchParams.set(PODCAST_PARAM, slug);
+  url.searchParams.set(SHARE_PARAM, '1');
+  url.hash = '';
+  return url.toString();
+}
+
 export function buildPodcastUrl(slug) {
   const url = new URL(location.href);
   url.searchParams.set(PODCAST_PARAM, slug);
+  url.searchParams.delete(SHARE_PARAM);
+  url.hash = hashForTab(getActiveTab());
   return url.toString();
 }
 
@@ -48,12 +66,22 @@ export function isMainAppVisible() {
   return Boolean(shell && !shell.hidden);
 }
 
+export function getPendingPodcastSlug() {
+  return pendingPodcastSlug;
+}
+
+export function getPendingShareMode() {
+  return pendingShareMode;
+}
+
 export function stashPodcastFromUrl() {
   const slug = getPodcastSlugFromUrl();
   if (!slug) return null;
   pendingPodcastSlug = slug;
+  pendingShareMode = isShareModeFromUrl();
   const url = new URL(location.href);
   url.searchParams.delete(PODCAST_PARAM);
+  url.searchParams.delete(SHARE_PARAM);
   history.replaceState(history.state ?? {}, '', url);
   return slug;
 }
@@ -61,17 +89,25 @@ export function stashPodcastFromUrl() {
 export function openPendingPodcast() {
   if (!isMainAppVisible()) return;
   const slug = pendingPodcastSlug;
+  const shareMode = pendingShareMode;
   if (!slug) return;
   pendingPodcastSlug = null;
-  openPodcastDetail(slug, { replaceUrl: true });
+  pendingShareMode = false;
+  openPodcastDetail(slug, { replaceUrl: true, shareMode });
 }
 
-function setPodcastUrl(slug, { replace = false, tab = getActiveTab() } = {}) {
+function setPodcastUrl(slug, { replace = false, tab = getActiveTab(), shareMode = false } = {}) {
   const url = new URL(location.href);
-  if (slug) url.searchParams.set(PODCAST_PARAM, slug);
-  else url.searchParams.delete(PODCAST_PARAM);
+  if (slug) {
+    url.searchParams.set(PODCAST_PARAM, slug);
+    if (shareMode) url.searchParams.set(SHARE_PARAM, '1');
+    else url.searchParams.delete(SHARE_PARAM);
+  } else {
+    url.searchParams.delete(PODCAST_PARAM);
+    url.searchParams.delete(SHARE_PARAM);
+  }
   url.hash = hashForTab(tab);
-  const state = { podcast: slug || null, tab };
+  const state = { podcast: slug || null, tab, shareMode: shareMode || null };
   if (replace) {
     history.replaceState(state, '', url);
   } else {
@@ -119,6 +155,8 @@ function sheetActionIcon(type) {
       '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>',
     check:
       '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>',
+    print:
+      '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9V2h12v7"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><path d="M6 14h12v8H6z"/></svg>',
   };
   const svg = icons[type] || '';
   return `<span class="sheet-action-btn-icon" aria-hidden="true">${svg}</span>`;
@@ -126,8 +164,74 @@ function sheetActionIcon(type) {
 
 function copyLinkButtonHtml(copied = false) {
   return copied
-    ? `${sheetActionIcon('check')} Copié !`
+    ? `${sheetActionIcon('check')} Lien copié ! Envoie-le à tes amis pour les inviter à voter !`
     : `${sheetActionIcon('link')} Copier le lien`;
+}
+
+function canUseNativeShare() {
+  return typeof navigator !== 'undefined' && typeof navigator.share === 'function';
+}
+
+function buildNativeSharePayload(shareText, shareUrl) {
+  const textWithUrl = `${shareText}\n\n${shareUrl}`;
+  const textAndUrl = { text: shareText, url: shareUrl };
+
+  if (typeof navigator.canShare !== 'function') {
+    return { text: textWithUrl };
+  }
+  if (navigator.canShare({ text: textWithUrl })) {
+    return { text: textWithUrl };
+  }
+  if (navigator.canShare(textAndUrl)) {
+    return textAndUrl;
+  }
+  return null;
+}
+
+function nativeShareButtonMarkup() {
+  return `<button type="button" class="sheet-action-btn sheet-action-btn--accent sheet-action-btn--native-share" id="podcast-share-btn">
+    ${sheetActionIcon('share')} Partager
+  </button>`;
+}
+
+function shareActionsMarkup({ shareMode = false } = {}) {
+  const modeClass = shareMode ? ' podcast-hero-share-actions--share-mode' : '';
+
+  return `
+    <div class="podcast-hero-share-actions${modeClass}">
+      ${nativeShareButtonMarkup()}
+      <button type="button" class="sheet-action-btn sheet-action-btn--muted sheet-action-btn--copy-link" id="podcast-copy-link">
+        ${copyLinkButtonHtml()}
+      </button>
+      <button type="button" class="sheet-action-btn sheet-action-btn--muted sheet-action-btn--print-flyer" id="podcast-print-flyer">
+        ${sheetActionIcon('print')} Imprimer des flyers
+      </button>
+    </div>
+  `;
+}
+
+function shareCtaMarkup(row) {
+  const votingOpen = row.voteStatus === 'open';
+  const lead = votingOpen
+    ? escapeHtml(buildFlyerTeaser(row.title))
+    : 'Partage ce lien à tes amis pour suivre ce podcast dans le classement.';
+
+  return `
+    <div class="podcast-share-cta">
+      ${votingOpen ? '' : '<p class="podcast-share-cta-title">Soutiens ce podcast !</p>'}
+      <p class="podcast-share-cta-lead">${lead}</p>
+    </div>
+  `;
+}
+
+function podcastHeroStatsMarkup(row) {
+  const rankDeltaMarkup = formatRankDeltaMarkup(row.deltaRankByDelta24h ?? row.deltaRank ?? 0);
+
+  return `<div class="podcast-hero-stats podcast-card-stats">
+    <span class="podcast-card-votes"><strong>${row.votes}</strong> votes</span>
+    <span class="podcast-card-delta">${formatDeltaMarkup(row.deltaVotes, { trailing: ' aujourd\u2019hui' })}</span>
+    ${rankDeltaMarkup ? `<span class="podcast-card-delta">${rankDeltaMarkup}</span>` : '<span class="podcast-card-delta delta-zero">Stable</span>'}
+  </div>`;
 }
 
 function voteButtonMarkup(row) {
@@ -135,7 +239,7 @@ function voteButtonMarkup(row) {
   const votingOpen = row.voteStatus === 'open';
   const label = votingOpen ? 'Voter' : 'Fiche AFD';
   const hint = votingOpen
-    ? 'Voter pour ce podcast sur le site de l\'AFD'
+    ? buildFlyerTeaser(row.title)
     : 'Voir la fiche officielle sur le site de l\'AFD';
   const btnClass = votingOpen
     ? 'sheet-action-btn sheet-action-btn--vote'
@@ -238,44 +342,39 @@ function getEstablishmentPeersSection(allRows, currentRow) {
   };
 }
 
-function renderSheetContent(row, allRows, history) {
+function renderSheetContent(row, allRows, history, { shareMode = false } = {}) {
   const total = allRows.length;
   const rankPct = rankMarkerPercent(row.rank, total);
-  const shareUrl = buildPodcastUrl(row.slug);
+  const shareUrl = buildPodcastShareUrl(row.slug);
+  const trackMessage = shareMode
+    ? (row.voteStatus === 'open'
+        ? 'Chaque vote peut faire la différence — fais-le monter dans le classement !'
+        : rankTrackMessage(row.rank, total))
+    : rankTrackMessage(row.rank, total);
 
-  const establishmentPeersSection = getEstablishmentPeersSection(allRows, row);
-
-  return `
-    <div class="podcast-hero rank-tier-${Math.min(row.rank, 3)}">
+  const heroBlock = `
+    <div class="podcast-hero rank-tier-${Math.min(row.rank, 3)}${shareMode ? ' podcast-hero--share' : ''}">
       <div class="podcast-hero-rank" aria-label="Rang ${row.rank}">${rankHeroMarkup(row.rank)}</div>
       <div class="podcast-hero-body">
         <h2 class="podcast-hero-title" id="podcast-sheet-title">${escapeHtml(row.title)}</h2>
         <div class="podcast-hero-meta">${renderEstablishmentMeta(row)}</div>
-        <div class="podcast-hero-stats">
-          <div class="podcast-stat">
-            <span class="podcast-stat-label">Votes</span>
-            <span class="podcast-stat-value">${row.votes}</span>
-          </div>
-          <div class="podcast-stat">
-            <span class="podcast-stat-label">Votes (aujourd'hui)</span>
-            <span class="podcast-stat-value">${formatDeltaMarkup(row.deltaVotes)}</span>
-          </div>
-          <div class="podcast-stat">
-            <span class="podcast-stat-label">Places (aujourd'hui)</span>
-            <span class="podcast-stat-value">${formatDeltaMarkup(row.deltaRank, { hideZero: true })}</span>
-          </div>
+        ${podcastHeroStatsMarkup(row)}
+        <div class="podcast-hero-actions">
+          ${voteButtonMarkup(row)}
+          ${shareActionsMarkup({ shareMode })}
         </div>
-        <div class="podcast-hero-actions">${voteButtonMarkup(row)}</div>
       </div>
     </div>
+  `;
 
-    <div class="rank-track" aria-label="Place au classement global : ${row.rank} sur ${total}">
+  const rankTrackBlock = `
+    <div class="rank-track${shareMode ? ' rank-track--share' : ''}" aria-label="Place au classement global : ${row.rank} sur ${total}">
       <p class="rank-track-summary">
         Ce podcast est
         <strong class="rank-track-summary-rank">${row.rank}<sup>e</sup></strong>
         sur <strong class="rank-track-summary-total">${total}</strong> podcasts
       </p>
-      <p class="rank-track-message">${rankTrackMessage(row.rank, total)}</p>
+      <p class="rank-track-message">${trackMessage}</p>
       <div class="rank-track-bar-wrap">
         <div class="rank-track-ends">
           <span class="rank-track-end rank-track-end--best">🥇 1er</span>
@@ -293,7 +392,17 @@ function renderSheetContent(row, allRows, history) {
         </div>
       </div>
     </div>
+  `;
 
+  if (shareMode) {
+    return `${shareCtaMarkup(row)}${heroBlock}${rankTrackBlock}`;
+  }
+
+  const establishmentPeersSection = getEstablishmentPeersSection(allRows, row);
+
+  return `
+    ${heroBlock}
+    ${rankTrackBlock}
     <div class="rank-neighbors-wrap">
       <h3 class="podcast-section-title">Classement global</h3>
       <div class="rank-neighbors">${renderNeighbors(allRows, row.slug, 'rank')}</div>
@@ -318,25 +427,41 @@ function renderSheetContent(row, allRows, history) {
         <canvas id="podcast-detail-rank-chart"></canvas>
       </div>
     </div>
-
-    <div class="podcast-share-card">
-      <h3 class="podcast-section-title">Partager ce podcast</h3>
-      <p class="podcast-share-lead">Envoie le lien à tes amis pour suivre ce podcast dans le classement.</p>
-      <div class="sheet-action-row">
-        <button type="button" class="sheet-action-btn sheet-action-btn--accent" id="podcast-share-btn" hidden>
-          ${sheetActionIcon('share')} Partager
-        </button>
-        <button type="button" class="sheet-action-btn sheet-action-btn--muted" id="podcast-copy-link">
-          ${copyLinkButtonHtml()}
-        </button>
-      </div>
-      <input type="text" id="podcast-share-url" class="podcast-share-url" readonly value="${escapeHtml(shareUrl)}" aria-label="Lien du podcast" />
-    </div>
   `;
 }
 
 function getSheet() {
   return document.getElementById('podcast-sheet');
+}
+
+function updateSheetHeaderMode(shareMode) {
+  const sheet = getSheet();
+  const header = document.querySelector('.podcast-sheet-header');
+  const footer = document.getElementById('podcast-sheet-footer');
+
+  activeShareMode = shareMode;
+  sheet?.classList.toggle('podcast-sheet--share', shareMode);
+  document.body.classList.toggle('sheet-share-mode', shareMode);
+  if (header) header.hidden = shareMode;
+  if (footer) footer.hidden = !shareMode;
+}
+
+function goToAllParticipants() {
+  activeShareMode = false;
+  pendingShareMode = false;
+  podcastUrlPushed = false;
+
+  const sheet = getSheet();
+  if (sheet && !sheet.hidden) {
+    sheet.hidden = true;
+    document.body.classList.remove('sheet-open');
+    destroyDetailChart();
+    document.title = context?.defaultTitle || document.title;
+    updateSheetHeaderMode(false);
+  }
+
+  setActiveTab('podcasts', { updateHash: true, notify: true });
+  setPodcastUrl(null, { replace: true, tab: 'podcasts' });
 }
 
 export function closePodcastDetail(fromPopstate = false) {
@@ -348,7 +473,10 @@ export function closePodcastDetail(fromPopstate = false) {
     document.body.classList.remove('sheet-open');
     destroyDetailChart();
     document.title = context?.defaultTitle || document.title;
+    updateSheetHeaderMode(false);
   }
+
+  activeShareMode = false;
 
   restoreTabAfterPodcastClose();
 
@@ -364,7 +492,7 @@ export function closePodcastDetail(fromPopstate = false) {
   }
 }
 
-export function openPodcastDetail(slug, { replaceUrl = false } = {}) {
+export function openPodcastDetail(slug, { replaceUrl = false, shareMode = false } = {}) {
   if (!context) {
     pendingPodcastSlug = slug;
     return;
@@ -389,17 +517,18 @@ export function openPodcastDetail(slug, { replaceUrl = false } = {}) {
   const content = document.getElementById('podcast-sheet-content');
 
   try {
-    content.innerHTML = renderSheetContent(row, allRows, history);
+    content.innerHTML = renderSheetContent(row, allRows, history, { shareMode });
+    updateSheetHeaderMode(shareMode);
 
     sheet.hidden = false;
     document.body.classList.add('sheet-open');
     document.title = `${row.title} — ${context?.defaultTitle || 'Concours de podcast 2026'}`;
 
-    const tab = getActiveTab();
-    if (!replaceUrl) setPodcastUrl(slug, { tab });
-    else setPodcastUrl(slug, { replace: true, tab });
+    const tab = shareMode ? 'mon-ecole' : getActiveTab();
+    if (!replaceUrl) setPodcastUrl(slug, { tab, shareMode });
+    else setPodcastUrl(slug, { replace: true, tab, shareMode });
 
-    if (typeof Chart !== 'undefined') {
+    if (!shareMode && typeof Chart !== 'undefined') {
       const activeSlugs = allRows.map((r) => r.slug);
       initDetailVoteChart(
         document.getElementById('podcast-detail-votes-chart'),
@@ -415,34 +544,33 @@ export function openPodcastDetail(slug, { replaceUrl = false } = {}) {
       );
     }
 
-    content.querySelectorAll('.rank-neighbor--link').forEach((link) => {
-      link.addEventListener('click', (e) => {
-        e.preventDefault();
-        const slug = link.dataset.slug;
-        if (slug) openPodcastDetail(slug);
+    if (!shareMode) {
+      content.querySelectorAll('.rank-neighbor--link').forEach((link) => {
+        link.addEventListener('click', (e) => {
+          e.preventDefault();
+          const slug = link.dataset.slug;
+          if (slug) openPodcastDetail(slug);
+        });
       });
-    });
+    }
 
-    const shareUrl = buildPodcastUrl(row.slug);
-    const shareInput = document.getElementById('podcast-share-url');
+    const shareUrl = buildPodcastShareUrl(row.slug);
     const copyBtn = document.getElementById('podcast-copy-link');
     const shareBtn = document.getElementById('podcast-share-btn');
+    const printFlyerBtn = document.getElementById('podcast-print-flyer');
 
     async function copyShareLink() {
-      const url = shareInput?.value || shareUrl;
-      if (copyBtn) {
-        try {
-          await navigator.clipboard.writeText(url);
-          copyBtn.innerHTML = copyLinkButtonHtml(true);
-          window.setTimeout(() => {
-            copyBtn.innerHTML = copyLinkButtonHtml(false);
-          }, 2000);
-        } catch {
-          if (shareInput) {
-            shareInput.select();
-            document.execCommand('copy');
-          }
-        }
+      if (!copyBtn) return;
+      try {
+        await navigator.clipboard.writeText(shareUrl);
+        copyBtn.classList.add('sheet-action-btn--copied');
+        copyBtn.innerHTML = copyLinkButtonHtml(true);
+        window.setTimeout(() => {
+          copyBtn.classList.remove('sheet-action-btn--copied');
+          copyBtn.innerHTML = copyLinkButtonHtml(false);
+        }, 3500);
+      } catch {
+        /* clipboard unavailable */
       }
     }
 
@@ -450,19 +578,43 @@ export function openPodcastDetail(slug, { replaceUrl = false } = {}) {
       copyBtn.addEventListener('click', () => copyShareLink());
     }
 
-    if (shareBtn && typeof navigator.share === 'function') {
-      shareBtn.hidden = false;
+    if (shareBtn) {
       shareBtn.addEventListener('click', async () => {
         const siteTitle = context?.defaultTitle || 'Concours de podcast 2026';
+        const shareText = row.voteStatus === 'open'
+          ? buildFlyerTeaser(row.title)
+          : `${row.title} — ${siteTitle}`;
+
+        if (canUseNativeShare()) {
+          try {
+            const sharePayload = buildNativeSharePayload(shareText, shareUrl);
+            if (!sharePayload) {
+              await copyShareLink();
+              return;
+            }
+            await navigator.share(sharePayload);
+          } catch (err) {
+            if (err?.name === 'AbortError') return;
+            await copyShareLink();
+          }
+          return;
+        }
+
+        await copyShareLink();
+      });
+    }
+
+    if (printFlyerBtn) {
+      printFlyerBtn.addEventListener('click', async () => {
+        printFlyerBtn.disabled = true;
         try {
-          await navigator.share({
+          await printPodcastFlyers({
             title: row.title,
-            text: `${row.title} — ${siteTitle}`,
-            url: shareUrl,
+            establishment: context?.getCanonicalEstablishmentLabel?.(row) || row.establishment || '',
+            shareUrl,
           });
-        } catch (err) {
-          if (err?.name === 'AbortError') return;
-          await copyShareLink();
+        } finally {
+          printFlyerBtn.disabled = false;
         }
       });
     }
@@ -483,21 +635,35 @@ export function syncPodcastFromUrl() {
   }
 
   const slug = getPodcastSlugFromUrl();
-  if (slug) openPodcastDetail(slug, { replaceUrl: true });
-  else closePodcastDetail(true);
+  if (slug) {
+    openPodcastDetail(slug, { replaceUrl: true, shareMode: isShareModeFromUrl() });
+  } else {
+    closePodcastDetail(true);
+  }
+}
+
+function bindSheetControls() {
+  if (sheetControlsBound) return;
+  sheetControlsBound = true;
+
+  const sheet = getSheet();
+  document.getElementById('podcast-sheet-close')?.addEventListener('click', () => {
+    closePodcastDetail();
+  });
+  document.getElementById('podcast-sheet-all-participants')?.addEventListener('click', () => {
+    goToAllParticipants();
+  });
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key !== 'Escape' || sheet.hidden) return;
+    if (activeShareMode) goToAllParticipants();
+    else closePodcastDetail();
+  });
 }
 
 export function initPodcastDetailRouting(ctx) {
   context = ctx;
-
-  const sheet = getSheet();
-  document.getElementById('podcast-sheet-close').addEventListener('click', () => {
-    closePodcastDetail();
-  });
-
-  document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape' && !sheet.hidden) closePodcastDetail();
-  });
+  bindSheetControls();
 
   if (!popstateBound) {
     window.addEventListener('popstate', () => syncPodcastFromUrl());

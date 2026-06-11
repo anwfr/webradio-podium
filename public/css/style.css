@@ -584,6 +584,50 @@ a:hover {
   outline-offset: 2px;
 }
 
+.onboarding-card--featured {
+  border: 2px solid rgba(255, 209, 102, 0.55);
+  background: linear-gradient(
+    135deg,
+    rgba(255, 209, 102, 0.18) 0%,
+    rgba(255, 209, 102, 0.05) 55%,
+    rgba(26, 31, 53, 0.95) 100%
+  );
+  box-shadow:
+    0 4px 22px rgba(255, 209, 102, 0.14),
+    inset 0 1px 0 rgba(255, 209, 102, 0.28);
+}
+
+.onboarding-card--featured:hover {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 209, 102, 0.26) 0%,
+    rgba(255, 209, 102, 0.1) 55%,
+    rgba(26, 31, 53, 0.95) 100%
+  );
+  border-color: rgba(255, 209, 102, 0.7);
+  box-shadow:
+    0 6px 24px rgba(255, 209, 102, 0.2),
+    inset 0 1px 0 rgba(255, 209, 102, 0.35);
+}
+
+.onboarding-card--featured .podium-establishment-name {
+  color: var(--gold);
+}
+
+.onboarding-card-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.12rem 0.45rem;
+  border-radius: 999px;
+  font-size: 0.62rem;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--gold);
+  background: rgba(255, 209, 102, 0.15);
+  border: 1px solid rgba(255, 209, 102, 0.35);
+}
+
 .onboarding-card-establishment {
   display: flex;
   flex-direction: column;
@@ -1778,6 +1822,21 @@ body.sheet-open {
   animation: sheetIn 0.25s ease;
 }
 
+.podcast-sheet--share {
+  animation: none;
+}
+
+.podcast-sheet--share .sheet-action-btn--vote {
+  animation: none;
+}
+
+.podcast-sheet--share .sheet-action-btn--vote::before,
+.podcast-sheet--share .sheet-action-btn--vote:hover::before {
+  animation: none;
+  transform: none;
+  opacity: 0;
+}
+
 @keyframes sheetIn {
   from { transform: translateY(8%); opacity: 0; }
   to { transform: translateY(0); opacity: 1; }
@@ -1806,6 +1865,135 @@ body.sheet-open {
   font-size: 0.9rem;
   font-weight: 600;
   cursor: pointer;
+}
+
+.podcast-sheet-footer {
+  flex-shrink: 0;
+  width: 100%;
+  max-width: var(--app-max-width);
+  margin: 0 auto;
+  padding: 0.85rem 1rem;
+  padding-bottom: calc(0.85rem + env(safe-area-inset-bottom, 0));
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(15, 18, 32, 0.95);
+}
+
+.podcast-sheet-all-participants {
+  width: 100%;
+  min-height: 48px;
+  padding: 0.65rem 1rem;
+  background: rgba(78, 205, 196, 0.12);
+  border: 1px solid rgba(78, 205, 196, 0.35);
+  border-radius: 12px;
+  color: var(--turquoise);
+  font-family: inherit;
+  font-size: 0.9rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.podcast-sheet-all-participants:hover {
+  background: rgba(78, 205, 196, 0.2);
+  border-color: rgba(78, 205, 196, 0.5);
+}
+
+.podcast-sheet--share .podcast-sheet-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.podcast-share-cta {
+  margin: 0 0 1rem;
+  padding: 0.85rem 0.9rem;
+  border-radius: 12px;
+  background: linear-gradient(135deg, rgba(78, 205, 196, 0.16), rgba(124, 92, 255, 0.14));
+  border: 1px solid rgba(78, 205, 196, 0.35);
+}
+
+.podcast-sheet--share .podcast-share-cta {
+  margin-top: 0.15rem;
+}
+
+.podcast-share-cta-title {
+  margin: 0 0 0.35rem;
+  font-size: 1rem;
+  font-weight: 800;
+  color: #fff;
+}
+
+.podcast-share-cta-lead {
+  margin: 0;
+  font-size: 0.88rem;
+  line-height: 1.5;
+  color: var(--text);
+}
+
+.podcast-hero--share {
+  margin-bottom: 1rem;
+}
+
+.podcast-hero-share-actions {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.podcast-hero-share-actions .sheet-action-btn {
+  width: 100%;
+  min-height: 48px;
+  padding: 0.65rem 1rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  line-height: 1.25;
+  border-radius: 12px;
+  text-align: center;
+  text-wrap: balance;
+}
+
+.podcast-hero-share-actions .sheet-action-btn--native-share {
+  background: rgba(78, 205, 196, 0.18);
+  border-color: rgba(78, 205, 196, 0.5);
+  color: #fff;
+}
+
+.podcast-hero-share-actions .sheet-action-btn--native-share:hover {
+  background: rgba(78, 205, 196, 0.28);
+  border-color: rgba(78, 205, 196, 0.65);
+}
+
+.podcast-hero-share-actions .sheet-action-btn--copy-link,
+.podcast-hero-share-actions .sheet-action-btn--print-flyer {
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(255, 255, 255, 0.12);
+  color: var(--text);
+}
+
+.podcast-hero-share-actions .sheet-action-btn--copy-link:hover,
+.podcast-hero-share-actions .sheet-action-btn--print-flyer:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.18);
+}
+
+.podcast-hero-share-actions .sheet-action-btn--print-flyer:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+
+.podcast-hero-share-actions .sheet-action-btn--copied {
+  min-height: 48px;
+  font-size: 0.8rem;
+  line-height: 1.35;
+}
+
+.rank-track--share {
+  margin-bottom: 0;
+}
+
+.rank-track--share .rank-track-message {
+  font-weight: 600;
+  color: var(--turquoise);
 }
 
 .podcast-sheet-content {
@@ -1885,11 +2073,19 @@ body.sheet-open {
 }
 
 .podcast-hero-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
   margin-top: 0.85rem;
 }
 
 .podcast-hero-actions .sheet-action-btn--vote {
   width: 100%;
+  min-height: 48px;
+  padding: 0.65rem 1rem;
+  font-size: 0.85rem;
+  line-height: 1.25;
+  border-radius: 12px;
 }
 
 /* Boutons d’action fiche podcast */
@@ -2115,23 +2311,7 @@ body.sheet-open {
 }
 
 .podcast-hero-stats {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.75rem;
-  margin-top: 0.75rem;
-}
-
-.podcast-stat-label {
-  display: block;
-  font-size: 0.7rem;
-  color: var(--text-muted);
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-}
-
-.podcast-stat-value {
-  font-size: 1.2rem;
-  font-weight: 800;
+  margin-top: 0.65rem;
 }
 
 .rank-track {
@@ -2429,20 +2609,6 @@ a.rank-neighbor:active {
   color: var(--text-muted);
 }
 
-.podcast-share-url {
-  display: block;
-  width: 100%;
-  margin-top: 0.65rem;
-  min-height: 36px;
-  padding: 0.4rem 0.65rem;
-  background: rgba(0, 0, 0, 0.2);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: 8px;
-  color: var(--text-muted);
-  font-family: inherit;
-  font-size: 0.72rem;
-}
-
 /* Desktop: centered mobile frame */
 @media (min-width: 520px) {
   body {
@@ -2717,6 +2883,13 @@ a.rank-neighbor:active {
   font-size: 1.05rem;
 }
 
+.champion-splash-rank-hint {
+  display: inline-block;
+  margin-top: 0.35rem;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
+
 .champion-splash-hint {
   margin: 0 0 0.65rem;
   font-size: 0.68rem;
@@ -2738,6 +2911,32 @@ a.rank-neighbor:active {
   background: linear-gradient(90deg, var(--gold), var(--turquoise));
   transform-origin: left center;
   animation: championProgressDrain linear forwards;
+}
+
+.champion-splash--vote-call .champion-splash-card {
+  border-color: rgba(78, 205, 196, 0.55);
+  background: linear-gradient(
+    160deg,
+    rgba(78, 205, 196, 0.2) 0%,
+    rgba(124, 92, 255, 0.14) 45%,
+    rgba(26, 31, 53, 0.98) 100%
+  );
+  box-shadow:
+    0 24px 48px rgba(0, 0, 0, 0.55),
+    0 0 40px rgba(78, 205, 196, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+.champion-splash--vote-call .champion-splash-crown {
+  filter: drop-shadow(0 4px 12px rgba(78, 205, 196, 0.45));
+}
+
+.champion-splash--vote-call .champion-splash-label {
+  color: var(--turquoise);
+}
+
+.champion-splash--vote-call .champion-splash-progress-bar {
+  background: linear-gradient(90deg, var(--turquoise), var(--violet));
 }
 
 /* Variantes d'animation */

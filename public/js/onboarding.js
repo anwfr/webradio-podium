@@ -93,6 +93,7 @@ function entrySearchHaystack(entry) {
 
 function renderOnboardingCard(entry) {
   const label = entry.label || entry.key || 'Établissement';
+  const isFeatured = entry.key === FEATURED_ESTABLISHMENT_KEY;
   const { city, establishmentName } = parsePodiumEstablishmentDisplay(label, {
     key: entry.key,
   });
@@ -100,15 +101,19 @@ function renderOnboardingCard(entry) {
   const cityMarkup = city
     ? `<span class="podium-establishment-city">${escapeHtml(city)}</span>`
     : '';
+  const featuredBadge = isFeatured
+    ? '<span class="onboarding-card-badge">Utilisateurs principaux</span>'
+    : '';
 
   return `
     <button
       type="button"
-      class="onboarding-card"
+      class="onboarding-card${isFeatured ? ' onboarding-card--featured' : ''}"
       data-establishment-key="${escapeHtml(entry.key)}"
       data-establishment-label="${escapeHtml(label)}"
     >
       <span class="onboarding-card-establishment">
+        ${featuredBadge}
         ${cityMarkup}
         <span class="podium-establishment-name onboarding-card-title">${escapeHtml(displayName)}</span>
       </span>

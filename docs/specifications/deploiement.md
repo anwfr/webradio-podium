@@ -235,11 +235,11 @@ Comportement normal. Utiliser le workflow `pages.yml` (source Actions).
 Fichier `.env` (non versionné) — voir `.env.example` :
 
 ```bash
-GITHUB_OWNER=votre-compte
-GITHUB_REPO=webradio-podium
+SITE_BASE_URL=https://webradio.uid.fr
+# GITHUB_REPOSITORY=owner/webradio-podium   # optionnel en local
 ```
 
-Utilisé par `npm run publish` en local. **Sur GitHub Actions**, `GITHUB_REPOSITORY` est injecté automatiquement — pas de `.env` nécessaire.
+Utilisé par `npm run publish` en local. **Sur GitHub Actions**, `GITHUB_REPOSITORY` et `SITE_BASE_URL` sont injectés au build — pas de `.env` nécessaire.
 
 ---
 

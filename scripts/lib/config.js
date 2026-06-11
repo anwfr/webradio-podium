@@ -12,8 +12,7 @@ const [repoOwner, repoName] = repository.includes('/')
   ? repository.split('/')
   : [null, null];
 
-const githubOwner =
-  process.env.GITHUB_OWNER || repoOwner || 'YOUR_GITHUB_USER';
+const githubOwner = repoOwner || 'YOUR_GITHUB_USER';
 const githubRepo = repoName || 'webradio-podium';
 
 export const config = {

@@ -172,13 +172,12 @@ webradio-podium/
 
 ### Configuration locale (`.env` — non versionné)
 
-Copier `.env.example` vers `.env` et renseigner au minimum `GITHUB_OWNER` et `GITHUB_REPO`. Utilisé par les scripts Node pour générer `public/js/site-config.json` (également non versionné — fallback `site-config.defaults.json` sur Pages).
+Copier `.env.example` vers `.env` et renseigner `SITE_BASE_URL` si besoin. Utilisé par les scripts Node pour générer `public/js/site-config.json` (également non versionné — fallback `site-config.defaults.json` sur Pages).
 
 | Variable | Rôle |
 |----------|------|
-| `GITHUB_OWNER` | Liens GitHub Actions / repo dans le front |
-| `GITHUB_REPO` | Nom du dépôt |
-| `SITE_BASE_URL` | URL Pages (optionnel) |
+| `SITE_BASE_URL` | URL publique du site |
+| `GITHUB_REPOSITORY` | Dépôt `owner/repo` (injecté en Actions ; optionnel en local pour `repoUrl`) |
 | `HTTP_TIMEOUT_MS` | Timeout HTTP (défaut **15 s**) |
 
 En GitHub Actions, `GITHUB_REPOSITORY` est injecté automatiquement — pas besoin de `.env`.
