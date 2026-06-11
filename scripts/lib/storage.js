@@ -70,26 +70,6 @@ export const emptyParticipants = () => ({
 
 export const emptyVotesHistory = () => ({ snapshots: [] });
 
-export const emptyStats = () => ({
-  generatedAt: null,
-  snapshotCount: 0,
-  global: {
-    medianDelta: 0,
-    madDelta: 0,
-    medianVelocity: 0,
-    madVelocity: 0,
-    medianRankJump: 0,
-    participantCount: 0,
-  },
-  participants: {},
-});
-
-export const emptyAlerts = () => ({
-  generatedAt: null,
-  modelVersion: 'adaptive-v1',
-  alerts: [],
-});
-
 export const emptyMeta = () => ({
   lastRunAt: null,
   lastRunStatus: null,
@@ -153,14 +133,6 @@ export function saveVotesHistory(data) {
   writeJson(dataPath('votes-history.json'), data);
 }
 
-export function saveStats(data) {
-  writeJson(dataPath('stats.json'), data);
-}
-
-export function saveAlerts(data) {
-  writeJson(dataPath('alerts.json'), data);
-}
-
 export function saveMeta(data) {
   writeJson(dataPath('meta.json'), data);
 }
@@ -178,12 +150,6 @@ export function ensureDataFiles() {
   }
   if (!fs.existsSync(dataPath('votes-history.json'))) {
     writeJson(dataPath('votes-history.json'), emptyVotesHistory());
-  }
-  if (!fs.existsSync(dataPath('stats.json'))) {
-    writeJson(dataPath('stats.json'), emptyStats());
-  }
-  if (!fs.existsSync(dataPath('alerts.json'))) {
-    writeJson(dataPath('alerts.json'), emptyAlerts());
   }
   if (!fs.existsSync(dataPath('meta.json'))) {
     writeJson(dataPath('meta.json'), emptyMeta());

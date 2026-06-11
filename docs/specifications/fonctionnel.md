@@ -10,8 +10,7 @@ Les collégiens et lycéens participent au concours de podcasts [Réinventer le 
 
 Les organisateurs et participants ont besoin de :
 - suivre le **classement complet** en un coup d'œil ;
-- visualiser l'**évolution des votes** dans le temps ;
-- repérer des **hausses anormales** susceptibles d'indiquer une triche (votes automatisés, campagnes massives).
+- visualiser l'**évolution des votes** dans le temps.
 
 ---
 
@@ -21,7 +20,6 @@ Une page web unique, ludique et publique, qui affiche :
 
 1. Le **classement complet** des participants (tableau détaillé + podium visuel top 3).
 2. L'**évolution temporelle des votes** par participant (graphique).
-3. Des **alertes automatiques adaptatives** pour signaler des hausses statistiquement inhabituelles.
 
 **Source des données :** site [Offre pédagogique AFD](https://offre-pedagogique.afd.fr/fr/publications/liste?words=&type%5B6%5D=6&thematic%5B389%5D=389&location=) (podcasts + programme **Edition 2026**).
 
@@ -56,7 +54,6 @@ La découverte passe par la liste paginée, mais **chaque fiche est validée** a
 | Fuseau horaire | **Europe/Paris** |
 | Mise à jour des votes | **Automatique** (fréquence configurable via cron GitHub Actions, ex. 2×/jour) |
 | Sync liste participants | **Figée** en prod (Pipeline A) · **Complet manuel** via Pipeline B si resync |
-| Détection triche | **Score adaptatif** basé sur l'activité historique — voir [detection-anomalies.md](detection-anomalies.md) |
 | Stockage | **Fichiers JSON** + backups rotatifs (pas de BDD) |
 | Qualité code | Quick & dirty, acceptable pour la durée du projet |
 | Hébergement | Gratuit, avec cron intégré — voir [technique.md](technique.md) |
@@ -86,21 +83,14 @@ La découverte passe par la liste paginée, mais **chaque fiche est validée** a
 - Possibilité de comparer plusieurs participants (max 10 courbes).
 - Raccourci « comparer le top 5 ».
 
-### BF-04 — Détection de votes suspects
-
-- Calculer un score de suspicion (0–100) adaptatif pour chaque participant.
-- Générer des alertes explicites en français lorsque l'activité dépasse les baselines historiques.
-- Permettre de filtrer les participants suspects.
-- Voir le détail dans [detection-anomalies.md](detection-anomalies.md).
-
-### BF-05 — Actualisation des votes (automatique)
+### BF-04 — Actualisation des votes (automatique)
 
 - Collecter les votes pour les participants déjà actifs dans `participants.json` à chaque exécution du pipeline (horodatage réel du run, pas de créneaux fixes).
 - Conserver l'historique même si un participant devient inactif.
 
 Voir [pipelines.md](pipelines.md) pour le détail du compromis A / B.
 
-### BF-06 — Découverte manuelle et rapport de changements
+### BF-05 — Découverte manuelle et rapport de changements
 
 - Permettre de lancer **à la demande** (collaborateur du repo via GitHub Actions) une re-validation complète de toutes les fiches.
 - Afficher un **rapport détaillé public** sur `/decouverte.html` listant à chaque lancement :
@@ -113,7 +103,7 @@ Voir [pipelines.md](pipelines.md) pour le détail du compromis A / B.
 
 Voir [pipelines.md](pipelines.md), [technique.md § 5.2](technique.md#52-pipeline-b--découverte-manuelle-t6) et [public-repo.md](public-repo.md).
 
-### BF-07 — Transparence
+### BF-06 — Transparence
 
 - Afficher la date/heure du dernier relevé.
 - Afficher un disclaimer : classement non officiel, basé sur des données publiques.
@@ -126,9 +116,6 @@ Voir [pipelines.md](pipelines.md), [technique.md § 5.2](technique.md#52-pipelin
 - [ ] Le podium top 3 est visuellement attractif (or/argent/bronze)
 - [ ] Le tableau est triable et filtrable
 - [ ] Le graphique montre l'évolution sur au moins 2 snapshots
-- [ ] Les alertes s'adaptent à l'activité historique (pas de seuils fixes)
-- [ ] Le score de suspicion (0–100) et les messages explicatifs sont affichés
-- [ ] Pas d'alerte avant 3 snapshots (phase d'échauffement)
 - [ ] Les données se mettent à jour sans intervention à la fréquence configurée du cron
 - [ ] La découverte manuelle affiche précisément les ouvertures/fermetures de vote
 - [ ] Relancer un pipeline manuellement n'efface pas l'historique

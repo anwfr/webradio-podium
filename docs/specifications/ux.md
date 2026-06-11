@@ -62,10 +62,6 @@ Hash optionnel : `#mon-ecole`, `#podcasts` (anciens `#podium` et `#classement` r
 
 - Disclaimer court + liens AFD et GitHub
 
-### Affichage alertes / fraude
-
-**Hors périmètre UI actuel.** Le pipeline continue de générer `alerts.json` ; aucun badge, colonne ou marqueur graphique n'est affiché pour l'instant.
-
 ---
 
 ## 3. Vue établissement partagée (`/etablissement/{key}`)

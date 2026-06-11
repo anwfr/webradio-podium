@@ -13,6 +13,5 @@ Les spécifications détaillées sont dans [`docs/specifications/`](docs/specifi
 | [**UX / Interface**](docs/specifications/ux.md) | Design, sections, responsive |
 | [**Technique**](docs/specifications/technique.md) | Architecture, hébergement, scripts, scraping, flux |
 | [**Données**](docs/specifications/donnees.md) | Schémas JSON, backups, intégrité |
-| [**Détection d'anomalies**](docs/specifications/detection-anomalies.md) | Algorithme adaptatif anti-triche |
 | [**Planning**](docs/specifications/planning.md) | Effort, risques, hors périmètre, jalons |
 | [**Repo public**](docs/specifications/public-repo.md) | Règles : aucun secret ni donnée confidentielle |

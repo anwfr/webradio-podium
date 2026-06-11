@@ -1,5 +1,4 @@
 import { runScrapeVotes } from './scrape-votes.js';
-import { runDetectAlerts } from './detect-alerts.js';
 import { runPublish, publishMeta } from './publish-data.js';
 import { saveMeta, ensureDataFiles, loadParticipants, loadVotesHistory } from './lib/storage.js';
 import { formatParisIso, getSnapshotTimestamp, nowParis } from './lib/time.js';
@@ -66,7 +65,6 @@ async function main() {
   });
 
   let scrapeResult = { errors: [], scrapeErrors: 0, entriesCount: 0 };
-  let detectResult = { alertCount: 0 };
 
   try {
     const activeCount = loadParticipants().participants.filter((p) => p.active).length;
@@ -107,33 +105,6 @@ async function main() {
     throw err;
   }
 
-  try {
-    detectResult = await runDetectAlerts();
-    logStepComplete(
-      PIPELINE,
-      'detect-alerts',
-      `Détection terminée — ${detectResult.alertCount} alerte(s), phase ${detectResult.phase}`,
-      detectResult
-    );
-  } catch (err) {
-    errors.push({ step: 'detect-alerts', code: 'fatal', message: err.message });
-    logStepError(PIPELINE, 'detect-alerts', `Échec fatal : ${err.message}`, {
-      code: 'fatal',
-    });
-    saveMeta({
-      ...runningMeta,
-      lastRunStatus: 'failed',
-      lastRunDurationMs: Date.now() - start,
-      progress: progress.getSnapshot(),
-      errors: errors.slice(0, 20),
-    });
-    publishMeta();
-    endRun(PIPELINE, 'fail', `Pipeline interrompu (detect-alerts)`, {
-      durationMs: Date.now() - start,
-    });
-    throw err;
-  }
-
   runPublish();
   logStepComplete(PIPELINE, 'publish', 'Données publiées vers public/data/');
 
@@ -166,7 +137,6 @@ async function main() {
     status,
     snapshotTimestamp: snapshotTs,
     newParticipants: 0,
-    alertCount: detectResult.alertCount,
     entriesCount: scrapeResult.entriesCount,
     errorCount: errors.length,
   });
@@ -178,9 +148,7 @@ async function main() {
     summary
   );
 
-  console.log(
-    `Pipeline OK in ${Math.round(durationMs / 1000)}s — alerts=${detectResult.alertCount}`
-  );
+  console.log(`Pipeline OK in ${Math.round(durationMs / 1000)}s`);
 }
 
 main().catch((err) => {

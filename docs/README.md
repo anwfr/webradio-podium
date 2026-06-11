@@ -1,6 +1,6 @@
 # Podium — Réinventer le monde 2026
 
-Classement public des votes du [concours de podcasts AFD](https://offre-pedagogique.afd.fr/fr/reinventer-le-monde) : podium, historique et alertes de votes suspects.
+Classement public des votes du [concours de podcasts AFD](https://offre-pedagogique.afd.fr/fr/reinventer-le-monde) : podium et historique.
 
 **Site** : classement public (`index.html`) · **Stack** : Node 20, JSON, GitHub Pages + Actions.
 
@@ -32,7 +32,7 @@ Sans `seed-demo`, les scripts créent des fichiers JSON vides au premier lanceme
 | `npm run dev` | Serveur local http://localhost:3000 |
 | `npm run seed-demo` | Données fictives réalistes pour le front |
 | `npm run reset-data` | Supprime entièrement `data/` et `public/data/` |
-| `npm run pipeline` | Pipeline A : votes → alertes → publish |
+| `npm run pipeline` | Pipeline A : votes → publish |
 | `npm run discover` | Pipeline B : re-validation complète (~10–18 min) |
 | `npm run publish` | Copie `data/` → `public/data/` + `site-config.json` |
 
@@ -120,7 +120,7 @@ En Actions, `GITHUB_REPOSITORY` suffit — pas besoin de `.env` sur le serveur.
 ```
 public/           Site statique (Pages) + data/ synchronisée
 data/             Source de vérité JSON (versionnée)
-scripts/          Scraping, détection, pipelines
+scripts/          Scraping, pipelines
 .github/workflows scrape.yml (cron) · discover.yml (manuel)
 ```
 

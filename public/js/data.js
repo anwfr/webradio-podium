@@ -3,12 +3,6 @@ import { resolveFromBase } from './paths.js';
 
 const EMPTY_PARTICIPANTS = { updatedAt: null, participants: [] };
 const EMPTY_HISTORY = { snapshots: [] };
-const EMPTY_STATS = {
-  generatedAt: null,
-  snapshotCount: 0,
-  global: { participantCount: 0 },
-  participants: {},
-};
 const EMPTY_META = {
   lastRunAt: null,
   lastRunStatus: null,
@@ -26,16 +20,14 @@ async function fetchJsonOrNull(url) {
 }
 
 export async function loadAppData() {
-  const [participants, history, stats, meta] = await Promise.all([
+  const [participants, history, meta] = await Promise.all([
     fetchJsonOrNull(resolveFromBase('data/participants.json')),
     fetchJsonOrNull(resolveFromBase('data/votes-history.json')),
-    fetchJsonOrNull(resolveFromBase('data/stats.json')),
     fetchJsonOrNull(resolveFromBase('data/meta.json')),
   ]);
   return {
     participants: participants ?? EMPTY_PARTICIPANTS,
     history: history ?? EMPTY_HISTORY,
-    stats: stats ?? EMPTY_STATS,
     meta: meta ?? EMPTY_META,
   };
 }

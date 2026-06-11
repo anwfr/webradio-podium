@@ -76,7 +76,7 @@ describe('deltas affichés — init fraîche puis actualisation < 24 h', () => {
   });
 });
 
-describe('buildComparisonIntervals — détecteur d’anomalies', () => {
+describe('buildComparisonIntervals — fenêtre de comparaison', () => {
   const snapshots = [
     {
       timestamp: t0,

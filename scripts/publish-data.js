@@ -6,8 +6,6 @@ import { ensureDataFiles, dataPath } from './lib/storage.js';
 const DATA_FILES = [
   'participants.json',
   'votes-history.json',
-  'stats.json',
-  'alerts.json',
   'meta.json',
   'sync-report.json',
   'execution-journal.log',

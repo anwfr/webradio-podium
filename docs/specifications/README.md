@@ -4,7 +4,7 @@
 
 **Projet temporaire** (~quelques semaines) · **Public** · **Édition 2026**
 
-Page web ludique affichant le classement en temps quasi réel des podcasts du [concours Réinventer le monde](https://offre-pedagogique.afd.fr/fr/reinventer-le-monde), avec historique des votes et détection adaptative des hausses suspectes.
+Page web ludique affichant le classement en temps quasi réel des podcasts du [concours Réinventer le monde](https://offre-pedagogique.afd.fr/fr/reinventer-le-monde), avec historique des votes.
 
 ---
 
@@ -18,7 +18,6 @@ Page web ludique affichant le classement en temps quasi réel des podcasts du [c
 | [Technique](technique.md) | Architecture, hébergement, scripts, scraping, flux opérationnel |
 | [**Déploiement**](deploiement.md) | **Mise en prod GitHub Pages + Actions, cron, dépannage** |
 | [Données](donnees.md) | Schémas JSON, backups, champs extraits |
-| [Détection d'anomalies](detection-anomalies.md) | Algorithme adaptatif de suspicion (anti-triche) |
 | [Planning](planning.md) | Estimation d'effort, risques, hors périmètre |
 | [**Repo public**](public-repo.md) | **Règles : rien de privé/confidentiel dans le repo** |
 

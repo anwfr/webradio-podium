@@ -23,7 +23,7 @@ Guide pas à pas pour mettre en ligne le site et configurer la mise à jour auto
 |-----------|------|
 | **Deploy site to GitHub Pages** (`pages.yml`) | Publie le dossier `public/` sur GitHub Pages |
 | **Discover participants** (`discover.yml`) | Re-scan complet AFD — **manuel**, une fois avant le 1er cron (ou après gros changement catalogue) |
-| **Scrape votes** (`scrape.yml`) | Collecte les votes + alertes + publish — **cron 2×/jour** + lancement manuel |
+| **Scrape votes** (`scrape.yml`) | Collecte les votes + publish — **cron 2×/jour** + lancement manuel |
 
 Le site statique vit dans `public/`. Les scripts écrivent dans `data/` (source de vérité) puis copient vers `public/data/` via `npm run publish` (appelé par les pipelines).
 

@@ -35,7 +35,6 @@ Un seul pipeline qui visiterait ~180 fiches à chaque cron (2×/jour) serait tro
 | **Fiches visitées** | Actifs (`active: true`) uniquement | **Toutes** (~180) |
 | **Fiches inactives connues** | **Pas re-visitées** | **Re-visitées** |
 | **Scraping des votes** | Oui | Non |
-| **Détection d'anomalies** | Oui | Non |
 | **Rapport de diff** | Non | Oui → `sync-report.json` |
 | **Fichier de statut** | `meta.json` | `sync-report.json` |
 
@@ -46,7 +45,7 @@ Un seul pipeline qui visiterait ~180 fiches à chaque cron (2×/jour) serait tro
 ### Chaîne d'exécution
 
 ```
-scrape-votes.js → detect-alerts.js → publish-data.js
+scrape-votes.js → publish-data.js
 ```
 
 La liste des podcasts AFD est considérée **figée** : le pipeline automatique ne re-parcourt plus les pages liste pour détecter de nouveaux slugs. Pour mettre à jour le catalogue (`participants.json`), lancer **Pipeline B**.
@@ -58,11 +57,7 @@ La liste des podcasts AFD est considérée **figée** : le pipeline automatique 
 - Ajoute un snapshot dans `votes-history.json` (horodaté à l'heure du run).
 - **Cas particulier :** si une fiche **déjà active** affiche « Votes clôturés », elle passe `active: false` / `voteStatus: closed` lors de ce scrape (pas besoin de Pipeline B pour *cette* transition).
 
-### Étape 2 — `detect-alerts.js`
-
-Recalcule les baselines et le score de suspicion → `stats.json`, `alerts.json`. Voir [detection-anomalies.md](detection-anomalies.md).
-
-### Étape 3 — `publish-data.js`
+### Étape 2 — `publish-data.js`
 
 Copie `data/` → `public/data/`, commit + push (en Actions).
 
@@ -105,7 +100,7 @@ discover-participants.js → diff avant/après → sync-report.json → publish-
 | Rapport public | `decouverte.html` — ouverts, fermés, nouveaux, inchangés |
 | Bootstrap initial | **Obligatoire une fois** avant le premier cron de votes en prod |
 
-Pipeline B **ne scrape pas les votes** et **ne calcule pas les alertes** — il met à jour le catalogue et produit le rapport.
+Pipeline B **ne scrape pas les votes** — il met à jour le catalogue et produit le rapport.
 
 ---
 
@@ -168,7 +163,6 @@ Pipeline B **ne scrape pas les votes** et **ne calcule pas les alertes** — il 
 |---------|----------|---------|
 | `participants.json` | B (complet) · A (mise à jour vote/clôture sur actifs) | Catalogue des podcasts suivis |
 | `votes-history.json` | A | Historique des snapshots de votes |
-| `alerts.json` / `stats.json` | A | Scores de suspicion |
 | `meta.json` | A | Statut du dernier run votes |
 | `sync-report.json` | B | Rapport de diff (ouverts, fermés, nouveaux…) |
 | `execution-journal.log` | A et B | Journal public des exécutions (5 j) |
@@ -235,5 +229,5 @@ La liste AFD est considérée figée pour la fin du concours. Lancer **Pipeline 
 ## 11. Références
 
 - Flux détaillés et scraping HTML : [technique.md § 5](technique.md#5-flux-opérationnels)
-- Besoins fonctionnels : [fonctionnel.md § BF-05 / BF-06](fonctionnel.md#bf-05--actualisation-des-votes-automatique)
+- Besoins fonctionnels : [fonctionnel.md § BF-04 / BF-05](fonctionnel.md#bf-04--actualisation-des-votes-automatique)
 - Prise en main : [README.md](../README.md)

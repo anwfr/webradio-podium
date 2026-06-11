@@ -4,9 +4,6 @@ export const COMPARISON_WINDOW_HOURS = 24;
 /** Fenêtre secondaire pour les deltas affichés en tableau / popin. */
 export const COMPARISON_WINDOW_48H = 48;
 
-/** Nombre minimum de snapshots avant calcul des alertes et scores de suspicion. */
-export const MIN_SNAPSHOTS_FOR_ALERTS = 3;
-
 /** Rétention du journal d'exécution public (execution-journal.log). */
 export const JOURNAL_RETENTION_DAYS = 5;
 

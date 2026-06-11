@@ -12,8 +12,6 @@
 |---------|------|-----------|
 | `participants.json` | Catalogue des podcasts suivis | `discover-participants.js` (Pipeline B, complet) · `scrape-votes.js` (clôtures sur actifs) — voir [pipelines.md](pipelines.md) |
 | `votes-history.json` | Historique des snapshots de votes | `scrape-votes.js` |
-| `stats.json` | Baselines statistiques (globales + par participant) | `detect-alerts.js` |
-| `alerts.json` | Alertes et scores de suspicion | `detect-alerts.js` |
 | `meta.json` | Journal du dernier run votes (Pipeline A) | `run-pipeline.js` |
 | `sync-report.json` | Rapport de la dernière découverte manuelle (Pipeline B) | `run-discover.js` |
 | `execution-journal.log` | Journal d'exécution public (événements + sorties sanitizées) | `run-pipeline.js` · `run-discover.js` |
@@ -72,82 +70,12 @@
 ```
 
 - Les snapshots sont **append-only** (jamais de suppression).
-- Le rang est calculé à la volée par le front ou par `detect-alerts.js`, pas stocké ici.
+- Le rang est calculé à la volée par le front, pas stocké ici.
 - Horodatage en fuseau **Europe/Paris** (offset explicite).
 
 ---
 
-## 4. `data/stats.json`
-
-Baselines recalculées à chaque cycle. Consommées par le front pour le bandeau « N relevés » et par `anomaly-detector.js`.
-
-```json
-{
-  "generatedAt": "2026-06-11T16:00:00+02:00",
-  "snapshotCount": 14,
-  "global": {
-    "medianDelta": 8,
-    "madDelta": 4,
-    "medianVelocity": 0.8,
-    "madVelocity": 0.3,
-    "medianRankJump": 1,
-    "participantCount": 62
-  },
-  "participants": {
-    "les-filles-aussi-ont-des-ailes": {
-      "historyLength": 14,
-      "medianDelta": 6,
-      "madDelta": 2,
-      "medianVelocity": 0.6,
-      "p95Velocity": 1.4
-    }
-  }
-}
-```
-
----
-
-## 5. `data/alerts.json`
-
-```json
-{
-  "generatedAt": "2026-06-11T16:00:00+02:00",
-  "modelVersion": "adaptive-v1",
-  "alerts": [
-    {
-      "slug": "exemple-podcast",
-      "type": "anomaly_spike",
-      "severity": "high",
-      "suspicionScore": 87,
-      "confidence": "high",
-      "message": "+87 votes en 10h — 6,2× la médiane du concours (+14) et 4,1× sa moyenne habituelle (+21)",
-      "votesDelta": 87,
-      "periodHours": 10,
-      "metrics": {
-        "modifiedZGlobal": 5.2,
-        "modifiedZPersonal": 4.8,
-        "percentileAmongPeers": 99,
-        "velocity": 8.7,
-        "velocityRatioVsGlobal": 10.9
-      }
-    }
-  ],
-  "suspicionScores": {
-    "exemple-podcast": 87,
-    "autre-podcast": 12
-  }
-}
-```
-
-| Champ | Description |
-|-------|-------------|
-| `modelVersion` | Version de l'algorithme (permet d'invalider l'historique si changement majeur) |
-| `confidence` | `low` / `medium` / `high` — selon la phase du concours |
-| `suspicionScores` | Map slug → score persistant (avec mémoire sur 3 intervalles) |
-
----
-
-## 6. `data/meta.json`
+## 4. `data/meta.json`
 
 Journal du dernier run — affiché dans l'en-tête du site (« Actualisé le… ») et utile au debug.
 
@@ -186,7 +114,7 @@ Journal du dernier run — affiché dans l'en-tête du site (« Actualisé le…
 
 ---
 
-## 7. Backups
+## 5. Backups
 
 Avant chaque écriture, copier vers `data/backups/` :
 
@@ -200,7 +128,7 @@ participants-2026-06-11-06.json
 
 ---
 
-## 8. Champs optionnels sur `participants`
+## 6. Champs optionnels sur `participants`
 
 ```json
 {
@@ -221,13 +149,13 @@ participants-2026-06-11-06.json
 
 ---
 
-## 9. Historique des rapports de découverte
+## 7. Historique des rapports de découverte
 
 `data/backups/sync-report-YYYY-MM-DD-HH.json` — une copie par run Pipeline B (conservée 30 jours).
 
 ---
 
-## 10. `data/sync-report.json`
+## 8. `data/sync-report.json`
 
 Produit par Pipeline B. Affiché sur `decouverte.html`.
 
@@ -300,7 +228,7 @@ Produit par Pipeline B. Affiché sur `decouverte.html`.
 
 ---
 
-## 11. `data/execution-journal.log`
+## 9. `data/execution-journal.log`
 
 Journal **public** des runs (Pipelines A et B), une ligne par événement. Rétention : **5 jours** (`JOURNAL_RETENTION_DAYS` dans `scripts/lib/constants.js`). Purge automatique au démarrage/fin de run et toutes les 100 lignes.
 
@@ -327,7 +255,7 @@ Migration : si `execution-journal.json` existe encore, il est converti automatiq
 
 ---
 
-## 12. Règles d'intégrité
+## 10. Règles d'intégrité
 
 1. **Jamais supprimer** un participant ou un snapshot existant.
 2. **Merge** à l'ajout : si `slug` existe, mettre à jour les métadonnées uniquement.

@@ -11,7 +11,6 @@
     "pipeline": "node scripts/run-pipeline.js",
     "discover": "node scripts/run-discover.js",
     "scrape": "node scripts/scrape-votes.js",
-    "detect": "node scripts/detect-alerts.js",
     "publish": "node scripts/publish-data.js",
     "seed-demo": "node scripts/seed-demo.js",
     "migrate-establishments": "node scripts/migrate-establishments.js",

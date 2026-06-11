@@ -25,7 +25,6 @@ Ce classement est **non officiel** et agrège des **données déjà publiques** 
 |---------|------------|
 | `data/*.json` | Public (versionné dans git + servi sur Pages) |
 | Historique des votes | Public (chaque commit de snapshot) |
-| Scores de suspicion | Public |
 | `decouverte.html` + `sync-report.json` | Public (même niveau que le classement) |
 | Workflows GitHub Actions | Public (fichiers `.github/workflows/` visibles) |
 | Logs d'erreur dans `meta.json` | Public (pas de stack traces sensibles) |

@@ -12,7 +12,6 @@
 | Pipeline B découverte + decouverte.html | 3–4 h |
 | Workflow GitHub Actions | 1 h |
 | Front (podium + tableau + graphique) | 6–8 h |
-| Détection adaptative (anomaly-detector) | 3–4 h |
 | Tests & ajustements | 2–3 h |
 | **Total** | **~2 jours** |
 
@@ -29,7 +28,6 @@
 | Fiches sans compteur visible | Trou dans l'historique | Logger + conserver dernière valeur connue |
 | GitHub Actions indisponible | Pas de mise à jour | `workflow_dispatch` manuel en secours |
 | Nouveau participant en cours de vote | Retard de suivi | Détecté au prochain cycle (max ~12 h) |
-| Faux positifs sur alertes | Confusion organisateurs | Disclaimer + messages explicatifs + score gradué |
 
 ---
 
@@ -42,7 +40,6 @@
 - Notifications push / email
 - Application mobile native
 - Suivi des éditions 2024/2025 (votes clôturés)
-- Interface d'administration des seuils d'alerte
 - Export CSV / API publique
 - Repo privé ou données confidentielles
 
@@ -53,6 +50,6 @@
 | Jalon | Livrable |
 |-------|----------|
 | J1 matin | Scripts scraping fonctionnels + premier JSON peuplé |
-| J1 après-midi | Workflow GitHub Actions + détection anomalies |
+| J1 après-midi | Workflow GitHub Actions |
 | J2 matin | Front podium + tableau |
 | J2 après-midi | Graphique + polish UX + tests sur une semaine |

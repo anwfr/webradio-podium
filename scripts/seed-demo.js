@@ -9,7 +9,6 @@ import {
   emptySyncReport,
 } from './lib/storage.js';
 import { runPublish } from './publish-data.js';
-import { runDetectAlerts } from './detect-alerts.js';
 import { formatParisIso, nowParis } from './lib/time.js';
 import { extractEstablishment } from './lib/establishment.js';
 
@@ -165,8 +164,6 @@ writeJson(dataPath('sync-report.json'), {
   status: 'none',
   runAt: null,
 });
-
-await runDetectAlerts();
 
 writeJson(dataPath('meta.json'), {
   lastRunAt: now,

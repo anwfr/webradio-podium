@@ -1,6 +1,6 @@
 # Spécifications techniques
 
-[← Index](README.md) · Voir aussi [donnees.md](donnees.md) · [detection-anomalies.md](detection-anomalies.md)
+[← Index](README.md) · Voir aussi [donnees.md](donnees.md)
 
 > **Statut :** spécifications revues le 11/06/2026 après analyse du HTML réel du site AFD (Drupal).
 
@@ -31,7 +31,7 @@ Deux pipelines **séparés** : votes automatiques vs découverte manuelle.
 ┌─────────────────────────────────────────────────────────────────────┐
 │  PIPELINE A — scrape.yml (automatique 06h/16h + manuel optionnel)   │
 │                                                                      │
-│  scrape-votes → detect-alerts → publish-data                       │
+│  scrape-votes → publish-data                                       │
 │                                                                      │
 │  • Parcourt la liste paginée (filtre édition 2026) pour les NOUVEAUX │
 │    slugs uniquement — ne re-visite PAS les fiches inactives          │
@@ -125,20 +125,16 @@ webradio-podium/
 │   ├── list-scan.js             # Crawl liste paginée (manuel, hors pipeline A)
 │   ├── discover-participants.js # Re-visite complète + diff
 │   ├── scrape-votes.js
-│   ├── detect-alerts.js
 │   ├── publish-data.js
 │   └── lib/
 │       ├── fetcher.js           # HTTP, anti-bot, retry
 │       ├── parser.js            # Sélecteurs Drupal
 │       ├── storage.js           # Lecture/écriture JSON atomique
 │       ├── constants.js         # Rétention journal, backups, etc.
-│       ├── journal.js           # Journal d'exécution public
-│       └── anomaly-detector.js
+│       └── journal.js           # Journal d'exécution public
 ├── data/                        # Source de vérité (versionnée)
 │   ├── participants.json
 │   ├── votes-history.json
-│   ├── stats.json
-│   ├── alerts.json
 │   ├── meta.json
 │   ├── sync-report.json         # Dernier rapport de découverte (Pipeline B)
 │   ├── execution-journal.log   # Journal d'exécution (rétention 5 j)
@@ -162,7 +158,6 @@ webradio-podium/
     "pipeline": "node scripts/run-pipeline.js",
     "discover": "node scripts/run-discover.js",
     "scrape": "node scripts/scrape-votes.js",
-    "detect": "node scripts/detect-alerts.js",
     "publish": "node scripts/publish-data.js",
     "seed-demo": "node scripts/seed-demo.js",
     "reset-data": "node scripts/reset-data.js"
@@ -204,8 +199,6 @@ En GitHub Actions, `GITHUB_REPOSITORY` est injecté automatiquement — pas beso
         ├─► scrape-votes.js
         │     • visite uniquement participants active:true
         │     • append snapshot (horodatage = début du run)
-        │
-        ├─► detect-alerts.js
         │
         └─► publish-data.js → commit + push
 ```
@@ -354,10 +347,6 @@ Script conservé pour usage manuel si besoin. Le cron Pipeline A ne l'appelle pl
 2. Extrait le compteur via `input[data-drupal-selector="edit-likes"]`.
 3. Si « Votes clôturés » détecté : `active: false`, `voteStatus: closed`, pas de snapshot.
 4. Append dans `votes-history.json` (un snapshot par run, horodaté à l'instant du début).
-
-### `detect-alerts.js`
-
-Recalcule `stats.json` + `alerts.json` — algorithme dans [detection-anomalies.md](detection-anomalies.md).
 
 ---
 
@@ -544,12 +533,10 @@ jobs:
 ## 13. Front — chargement des données
 
 ```javascript
-// public/js/app.js
-const [participants, history, alerts, stats, meta] = await Promise.all([
+// public/js/data.js
+const [participants, history, meta] = await Promise.all([
   fetch('/data/participants.json').then(r => r.json()),
   fetch('/data/votes-history.json').then(r => r.json()),
-  fetch('/data/alerts.json').then(r => r.json()),
-  fetch('/data/stats.json').then(r => r.json()),
   fetch('/data/meta.json').then(r => r.json()),
 ]);
 ```
