@@ -1,0 +1,14 @@
+# Dependencies
+node_modules/
+
+# Environment — never commit secrets (public repo)
+.env
+.env.*
+*.local
+
+# OS
+.DS_Store
+
+# Editor
+.idea/
+.vscode/
