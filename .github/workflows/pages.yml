@@ -7,8 +7,18 @@ on:
       - 'public/**'
       - '.github/workflows/pages.yml'
   workflow_dispatch:
+  # Les commits bot (scrape / discover) ne déclenchent pas le push ci-dessus.
+  workflow_run:
+    workflows:
+      - Scrape votes
+      - Discover participants
+    types:
+      - completed
+    branches:
+      - main
 
 permissions:
+  actions: read
   contents: read
   pages: write
   id-token: write
@@ -19,12 +29,20 @@ concurrency:
 
 jobs:
   deploy:
+    if: >-
+      github.event_name != 'workflow_run'
+      || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: >-
+            ${{ github.event_name == 'workflow_run'
+                && github.event.workflow_run.head_sha
+                || github.sha }}
 
       - uses: actions/setup-node@v4
         with:
