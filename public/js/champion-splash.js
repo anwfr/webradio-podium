@@ -154,21 +154,7 @@ export function buildPodcastSplashStories(rows) {
   }
 
   for (const badge of computePodcastBadges(rows)) {
-    if (badge.type === 'champion' || badge.type === 'flop') continue;
-
-    if (badge.type === 'underdog') {
-      const row = rows.find((entry) => entry.slug === badge.slug);
-      if (!row) continue;
-      add(
-        makeStory('underdog', row, {
-          label: badge.title,
-          badge: { emoji: badge.emoji, label: getBadgeLabel('underdog') },
-          statHtml: escapeHtml(badge.text),
-          heroEmoji: badge.emoji,
-          variantIds: ['sparkle-party', 'voltage-pulse'],
-        })
-      );
-    }
+    if (badge.type === 'enFeu' || badge.type === 'flop' || badge.type === 'remontada') continue;
 
     if (badge.type === 'gem') {
       const row = rows.find((entry) => entry.slug === badge.slug);
@@ -247,7 +233,7 @@ export function buildShareVoteSplashStory(row, total = 0) {
     storyId: 'share-vote',
     slug: row.slug,
     title: row.title,
-    label: votingOpen ? 'Vote pour ce podcast' : 'Soutenez ce podcast',
+    label: votingOpen ? 'Aller voter pour ce podcast' : 'Soutenez ce podcast',
     badge: { emoji: '🗳️', label: 'Appel à votes' },
     statHtml,
     heroEmoji: '🗳️',
@@ -368,7 +354,7 @@ export function showShareVoteSplash(row, { getEstablishmentLabel, getTotalCount,
     establishment: getEstablishmentLabel?.(row) ?? '',
     durationMs: SHARE_VOTE_SPLASH_DURATION_MS,
     hint: votingOpen
-      ? 'Touche pour voter · se ferme dans 3 s'
+      ? 'Touche pour continuer · vote ensuite sur le site AFD'
       : 'Touche pour continuer · se ferme dans 3 s',
     variant: SPLASH_VARIANTS['vote-call'],
     onActivate: onContinue ? () => onContinue(row.slug) : undefined,

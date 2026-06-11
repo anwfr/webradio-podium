@@ -3,7 +3,6 @@ import {
   formatRankDeltaMarkup,
   formatRankOrdinal,
   podiumVotesDisplay,
-  renderPodium24hStatsMarkup,
 } from './data.js';
 import {
   BOOST_STORY_BADGES,
@@ -22,10 +21,6 @@ import {
 
 function formatNumber(n) {
   return new Intl.NumberFormat('fr-FR').format(n);
-}
-
-function modeRankDelta(entry, mode) {
-  return mode === 'total' ? entry.deltaRankByTotal : entry.deltaRankByDelta24h;
 }
 
 function rankNeighborTierClass(rank) {
@@ -74,13 +69,13 @@ function renderEstablishmentBoostCard(entry, { badge, story = null }) {
   const { city, establishmentName } = parsePodiumEstablishmentDisplay(entry.label, {
     key: entry.key,
   });
+  const name = establishmentName || entry.label;
 
   return renderHighlightBadgeCard({
     emoji: badge.emoji,
     label: resolveBoostBadgeLabel(badge),
-    name: establishmentName || entry.label,
-    statMarkup: boostStoryStatMarkup(story ?? 'enFeu', entry),
     city,
+    statMarkup: `${escapeHtml(name)} ${boostStoryStatMarkup(story ?? 'enFeu', entry)}`,
   });
 }
 
@@ -177,21 +172,15 @@ export function renderEstablishmentPodium(entries, containerId, { mode = 'delta2
       : '';
     const establishmentTitle = establishmentName || entry.label;
 
-    const votesMarkup =
-      mode === 'delta24h'
-        ? renderPodium24hStatsMarkup(entry.deltaVotes, modeRankDelta(entry, mode) ?? 0)
-        : (() => {
-            const { value: primaryValue, label: primaryLabel } = podiumVotesDisplay({
-              votes: entry.totalVotes,
-              deltaVotes: entry.deltaVotes,
-              mode,
-            });
-            return `<div class="podium-votes-wrap">
+    const { value: primaryValue, label: primaryLabel } = podiumVotesDisplay({
+      votes: entry.totalVotes,
+      deltaVotes: entry.deltaVotes,
+      mode: 'total',
+    });
+    const votesMarkup = `<div class="podium-votes-wrap">
             <span class="podium-votes">${primaryValue}</span>
             <span class="podium-votes-label">${primaryLabel}</span>
-          </div>
-          <p class="podium-delta">${formatDeltaMarkup(entry.deltaVotes, { trailing: ' aujourd\u2019hui' })}</p>`;
-          })();
+          </div>`;
 
     slot.innerHTML = `
       <article class="podium-card">

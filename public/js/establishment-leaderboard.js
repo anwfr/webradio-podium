@@ -1,5 +1,6 @@
 import { getBadgeLabel } from './badge-labels.js';
-import { formatHighlightNumberMarkup } from './data.js';
+import { formatHighlightNumberMarkup, formatDeltaMarkup } from './data.js';
+import { findRemontada } from './boost-du-jour.js';
 import { resolveEstablishmentCity } from './establishment.js';
 
 function escapeStatText(str) {
@@ -8,6 +9,10 @@ function escapeStatText(str) {
     .replace(/</g, '&lt;')
     .replace(/>/g, '&gt;')
     .replace(/"/g, '&quot;');
+}
+
+function placeWord(count) {
+  return Math.abs(count) > 1 ? 'places' : 'place';
 }
 
 function badgeFromEntry(entry, { emoji, type, text, statMarkup }) {
@@ -117,17 +122,16 @@ export function computeEstablishmentBadges(entries) {
   if (!entries.length) return [];
 
   const byDelta = [...entries].sort((a, b) => a.rankByDelta24h - b.rankByDelta24h);
-  const byTotal = [...entries].sort((a, b) => a.rankByTotal - b.rankByTotal);
   const badges = [];
 
-  const champion = byTotal[0];
-  if (champion) {
+  const enFeu = byDelta.find((entry) => (entry.deltaVotes ?? 0) > 0);
+  if (enFeu) {
     badges.push(
-      badgeFromEntry(champion, {
-        emoji: '👑',
-        type: 'champion',
-        text: `${champion.label} domine avec ${champion.totalVotes} votes au total`,
-        statMarkup: `${escapeStatText(champion.label)} domine avec ${formatHighlightNumberMarkup(champion.totalVotes)} votes au total`,
+      badgeFromEntry(enFeu, {
+        emoji: '🔥',
+        type: 'enFeu',
+        text: `${enFeu.label} cartonne avec ${enFeu.deltaVotes} votes aujourd'hui`,
+        statMarkup: `${escapeStatText(enFeu.label)} cartonne avec ${formatDeltaMarkup(enFeu.deltaVotes, { trailing: ' votes aujourd\u2019hui' })}`,
       })
     );
   }
@@ -136,25 +140,26 @@ export function computeEstablishmentBadges(entries) {
     .filter((entry) => entry.deltaRankByDelta24h <= -1)
     .sort((a, b) => a.deltaRankByDelta24h - b.deltaRankByDelta24h)[0];
   if (flop) {
+    const flopPlaces = Math.abs(flop.deltaRankByDelta24h);
     badges.push(
       badgeFromEntry(flop, {
         emoji: '📉',
         type: 'flop',
-        text: `${flop.label} chute de ${Math.abs(flop.deltaRankByDelta24h)} places aujourd'hui`,
-        statMarkup: `${escapeStatText(flop.label)} chute de ${formatHighlightNumberMarkup(Math.abs(flop.deltaRankByDelta24h), { tone: 'neg' })} places <span class="badge-stat-muted">aujourd\u2019hui</span>`,
+        text: `${flop.label} chute de ${flopPlaces} ${placeWord(flopPlaces)} aujourd'hui`,
+        statMarkup: `${escapeStatText(flop.label)} chute de ${formatHighlightNumberMarkup(flopPlaces, { tone: 'neg' })} ${placeWord(flopPlaces)} <span class="badge-stat-muted">aujourd\u2019hui</span>`,
       })
     );
   }
 
-  const underdog = byDelta.find(
-    (entry) => entry.podcastCount === 1 && entry.rankByDelta24h <= 10 && entry.deltaVotes > 0
-  );
-  if (underdog) {
+  const remontada = findRemontada(entries, { rankDeltaField: 'deltaRankByDelta24h' });
+  if (remontada) {
+    const remontadaPlaces = remontada.deltaRankByDelta24h ?? 0;
     badges.push(
-      badgeFromEntry(underdog, {
-        emoji: '⚡',
-        type: 'underdog',
-        text: `${underdog.label} brille avec un seul podcast`,
+      badgeFromEntry(remontada, {
+        emoji: '🚀',
+        type: 'remontada',
+        text: `${remontada.label} remonte de ${remontadaPlaces} ${placeWord(remontadaPlaces)} aujourd'hui`,
+        statMarkup: `${escapeStatText(remontada.label)} remonte de ${formatHighlightNumberMarkup(remontadaPlaces)} ${placeWord(remontadaPlaces)} <span class="badge-stat-muted">aujourd\u2019hui</span>`,
       })
     );
   }

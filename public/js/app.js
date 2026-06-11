@@ -39,12 +39,10 @@ import {
   renderPodium,
   renderRankingList,
   renderPodcastBadges,
-  renderPodcastBoostDuJour,
 } from './ranking-view.js';
 import {
   renderEstablishmentBadges,
   renderEstablishmentPodium,
-  renderEstablishmentBoostDuJour,
   renderMyEstablishmentSummary,
   renderMyEstablishmentNeighbors,
 } from './establishment-ranking-view.js';
@@ -70,8 +68,6 @@ const state = {
   establishmentEntries: [],
   userEstablishment: null,
   filterText: '',
-  podcastSortMode: 'delta24h',
-  establishmentSortMode: 'delta24h',
   history: { snapshots: [] },
   defaultTitle: 'Concours de podcast 2026',
   config: null,
@@ -130,6 +126,9 @@ function updateSchoolHeader() {
 
   const titleEl = document.getElementById('school-header-title');
   if (titleEl) titleEl.textContent = label;
+
+  const podcastsTitleEl = document.getElementById('mon-ecole-podcasts-title');
+  if (podcastsTitleEl) podcastsTitleEl.textContent = `Podcasts du ${label}`;
 }
 
 function refreshMonEcoleTab() {
@@ -149,7 +148,6 @@ function refreshMonEcoleTab() {
     [...rows].sort((a, b) => a.rank - b.rank),
     {
       showEstablishment: false,
-      ordinalRank: true,
       establishmentCellMarkup,
       openPodcastDetail,
       emptyMessage: 'Aucun podcast pour cet établissement.',
@@ -157,63 +155,26 @@ function refreshMonEcoleTab() {
   );
 }
 
-function updateTop3SectionTitle(titleId, mode) {
-  const titleEl = document.getElementById(titleId);
-  if (!titleEl) return;
-  titleEl.textContent =
-    mode === 'delta24h' ? '🔥 Qui cartonne aujourd\u2019hui ?' : '🏆 Podium';
-}
-
-function hideBadgeContainer(containerId) {
-  const container = document.getElementById(containerId);
-  if (!container) return;
-  container.innerHTML = '';
-  container.hidden = true;
-}
-
 function refreshPodcastsTab() {
-  const sorted = sortPodcastsForMode(state.allRows, state.podcastSortMode);
-  const is24h = state.podcastSortMode === 'delta24h';
+  const sorted = sortPodcastsForMode(state.allRows, 'total');
 
-  if (is24h) {
-    hideBadgeContainer('podcast-badges');
-  } else {
-    renderPodcastBadges(state.allRows, 'podcast-badges', {
-      openPodcastDetail,
-      getEstablishmentLabel: canonicalEstablishmentLabel,
-    });
-  }
-  updateTop3SectionTitle('podcast-top3-title', state.podcastSortMode);
+  renderPodcastBadges(state.allRows, 'podcast-badges', {
+    openPodcastDetail,
+    getEstablishmentLabel: canonicalEstablishmentLabel,
+  });
 
-  const podium = document.getElementById('podium-global');
-  const boost = document.getElementById('boost-podcasts');
-  if (podium) podium.hidden = is24h;
-  if (boost) boost.hidden = !is24h;
-
-  if (is24h) {
-    if (podium) podium.innerHTML = '';
-    renderPodcastBoostDuJour(sorted, 'boost-podcasts', {
-      openPodcastDetail,
-      getEstablishmentLabel: canonicalEstablishmentLabel,
-    });
-  } else {
-    if (boost) {
-      boost.innerHTML = '';
-      boost.hidden = true;
-    }
-    renderPodium(sorted, 'podium-global', {
-      establishmentCellMarkup,
-      showEstablishment: true,
-      establishmentDisplay: 'podium',
-      openPodcastDetail,
-      mode: 'total',
-    });
-  }
+  renderPodium(sorted, 'podium-global', {
+    establishmentCellMarkup,
+    showEstablishment: true,
+    establishmentDisplay: 'podium',
+    openPodcastDetail,
+    mode: 'total',
+  });
 
   renderRankingList('list-podcasts', sorted, {
     showEstablishment: true,
     filterText: state.filterText,
-    sortMode: state.podcastSortMode,
+    sortMode: 'total',
     establishmentDisplay: 'podium',
     highlightEstablishmentKey: state.userEstablishment?.key,
     establishmentCellMarkup,
@@ -222,35 +183,15 @@ function refreshPodcastsTab() {
 }
 
 function refreshEcolesTab() {
-  const { establishmentEntries, establishmentSortMode } = state;
-  const is24h = establishmentSortMode === 'delta24h';
+  const { establishmentEntries } = state;
 
-  if (is24h) {
-    hideBadgeContainer('establishment-badges');
-  } else {
-    renderEstablishmentBadges(establishmentEntries, 'establishment-badges');
-  }
-  updateTop3SectionTitle('establishment-top3-title', establishmentSortMode);
+  renderEstablishmentBadges(establishmentEntries, 'establishment-badges');
 
-  const podium = document.getElementById('podium-ecoles');
-  const boost = document.getElementById('boost-ecoles');
-  if (podium) podium.hidden = is24h;
-  if (boost) boost.hidden = !is24h;
-
-  if (is24h) {
-    if (podium) podium.innerHTML = '';
-    renderEstablishmentBoostDuJour(establishmentEntries, 'boost-ecoles');
-  } else {
-    if (boost) {
-      boost.innerHTML = '';
-      boost.hidden = true;
-    }
-    renderEstablishmentPodium(establishmentEntries, 'podium-ecoles', {
-      mode: 'total',
-    });
-  }
+  renderEstablishmentPodium(establishmentEntries, 'podium-ecoles', {
+    mode: 'total',
+  });
   renderMyEstablishmentNeighbors('my-establishment-neighbors', establishmentEntries, {
-    mode: establishmentSortMode,
+    mode: 'total',
     establishmentKey: state.userEstablishment?.key,
   });
 }
@@ -349,43 +290,6 @@ function setupAppShellControls() {
       refreshPodcastsTab();
     });
   }
-
-  bindSortModeToggle('podcast-mode-toggle', {
-    getMode: () => state.podcastSortMode,
-    setMode: (mode) => {
-      state.podcastSortMode = mode;
-    },
-    onChange: () => refreshPodcastsTab(),
-  });
-
-  bindSortModeToggle('establishment-mode-toggle', {
-    getMode: () => state.establishmentSortMode,
-    setMode: (mode) => {
-      state.establishmentSortMode = mode;
-    },
-    onChange: () => refreshEcolesTab(),
-  });
-}
-
-function bindSortModeToggle(toggleId, { getMode, setMode, onChange }) {
-  const modeToggle = document.getElementById(toggleId);
-  if (!modeToggle || modeToggle.dataset.bound) return;
-
-  modeToggle.dataset.bound = '1';
-  modeToggle.addEventListener('click', (e) => {
-    const btn = e.target.closest('[data-mode]');
-    if (!btn) return;
-    const mode = btn.dataset.mode;
-    if (mode === getMode()) return;
-
-    setMode(mode);
-    modeToggle.querySelectorAll('[data-mode]').forEach((control) => {
-      const active = control.dataset.mode === mode;
-      control.classList.toggle('segmented-control-btn--active', active);
-      control.setAttribute('aria-selected', active ? 'true' : 'false');
-    });
-    onChange();
-  });
 }
 
 function initPodcastRouting() {

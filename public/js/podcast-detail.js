@@ -15,7 +15,12 @@ import {
   tabFromHash,
   normalizeTabId,
 } from './navigation.js';
-import { buildFlyerTeaser, printPodcastFlyers } from './flyer-print.js';
+import {
+  buildFlyerTeaser,
+  printPodcastFlyers,
+  VOTE_AFD_BUTTON_LABEL,
+  VOTE_AFD_STEP_HINT,
+} from './flyer-print.js';
 
 const PODCAST_PARAM = 'podcast';
 const SHARE_PARAM = 'partage';
@@ -237,17 +242,20 @@ function podcastHeroStatsMarkup(row) {
 function voteButtonMarkup(row) {
   if (!row.url) return '';
   const votingOpen = row.voteStatus === 'open';
-  const label = votingOpen ? 'Voter' : 'Fiche AFD';
-  const hint = votingOpen
-    ? buildFlyerTeaser(row.title)
-    : 'Voir la fiche officielle sur le site de l\'AFD';
-  const btnClass = votingOpen
-    ? 'sheet-action-btn sheet-action-btn--vote'
-    : 'sheet-action-btn sheet-action-btn--muted';
   if (votingOpen) {
-    return `<a href="${escapeHtml(row.url)}" class="${btnClass}" target="_blank" rel="noopener" title="${escapeHtml(hint)}" aria-label="${escapeHtml(hint)}"><span class="sheet-action-btn-vote-icon">${sheetActionIcon('vote')}</span><span class="sheet-action-btn-vote-label">${escapeHtml(label)}</span></a>`;
+    const ariaLabel = `${VOTE_AFD_BUTTON_LABEL} sur le site AFD — ${VOTE_AFD_STEP_HINT}`;
+    return `
+      <div class="podcast-vote-action">
+        <a href="${escapeHtml(row.url)}" class="sheet-action-btn sheet-action-btn--vote" target="_blank" rel="noopener" title="${escapeHtml(ariaLabel)}" aria-label="${escapeHtml(ariaLabel)}">
+          <span class="sheet-action-btn-vote-icon">${sheetActionIcon('vote')}</span>
+          <span class="sheet-action-btn-vote-label">${escapeHtml(VOTE_AFD_BUTTON_LABEL)}</span>
+        </a>
+        <p class="podcast-vote-hint">Sur la page qui va s'ouvrir, clique sur <strong>« Je vote pour ce podcast »</strong>.</p>
+      </div>`;
   }
-  return `<a href="${escapeHtml(row.url)}" class="${btnClass}" target="_blank" rel="noopener" title="${escapeHtml(hint)}" aria-label="${escapeHtml(hint)}">${sheetActionIcon('external')}${escapeHtml(label)}</a>`;
+
+  const hint = 'Voir la fiche officielle sur le site de l\'AFD';
+  return `<a href="${escapeHtml(row.url)}" class="sheet-action-btn sheet-action-btn--muted" target="_blank" rel="noopener" title="${escapeHtml(hint)}" aria-label="${escapeHtml(hint)}">${sheetActionIcon('external')}Fiche AFD</a>`;
 }
 
 function rankMarkerPercent(rank, total) {

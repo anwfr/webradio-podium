@@ -1075,6 +1075,45 @@ a:hover {
   );
 }
 
+.podcast-card--tier-1 {
+  border-color: rgba(212, 160, 23, 0.5);
+  background: linear-gradient(
+    135deg,
+    rgba(255, 209, 102, 0.14) 0%,
+    rgba(255, 255, 255, 0.02) 100%
+  );
+}
+
+.podcast-card--tier-2 {
+  border-color: rgba(154, 168, 188, 0.5);
+  background: linear-gradient(
+    135deg,
+    rgba(192, 200, 212, 0.12) 0%,
+    rgba(255, 255, 255, 0.02) 100%
+  );
+}
+
+.podcast-card--tier-3 {
+  border-color: rgba(196, 132, 82, 0.5);
+  background: linear-gradient(
+    135deg,
+    rgba(232, 168, 124, 0.12) 0%,
+    rgba(255, 255, 255, 0.02) 100%
+  );
+}
+
+.podcast-card--tier-1 .podcast-card-votes strong {
+  color: var(--gold);
+}
+
+.podcast-card--tier-2 .podcast-card-votes strong {
+  color: var(--silver);
+}
+
+.podcast-card--tier-3 .podcast-card-votes strong {
+  color: var(--bronze);
+}
+
 .podcast-card-rank-col {
   display: flex;
   flex-direction: column;
@@ -1544,23 +1583,6 @@ button.establishment-badge-card--chart:active {
   background: rgba(255, 255, 255, 0.05);
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.08);
-}
-
-#podcast-mode-toggle,
-#establishment-mode-toggle {
-  position: sticky;
-  top: calc(-1 * var(--main-pad-top));
-  z-index: 25;
-  margin-left: calc(-1 * var(--main-pad-x));
-  margin-right: calc(-1 * var(--main-pad-x));
-  padding: calc(0.25rem + 0.35rem) calc(var(--main-pad-x) + 0.25rem);
-  border-radius: 0;
-  border-left: none;
-  border-right: none;
-  background: rgba(15, 18, 32, 0.96);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.22);
 }
 
 .segmented-control-btn {
@@ -2079,6 +2101,20 @@ body.sheet-open {
   margin-top: 0.85rem;
 }
 
+.podcast-vote-action {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.podcast-vote-hint {
+  margin: 0;
+  font-size: 0.72rem;
+  line-height: 1.4;
+  color: var(--text-muted);
+  text-align: center;
+}
+
 .podcast-hero-actions .sheet-action-btn--vote {
   width: 100%;
   min-height: 48px;
@@ -2410,6 +2446,18 @@ body.sheet-open {
   box-shadow: 0 3px 12px rgba(0, 0, 0, 0.4);
   font-variant-numeric: tabular-nums;
   white-space: nowrap;
+}
+
+.rank-list-badge--tier-1 {
+  border-color: var(--gold);
+}
+
+.rank-list-badge--tier-2 {
+  border-color: var(--silver);
+}
+
+.rank-list-badge--tier-3 {
+  border-color: var(--bronze);
 }
 
 .rank-track-marker-badge {

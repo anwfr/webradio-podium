@@ -96,8 +96,6 @@ export function boostStoryStatText(story, item, { rankDeltaField = 'deltaRankByD
 export function renderHighlightBadgeCard({
   emoji,
   label,
-  name = '',
-  establishment = '',
   text = '',
   statMarkup = '',
   href = null,
@@ -109,12 +107,6 @@ export function renderHighlightBadgeCard({
 }) {
   const cityMarkup = city
     ? `<span class="podium-establishment-city establishment-badge-city">${escapeHtml(city)}</span>`
-    : '';
-  const nameMarkup = name
-    ? `<p class="podcast-badge-name">${escapeHtml(name)}</p>`
-    : '';
-  const establishmentMarkup = establishment
-    ? `<p class="podcast-badge-establishment">${escapeHtml(establishment)}</p>`
     : '';
   const actionTitle = title ? ` title="${escapeHtml(title)}"` : '';
   let tag = 'div';
@@ -142,8 +134,6 @@ export function renderHighlightBadgeCard({
           <strong class="establishment-badge-card-title">${escapeHtml(label)}</strong>
           ${cityMarkup}
         </div>
-        ${nameMarkup}
-        ${establishmentMarkup}
         <p class="establishment-badge-card-text">${statContent}</p>
       </div>
     </${tag}>`;

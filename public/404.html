@@ -149,34 +149,24 @@
     <main class="app-main">
       <div id="tab-mon-ecole" class="tab-panel" data-tab-panel="mon-ecole">
         <div id="my-establishment-summary" class="establishment-summary-wrap" hidden></div>
-        <h2 class="section-title">📊 Podcasts de l'établissement</h2>
+        <h2 class="section-title" id="mon-ecole-podcasts-title">Podcasts de l'établissement</h2>
         <div id="list-mon-ecole" class="podcast-list"></div>
       </div>
 
       <div id="tab-podcasts" class="tab-panel" data-tab-panel="podcasts" hidden>
         <h2 class="section-title">🎙️ Podcasts</h2>
-        <div class="segmented-control" id="podcast-mode-toggle" role="tablist" aria-label="Mode de classement des podcasts">
-          <button type="button" class="segmented-control-btn segmented-control-btn--active" data-mode="delta24h" role="tab" aria-selected="true">Aujourd'hui</button>
-          <button type="button" class="segmented-control-btn" data-mode="total" role="tab" aria-selected="false">Au général</button>
-        </div>
         <div id="podcast-badges" class="establishment-badges" hidden></div>
-        <h3 class="section-subtitle" id="podcast-top3-title">🔥 Qui cartonne aujourd'hui ?</h3>
-        <div id="boost-podcasts" class="establishment-badges" hidden></div>
-        <div class="podium" id="podium-global" hidden></div>
+        <h3 class="section-subtitle" id="podcast-top3-title">🏆 Podium</h3>
+        <div class="podium" id="podium-global"></div>
         <input type="search" id="filter-text" class="search-input" placeholder="Rechercher un podcast…" />
         <div id="list-podcasts" class="podcast-list"></div>
       </div>
 
       <div id="tab-ecoles" class="tab-panel" data-tab-panel="ecoles" hidden>
         <h2 class="section-title">🏫 Classement des écoles</h2>
-        <div class="segmented-control" id="establishment-mode-toggle" role="tablist" aria-label="Mode de classement des établissements">
-          <button type="button" class="segmented-control-btn segmented-control-btn--active" data-mode="delta24h" role="tab" aria-selected="true">Aujourd'hui</button>
-          <button type="button" class="segmented-control-btn" data-mode="total" role="tab" aria-selected="false">Au général</button>
-        </div>
         <div id="establishment-badges" class="establishment-badges" hidden></div>
-        <h3 class="section-subtitle" id="establishment-top3-title">🔥 Qui cartonne aujourd'hui ?</h3>
-        <div id="boost-ecoles" class="establishment-badges" hidden></div>
-        <div class="podium" id="podium-ecoles" hidden></div>
+        <h3 class="section-subtitle" id="establishment-top3-title">🏆 Podium</h3>
+        <div class="podium" id="podium-ecoles"></div>
         <h3 class="section-subtitle">🏫 Mon établissement</h3>
         <div class="rank-neighbors-wrap">
           <div id="my-establishment-neighbors" class="rank-neighbors"></div>

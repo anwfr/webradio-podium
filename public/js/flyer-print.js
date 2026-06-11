@@ -17,9 +17,13 @@ function truncateText(text, max = 52) {
   return `${value.slice(0, max - 1)}…`;
 }
 
+export const VOTE_AFD_BUTTON_LABEL = 'Aller voter';
+export const VOTE_AFD_STEP_HINT =
+  'Sur la page qui va s\'ouvrir, clique sur « Je vote pour ce podcast ».';
+
 export function buildFlyerTeaser(title) {
   const podcastTitle = truncateText(title, 30);
-  return `Vote et partage notre podcast « ${podcastTitle} » au concours webradio 2026 ! Ton vote compte !`;
+  return `Vote et partage notre podcast « ${podcastTitle} » au concours webradio 2026 !`;
 }
 
 async function loadQRCode() {
@@ -42,7 +46,7 @@ function flyerActionButtonsMarkup() {
     <div class="flyer-actions" aria-hidden="true">
       <div class="flyer-btn flyer-btn--vote">
         <span class="flyer-btn-cursor">${flyerCursorSvg()}</span>
-        <span class="flyer-btn-label">Voter</span>
+        <span class="flyer-btn-label">${VOTE_AFD_BUTTON_LABEL}</span>
       </div>
       <div class="flyer-btn flyer-btn--share">
         ${flyerShareIconSvg()}
@@ -56,7 +60,7 @@ function buildFlyerHtml({ title, establishment, qrDataUrl, emoji }) {
     <article class="flyer">
       <span class="flyer-fun-emoji" aria-hidden="true">${emoji}</span>
       <div class="flyer-head">
-        <p class="flyer-badge">TON VOTE COMPTE !</p>
+        <p class="flyer-badge">VOTE SUR LE SITE AFD</p>
         <p class="flyer-kicker">Concours webradio 2026</p>
         <h1 class="flyer-title">${escapeHtml(truncateText(title, 34))}</h1>
         ${establishment ? `<p class="flyer-establishment">🏫 ${escapeHtml(truncateText(establishment, 32))}</p>` : ''}
@@ -67,7 +71,7 @@ function buildFlyerHtml({ title, establishment, qrDataUrl, emoji }) {
         </div>
         ${flyerActionButtonsMarkup()}
       </div>
-      <p class="flyer-action">Scanne · Vote · Partage !</p>
+      <p class="flyer-action">Scanne · Aller voter · Partage !</p>
     </article>`;
 }
 

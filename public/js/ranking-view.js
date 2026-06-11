@@ -3,7 +3,6 @@ import {
   formatRankDeltaMarkup,
   formatRankOrdinal,
   podiumVotesDisplay,
-  renderPodium24hStatsMarkup,
 } from './data.js';
 import {
   BOOST_STORY_BADGES,
@@ -51,20 +50,13 @@ export function renderPodcastBadges(rows, containerId, { openPodcastDetail, getE
   container.innerHTML = badges
     .map((badge) => {
       const href = buildPodcastUrl(badge.slug);
-      const podcastTitle = truncatePodcastTitle(badge.podcastTitle);
       const linkTitle = `Voir ${badge.podcastTitle || badge.slug}`;
-      const row = rows.find((item) => item.slug === badge.slug);
-      const { city, establishmentName } = row
-        ? resolvePodcastEstablishmentMeta(row, getEstablishmentLabel)
-        : { city: '', establishmentName: '' };
       return renderHighlightBadgeCard({
         emoji: badge.emoji,
         label: badge.title,
-        name: podcastTitle,
-        establishment: establishmentName,
-        city,
         text: badge.text,
         statMarkup: badge.statMarkup,
+        city: badge.city,
         href,
         slug: badge.slug,
         link: true,
@@ -82,20 +74,15 @@ export function renderPodcastBadges(rows, containerId, { openPodcastDetail, getE
   });
 }
 
-function podcastModeRankDelta(row, mode) {
-  return mode === 'total' ? row.deltaRankByTotal : row.deltaRankByDelta24h;
-}
-
 function renderPodcastBoostCard(row, { badge, story = null, getEstablishmentLabel }) {
-  const { city, establishmentName } = resolvePodcastEstablishmentMeta(row, getEstablishmentLabel);
+  const { city } = resolvePodcastEstablishmentMeta(row, getEstablishmentLabel);
+  const title = truncatePodcastTitle(row.title);
 
   return renderHighlightBadgeCard({
     emoji: badge.emoji,
     label: resolveBoostBadgeLabel(badge),
-    name: truncatePodcastTitle(row.title),
-    establishment: establishmentName,
     city,
-    statMarkup: boostStoryStatMarkup(story ?? 'enFeu', row),
+    statMarkup: `${escapeHtml(title)} ${boostStoryStatMarkup(story ?? 'enFeu', row)}`,
     href: buildPodcastUrl(row.slug),
     slug: row.slug,
     link: true,
@@ -169,24 +156,15 @@ export function renderPodium(rows, containerId, {
         ? `<div class="podium-school podium-school--${establishmentDisplay}">${establishmentCellMarkup(row, { display: establishmentDisplay })}</div>`
         : '';
 
-    const votesMarkup =
-      mode === 'delta24h'
-        ? renderPodium24hStatsMarkup(
-            row.deltaVotes,
-            podcastModeRankDelta(row, mode) ?? 0
-          )
-        : (() => {
-            const { value: primaryValue, label: primaryLabel } = podiumVotesDisplay({
-              votes: row.votes,
-              deltaVotes: row.deltaVotes,
-              mode,
-            });
-            return `<div class="podium-votes-wrap">
+    const { value: primaryValue, label: primaryLabel } = podiumVotesDisplay({
+      votes: row.votes,
+      deltaVotes: row.deltaVotes,
+      mode: 'total',
+    });
+    const votesMarkup = `<div class="podium-votes-wrap">
             <span class="podium-votes">${primaryValue}</span>
             <span class="podium-votes-label">${primaryLabel}</span>
-          </div>
-          <p class="podium-delta" title="Votes aujourd'hui">${formatDeltaMarkup(row.deltaVotes, { trailing: ' aujourd\u2019hui' })}</p>`;
-          })();
+          </div>`;
 
     slot.innerHTML = `
       <article class="podium-card">
@@ -207,6 +185,28 @@ export function renderPodium(rows, containerId, {
   });
 }
 
+function podcastListRank(row, { ordinalRank = false } = {}) {
+  return ordinalRank ? row.localRank ?? row.rank : row.displayRank ?? row.rank;
+}
+
+function podcastCardTierClass(row, { sortMode = 'total', ordinalRank = false } = {}) {
+  if (ordinalRank || sortMode !== 'total') return '';
+  const rank = podcastListRank(row, { ordinalRank });
+  if (rank === 1) return ' podcast-card--tier-1';
+  if (rank === 2) return ' podcast-card--tier-2';
+  if (rank === 3) return ' podcast-card--tier-3';
+  return '';
+}
+
+function rankBadgeTierClass(row, { sortMode = 'total', ordinalRank = false } = {}) {
+  if (ordinalRank || sortMode !== 'total') return '';
+  const rank = podcastListRank(row, { ordinalRank });
+  if (rank === 1) return ' rank-list-badge--tier-1';
+  if (rank === 2) return ' rank-list-badge--tier-2';
+  if (rank === 3) return ' rank-list-badge--tier-3';
+  return '';
+}
+
 function rankDisplay(row, { showGlobalRankHint = false, sortMode = 'total', ordinalRank = false } = {}) {
   if (showGlobalRankHint) {
     return `<span class="podcast-card-rank rank-list-badge">${formatRankOrdinal(row.localRank)}</span><span class="podcast-card-rank-hint">#${row.globalRank} global</span>`;
@@ -216,9 +216,10 @@ function rankDisplay(row, { showGlobalRankHint = false, sortMode = 'total', ordi
     return `<span class="podcast-card-rank podcast-card-rank--delta">${formatDeltaMarkup(row.deltaVotes, { trailing: ' votes' })}</span>`;
   }
 
-  const rank = row.displayRank ?? row.rank;
+  const rank = podcastListRank(row, { ordinalRank });
   const rankText = ordinalRank ? formatRankOrdinal(rank) : rank;
-  return `<span class="podcast-card-rank rank-list-badge">${rankText}</span>`;
+  const tierClass = rankBadgeTierClass(row, { sortMode, ordinalRank });
+  return `<span class="podcast-card-rank rank-list-badge${tierClass}">${rankText}</span>`;
 }
 
 function podcastCardStatsMarkup(row, sortMode = 'total') {
@@ -229,9 +230,12 @@ function podcastCardStatsMarkup(row, sortMode = 'total') {
         </div>`;
   }
 
+  const rankDeltaMarkup = formatRankDeltaMarkup(row.deltaRankByDelta24h ?? row.deltaRank ?? 0);
+
   return `<div class="podcast-card-stats">
           <span class="podcast-card-votes"><strong>${row.votes}</strong> votes</span>
           <span class="podcast-card-delta">${formatDeltaMarkup(row.deltaVotes, { trailing: ' aujourd\u2019hui' })}</span>
+          ${rankDeltaMarkup ? `<span class="podcast-card-delta">${rankDeltaMarkup}</span>` : '<span class="podcast-card-delta delta-zero">Stable</span>'}
         </div>`;
 }
 
@@ -249,13 +253,14 @@ export function renderPodcastCard(row, {
     highlightEstablishmentKey && row.establishmentKey === highlightEstablishmentKey
       ? ' podcast-card--my-school'
       : '';
+  const tierClass = podcastCardTierClass(row, { sortMode, ordinalRank });
   const establishmentBlock =
     showEstablishment && establishmentCellMarkup
       ? `<div class="podcast-card-establishment${establishmentDisplay === 'podium' ? ' podcast-card-establishment--podium' : ''}">${establishmentCellMarkup(row, { display: establishmentDisplay })}</div>`
       : '';
 
   return `
-    <article class="podcast-card${highlightClass}" id="card-${escapeHtml(row.slug)}" data-slug="${escapeHtml(row.slug)}">
+    <article class="podcast-card${highlightClass}${tierClass}" id="card-${escapeHtml(row.slug)}" data-slug="${escapeHtml(row.slug)}">
       <div class="podcast-card-rank-col">${rankDisplay(row, { showGlobalRankHint, sortMode, ordinalRank })}</div>
       <div class="podcast-card-body">
         <h3 class="podcast-card-title">
