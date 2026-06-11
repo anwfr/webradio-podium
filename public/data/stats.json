@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-11T17:10:41.264+02:00",
-  "snapshotCount": 3,
+  "generatedAt": "2026-06-11T21:01:23.794+02:00",
+  "snapshotCount": 4,
   "global": {
     "medianDelta": 0,
     "madDelta": 0,
@@ -8,29 +8,29 @@
     "madVelocity": 0,
     "medianRankJump": 0,
     "madRankJump": 0,
-    "p95Velocity": 200,
+    "p95Velocity": 100,
     "participantCount": 229,
     "deltaMin": 3
   },
   "participants": {
     "2057": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 1,
-      "madDelta": 0,
-      "medianVelocity": 0.9716599190283401,
-      "madVelocity": 0.9716599190283401,
+      "madDelta": 0.5,
+      "medianVelocity": 0.6911687685490777,
+      "madVelocity": 0.48582995951417013,
       "p95Velocity": 100
     },
     "2050-la-fin-des-poissons": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
       "madVelocity": 0,
-      "p95Velocity": 0
+      "p95Velocity": 0.4106776180698152
     },
     "2068-en-direct-du-futur": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
@@ -38,15 +38,15 @@
       "p95Velocity": 0
     },
     "3-wanted": {
-      "historyLength": 3,
-      "medianDelta": 1,
-      "madDelta": 1,
-      "medianVelocity": 2.9149797570850207,
-      "madVelocity": 2.9149797570850207,
+      "historyLength": 4,
+      "medianDelta": 2,
+      "madDelta": 1.5,
+      "medianVelocity": 2.689522732751956,
+      "madVelocity": 1.4574898785425106,
       "p95Velocity": 100
     },
     "4-pour-lespoir": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
@@ -54,39 +54,39 @@
       "p95Velocity": 0
     },
     "aicha-et-la-promesse-de-la-serre": {
-      "historyLength": 3,
-      "medianDelta": 0,
-      "madDelta": 0,
-      "medianVelocity": 0,
-      "madVelocity": 0,
+      "historyLength": 4,
+      "medianDelta": 2.5,
+      "madDelta": 2.5,
+      "medianVelocity": 1.540041067761807,
+      "madVelocity": 1.540041067761807,
       "p95Velocity": 4.858299595141701
     },
     "apocalypse-bleue": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 1,
       "madDelta": 0,
-      "medianVelocity": 0.9716599190283401,
-      "madVelocity": 0.9716599190283401,
+      "medianVelocity": 0.5884993640316238,
+      "madVelocity": 0.4858299595141701,
       "p95Velocity": 100
     },
     "aryo-le-prix-cache-de-la-mode": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 1,
-      "madDelta": 0,
-      "medianVelocity": 0.9716599190283401,
-      "madVelocity": 0.9716599190283401,
+      "madDelta": 0.5,
+      "medianVelocity": 0.6911687685490777,
+      "madVelocity": 0.48582995951417013,
       "p95Velocity": 100
     },
     "au-dela-des-dechets": {
-      "historyLength": 3,
-      "medianDelta": 8,
-      "madDelta": 8,
-      "medianVelocity": 36.92307692307693,
-      "madVelocity": 36.92307692307693,
+      "historyLength": 4,
+      "medianDelta": 23,
+      "madDelta": 19,
+      "medianVelocity": 24.51903332806824,
+      "madVelocity": 18.461538461538467,
       "p95Velocity": 800
     },
     "au-dela-du-hors-jeu": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
@@ -94,39 +94,39 @@
       "p95Velocity": 0
     },
     "aura": {
-      "historyLength": 3,
-      "medianDelta": 2,
+      "historyLength": 4,
+      "medianDelta": 3,
       "madDelta": 2,
-      "medianVelocity": 3.8866396761133606,
-      "madVelocity": 3.8866396761133606,
+      "medianVelocity": 2.662005669678857,
+      "madVelocity": 1.9433198380566803,
       "p95Velocity": 200
     },
     "avec-ou-sans-huile-de-palme": {
-      "historyLength": 3,
-      "medianDelta": 23,
-      "madDelta": 5,
-      "medianVelocity": 27.206477732793527,
-      "madVelocity": 27.206477732793527,
+      "historyLength": 4,
+      "medianDelta": 25.5,
+      "madDelta": 12,
+      "medianVelocity": 18.42870087871709,
+      "madVelocity": 13.603238866396763,
       "p95Velocity": 2300
     },
     "avoir-de-leau-plus-pres": {
-      "historyLength": 3,
-      "medianDelta": 0,
-      "madDelta": 0,
-      "medianVelocity": 0,
-      "madVelocity": 0,
+      "historyLength": 4,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 0.2053388090349076,
+      "madVelocity": 0.2053388090349076,
       "p95Velocity": 0.9716599190283401
     },
     "aya-et-la-maison-en-bidon": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
       "madVelocity": 0,
-      "p95Velocity": 0
+      "p95Velocity": 0.6160164271047228
     },
     "bacterium-carbonivora": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
@@ -134,31 +134,31 @@
       "p95Velocity": 0
     },
     "bas-prix-quel-cout": {
-      "historyLength": 3,
-      "medianDelta": 1,
+      "historyLength": 4,
+      "medianDelta": 1.5,
       "madDelta": 1,
-      "medianVelocity": 1.9433198380566803,
-      "madVelocity": 1.9433198380566803,
+      "medianVelocity": 1.2796681325807016,
+      "madVelocity": 0.9716599190283401,
       "p95Velocity": 100
     },
     "beirut-crie-le-liban-sest-leve": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 4,
       "madDelta": 0,
-      "medianVelocity": 3.8866396761133606,
-      "madVelocity": 3.8866396761133606,
+      "medianVelocity": 2.3539974561264954,
+      "madVelocity": 1.9433198380566803,
       "p95Velocity": 400
     },
     "bouchons-gratines-nou-le-fatigues": {
-      "historyLength": 3,
-      "medianDelta": 3,
-      "madDelta": 3,
-      "medianVelocity": 94.251012145749,
-      "madVelocity": 94.251012145749,
+      "historyLength": 4,
+      "medianDelta": 50,
+      "madDelta": 48.5,
+      "medianVelocity": 58.829818187864234,
+      "madVelocity": 47.1255060728745,
       "p95Velocity": 300
     },
     "bout-de-souffle": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
@@ -166,39 +166,39 @@
       "p95Velocity": 0
     },
     "bout-de-souffle-0": {
-      "historyLength": 3,
-      "medianDelta": 2,
-      "madDelta": 2,
-      "medianVelocity": 9.716599190283402,
-      "madVelocity": 9.716599190283402,
+      "historyLength": 4,
+      "medianDelta": 6,
+      "madDelta": 5,
+      "medianVelocity": 6.398340662903508,
+      "madVelocity": 4.858299595141701,
       "p95Velocity": 200
     },
     "ce-que-lavenir-me-doit": {
-      "historyLength": 3,
-      "medianDelta": 0,
-      "madDelta": 0,
-      "medianVelocity": 0,
-      "madVelocity": 0,
+      "historyLength": 4,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 0.2053388090349076,
+      "madVelocity": 0.2053388090349076,
       "p95Velocity": 0.9716599190283401
     },
     "ce-quils-voyaientce-quelle-etait": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
       "madVelocity": 0,
-      "p95Velocity": 0
+      "p95Velocity": 0.2053388090349076
     },
     "chantons-contre-la-pollution": {
-      "historyLength": 3,
-      "medianDelta": 10,
-      "madDelta": 1,
-      "medianVelocity": 10.688259109311742,
-      "madVelocity": 10.688259109311742,
+      "historyLength": 4,
+      "medianDelta": 10.5,
+      "madDelta": 5.5,
+      "medianVelocity": 10.272260971493655,
+      "madVelocity": 5.344129554655872,
       "p95Velocity": 1000
     },
     "chaque-goutte-compte": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
@@ -206,15 +206,15 @@
       "p95Velocity": 0
     },
     "chimali": {
-      "historyLength": 3,
-      "medianDelta": 0,
-      "madDelta": 0,
-      "medianVelocity": 0,
-      "madVelocity": 0,
+      "historyLength": 4,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 0.1026694045174538,
+      "madVelocity": 0.1026694045174538,
       "p95Velocity": 0.9716599190283401
     },
     "contre-futur": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
@@ -222,7 +222,7 @@
       "p95Velocity": 0
     },
     "conversation-electrique-0": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
@@ -230,87 +230,87 @@
       "p95Velocity": 0
     },
     "coraux-chaud-devant": {
-      "historyLength": 3,
-      "medianDelta": 20,
-      "madDelta": 10,
-      "medianVelocity": 29.149797570850204,
-      "madVelocity": 29.149797570850204,
+      "historyLength": 4,
+      "medianDelta": 25,
+      "madDelta": 15,
+      "medianVelocity": 20.22171603388506,
+      "madVelocity": 14.574898785425102,
       "p95Velocity": 2000
     },
     "courir-pour-choisir": {
-      "historyLength": 3,
-      "medianDelta": 0,
-      "madDelta": 0,
-      "medianVelocity": 0,
-      "madVelocity": 0,
+      "historyLength": 4,
+      "medianDelta": 1.5,
+      "madDelta": 1.5,
+      "medianVelocity": 0.4106776180698152,
+      "madVelocity": 0.4106776180698152,
       "p95Velocity": 2.9149797570850207
     },
     "de-vieux-tissus-de-nouvelles-idees": {
-      "historyLength": 3,
-      "medianDelta": 1,
-      "madDelta": 1,
-      "medianVelocity": 2.9149797570850207,
-      "madVelocity": 2.9149797570850207,
+      "historyLength": 4,
+      "medianDelta": 2,
+      "madDelta": 1.5,
+      "medianVelocity": 1.9708369011297793,
+      "madVelocity": 1.4574898785425103,
       "p95Velocity": 100
     },
     "des-abeilles-et-des-hommes": {
-      "historyLength": 3,
-      "medianDelta": 1,
-      "madDelta": 1,
-      "medianVelocity": 2.9149797570850207,
-      "madVelocity": 2.9149797570850207,
+      "historyLength": 4,
+      "medianDelta": 2,
+      "madDelta": 1.5,
+      "medianVelocity": 1.8681674966123256,
+      "madVelocity": 1.4574898785425106,
       "p95Velocity": 100
     },
     "des-algues-contre-le-plastique": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 1,
       "madDelta": 0,
-      "medianVelocity": 0.9716599190283401,
-      "madVelocity": 0.9716599190283401,
+      "medianVelocity": 0.5884993640316238,
+      "madVelocity": 0.4858299595141701,
       "p95Velocity": 100
     },
     "des-nuances-de-rouges": {
-      "historyLength": 3,
-      "medianDelta": 11,
-      "madDelta": 7,
-      "medianVelocity": 17.489878542510123,
-      "madVelocity": 17.489878542510123,
+      "historyLength": 4,
+      "medianDelta": 14.5,
+      "madDelta": 8,
+      "medianVelocity": 11.517013193226314,
+      "madVelocity": 8.744939271255062,
       "p95Velocity": 1100
     },
     "des-voix-qui-comptent": {
-      "historyLength": 3,
-      "medianDelta": 2,
-      "madDelta": 2,
-      "medianVelocity": 5.829959514170041,
-      "madVelocity": 5.829959514170041,
+      "historyLength": 4,
+      "medianDelta": 4,
+      "madDelta": 3,
+      "medianVelocity": 3.8390043977421047,
+      "madVelocity": 2.9149797570850207,
       "p95Velocity": 200
     },
     "desinstallation-amoureuse": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 115,
-      "madDelta": 0,
-      "medianVelocity": 111.74089068825911,
-      "madVelocity": 111.74089068825911,
+      "madDelta": 2,
+      "medianVelocity": 68.08810448170655,
+      "madVelocity": 55.87044534412956,
       "p95Velocity": 11500
     },
     "deux-bateaux-un-avenir": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
       "madVelocity": 0,
-      "p95Velocity": 0
+      "p95Velocity": 0.2053388090349076
     },
     "deux-bidons-deau-par-jour": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
       "madVelocity": 0,
-      "p95Velocity": 0
+      "p95Velocity": 0.2053388090349076
     },
     "du-chocolat-au-gout-amer": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
@@ -318,7 +318,7 @@
       "p95Velocity": 0
     },
     "du-local-au-global": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
@@ -326,39 +326,39 @@
       "p95Velocity": 0
     },
     "eau-secours": {
-      "historyLength": 3,
-      "medianDelta": 8,
-      "madDelta": 8,
-      "medianVelocity": 17.489878542510123,
-      "madVelocity": 17.489878542510123,
+      "historyLength": 4,
+      "medianDelta": 13,
+      "madDelta": 9,
+      "medianVelocity": 12.133029620331037,
+      "madVelocity": 8.744939271255062,
       "p95Velocity": 800
     },
     "eco-systeme-d": {
-      "historyLength": 3,
-      "medianDelta": 4,
-      "madDelta": 1,
-      "medianVelocity": 4.858299595141701,
-      "madVelocity": 4.858299595141701,
+      "historyLength": 4,
+      "medianDelta": 4.5,
+      "madDelta": 2.5,
+      "medianVelocity": 3.3531744382279345,
+      "madVelocity": 2.4291497975708505,
       "p95Velocity": 400
     },
     "elio": {
-      "historyLength": 3,
-      "medianDelta": 1,
-      "madDelta": 1,
-      "medianVelocity": 4.858299595141701,
-      "madVelocity": 4.858299595141701,
+      "historyLength": 4,
+      "medianDelta": 3,
+      "madDelta": 2.5,
+      "medianVelocity": 3.147835629193027,
+      "madVelocity": 2.4291497975708505,
       "p95Velocity": 100
     },
     "elyndor": {
-      "historyLength": 3,
-      "medianDelta": 0,
-      "madDelta": 0,
-      "medianVelocity": 0,
-      "madVelocity": 0,
+      "historyLength": 4,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 0.1026694045174538,
+      "madVelocity": 0.1026694045174538,
       "p95Velocity": 0.9716599190283401
     },
     "enfances-volees": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
@@ -366,7 +366,7 @@
       "p95Velocity": 0
     },
     "entre-deux-lettres": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
@@ -374,23 +374,23 @@
       "p95Velocity": 0
     },
     "fast-fashion-more-pression": {
-      "historyLength": 3,
-      "medianDelta": 0,
-      "madDelta": 0,
-      "medianVelocity": 0,
-      "madVelocity": 0,
+      "historyLength": 4,
+      "medianDelta": 1.5,
+      "madDelta": 1.5,
+      "medianVelocity": 0.8213552361396304,
+      "madVelocity": 0.8213552361396304,
       "p95Velocity": 2.9149797570850207
     },
     "femmeland": {
-      "historyLength": 3,
-      "medianDelta": 3,
+      "historyLength": 4,
+      "medianDelta": 3.5,
       "madDelta": 1,
-      "medianVelocity": 3.8866396761133606,
-      "madVelocity": 3.8866396761133606,
+      "medianVelocity": 2.4566668606439492,
+      "madVelocity": 1.9433198380566803,
       "p95Velocity": 300
     },
     "femmes-cen-est-assez-battez-vous": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
@@ -398,7 +398,7 @@
       "p95Velocity": 0
     },
     "france-ghana": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
@@ -406,7 +406,7 @@
       "p95Velocity": 0
     },
     "fuir-pour-etre-libre": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
@@ -414,87 +414,87 @@
       "p95Velocity": 0
     },
     "futur-ia": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 1,
       "madDelta": 0,
-      "medianVelocity": 0.9716599190283401,
-      "madVelocity": 0.9716599190283401,
+      "medianVelocity": 0.5884993640316238,
+      "madVelocity": 0.4858299595141701,
       "p95Velocity": 100
     },
     "graine-dequite": {
-      "historyLength": 3,
-      "medianDelta": 1,
-      "madDelta": 1,
-      "medianVelocity": 18.461538461538463,
-      "madVelocity": 18.461538461538463,
+      "historyLength": 4,
+      "medianDelta": 10,
+      "madDelta": 9.5,
+      "medianVelocity": 11.694834939188123,
+      "madVelocity": 9.230769230769232,
       "p95Velocity": 100
     },
     "hors-jeu": {
-      "historyLength": 3,
-      "medianDelta": 0,
-      "madDelta": 0,
-      "medianVelocity": 0,
-      "madVelocity": 0,
+      "historyLength": 4,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 0.1026694045174538,
+      "madVelocity": 0.1026694045174538,
       "p95Velocity": 0.9716599190283401
     },
     "il-etait-une-fois-une-astronaute": {
-      "historyLength": 3,
-      "medianDelta": 1,
-      "madDelta": 1,
-      "medianVelocity": 2.9149797570850207,
-      "madVelocity": 2.9149797570850207,
+      "historyLength": 4,
+      "medianDelta": 2,
+      "madDelta": 1.5,
+      "medianVelocity": 2.073506305647233,
+      "madVelocity": 1.4574898785425103,
       "p95Velocity": 100
     },
     "inaya-la-fille-de-leau": {
-      "historyLength": 3,
-      "medianDelta": 1,
-      "madDelta": 1,
-      "medianVelocity": 3.8866396761133606,
-      "madVelocity": 3.8866396761133606,
+      "historyLength": 4,
+      "medianDelta": 2.5,
+      "madDelta": 2,
+      "medianVelocity": 2.559336265161403,
+      "madVelocity": 1.9433198380566803,
       "p95Velocity": 100
     },
     "isis-pharia-et-son-dernier-cri": {
-      "historyLength": 3,
-      "medianDelta": 0,
-      "madDelta": 0,
-      "medianVelocity": 0,
-      "madVelocity": 0,
+      "historyLength": 4,
+      "medianDelta": 16.5,
+      "madDelta": 16.5,
+      "medianVelocity": 7.28952772073922,
+      "madVelocity": 7.28952772073922,
       "p95Velocity": 32.064777327935225
     },
     "je-lai-fait-pour-toi-et-ces-femmes": {
-      "historyLength": 3,
-      "medianDelta": 4,
-      "madDelta": 4,
-      "medianVelocity": 26.234817813765186,
-      "madVelocity": 26.234817813765186,
+      "historyLength": 4,
+      "medianDelta": 15.5,
+      "madDelta": 13.5,
+      "medianVelocity": 17.532193301133105,
+      "madVelocity": 13.117408906882593,
       "p95Velocity": 400
     },
     "journal-dune-refugiee-moderne": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
       "madVelocity": 0,
-      "p95Velocity": 0
+      "p95Velocity": 0.2053388090349076
     },
     "la-brique-de-washington-dc": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 1,
       "madDelta": 0,
-      "medianVelocity": 0.9716599190283401,
-      "madVelocity": 0.9716599190283401,
+      "medianVelocity": 0.5884993640316238,
+      "madVelocity": 0.4858299595141701,
       "p95Velocity": 100
     },
     "la-chasse-au-bonheur": {
-      "historyLength": 3,
-      "medianDelta": 4,
-      "madDelta": 2,
-      "medianVelocity": 5.829959514170041,
-      "madVelocity": 5.829959514170041,
+      "historyLength": 4,
+      "medianDelta": 5,
+      "madDelta": 3,
+      "medianVelocity": 6.200400701643542,
+      "madVelocity": 3.2854209445585214,
       "p95Velocity": 400
     },
     "la-derniere-digue": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
@@ -502,15 +502,15 @@
       "p95Velocity": 0
     },
     "la-derniere-humaine": {
-      "historyLength": 3,
-      "medianDelta": 0,
-      "madDelta": 0,
-      "medianVelocity": 0,
-      "madVelocity": 0,
-      "p95Velocity": 1.9433198380566803
+      "historyLength": 4,
+      "medianDelta": 1,
+      "madDelta": 1,
+      "medianVelocity": 0.9716599190283401,
+      "madVelocity": 0.9716599190283401,
+      "p95Velocity": 2.2587268993839835
     },
     "la-descolarisation": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
@@ -518,15 +518,15 @@
       "p95Velocity": 0
     },
     "la-f1-au-feminin": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 1,
       "madDelta": 0,
-      "medianVelocity": 0.9716599190283401,
-      "madVelocity": 0.9716599190283401,
+      "medianVelocity": 0.5884993640316238,
+      "madVelocity": 0.4858299595141701,
       "p95Velocity": 100
     },
     "la-grande-aventure-de-fast": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
@@ -534,7 +534,7 @@
       "p95Velocity": 0
     },
     "la-lanterne-du-vent": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
@@ -542,15 +542,15 @@
       "p95Velocity": 0
     },
     "la-legende-du-micocoulier-de-st-charles": {
-      "historyLength": 3,
-      "medianDelta": 0,
-      "madDelta": 0,
-      "medianVelocity": 0,
-      "madVelocity": 0,
+      "historyLength": 4,
+      "medianDelta": 1,
+      "madDelta": 1,
+      "medianVelocity": 0.8213552361396304,
+      "madVelocity": 0.8213552361396304,
       "p95Velocity": 1.9433198380566803
     },
     "la-lumiere-qui-est-venue-du-soleil": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
@@ -558,7 +558,7 @@
       "p95Velocity": 0
     },
     "la-malediction-de-sangha": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
@@ -566,15 +566,15 @@
       "p95Velocity": 0
     },
     "la-mare-en-danger": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 1,
       "madDelta": 0,
-      "medianVelocity": 0.9716599190283401,
-      "madVelocity": 0.9716599190283401,
+      "medianVelocity": 0.5884993640316238,
+      "madVelocity": 0.4858299595141701,
       "p95Velocity": 100
     },
     "la-mer-nest-pas-un-piege": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
@@ -582,87 +582,87 @@
       "p95Velocity": 0
     },
     "la-mesaventure-de-niko": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 1,
-      "madDelta": 0,
-      "medianVelocity": 0.9716599190283401,
-      "madVelocity": 0.9716599190283401,
+      "madDelta": 0.5,
+      "medianVelocity": 0.6911687685490777,
+      "madVelocity": 0.48582995951417013,
       "p95Velocity": 100
     },
     "la-messagere": {
-      "historyLength": 3,
-      "medianDelta": 9,
-      "madDelta": 4,
-      "medianVelocity": 12.631578947368423,
-      "madVelocity": 12.631578947368423,
+      "historyLength": 4,
+      "medianDelta": 11,
+      "madDelta": 6.5,
+      "medianVelocity": 11.243920890521995,
+      "madVelocity": 6.315789473684212,
       "p95Velocity": 900
     },
     "la-ou-la-mer-se-tait": {
-      "historyLength": 3,
-      "medianDelta": 7,
-      "madDelta": 1,
-      "medianVelocity": 7.773279352226721,
-      "madVelocity": 7.773279352226721,
+      "historyLength": 4,
+      "medianDelta": 7.5,
+      "madDelta": 2.5,
+      "medianVelocity": 5.118672530322806,
+      "madVelocity": 3.8866396761133606,
       "p95Velocity": 700
     },
     "la-ou-nos-vies-flottent": {
-      "historyLength": 3,
-      "medianDelta": 0,
-      "madDelta": 0,
-      "medianVelocity": 0,
-      "madVelocity": 0,
+      "historyLength": 4,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 0.3080082135523614,
+      "madVelocity": 0.3080082135523614,
       "p95Velocity": 0.9716599190283401
     },
     "la-petite-voix-de-letang": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
       "madVelocity": 0,
-      "p95Velocity": 0
+      "p95Velocity": 0.8213552361396304
     },
     "la-planete-porte-plainte": {
-      "historyLength": 3,
-      "medianDelta": 0,
-      "madDelta": 0,
-      "medianVelocity": 0,
-      "madVelocity": 0,
+      "historyLength": 4,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 0.2053388090349076,
+      "madVelocity": 0.2053388090349076,
       "p95Velocity": 0.9716599190283401
     },
     "la-plus-longue-migration-du-monde": {
-      "historyLength": 3,
-      "medianDelta": 1,
-      "madDelta": 1,
-      "medianVelocity": 3.8866396761133606,
-      "madVelocity": 3.8866396761133606,
+      "historyLength": 4,
+      "medianDelta": 2.5,
+      "madDelta": 1.5,
+      "medianVelocity": 2.3539974561264954,
+      "madVelocity": 1.9433198380566803,
       "p95Velocity": 100
     },
     "la-quete-du-froid": {
-      "historyLength": 3,
-      "medianDelta": 0,
-      "madDelta": 0,
-      "medianVelocity": 0,
-      "madVelocity": 0,
+      "historyLength": 4,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 0.1026694045174538,
+      "madVelocity": 0.1026694045174538,
       "p95Velocity": 0.9716599190283401
     },
     "la-recherche-de-larbre-perdu": {
-      "historyLength": 3,
-      "medianDelta": 3,
-      "madDelta": 3,
-      "medianVelocity": 6.801619433198382,
-      "madVelocity": 6.801619433198382,
+      "historyLength": 4,
+      "medianDelta": 5,
+      "madDelta": 3.5,
+      "medianVelocity": 9.560973987646419,
+      "madVelocity": 6.160164271047228,
       "p95Velocity": 300
     },
     "la-recherche-du-poiscaille": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 1,
       "madDelta": 0,
-      "medianVelocity": 0.9716599190283401,
-      "madVelocity": 0.9716599190283401,
+      "medianVelocity": 0.5884993640316238,
+      "madVelocity": 0.4858299595141701,
       "p95Velocity": 100
     },
     "la-recherche-du-remede": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
@@ -670,7 +670,7 @@
       "p95Velocity": 0
     },
     "la-revanche": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
@@ -678,15 +678,15 @@
       "p95Velocity": 0
     },
     "la-revolte-de-lamazonie": {
-      "historyLength": 3,
-      "medianDelta": 0,
-      "madDelta": 0,
-      "medianVelocity": 0,
-      "madVelocity": 0,
+      "historyLength": 4,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 0.3080082135523614,
+      "madVelocity": 0.3080082135523614,
       "p95Velocity": 0.9716599190283401
     },
     "la-revolte-des-fils-invisibles": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
@@ -694,39 +694,39 @@
       "p95Velocity": 0
     },
     "la-sororite-face-la-fatalite": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 1,
       "madDelta": 0,
-      "medianVelocity": 0.9716599190283401,
-      "madVelocity": 0.9716599190283401,
+      "medianVelocity": 0.5884993640316238,
+      "madVelocity": 0.4858299595141701,
       "p95Velocity": 100
     },
     "la-sortie-de-lea": {
-      "historyLength": 3,
-      "medianDelta": 0,
-      "madDelta": 0,
-      "medianVelocity": 0,
-      "madVelocity": 0,
+      "historyLength": 4,
+      "medianDelta": 1,
+      "madDelta": 1,
+      "medianVelocity": 0.3080082135523614,
+      "madVelocity": 0.3080082135523614,
       "p95Velocity": 1.9433198380566803
     },
     "la-vie-dun-survivant": {
-      "historyLength": 3,
-      "medianDelta": 4,
-      "madDelta": 4,
-      "medianVelocity": 7.773279352226721,
-      "madVelocity": 7.773279352226721,
+      "historyLength": 4,
+      "medianDelta": 6,
+      "madDelta": 3.5,
+      "medianVelocity": 5.016003125805352,
+      "madVelocity": 3.8866396761133606,
       "p95Velocity": 400
     },
     "la-ville-de-mes-reves": {
-      "historyLength": 3,
-      "medianDelta": 3,
+      "historyLength": 4,
+      "medianDelta": 3.5,
       "madDelta": 1,
-      "medianVelocity": 3.8866396761133606,
-      "madVelocity": 3.8866396761133606,
+      "medianVelocity": 2.4566668606439492,
+      "madVelocity": 1.9433198380566803,
       "p95Velocity": 300
     },
     "la-voix-des-oublies": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
@@ -734,7 +734,7 @@
       "p95Velocity": 0
     },
     "lacademie-de-starlight": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
@@ -742,95 +742,95 @@
       "p95Velocity": 0
     },
     "lame-bleue-le-voyage-dune-goutte": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
       "madVelocity": 0,
-      "p95Velocity": 0
+      "p95Velocity": 0.4106776180698152
     },
     "lappel-qui-sauve": {
-      "historyLength": 3,
-      "medianDelta": 0,
-      "madDelta": 0,
-      "medianVelocity": 0,
-      "madVelocity": 0,
+      "historyLength": 4,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 0.1026694045174538,
+      "madVelocity": 0.1026694045174538,
       "p95Velocity": 0.9716599190283401
     },
     "lassemblee-des-possibles": {
-      "historyLength": 3,
-      "medianDelta": 1,
-      "madDelta": 1,
-      "medianVelocity": 22.348178137651825,
-      "madVelocity": 22.348178137651825,
+      "historyLength": 4,
+      "medianDelta": 12,
+      "madDelta": 11.5,
+      "medianVelocity": 13.638154777244804,
+      "madVelocity": 11.174089068825912,
       "p95Velocity": 100
     },
     "lavancee-vers-leau": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
       "madVelocity": 0,
-      "p95Velocity": 0
+      "p95Velocity": 0.2053388090349076
     },
     "le-bambou-monde": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 1,
       "madDelta": 0,
-      "medianVelocity": 0.9716599190283401,
-      "madVelocity": 0.9716599190283401,
+      "medianVelocity": 0.5884993640316238,
+      "madVelocity": 0.4858299595141701,
       "p95Velocity": 100
     },
     "le-bruit-dans-sa-tete": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 1,
       "madDelta": 0,
-      "medianVelocity": 0.9716599190283401,
-      "madVelocity": 0.9716599190283401,
+      "medianVelocity": 0.5884993640316238,
+      "madVelocity": 0.4858299595141701,
       "p95Velocity": 100
     },
     "le-carnaval-de-la-digestion": {
-      "historyLength": 3,
-      "medianDelta": 16,
-      "madDelta": 1,
-      "medianVelocity": 16.518218623481783,
-      "madVelocity": 16.518218623481783,
+      "historyLength": 4,
+      "medianDelta": 16.5,
+      "madDelta": 2,
+      "medianVelocity": 10.312497402089967,
+      "madVelocity": 8.259109311740891,
       "p95Velocity": 1600
     },
     "le-ceta-com": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 1,
       "madDelta": 0,
-      "medianVelocity": 0.9716599190283401,
-      "madVelocity": 0.9716599190283401,
+      "medianVelocity": 0.5884993640316238,
+      "madVelocity": 0.4858299595141701,
       "p95Velocity": 100
     },
     "le-chant-des-oliviers": {
-      "historyLength": 3,
-      "medianDelta": 11,
-      "madDelta": 11,
-      "medianVelocity": 27.206477732793527,
-      "madVelocity": 27.206477732793527,
+      "historyLength": 4,
+      "medianDelta": 19.5,
+      "madDelta": 14,
+      "medianVelocity": 24.486195745246867,
+      "madVelocity": 13.603238866396765,
       "p95Velocity": 1100
     },
     "le-chant-du-corail": {
-      "historyLength": 3,
-      "medianDelta": 1,
+      "historyLength": 4,
+      "medianDelta": 1.5,
       "madDelta": 1,
-      "medianVelocity": 1.9433198380566803,
-      "madVelocity": 1.9433198380566803,
+      "medianVelocity": 1.2796681325807016,
+      "madVelocity": 0.9716599190283401,
       "p95Velocity": 100
     },
     "le-coeur-de-la-martinique": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
       "madVelocity": 0,
-      "p95Velocity": 0
+      "p95Velocity": 0.4106776180698152
     },
     "le-crepuscule-des-lois-la-chute": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
@@ -838,15 +838,15 @@
       "p95Velocity": 0
     },
     "le-cri-de-locean": {
-      "historyLength": 3,
-      "medianDelta": 1,
+      "historyLength": 4,
+      "medianDelta": 2,
       "madDelta": 1,
-      "medianVelocity": 2.9149797570850207,
-      "madVelocity": 2.9149797570850207,
+      "medianVelocity": 1.7654980920948717,
+      "madVelocity": 1.4574898785425103,
       "p95Velocity": 100
     },
     "le-cri-dun-monde-en-desespoir": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
@@ -854,15 +854,15 @@
       "p95Velocity": 0
     },
     "le-dernier-jour-de-la-tour-eiffel": {
-      "historyLength": 3,
-      "medianDelta": 0,
-      "madDelta": 0,
-      "medianVelocity": 0,
-      "madVelocity": 0,
-      "p95Velocity": 1.9433198380566803
+      "historyLength": 4,
+      "medianDelta": 1,
+      "madDelta": 1,
+      "medianVelocity": 0.9716599190283401,
+      "madVelocity": 0.9716599190283401,
+      "p95Velocity": 2.0533880903490758
     },
     "le-dernier-kwh": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
@@ -870,7 +870,7 @@
       "p95Velocity": 0
     },
     "le-dernier-souffle-du-corail": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
@@ -878,31 +878,31 @@
       "p95Velocity": 0
     },
     "le-fabuleux-destin-dun-plancton": {
-      "historyLength": 3,
-      "medianDelta": 0,
-      "madDelta": 0,
-      "medianVelocity": 0,
-      "madVelocity": 0,
+      "historyLength": 4,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 0.4106776180698152,
+      "madVelocity": 0.4106776180698152,
       "p95Velocity": 0.9716599190283401
     },
     "le-grand-soulevement": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 4,
       "madDelta": 0,
-      "medianVelocity": 3.8866396761133606,
-      "madVelocity": 3.8866396761133606,
+      "medianVelocity": 2.3539974561264954,
+      "madVelocity": 1.9433198380566803,
       "p95Velocity": 400
     },
     "le-grand-voyage-de-bob": {
-      "historyLength": 3,
-      "medianDelta": 0,
-      "madDelta": 0,
-      "medianVelocity": 0,
-      "madVelocity": 0,
+      "historyLength": 4,
+      "medianDelta": 1,
+      "madDelta": 1,
+      "medianVelocity": 0.3080082135523614,
+      "madVelocity": 0.3080082135523614,
       "p95Velocity": 1.9433198380566803
     },
     "le-livre-de-faida": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
@@ -910,7 +910,7 @@
       "p95Velocity": 0
     },
     "le-lutin-de-poche": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
@@ -918,15 +918,15 @@
       "p95Velocity": 0
     },
     "le-maillot-numero-dix": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 1,
-      "madDelta": 0,
-      "medianVelocity": 0.9716599190283401,
-      "madVelocity": 0.9716599190283401,
+      "madDelta": 0.5,
+      "medianVelocity": 0.7938381730665315,
+      "madVelocity": 0.4858299595141701,
       "p95Velocity": 100
     },
     "le-mirage-de-labondance": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
@@ -934,7 +934,7 @@
       "p95Velocity": 0
     },
     "le-monde-apres-le-coma": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
@@ -942,15 +942,15 @@
       "p95Velocity": 0
     },
     "le-monde-de-lena": {
-      "historyLength": 3,
-      "medianDelta": 1,
-      "madDelta": 1,
-      "medianVelocity": 3.8866396761133606,
-      "madVelocity": 3.8866396761133606,
+      "historyLength": 4,
+      "medianDelta": 2.5,
+      "madDelta": 2,
+      "medianVelocity": 2.559336265161403,
+      "madVelocity": 1.9433198380566803,
       "p95Velocity": 100
     },
     "le-peintre-lerudite-et-le-tableau": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
@@ -958,7 +958,7 @@
       "p95Velocity": 0
     },
     "le-poids-du-panier-vide": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
@@ -966,23 +966,23 @@
       "p95Velocity": 0
     },
     "le-poisson-aux-mille-histoires": {
-      "historyLength": 3,
-      "medianDelta": 0,
-      "madDelta": 0,
-      "medianVelocity": 0,
-      "madVelocity": 0,
+      "historyLength": 4,
+      "medianDelta": 3.5,
+      "madDelta": 3.5,
+      "medianVelocity": 0.9240246406570841,
+      "madVelocity": 0.9240246406570841,
       "p95Velocity": 6.801619433198382
     },
     "le-poisson-qui-change-le-monde": {
-      "historyLength": 3,
-      "medianDelta": 1,
-      "madDelta": 1,
-      "medianVelocity": 2.9149797570850207,
-      "madVelocity": 2.9149797570850207,
+      "historyLength": 4,
+      "medianDelta": 2,
+      "madDelta": 1.5,
+      "medianVelocity": 2.689522732751956,
+      "madVelocity": 1.4574898785425106,
       "p95Velocity": 100
     },
     "le-prix-du-savoir": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
@@ -990,15 +990,15 @@
       "p95Velocity": 0
     },
     "le-proces": {
-      "historyLength": 3,
-      "medianDelta": 1,
+      "historyLength": 4,
+      "medianDelta": 1.5,
       "madDelta": 1,
-      "medianVelocity": 1.9433198380566803,
-      "madVelocity": 1.9433198380566803,
+      "medianVelocity": 1.485006941615609,
+      "madVelocity": 0.9716599190283401,
       "p95Velocity": 100
     },
     "le-proces-de-la-clim-404": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
@@ -1006,23 +1006,23 @@
       "p95Velocity": 0
     },
     "le-proces-du-dessert": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
       "madVelocity": 0,
-      "p95Velocity": 0
+      "p95Velocity": 0.4106776180698152
     },
     "le-remede-vert": {
-      "historyLength": 3,
-      "medianDelta": 0,
-      "madDelta": 0,
-      "medianVelocity": 0,
-      "madVelocity": 0,
+      "historyLength": 4,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 0.2053388090349076,
+      "madVelocity": 0.2053388090349076,
       "p95Velocity": 0.9716599190283401
     },
     "le-reve-impossible": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
@@ -1030,7 +1030,7 @@
       "p95Velocity": 0
     },
     "le-salaire-discrimine-aussi": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
@@ -1038,47 +1038,47 @@
       "p95Velocity": 0
     },
     "le-sexisme-cest-pas-foot": {
-      "historyLength": 3,
-      "medianDelta": 1,
+      "historyLength": 4,
+      "medianDelta": 1.5,
       "madDelta": 1,
-      "medianVelocity": 1.9433198380566803,
-      "madVelocity": 1.9433198380566803,
-      "p95Velocity": 100
-    },
-    "le-souffle-des-baleines": {
-      "historyLength": 3,
-      "medianDelta": 4,
-      "madDelta": 4,
-      "medianVelocity": 7.773279352226721,
-      "madVelocity": 7.773279352226721,
-      "p95Velocity": 400
-    },
-    "le-temps-dune-soiree": {
-      "historyLength": 3,
-      "medianDelta": 1,
-      "madDelta": 0,
-      "medianVelocity": 0.9716599190283401,
+      "medianVelocity": 1.485006941615609,
       "madVelocity": 0.9716599190283401,
       "p95Velocity": 100
     },
+    "le-souffle-des-baleines": {
+      "historyLength": 4,
+      "medianDelta": 6,
+      "madDelta": 4,
+      "medianVelocity": 5.426680743875168,
+      "madVelocity": 3.8866396761133606,
+      "p95Velocity": 400
+    },
+    "le-temps-dune-soiree": {
+      "historyLength": 4,
+      "medianDelta": 1,
+      "madDelta": 0,
+      "medianVelocity": 0.5884993640316238,
+      "madVelocity": 0.4858299595141701,
+      "p95Velocity": 100
+    },
     "le-terrain-qui-disparait": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
       "madVelocity": 0,
-      "p95Velocity": 0
+      "p95Velocity": 0.2053388090349076
     },
     "le-vent-douest": {
-      "historyLength": 3,
-      "medianDelta": 3,
-      "madDelta": 3,
-      "medianVelocity": 5.829959514170041,
-      "madVelocity": 5.829959514170041,
+      "historyLength": 4,
+      "medianDelta": 4.5,
+      "madDelta": 2,
+      "medianVelocity": 3.6336655887071974,
+      "madVelocity": 2.9149797570850207,
       "p95Velocity": 300
     },
     "le-village-des-cendres": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
@@ -1086,7 +1086,7 @@
       "p95Velocity": 0
     },
     "le-vivasea": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
@@ -1094,55 +1094,55 @@
       "p95Velocity": 0
     },
     "le-voyage-dafak": {
-      "historyLength": 3,
-      "medianDelta": 1,
-      "madDelta": 1,
-      "medianVelocity": 3.8866396761133606,
-      "madVelocity": 3.8866396761133606,
+      "historyLength": 4,
+      "medianDelta": 2.5,
+      "madDelta": 2,
+      "medianVelocity": 3.7913691193708488,
+      "madVelocity": 1.9433198380566805,
       "p95Velocity": 100
     },
     "le-voyage-de-la-riviere": {
-      "historyLength": 3,
-      "medianDelta": 1,
-      "madDelta": 1,
-      "medianVelocity": 20.404858299595144,
-      "madVelocity": 20.404858299595144,
+      "historyLength": 4,
+      "medianDelta": 11,
+      "madDelta": 10.5,
+      "medianVelocity": 12.461156049181556,
+      "madVelocity": 10.202429149797572,
       "p95Velocity": 100
     },
     "le-voyage-dun-fil-de-coton": {
-      "historyLength": 3,
-      "medianDelta": 1,
-      "madDelta": 1,
-      "medianVelocity": 1.9433198380566803,
-      "madVelocity": 1.9433198380566803,
+      "historyLength": 4,
+      "medianDelta": 1.5,
+      "madDelta": 0.5,
+      "medianVelocity": 1.1769987280632477,
+      "madVelocity": 0.9716599190283401,
       "p95Velocity": 100
     },
     "le-voyage-extraordinaire-de-bicou": {
-      "historyLength": 3,
-      "medianDelta": 0,
-      "madDelta": 0,
-      "medianVelocity": 0,
-      "madVelocity": 0,
+      "historyLength": 4,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 0.3080082135523614,
+      "madVelocity": 0.3080082135523614,
       "p95Velocity": 0.9716599190283401
     },
     "leau-un-luxe-qui-separe-deux-vies": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 2,
       "madDelta": 0,
-      "medianVelocity": 1.9433198380566803,
-      "madVelocity": 1.9433198380566803,
+      "medianVelocity": 1.1769987280632477,
+      "madVelocity": 0.9716599190283401,
       "p95Velocity": 200
     },
     "lecho-des-jardins-invisibles": {
-      "historyLength": 3,
-      "medianDelta": 5,
-      "madDelta": 3,
-      "medianVelocity": 7.773279352226721,
-      "madVelocity": 7.773279352226721,
+      "historyLength": 4,
+      "medianDelta": 6.5,
+      "madDelta": 3.5,
+      "medianVelocity": 5.118672530322806,
+      "madVelocity": 3.8866396761133606,
       "p95Velocity": 500
     },
     "lechoue": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
@@ -1150,7 +1150,7 @@
       "p95Velocity": 0
     },
     "lenvers-du-decor-le-fil-empoisonne": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
@@ -1158,39 +1158,39 @@
       "p95Velocity": 0
     },
     "les-animaux-de-la-resistance": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 1,
-      "madDelta": 0,
-      "medianVelocity": 0.9716599190283401,
-      "madVelocity": 0.9716599190283401,
+      "madDelta": 0.5,
+      "medianVelocity": 0.6911687685490777,
+      "madVelocity": 0.48582995951417013,
       "p95Velocity": 100
     },
     "les-aventures-de-toru-et-coco": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 1,
       "madDelta": 0,
-      "medianVelocity": 0.9716599190283401,
-      "madVelocity": 0.9716599190283401,
+      "medianVelocity": 0.5884993640316238,
+      "madVelocity": 0.4858299595141701,
       "p95Velocity": 100
     },
     "les-commerages-de-lespace": {
-      "historyLength": 3,
-      "medianDelta": 2,
-      "madDelta": 1,
-      "medianVelocity": 2.9149797570850207,
-      "madVelocity": 2.9149797570850207,
+      "historyLength": 4,
+      "medianDelta": 2.5,
+      "madDelta": 1.5,
+      "medianVelocity": 2.073506305647233,
+      "madVelocity": 1.4574898785425103,
       "p95Velocity": 200
     },
     "les-deux-mondes": {
-      "historyLength": 3,
-      "medianDelta": 0,
-      "madDelta": 0,
-      "medianVelocity": 0,
-      "madVelocity": 0,
+      "historyLength": 4,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 0.1026694045174538,
+      "madVelocity": 0.1026694045174538,
       "p95Velocity": 0.9716599190283401
     },
     "les-echos-de-lemploi": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
@@ -1198,15 +1198,15 @@
       "p95Velocity": 0
     },
     "les-filles-aussi-ont-des-ailes": {
-      "historyLength": 3,
-      "medianDelta": -1,
-      "madDelta": 0,
-      "medianVelocity": -0.9716599190283401,
-      "madVelocity": 0.9716599190283401,
+      "historyLength": 4,
+      "medianDelta": -0.5,
+      "madDelta": 0.5,
+      "medianVelocity": -0.4858299595141701,
+      "madVelocity": 0.4858299595141701,
       "p95Velocity": 0
     },
     "les-murmures-dune-eau-blessee": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
@@ -1214,87 +1214,87 @@
       "p95Velocity": 0
     },
     "les-ruines-de-lancien-monde": {
-      "historyLength": 3,
-      "medianDelta": 0,
-      "madDelta": 0,
-      "medianVelocity": 0,
-      "madVelocity": 0,
+      "historyLength": 4,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 0.3080082135523614,
+      "madVelocity": 0.3080082135523614,
       "p95Velocity": 0.9716599190283401
     },
     "letant-de-lor-en-colere": {
-      "historyLength": 3,
-      "medianDelta": 1,
+      "historyLength": 4,
+      "medianDelta": 1.5,
       "madDelta": 1,
-      "medianVelocity": 1.9433198380566803,
-      "madVelocity": 1.9433198380566803,
+      "medianVelocity": 1.3823375370981554,
+      "madVelocity": 0.9716599190283403,
       "p95Velocity": 100
     },
     "lets-go": {
-      "historyLength": 3,
-      "medianDelta": 0,
-      "madDelta": 0,
-      "medianVelocity": 0,
-      "madVelocity": 0,
-      "p95Velocity": 0.9716599190283401
+      "historyLength": 4,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 0.4858299595141701,
+      "madVelocity": 0.4858299595141701,
+      "p95Velocity": 1.6427104722792607
     },
     "lhommiculture": {
-      "historyLength": 3,
-      "medianDelta": 3,
-      "madDelta": 3,
-      "medianVelocity": 9.716599190283402,
-      "madVelocity": 9.716599190283402,
+      "historyLength": 4,
+      "medianDelta": 6.5,
+      "madDelta": 5,
+      "medianVelocity": 7.425034708078046,
+      "madVelocity": 4.858299595141702,
       "p95Velocity": 300
     },
     "limposture-de-la-machine": {
-      "historyLength": 3,
-      "medianDelta": 5,
-      "madDelta": 1,
-      "medianVelocity": 5.829959514170041,
-      "madVelocity": 5.829959514170041,
+      "historyLength": 4,
+      "medianDelta": 5.5,
+      "madDelta": 0.5,
+      "medianVelocity": 3.5309961841897435,
+      "madVelocity": 2.9149797570850207,
       "p95Velocity": 500
     },
     "linvention-du-film-denrupatate": {
-      "historyLength": 3,
-      "medianDelta": 0,
-      "madDelta": 0,
-      "medianVelocity": 0,
-      "madVelocity": 0,
+      "historyLength": 4,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 0.1026694045174538,
+      "madVelocity": 0.1026694045174538,
       "p95Velocity": 0.9716599190283401
     },
     "lontan-aster-domin": {
-      "historyLength": 3,
-      "medianDelta": 7,
-      "madDelta": 7,
-      "medianVelocity": 13.603238866396763,
-      "madVelocity": 13.603238866396763,
+      "historyLength": 4,
+      "medianDelta": 10.5,
+      "madDelta": 6,
+      "medianVelocity": 8.752338119030004,
+      "madVelocity": 6.801619433198382,
       "p95Velocity": 700
     },
     "loup-que-fais-tu": {
-      "historyLength": 3,
-      "medianDelta": 1,
-      "madDelta": 1,
-      "medianVelocity": 1.9433198380566803,
-      "madVelocity": 1.9433198380566803,
+      "historyLength": 4,
+      "medianDelta": 1.5,
+      "madDelta": 0.5,
+      "medianVelocity": 1.1769987280632477,
+      "madVelocity": 0.9716599190283401,
       "p95Velocity": 100
     },
     "lunion-des-differences": {
-      "historyLength": 3,
-      "medianDelta": 1,
+      "historyLength": 4,
+      "medianDelta": 1.5,
       "madDelta": 1,
-      "medianVelocity": 1.9433198380566803,
-      "madVelocity": 1.9433198380566803,
+      "medianVelocity": 1.2796681325807016,
+      "madVelocity": 0.9716599190283401,
       "p95Velocity": 100
     },
     "luxoria": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
       "madVelocity": 0,
-      "p95Velocity": 0
+      "p95Velocity": 0.2053388090349076
     },
     "ma-conscience-en-soldes": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
@@ -1302,15 +1302,15 @@
       "p95Velocity": 0
     },
     "ma-vie-de-garcon-ma-prison-0": {
-      "historyLength": 3,
-      "medianDelta": 31,
-      "madDelta": 31,
-      "medianVelocity": 100.08097165991904,
-      "madVelocity": 100.08097165991904,
+      "historyLength": 4,
+      "medianDelta": 67,
+      "madDelta": 51.5,
+      "medianVelocity": 66.77559876630448,
+      "madVelocity": 50.04048582995952,
       "p95Velocity": 3100
     },
     "madagascar-2037": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
@@ -1318,15 +1318,15 @@
       "p95Velocity": 0
     },
     "mariage-ou-exil": {
-      "historyLength": 3,
-      "medianDelta": 0,
-      "madDelta": 0,
-      "medianVelocity": 0,
-      "madVelocity": 0,
+      "historyLength": 4,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 0.3080082135523614,
+      "madVelocity": 0.3080082135523614,
       "p95Velocity": 0.9716599190283401
     },
     "marseille-2040": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
@@ -1334,39 +1334,39 @@
       "p95Velocity": 0
     },
     "memoires-dune-terre-perdue": {
-      "historyLength": 3,
-      "medianDelta": 0,
-      "madDelta": 0,
-      "medianVelocity": 0,
-      "madVelocity": 0,
+      "historyLength": 4,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 0.1026694045174538,
+      "madVelocity": 0.1026694045174538,
       "p95Velocity": 0.9716599190283401
     },
     "memoriam": {
-      "historyLength": 3,
-      "medianDelta": 1,
-      "madDelta": 1,
-      "medianVelocity": 10.688259109311742,
-      "madVelocity": 10.688259109311742,
+      "historyLength": 4,
+      "medianDelta": 6,
+      "madDelta": 5.5,
+      "medianVelocity": 7.192178835970039,
+      "madVelocity": 5.344129554655871,
       "p95Velocity": 100
     },
     "mentalites-oubliees-dans-le-congele": {
-      "historyLength": 3,
-      "medianDelta": 0,
-      "madDelta": 0,
-      "medianVelocity": 0,
-      "madVelocity": 0,
+      "historyLength": 4,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 0.1026694045174538,
+      "madVelocity": 0.1026694045174538,
       "p95Velocity": 0.9716599190283401
     },
     "message-du-futur": {
-      "historyLength": 3,
-      "medianDelta": 1,
+      "historyLength": 4,
+      "medianDelta": 1.5,
       "madDelta": 1,
-      "medianVelocity": 1.9433198380566803,
-      "madVelocity": 1.9433198380566803,
+      "medianVelocity": 1.2796681325807016,
+      "madVelocity": 0.9716599190283401,
       "p95Velocity": 100
     },
     "mets-toi-sa-place": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
@@ -1374,7 +1374,7 @@
       "p95Velocity": 0
     },
     "mexique-eau-empathie": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
@@ -1382,23 +1382,23 @@
       "p95Velocity": 0
     },
     "mon-combat-contre-les-inegalites": {
-      "historyLength": 3,
-      "medianDelta": 33,
-      "madDelta": 11,
-      "medianVelocity": 42.75303643724697,
-      "madVelocity": 42.75303643724697,
+      "historyLength": 4,
+      "medianDelta": 38.5,
+      "madDelta": 9.5,
+      "medianVelocity": 26.715327253531083,
+      "madVelocity": 21.376518218623488,
       "p95Velocity": 3300
     },
     "mon-espoir": {
-      "historyLength": 3,
-      "medianDelta": 0,
-      "madDelta": 0,
-      "medianVelocity": 0,
-      "madVelocity": 0,
+      "historyLength": 4,
+      "medianDelta": 1,
+      "madDelta": 1,
+      "medianVelocity": 0.3080082135523614,
+      "madVelocity": 0.3080082135523614,
       "p95Velocity": 1.9433198380566803
     },
     "new-york-40degc-la-nuit": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
@@ -1406,15 +1406,15 @@
       "p95Velocity": 0
     },
     "oceane-la-petite-goutte-deau": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
       "madVelocity": 0,
-      "p95Velocity": 0
+      "p95Velocity": 0.2053388090349076
     },
     "pauvrete-brisee-grace-leducation": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
@@ -1422,23 +1422,23 @@
       "p95Velocity": 0
     },
     "pleyben-demain": {
-      "historyLength": 3,
-      "medianDelta": 3,
-      "madDelta": 2,
-      "medianVelocity": 4.858299595141701,
-      "madVelocity": 4.858299595141701,
+      "historyLength": 4,
+      "medianDelta": 4,
+      "madDelta": 2.5,
+      "medianVelocity": 3.250505033710481,
+      "madVelocity": 2.429149797570851,
       "p95Velocity": 300
     },
     "polatouche": {
-      "historyLength": 3,
-      "medianDelta": 1,
+      "historyLength": 4,
+      "medianDelta": 1.5,
       "madDelta": 1,
-      "medianVelocity": 1.9433198380566803,
-      "madVelocity": 1.9433198380566803,
+      "medianVelocity": 1.2796681325807016,
+      "madVelocity": 0.9716599190283401,
       "p95Velocity": 100
     },
     "pourquoi-nous": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
@@ -1446,7 +1446,7 @@
       "p95Velocity": 0
     },
     "prends-soin-de-toi": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
@@ -1454,15 +1454,15 @@
       "p95Velocity": 0
     },
     "promo-tout-prix": {
-      "historyLength": 3,
-      "medianDelta": 1,
+      "historyLength": 4,
+      "medianDelta": 1.5,
       "madDelta": 1,
-      "medianVelocity": 1.9433198380566803,
-      "madVelocity": 1.9433198380566803,
+      "medianVelocity": 1.2796681325807016,
+      "madVelocity": 0.9716599190283401,
       "p95Velocity": 100
     },
     "proteger-les-hirondelles-voyageuses": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
@@ -1470,7 +1470,7 @@
       "p95Velocity": 0
     },
     "quand-la-terre-seteint": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
@@ -1478,7 +1478,7 @@
       "p95Velocity": 0
     },
     "quand-la-ville-grignote-le-vivant": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
@@ -1486,23 +1486,23 @@
       "p95Velocity": 0
     },
     "quand-ma-mere-est-devenue-personne": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 1,
       "madDelta": 0,
-      "medianVelocity": 0.9716599190283401,
-      "madVelocity": 0.9716599190283401,
+      "medianVelocity": 0.5884993640316238,
+      "madVelocity": 0.4858299595141701,
       "p95Velocity": 100
     },
     "qui-viendra-me-sauver": {
-      "historyLength": 3,
-      "medianDelta": 0,
-      "madDelta": 0,
-      "medianVelocity": 0,
-      "madVelocity": 0,
+      "historyLength": 4,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 0.1026694045174538,
+      "madVelocity": 0.1026694045174538,
       "p95Velocity": 0.9716599190283401
     },
     "reinventer-le-quotidien": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
@@ -1510,31 +1510,31 @@
       "p95Velocity": 0
     },
     "renaissance-au-coeur-de-loasis": {
-      "historyLength": 3,
-      "medianDelta": 0,
-      "madDelta": 0,
-      "medianVelocity": 0,
-      "madVelocity": 0,
+      "historyLength": 4,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 0.2053388090349076,
+      "madVelocity": 0.2053388090349076,
       "p95Velocity": 0.9716599190283401
     },
     "repecher-le-futur": {
-      "historyLength": 3,
-      "medianDelta": 2,
-      "madDelta": 1,
-      "medianVelocity": 2.9149797570850207,
-      "madVelocity": 2.9149797570850207,
+      "historyLength": 4,
+      "medianDelta": 2.5,
+      "madDelta": 0.5,
+      "medianVelocity": 1.7654980920948717,
+      "madVelocity": 1.4574898785425103,
       "p95Velocity": 200
     },
     "robert-et-la-riviere": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
       "madVelocity": 0,
-      "p95Velocity": 0
+      "p95Velocity": 0.2053388090349076
     },
     "sante-et-bien-etre": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
@@ -1542,31 +1542,31 @@
       "p95Velocity": 0
     },
     "sargasses-sante-environnement": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
       "madVelocity": 0,
-      "p95Velocity": 0
+      "p95Velocity": 0.2053388090349076
     },
     "sauvons-les-limules": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 3,
-      "madDelta": 0,
-      "medianVelocity": 2.9149797570850207,
-      "madVelocity": 2.9149797570850207,
+      "madDelta": 0.5,
+      "medianVelocity": 1.8681674966123256,
+      "madVelocity": 1.4574898785425106,
       "p95Velocity": 300
     },
     "sauvons-patty-et-son-bebe": {
-      "historyLength": 3,
-      "medianDelta": 0,
-      "madDelta": 0,
-      "medianVelocity": 0,
-      "madVelocity": 0,
+      "historyLength": 4,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 0.3080082135523614,
+      "madVelocity": 0.3080082135523614,
       "p95Velocity": 0.9716599190283401
     },
     "se-battre-comme-des-chiffonniers": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
@@ -1574,7 +1574,7 @@
       "p95Velocity": 0
     },
     "silence-au-bout-du-fil": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
@@ -1582,23 +1582,23 @@
       "p95Velocity": 0
     },
     "silver-et-le-souffle-du-plancton": {
-      "historyLength": 3,
-      "medianDelta": 0,
-      "madDelta": 0,
-      "medianVelocity": 0,
-      "madVelocity": 0,
+      "historyLength": 4,
+      "medianDelta": 3,
+      "madDelta": 3,
+      "medianVelocity": 0.9240246406570841,
+      "madVelocity": 0.9240246406570841,
       "p95Velocity": 5.829959514170041
     },
     "sky-de-la-bouteille": {
-      "historyLength": 3,
-      "medianDelta": 1,
+      "historyLength": 4,
+      "medianDelta": 1.5,
       "madDelta": 1,
-      "medianVelocity": 1.9433198380566803,
-      "madVelocity": 1.9433198380566803,
+      "medianVelocity": 1.2796681325807016,
+      "madVelocity": 0.9716599190283401,
       "p95Velocity": 100
     },
     "souffle-vert": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
@@ -1606,7 +1606,7 @@
       "p95Velocity": 0
     },
     "sous-la-surface": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
@@ -1614,31 +1614,31 @@
       "p95Velocity": 0
     },
     "sous-mes-pieds-le-mali": {
-      "historyLength": 3,
-      "medianDelta": 5,
-      "madDelta": 1,
-      "medianVelocity": 5.829959514170041,
-      "madVelocity": 5.829959514170041,
+      "historyLength": 4,
+      "medianDelta": 5.5,
+      "madDelta": 0.5,
+      "medianVelocity": 3.5309961841897435,
+      "madVelocity": 2.9149797570850207,
       "p95Velocity": 500
     },
     "sur-les-pas-delisey": {
-      "historyLength": 3,
-      "medianDelta": 0,
-      "madDelta": 0,
-      "medianVelocity": 0,
-      "madVelocity": 0,
-      "p95Velocity": 0.9716599190283401
+      "historyLength": 4,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 0.4858299595141701,
+      "madVelocity": 0.4858299595141701,
+      "p95Velocity": 2.0533880903490758
     },
     "tacos-des-alpages": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
       "madVelocity": 0,
-      "p95Velocity": 0
+      "p95Velocity": 0.2053388090349076
     },
     "tim-tembo-destins-croises": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
@@ -1646,15 +1646,15 @@
       "p95Velocity": 0
     },
     "toi-moi-et-notre-nouvelle-vie": {
-      "historyLength": 3,
-      "medianDelta": 0,
-      "madDelta": 0,
-      "medianVelocity": 0,
-      "madVelocity": 0,
+      "historyLength": 4,
+      "medianDelta": 1,
+      "madDelta": 1,
+      "medianVelocity": 0.4106776180698152,
+      "madVelocity": 0.4106776180698152,
       "p95Velocity": 1.9433198380566803
     },
     "tony-le-protecteur-des-fleuves": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
@@ -1662,15 +1662,15 @@
       "p95Velocity": 0
     },
     "tor-tue-plastique": {
-      "historyLength": 3,
-      "medianDelta": 0,
-      "madDelta": 0,
-      "medianVelocity": 0,
-      "madVelocity": 0,
+      "historyLength": 4,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 0.1026694045174538,
+      "madVelocity": 0.1026694045174538,
       "p95Velocity": 0.9716599190283401
     },
     "tour-du-monde-en-80-jours": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
@@ -1678,47 +1678,47 @@
       "p95Velocity": 0
     },
     "toxique-plastique": {
-      "historyLength": 3,
-      "medianDelta": 1,
-      "madDelta": 0,
-      "medianVelocity": 0.9716599190283401,
-      "madVelocity": 0.9716599190283401,
+      "historyLength": 4,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 0.4858299595141701,
+      "madVelocity": 0.4858299595141701,
       "p95Velocity": 100
     },
     "tragi-comedie-chez-les-albatar": {
-      "historyLength": 3,
-      "medianDelta": 1,
+      "historyLength": 4,
+      "medianDelta": 1.5,
       "madDelta": 1,
-      "medianVelocity": 1.9433198380566803,
-      "madVelocity": 1.9433198380566803,
+      "medianVelocity": 1.2796681325807016,
+      "madVelocity": 0.9716599190283401,
       "p95Velocity": 100
     },
     "trier-cest-gagner": {
-      "historyLength": 3,
-      "medianDelta": 0,
-      "madDelta": 0,
-      "medianVelocity": 0,
-      "madVelocity": 0,
+      "historyLength": 4,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 0.1026694045174538,
+      "madVelocity": 0.1026694045174538,
       "p95Velocity": 0.9716599190283401
     },
     "tsilaosa-et-le-ciel-etoile": {
-      "historyLength": 3,
-      "medianDelta": 6,
-      "madDelta": 1,
-      "medianVelocity": 6.801619433198382,
-      "madVelocity": 6.801619433198382,
+      "historyLength": 4,
+      "medianDelta": 6.5,
+      "madDelta": 3,
+      "medianVelocity": 4.632842570808636,
+      "madVelocity": 3.400809716599191,
       "p95Velocity": 600
     },
     "tukuna": {
-      "historyLength": 3,
-      "medianDelta": 7,
-      "madDelta": 3,
-      "medianVelocity": 9.716599190283402,
-      "madVelocity": 9.716599190283402,
+      "historyLength": 4,
+      "medianDelta": 8.5,
+      "madDelta": 4.5,
+      "medianVelocity": 6.501010067420962,
+      "madVelocity": 4.858299595141702,
       "p95Velocity": 700
     },
     "un-echange-qui-te-change": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
@@ -1726,47 +1726,47 @@
       "p95Velocity": 0
     },
     "un-faux-refuge": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
       "madVelocity": 0,
-      "p95Velocity": 0
+      "p95Velocity": 0.2053388090349076
     },
     "un-monde-bouleverse": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
       "madVelocity": 0,
-      "p95Velocity": 0
+      "p95Velocity": 0.4106776180698152
     },
     "un-monde-deux-verites": {
-      "historyLength": 3,
-      "medianDelta": 0,
-      "madDelta": 0,
-      "medianVelocity": 0,
-      "madVelocity": 0,
+      "historyLength": 4,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 0.2053388090349076,
+      "madVelocity": 0.2053388090349076,
       "p95Velocity": 0.9716599190283401
     },
     "un-monde-sans-voix-0": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 1,
       "madDelta": 0,
-      "medianVelocity": 0.9716599190283401,
-      "madVelocity": 0.9716599190283401,
+      "medianVelocity": 0.5884993640316238,
+      "madVelocity": 0.4858299595141701,
       "p95Velocity": 100
     },
     "un-sandwich-et-reinventer-le-monde": {
-      "historyLength": 3,
-      "medianDelta": 1,
-      "madDelta": 1,
-      "medianVelocity": 3.8866396761133606,
-      "madVelocity": 3.8866396761133606,
+      "historyLength": 4,
+      "medianDelta": 2.5,
+      "madDelta": 2,
+      "medianVelocity": 3.8940385238883026,
+      "madVelocity": 1.9507186858316223,
       "p95Velocity": 100
     },
     "une-cassette-la-mer": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
@@ -1774,7 +1774,7 @@
       "p95Velocity": 0
     },
     "une-famille-au-burkina-faso": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
@@ -1782,39 +1782,39 @@
       "p95Velocity": 0
     },
     "une-journee-sans-eau": {
-      "historyLength": 3,
-      "medianDelta": 0,
-      "madDelta": 0,
-      "medianVelocity": 0,
-      "madVelocity": 0,
-      "p95Velocity": 0.9716599190283401
+      "historyLength": 4,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 0.4858299595141701,
+      "madVelocity": 0.4858299595141701,
+      "p95Velocity": 2.6694045174537986
     },
     "une-piece-sil-vous-plait": {
-      "historyLength": 3,
-      "medianDelta": 2,
-      "madDelta": 2,
-      "medianVelocity": 3.8866396761133606,
-      "madVelocity": 3.8866396761133606,
+      "historyLength": 4,
+      "medianDelta": 3,
+      "madDelta": 1,
+      "medianVelocity": 2.3539974561264954,
+      "madVelocity": 1.9433198380566803,
       "p95Velocity": 200
     },
     "une-rencontre-qui-change-tout": {
-      "historyLength": 3,
-      "medianDelta": 0,
-      "madDelta": 0,
-      "medianVelocity": 0,
-      "madVelocity": 0,
+      "historyLength": 4,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 0.1026694045174538,
+      "madVelocity": 0.1026694045174538,
       "p95Velocity": 0.9716599190283401
     },
     "une-sortie-au-musee": {
-      "historyLength": 3,
-      "medianDelta": 2,
-      "madDelta": 2,
-      "medianVelocity": 3.8866396761133606,
-      "madVelocity": 3.8866396761133606,
+      "historyLength": 4,
+      "medianDelta": 3,
+      "madDelta": 1.5,
+      "medianVelocity": 2.4566668606439492,
+      "madVelocity": 1.9433198380566803,
       "p95Velocity": 200
     },
     "une-voix-contre-lexcision": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
@@ -1822,23 +1822,23 @@
       "p95Velocity": 0
     },
     "veloria-le-dernier-souffle": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 1,
       "madDelta": 0,
-      "medianVelocity": 0.9716599190283401,
-      "madVelocity": 0.9716599190283401,
+      "medianVelocity": 0.5884993640316238,
+      "madVelocity": 0.4858299595141701,
       "p95Velocity": 100
     },
     "vent-et-silence": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
       "madVelocity": 0,
-      "p95Velocity": 0
+      "p95Velocity": 0.2053388090349076
     },
     "voyage-tortuguero": {
-      "historyLength": 3,
+      "historyLength": 4,
       "medianDelta": 0,
       "madDelta": 0,
       "medianVelocity": 0,
