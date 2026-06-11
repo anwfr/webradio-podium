@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-11T14:27:17.046+02:00",
+  "updatedAt": "2026-06-11T17:01:45.601+02:00",
   "participants": [
     {
       "slug": "2050-la-fin-des-poissons",
@@ -14,7 +14,7 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 1425,
       "establishment": "Lycée Blaise Pascal",
       "establishmentKey": "lycee-blaise-pascal"
@@ -31,7 +31,7 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 220,
       "establishment": "Lycée Jean Michel",
       "establishmentKey": "lycee-jean-michel"
@@ -49,7 +49,7 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 24,
       "establishment": "Collège La Salle Saint-Rosaire de Sarcelles",
       "establishmentKey": "college-la-salle-saint-rosaire-de-sarcelles"
@@ -66,8 +66,8 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 621,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 623,
       "establishment": "les élèves de 2A, de l'Ecole Belge du Bujumbura, de Bujumbura, au Burundi",
       "establishmentKey": "les-eleves-de-2a-de-l-ecole-belge-du-bujumbura-de-bujumbura-au-burundi"
     },
@@ -84,7 +84,7 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 476,
       "establishment": "Collège Claudie Haigneré",
       "establishmentKey": "college-claudie-haignere"
@@ -101,8 +101,8 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 260,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 265,
       "establishment": "Cours Sévigné d'Abidjan",
       "establishmentKey": "cours-sevigne-d-abidjan"
     },
@@ -119,7 +119,7 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 241,
       "establishment": "Lycée Philibert Delorme de l'Isle d'Abeau",
       "establishmentKey": "lycee-philibert-delorme-de-l-isle-d-abeau"
@@ -136,7 +136,7 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 1005,
       "establishment": "Lycée François Arago",
       "establishmentKey": "lycee-francois-arago"
@@ -153,8 +153,8 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 1254,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 1284,
       "establishment": "Collège de l'ISC D'El Menzah",
       "establishmentKey": "college-de-l-isc-d-el-menzah"
     },
@@ -170,7 +170,7 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 421,
       "establishment": "Institut Anna Frank-collège Einaudi",
       "establishmentKey": "institut-anna-frank-college-einaudi"
@@ -186,8 +186,8 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 1429,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 1431,
       "establishment": "Lycée Franco",
       "establishmentKey": "lycee-franco"
     },
@@ -204,8 +204,8 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 582,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 587,
       "establishment": "Collège Jean Jaurès",
       "establishmentKey": "college-jean-jaures"
     },
@@ -222,8 +222,8 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 210,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 211,
       "establishment": "Collège Alain Gerbault",
       "establishmentKey": "college-alain-gerbault"
     },
@@ -239,7 +239,7 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 1278,
       "establishment": "Lycée 1 Abobo",
       "establishmentKey": "lycee-1-abobo"
@@ -257,7 +257,7 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 260,
       "establishment": "Collège Eric Tabarly",
       "establishmentKey": "college-eric-tabarly"
@@ -275,8 +275,8 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 278,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 279,
       "establishment": "Lycée Les Bourdonnières",
       "establishmentKey": "lycee-les-bourdonnieres"
     },
@@ -292,7 +292,7 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 654,
       "establishment": "Collège des Filles de la Charité Dar En-Nour",
       "establishmentKey": "college-des-filles-de-la-charite-dar-en-nour"
@@ -310,8 +310,8 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 786,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 880,
       "establishment": "Collège La Salle Saint-Charles 2 Pierrefonds",
       "establishmentKey": "college-la-salle-saint-charles-2-pierrefonds"
     },
@@ -328,7 +328,7 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 367,
       "establishment": "Lycée Marie Curie de Tarbes",
       "establishmentKey": "lycee-marie-curie-de-tarbes"
@@ -345,8 +345,8 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 17,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 25,
       "establishment": "Lycée Anna de Noailles de Bucarest",
       "establishmentKey": "lycee-anna-de-noailles-de-bucarest"
     },
@@ -362,8 +362,8 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 733,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 734,
       "establishment": "Lycée Emiland Gauthey",
       "establishmentKey": "lycee-emiland-gauthey"
     },
@@ -380,7 +380,7 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 187,
       "establishment": "Lycée l'Annonciation",
       "establishmentKey": "lycee-l-annonciation"
@@ -397,8 +397,8 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 325,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 326,
       "establishment": "Collège Florian d'Anduze",
       "establishmentKey": "college-florian-d-anduze"
     },
@@ -415,7 +415,7 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 105,
       "establishment": "Collège Louis Aragon",
       "establishmentKey": "college-louis-aragon"
@@ -433,8 +433,8 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 15,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 16,
       "establishment": "Collège Mathalin d'Auch",
       "establishmentKey": "college-mathalin-d-auch"
     },
@@ -450,7 +450,7 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 132,
       "establishment": "Lycée de la Nativité",
       "establishmentKey": "lycee-de-la-nativite"
@@ -468,7 +468,7 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 45,
       "establishment": "les élèves de",
       "establishmentKey": "les-eleves-de"
@@ -486,8 +486,8 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 601,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 611,
       "establishment": "Collège Joseph Fontanet",
       "establishmentKey": "college-joseph-fontanet"
     },
@@ -504,8 +504,8 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 31,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 34,
       "establishment": "Collège La Madeleine",
       "establishmentKey": "college-la-madeleine"
     },
@@ -522,8 +522,8 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 195,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 197,
       "establishment": "Collège Alain Gerbault",
       "establishmentKey": "college-alain-gerbault"
     },
@@ -540,8 +540,8 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 1195,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 1197,
       "establishment": "Lycée Renaudeau de Cholet",
       "establishmentKey": "lycee-renaudeau-de-cholet"
     },
@@ -558,7 +558,7 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 83,
       "establishment": "Collège Paul Landowski",
       "establishmentKey": "college-paul-landowski"
@@ -576,8 +576,8 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 413,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 420,
       "establishment": "Lycée saint-martin",
       "establishmentKey": "lycee-saint-martin"
     },
@@ -593,8 +593,8 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 671,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 675,
       "establishment": "Collège de même niveau",
       "establishmentKey": "college-de-meme-niveau"
     },
@@ -611,7 +611,7 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 3377,
       "establishment": "Lycée Charles de Foucauld",
       "establishmentKey": "lycee-charles-de-foucauld"
@@ -629,7 +629,7 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 469,
       "establishment": "LPO Marguerite Yourcenar",
       "establishmentKey": "lpo-marguerite-yourcenar"
@@ -647,7 +647,7 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 163,
       "establishment": "Collège Anjou Bretagne",
       "establishmentKey": "college-anjou-bretagne"
@@ -665,7 +665,7 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 86,
       "establishment": "Collège Louis Aragon",
       "establishmentKey": "college-louis-aragon"
@@ -683,7 +683,7 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 137,
       "establishment": "Lycée Saint Vincent de Paul",
       "establishmentKey": "lycee-saint-vincent-de-paul"
@@ -701,8 +701,8 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 1444,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 1454,
       "establishment": "Collège Nestor de Kermadec",
       "establishmentKey": "college-nestor-de-kermadec"
     },
@@ -719,8 +719,8 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 723,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 724,
       "establishment": "Collège Gustave Courbet de Romainville",
       "establishmentKey": "college-gustave-courbet-de-romainville"
     },
@@ -737,8 +737,8 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 360,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 364,
       "establishment": "Collège Jules Marouzeau",
       "establishmentKey": "college-jules-marouzeau"
     },
@@ -753,8 +753,8 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 624,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 625,
       "establishment": "Lycée Koumassi",
       "establishmentKey": "lycee-koumassi"
     },
@@ -771,7 +771,7 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 118,
       "establishment": "Collège Jules Verne aux Mureaux",
       "establishmentKey": "college-jules-verne-aux-mureaux"
@@ -789,7 +789,7 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 347,
       "establishment": "Lycée des Bourdonnières de NANTES",
       "establishmentKey": "lycee-des-bourdonnieres-de-nantes"
@@ -807,8 +807,8 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 574,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 577,
       "establishment": "Lycée Geoffroy Saint-Hilaire d’Étampes",
       "establishmentKey": "lycee-geoffroy-saint-hilaire-d-etampes"
     },
@@ -825,8 +825,8 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 146,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 147,
       "establishment": "Collège Jean Zay",
       "establishmentKey": "college-jean-zay"
     },
@@ -842,7 +842,7 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 93,
       "establishment": "les élèves de 4A",
       "establishmentKey": "les-eleves-de-4a"
@@ -860,7 +860,7 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 70,
       "establishment": "Lycée Charles Tillon de Rennes",
       "establishmentKey": "lycee-charles-tillon-de-rennes"
@@ -878,7 +878,7 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 115,
       "establishment": "Lycée de Coiffure Pierre Masson",
       "establishmentKey": "lycee-de-coiffure-pierre-masson"
@@ -896,7 +896,7 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 19,
       "establishment": "Collège Mathalin d'Auch",
       "establishmentKey": "college-mathalin-d-auch"
@@ -914,8 +914,8 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 1528,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 1546,
       "establishment": "Lycée Nelson Mandela",
       "establishmentKey": "lycee-nelson-mandela"
     },
@@ -932,8 +932,8 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 36,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 37,
       "establishment": "Collège La Madeleine",
       "establishmentKey": "college-la-madeleine"
     },
@@ -950,8 +950,8 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 346,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 348,
       "establishment": "Collège Canterane de Castelnau-de-Médoc",
       "establishmentKey": "college-canterane-de-castelnau-de-medoc"
     },
@@ -968,8 +968,8 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 978,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 981,
       "establishment": "Collège Bracke Desrousseaux",
       "establishmentKey": "college-bracke-desrousseaux"
     },
@@ -985,8 +985,8 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 215,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 248,
       "establishment": "École Girard",
       "establishmentKey": "ecole-girard"
     },
@@ -1003,8 +1003,8 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 148,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 171,
       "establishment": "Collège Fernand Berthon",
       "establishmentKey": "college-fernand-berthon"
     },
@@ -1021,7 +1021,7 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 95,
       "establishment": "Collège de la Chrysalide",
       "establishmentKey": "college-de-la-chrysalide"
@@ -1038,7 +1038,7 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 226,
       "establishment": "Lycée Rochambeau",
       "establishmentKey": "lycee-rochambeau"
@@ -1055,8 +1055,8 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 1147,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 1149,
       "establishment": "Lycée Linguistique Section ESABAC",
       "establishmentKey": "lycee-linguistique-section-esabac"
     },
@@ -1072,7 +1072,7 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 1147,
       "establishment": "Lycée L. Spallanzani",
       "establishmentKey": "lycee-l-spallanzani"
@@ -1090,8 +1090,8 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 373,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 375,
       "establishment": "Collège Anne Frank",
       "establishmentKey": "college-anne-frank"
     },
@@ -1108,7 +1108,7 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 87,
       "establishment": "Lycée Saint Vincent de Paul",
       "establishmentKey": "lycee-saint-vincent-de-paul"
@@ -1126,7 +1126,7 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 198,
       "establishment": "Lycée du Golfe de Saint-Tropez",
       "establishmentKey": "lycee-du-golfe-de-saint-tropez"
@@ -1144,8 +1144,8 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 195,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 196,
       "establishment": "Collège Marc Bloch",
       "establishmentKey": "college-marc-bloch"
     },
@@ -1161,7 +1161,7 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 288,
       "establishment": "Lycée filière langues modernes de IISS Eugenio Montale Nuovo IPC",
       "establishmentKey": "lycee-filiere-langues-modernes-de-iiss-eugenio-montale-nuovo-ipc"
@@ -1178,8 +1178,8 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 448,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 450,
       "establishment": "Collège St Charles",
       "establishmentKey": "college-st-charles"
     },
@@ -1195,7 +1195,7 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 617,
       "establishment": "Lycée 12 Cadereyta UANL",
       "establishmentKey": "lycee-12-cadereyta-uanl"
@@ -1211,7 +1211,7 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 56,
       "establishment": "Lycée de jeunes Filles de Yopougon",
       "establishmentKey": "lycee-de-jeunes-filles-de-yopougon"
@@ -1229,7 +1229,7 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 295,
       "establishment": "Collège Alexandre Mauboussin de Mamers",
       "establishmentKey": "college-alexandre-mauboussin-de-mamers"
@@ -1245,7 +1245,7 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 28,
       "establishment": "Lycée \"\"G.Mazzini\"\" La Spezia Italie\"",
       "establishmentKey": "lycee-g-mazzini-la-spezia-italie"
@@ -1263,7 +1263,7 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 350,
       "establishment": "Collège Pierre SOULAGES",
       "establishmentKey": "college-pierre-soulages"
@@ -1279,8 +1279,8 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 1582,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 1586,
       "establishment": "Lycée Alassane Ouattara d' Anyama en Côte d'Ivoire",
       "establishmentKey": "lycee-alassane-ouattara-d-anyama-en-cote-d-ivoire"
     },
@@ -1296,8 +1296,8 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 729,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 730,
       "establishment": "Lycée International Victor Hugo",
       "establishmentKey": "lycee-international-victor-hugo"
     },
@@ -1312,8 +1312,8 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 61,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 62,
       "establishment": "Lycée Lyautey de Casablanca au Maroc",
       "establishmentKey": "lycee-lyautey-de-casablanca-au-maroc"
     },
@@ -1329,7 +1329,7 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 1796,
       "establishment": "Collège Olympe de Gouges de Loupian dans l'Hérault",
       "establishmentKey": "college-olympe-de-gouges-de-loupian-dans-l-herault"
@@ -1346,8 +1346,8 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 1838,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 1839,
       "establishment": "Collège Panchon d'ARSAC",
       "establishmentKey": "college-panchon-d-arsac"
     },
@@ -1364,8 +1364,8 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 650,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 653,
       "establishment": "Collège Octave Gachon de Parsac",
       "establishmentKey": "college-octave-gachon-de-parsac"
     },
@@ -1382,8 +1382,8 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 365,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 366,
       "establishment": "Lycée Blaise Pascal d'Orsay",
       "establishmentKey": "lycee-blaise-pascal-d-orsay"
     },
@@ -1399,8 +1399,8 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 354,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 358,
       "establishment": "Collège Florian d'Anduze",
       "establishmentKey": "college-florian-d-anduze"
     },
@@ -1416,7 +1416,7 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 74,
       "establishment": "Lycée Jean Monnet de Crepy en Valois",
       "establishmentKey": "lycee-jean-monnet-de-crepy-en-valois"
@@ -1434,7 +1434,7 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 160,
       "establishment": "Lycée Condé",
       "establishmentKey": "lycee-conde"
@@ -1452,7 +1452,7 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 118,
       "establishment": "Campus Coulommiers",
       "establishmentKey": "campus-coulommiers"
@@ -1468,8 +1468,8 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 58,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 59,
       "establishment": "Lycée Lyautey de Casablanca au Maroc",
       "establishmentKey": "lycee-lyautey-de-casablanca-au-maroc"
     },
@@ -1486,7 +1486,7 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 204,
       "establishment": "Collège Grévy",
       "establishmentKey": "college-grevy"
@@ -1503,7 +1503,7 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 84,
       "establishment": "Lycée IV de Zagreb",
       "establishmentKey": "lycee-iv-de-zagreb"
@@ -1520,8 +1520,8 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 286,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 288,
       "establishment": "Collège JEAN RACINE",
       "establishmentKey": "college-jean-racine"
     },
@@ -1537,8 +1537,8 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 78,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 82,
       "establishment": "Lycée français Anna de Noailles",
       "establishmentKey": "lycee-francais-anna-de-noailles"
     },
@@ -1555,8 +1555,8 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 248,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 249,
       "establishment": "Collège Pierre Mendès",
       "establishmentKey": "college-pierre-mendes"
     },
@@ -1573,7 +1573,7 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 73,
       "establishment": "Campus Coulommiers",
       "establishmentKey": "campus-coulommiers"
@@ -1591,7 +1591,7 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 76,
       "establishment": "Lycée La Nativité",
       "establishmentKey": "lycee-la-nativite"
@@ -1608,7 +1608,7 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 350,
       "establishment": "Collège \"A. Gramsci\" Lodi Vecchio",
       "establishmentKey": "college-a-gramsci-lodi-vecchio"
@@ -1626,8 +1626,8 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 112,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 113,
       "establishment": "Lycée du Golfe de Saint-Tropez",
       "establishmentKey": "lycee-du-golfe-de-saint-tropez"
     },
@@ -1644,8 +1644,8 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 407,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 429,
       "establishment": "Lycée les Mandailles",
       "establishmentKey": "lycee-les-mandailles"
     },
@@ -1661,7 +1661,7 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 461,
       "establishment": "Lycée Vauvenargues d'Aix-en-Provence",
       "establishmentKey": "lycee-vauvenargues-d-aix-en-provence"
@@ -1679,7 +1679,7 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 2993,
       "establishment": "Collège Saint Dominique",
       "establishmentKey": "college-saint-dominique"
@@ -1696,7 +1696,7 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 327,
       "establishment": "Lycée Marie de Tarbes",
       "establishmentKey": "lycee-marie-de-tarbes"
@@ -1714,8 +1714,8 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 1234,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 1235,
       "establishment": "Collège Aurélie Lambourde",
       "establishmentKey": "college-aurelie-lambourde"
     },
@@ -1732,7 +1732,7 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 246,
       "establishment": "Collège Henri Wallon",
       "establishmentKey": "college-henri-wallon"
@@ -1749,8 +1749,8 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 2089,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 2106,
       "establishment": "Collège des Frères Mont La Salle",
       "establishmentKey": "college-des-freres-mont-la-salle"
     },
@@ -1767,8 +1767,8 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 926,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 927,
       "establishment": "Lycée Antoine Kéla",
       "establishmentKey": "lycee-antoine-kela"
     },
@@ -1785,7 +1785,7 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 174,
       "establishment": "Lycée Victor Schoelcher",
       "establishmentKey": "lycee-victor-schoelcher"
@@ -1802,7 +1802,7 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 37,
       "establishment": "Lycée international",
       "establishmentKey": "lycee-international"
@@ -1820,8 +1820,8 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 273,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 275,
       "establishment": "Lycée François Villon",
       "establishmentKey": "lycee-francois-villon"
     },
@@ -1836,7 +1836,7 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 230,
       "establishment": "Lycée Municipal 1 Attécoubé Abidjan Cote d'Ivoire",
       "establishmentKey": "lycee-municipal-1-attecoube-abidjan-cote-d-ivoire"
@@ -1853,8 +1853,8 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 1723,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 1725,
       "establishment": "Cours DE EMC LYCEE FRANCAIS INTERNATIONAL GEORGES POMPIDOU DUBAI EMIRATS ARABES UNIS",
       "establishmentKey": "cours-de-emc-lycee-francais-international-georges-pompidou-dubai-emirats-arabes-unis"
     },
@@ -1871,7 +1871,7 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 330,
       "establishment": "Lycée Saint Paul",
       "establishmentKey": "lycee-saint-paul"
@@ -1889,7 +1889,7 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 189,
       "establishment": "Lycée Gaston Bachelard",
       "establishmentKey": "lycee-gaston-bachelard"
@@ -1907,8 +1907,8 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 125,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 126,
       "establishment": "Lycée Honoré de Balzac",
       "establishmentKey": "lycee-honore-de-balzac"
     },
@@ -1925,7 +1925,7 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 161,
       "establishment": "Collège Pierre Mendès",
       "establishmentKey": "college-pierre-mendes"
@@ -1941,8 +1941,8 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 358,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 360,
       "establishment": "Collège JEAN RACINE",
       "establishmentKey": "college-jean-racine"
     },
@@ -1958,7 +1958,7 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 56,
       "establishment": "Lycée de Taipei",
       "establishmentKey": "lycee-de-taipei"
@@ -1975,7 +1975,7 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 7,
       "establishment": "Lycée secondaire pilote",
       "establishmentKey": "lycee-secondaire-pilote"
@@ -1992,7 +1992,7 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 679,
       "establishment": "Collège “ Antonio Gramsci”",
       "establishmentKey": "college-antonio-gramsci"
@@ -2009,7 +2009,7 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 503,
       "establishment": "Lycée du Plateau",
       "establishmentKey": "lycee-du-plateau"
@@ -2026,7 +2026,7 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 352,
       "establishment": "Lycée de Cuenca",
       "establishmentKey": "lycee-de-cuenca"
@@ -2044,8 +2044,8 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 853,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 856,
       "establishment": "Lycée Anne Veaute",
       "establishmentKey": "lycee-anne-veaute"
     },
@@ -2062,7 +2062,7 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 162,
       "establishment": "Lycée Marie Curie de Tarbes",
       "establishmentKey": "lycee-marie-curie-de-tarbes"
@@ -2079,7 +2079,7 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 318,
       "establishment": "Lycée Léopold Elfort de Mana en Guyane",
       "establishmentKey": "lycee-leopold-elfort-de-mana-en-guyane"
@@ -2096,8 +2096,8 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 92,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 99,
       "establishment": "Collège et lycée",
       "establishmentKey": "college-et-lycee"
     },
@@ -2114,8 +2114,8 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 339,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 341,
       "establishment": "Collège Anne Frank",
       "establishmentKey": "college-anne-frank"
     },
@@ -2132,7 +2132,7 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 6,
       "establishment": "Collège Stanislas",
       "establishmentKey": "college-stanislas"
@@ -2150,8 +2150,8 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 1133,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 1134,
       "establishment": "Lycée Charles de Foucauld",
       "establishmentKey": "lycee-charles-de-foucauld"
     },
@@ -2168,7 +2168,7 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 119,
       "establishment": "Collège Henri Matisse",
       "establishmentKey": "college-henri-matisse"
@@ -2186,7 +2186,7 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 313,
       "establishment": "Lycée Albert Ramassamy",
       "establishmentKey": "lycee-albert-ramassamy"
@@ -2204,8 +2204,8 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 320,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 321,
       "establishment": "LPO Marguerite Yourcenar",
       "establishmentKey": "lpo-marguerite-yourcenar"
     },
@@ -2221,7 +2221,7 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 143,
       "establishment": "les élèves de la classe européenne +",
       "establishmentKey": "les-eleves-de-la-classe-europeenne"
@@ -2238,7 +2238,7 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 827,
       "establishment": "Lycée 12 Cadereyta UANL",
       "establishmentKey": "lycee-12-cadereyta-uanl"
@@ -2255,8 +2255,8 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 189,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 190,
       "establishment": "Collège Pierre MENDES",
       "establishmentKey": "college-pierre-mendes"
     },
@@ -2273,8 +2273,8 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 673,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 677,
       "establishment": "Collège Octave Gachon de Parsac",
       "establishmentKey": "college-octave-gachon-de-parsac"
     },
@@ -2291,7 +2291,7 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 159,
       "establishment": "Lycée du Golfe de Saint-Tropez",
       "establishmentKey": "lycee-du-golfe-de-saint-tropez"
@@ -2308,7 +2308,7 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 291,
       "establishment": "Collège La Guicharde",
       "establishmentKey": "college-la-guicharde"
@@ -2325,8 +2325,8 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 3210,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 3213,
       "establishment": "Lycée Jean Michel de Lons le Saunier",
       "establishmentKey": "lycee-jean-michel-de-lons-le-saunier"
     },
@@ -2343,7 +2343,7 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 85,
       "establishment": "Lycée Auguste Renoir de Limoges",
       "establishmentKey": "lycee-auguste-renoir-de-limoges"
@@ -2361,7 +2361,7 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 283,
       "establishment": "Lycée Victor Schoelcher de Fort-de-",
       "establishmentKey": "lycee-victor-schoelcher-de-fort-de"
@@ -2379,8 +2379,8 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 566,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 569,
       "establishment": "Collège Anne Frank",
       "establishmentKey": "college-anne-frank"
     },
@@ -2397,8 +2397,8 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 278,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 298,
       "establishment": "Lycée Technique Privé Les Mandailles",
       "establishmentKey": "lycee-technique-prive-les-mandailles"
     },
@@ -2415,8 +2415,8 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 185,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 186,
       "establishment": "Collège Marcel Pagnol de Noyen sur Sarthe",
       "establishmentKey": "college-marcel-pagnol-de-noyen-sur-sarthe"
     },
@@ -2432,8 +2432,8 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 5511,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 5512,
       "establishment": "Collège Max Linder de Saint-Loubès",
       "establishmentKey": "college-max-linder-de-saint-loubes"
     },
@@ -2449,7 +2449,7 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 1125,
       "establishment": "les élèves de 1ère 4, du LFIGP",
       "establishmentKey": "les-eleves-de-1ere-4-du-lfigp"
@@ -2466,8 +2466,8 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 518,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 521,
       "establishment": "les élèves de",
       "establishmentKey": "les-eleves-de"
     },
@@ -2483,7 +2483,7 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 42,
       "establishment": "Lycée Louis Pasteur",
       "establishmentKey": "lycee-louis-pasteur"
@@ -2501,7 +2501,7 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 41,
       "establishment": "Lycée Gaston Bachelard",
       "establishmentKey": "lycee-gaston-bachelard"
@@ -2519,7 +2519,7 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 445,
       "establishment": "Collège Les Deux-Rivières",
       "establishmentKey": "college-les-deux-rivieres"
@@ -2536,7 +2536,7 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 240,
       "establishment": "Collège Victor Hugo de Ham",
       "establishmentKey": "college-victor-hugo-de-ham"
@@ -2554,8 +2554,8 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 165,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 166,
       "establishment": "Lycée Lumina Sophie",
       "establishmentKey": "lycee-lumina-sophie"
     },
@@ -2572,8 +2572,8 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 157,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 158,
       "establishment": "Lycée Louise Weiss",
       "establishmentKey": "lycee-louise-weiss"
     },
@@ -2589,7 +2589,7 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 199,
       "establishment": "les élèves de 1º Bachillerato, de l'IES Leonardo Torres Quevedo",
       "establishmentKey": "les-eleves-de-1-bachillerato-de-l-ies-leonardo-torres-quevedo"
@@ -2607,7 +2607,7 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 441,
       "establishment": "Collège de Kawéni 1",
       "establishmentKey": "college-de-kaweni-1"
@@ -2624,10 +2624,11 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 341,
       "establishment": "Lycée Caucadis",
-      "establishmentKey": "lycee-caucadis"
+      "establishmentKey": "lycee-caucadis",
+      "academy": "Académie de Starlight Podcast (concours Réinventer le monde) La Malédiction de Sangha Podcast (concours Réinventer le monde) Le lutin de poche Podcast (concours Réinventer le monde) Mon combat contre les inégalités Podcast (concours Réinventer le monde) Abonnez-vous à notre lettre d’information - Inscrivez-vous !Vous souhaitez suivre notre actualité et/ou participer à nos événements ? Découvrez nos newsletters Nos programmes pédagogiques Réinventer le monde Négociation internationale Nos ressources pédagogiques Le quiz ODD ! Livret pédagogique - Agir pour un monde en commun Livret enseignant - Océan Bibliothèque de ressources Actus FAQ Qui sommes-nous ? Siège de l'AFD 5 rue Roland Barthes 75 598 PARIS CEDEX 12, FRANCE afd.fr tilt.fr Contactez-nous Mentions légales Plan du site Accessibilité numérique : partiellement conforme Back to top of page {\"path\":{\"baseUrl\":\"\\/\",\"pathPrefix\":\"fr\\/\",\"currentPath\":\"node\\/200\",\"currentPathIsAdmin\":false,\"isFront\":false,\"currentLanguage\":\"fr\"},\"pluralDelimiter\":\"\\u0003\",\"suppressDeprecationErrors\":true,\"dsfr4drupal\":{\"production\":1,\"verbose\":0,\"level\":\"info\"},\"ajaxPageState\":{\"libraries\":\"eJyNlO12gyAMhm9I9M_uxxMgIhUIg7C1d7-4rqftVs_4o0KefPgmAIudLS7QAs-8YsTJBdIQ1FIo8QCJvSaeft7jQiUOGpmxzHjOVNHOiw-yrJPDhAXCYKjgZChmSpi4jvA7hVJgBLKeUg-sC4I1pUXdQxsotoez-IGBchS7kvJj7XFaKAT67CNJovaTiikrKab1uKwiSF9wH8GhMpQvKqA0qEua4NOmNHc1J5AjlUA-LVbT45HgwzvgzuYnslL_Cpm66X51HvBrDoXWM_X7sueAPXQ1RUZnb3IXvfm8N-HvTNq6lDdbWpYTqnRjpqRcofY37BP5M2Mv5-sJ3Nv5P6Eoy0l_JdQTyuD-BQ6qz2jBkfN4k-RbaVXR3AfnGmWEE5yvGz7JTybZOr03LJfrZfWQ8J5gNCuaTdP5wOxTbnxgi2Tlkntte2-i84GNQYdDW4FUA4hv8BtO-2PIUMAVyGu9_el9Z2xSoA6-rmiHX1o9X-DZQ6IZRJULe1On7_Wez2w-uaFeKmOcNFT8AkpoVIA\",\"theme\":\"pedagogie_theme\",\"theme_token\":null},\"ajaxTrustedUrl\":{\"form_action_p_pvdeGsVG5zNF_XLGPTvYSKCf43t8qZYSwcfZl2uzM\":true,\"\\/fr\\/ressources\\/les-murmures-dune-eau-blessee?ajax_form=1\":true,\"\\/fr\\/recherche\":true},\"pianoAnalytics\":{\"token\":\"649508\",\"dataLayer\":{\"site_name\":\"Offre p\\u00e9dagogique AFD \\u2013 Monde \\u00e9ducatif\",\"path\":\"\\/node\\/200\",\"route\":\"entity.node.canonical\",\"url\":\"https:\\/\\/offre-pedagogique.afd.fr\\/fr\\/ressources\\/les-murmures-dune-eau-blessee\",\"query\":[],\"language\":\"fr\",\"page\":\"Les murmures d\\u0027une eau bless\\u00e9e\",\"content_type\":\"resource\",\"content_id\":\"200\",\"content_page\":\"Les murmures d\\u0027une eau bless\\u00e9e\",\"content_language\":\"fr\",\"content_created\":\"1780027044\",\"content_changed\":1780027371,\"content_status\":true},\"click_tracking_enabled\":true,\"click_selectors\":\"a, button, input[type=\\u0022button\\u0022], input[type=\\u0022submit\\u0022]\",\"download_tracking_enabled\":true,\"download_extensions\":\"pdf,zip,tar,gz,doc,docx,xls,xlsx,ppt,pptx,mp3,mp4,avi\",\"respect_dnt\":true,\"anonymize_ip\":true},\"like\":{\"node:200\":{\"entity_type\":\"node\",\"entity_id\":\"200\",\"default_state\":\"Je vote pour ce podcast\",\"liked_state\":\"Vous avez d\\u00e9j\\u00e0 vot\\u00e9 pour ce podcast.\"}},\"antibot\":{\"forms\":{\"like-form-node-200\":{\"id\":\"like-form-node-200\",\"key\":\"sHu3cgWGCSGxFhh5FUlxIriCJINw-Psj1-MLrjSVQOF\"}}},\"ajax\":{\"edit-like-toggle\":{\"wrapper\":\"like-form-node-200\",\"callback\":[{},\"ajaxSubmit\"],\"effect\":\"fade\",\"progress\":{\"type\":\"none\"},\"event\":\"change\",\"url\":\"\\/fr\\/ressources\\/les-murmures-dune-eau-blessee?ajax_form=1\",\"httpMethod\":\"POST\",\"dialogType\":\"ajax\",\"submit\":{\"_triggering_element_name\":\"like_toggle\"}}},\"user\":{\"uid\":0,\"permissionsHash\":\"20cd5112f7c6416962511446b1b76cf86cc489cc5ef8ba83836cb4f75c79e2d9\"}}"
     },
     {
       "slug": "les-ruines-de-lancien-monde",
@@ -2640,8 +2641,8 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 40,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 41,
       "establishment": "Lycée Lyautey de Casablanca au Maroc",
       "establishmentKey": "lycee-lyautey-de-casablanca-au-maroc"
     },
@@ -2658,8 +2659,8 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 432,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 433,
       "establishment": "Collège Saint François Régis de Montpellier",
       "establishmentKey": "college-saint-francois-regis-de-montpellier"
     },
@@ -2676,8 +2677,8 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 443,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 444,
       "establishment": "Collège Vallée du Lys",
       "establishmentKey": "college-vallee-du-lys"
     },
@@ -2694,8 +2695,8 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 6895,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 6902,
       "establishment": "Lycée Auguste Renoir de Limoges",
       "establishmentKey": "lycee-auguste-renoir-de-limoges"
     },
@@ -2712,8 +2713,8 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 202,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 203,
       "establishment": "Collège Jules Ferry de Beaune",
       "establishmentKey": "college-jules-ferry-de-beaune"
     },
@@ -2730,8 +2731,8 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 219,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 220,
       "establishment": "Collège Marc Bloch",
       "establishmentKey": "college-marc-bloch"
     },
@@ -2748,8 +2749,8 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 350,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 357,
       "establishment": "Collège Jules Reydellet de St Denis de la Réunion",
       "establishmentKey": "college-jules-reydellet-de-st-denis-de-la-reunion"
     },
@@ -2766,8 +2767,8 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 102,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 103,
       "establishment": "Collège Sainte Jeanne d'Arc",
       "establishmentKey": "college-sainte-jeanne-d-arc"
     },
@@ -2784,8 +2785,8 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 436,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 437,
       "establishment": "Lycée Etienne-Jules Marey de Boulogne-Billancourt",
       "establishmentKey": "lycee-etienne-jules-marey-de-boulogne-billancourt"
     },
@@ -2802,7 +2803,7 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 162,
       "establishment": "Lycée Dumas JEAN-JOSEPH",
       "establishmentKey": "lycee-dumas-jean-joseph"
@@ -2819,7 +2820,7 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 328,
       "establishment": "Lycée International de La Havane \"Alejo Carpentier\"",
       "establishmentKey": "lycee-international-de-la-havane-alejo-carpentier"
@@ -2836,8 +2837,8 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 361,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 433,
       "establishment": "Collège Saint-Exupéry",
       "establishmentKey": "college-saint-exupery"
     },
@@ -2854,7 +2855,7 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 117,
       "establishment": "Lycée Condé",
       "establishmentKey": "lycee-conde"
@@ -2871,8 +2872,8 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 214,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 215,
       "establishment": "Ecodélégués du collège",
       "establishmentKey": "ecodelegues-du-college"
     },
@@ -2888,7 +2889,7 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 127,
       "establishment": "Collège Chape",
       "establishmentKey": "college-chape"
@@ -2905,8 +2906,8 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 137,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 138,
       "establishment": "Lycée G. Mazzini",
       "establishmentKey": "lycee-g-mazzini"
     },
@@ -2921,8 +2922,8 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 48,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 58,
       "establishment": "les élèves de 4ème C: Cemre Smaranda Farah Tymeo Mara",
       "establishmentKey": "les-eleves-de-4eme-c-cemre-smaranda-farah-tymeo-mara"
     },
@@ -2938,8 +2939,8 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 34,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 35,
       "establishment": "Lycée Metodova de Bratislava en Slovaquie",
       "establishmentKey": "lycee-metodova-de-bratislava-en-slovaquie"
     },
@@ -2955,8 +2956,8 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 772,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 773,
       "establishment": "Collège Sainte Clotilde",
       "establishmentKey": "college-sainte-clotilde"
     },
@@ -2973,7 +2974,7 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 23,
       "establishment": "Lycée Jean-Marc Boivin",
       "establishmentKey": "lycee-jean-marc-boivin"
@@ -2991,7 +2992,7 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 324,
       "establishment": "Lycée Martin Luther King",
       "establishmentKey": "lycee-martin-luther-king"
@@ -3009,8 +3010,8 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 145,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 156,
       "establishment": "Lycée Georges Cabanis de Brive-la-Gaillarde",
       "establishmentKey": "lycee-georges-cabanis-de-brive-la-gaillarde"
     },
@@ -3027,8 +3028,8 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 221,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 223,
       "establishment": "Lycée Jean Michel",
       "establishmentKey": "lycee-jean-michel"
     },
@@ -3045,7 +3046,7 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 179,
       "establishment": "Lycée Gaston Bachelard",
       "establishmentKey": "lycee-gaston-bachelard"
@@ -3062,7 +3063,7 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 586,
       "establishment": "Lycée de Cocody",
       "establishmentKey": "lycee-de-cocody"
@@ -3079,7 +3080,7 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 364,
       "establishment": "Lycée Emiland Gauthey",
       "establishmentKey": "lycee-emiland-gauthey"
@@ -3097,8 +3098,8 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 192,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 194,
       "establishment": "Collège Louis Hémon de Pleyben",
       "establishmentKey": "college-louis-hemon-de-pleyben"
     },
@@ -3114,8 +3115,8 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 38,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 39,
       "establishment": "Collège Mathalin",
       "establishmentKey": "college-mathalin"
     },
@@ -3132,7 +3133,7 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 24,
       "establishment": "Lycée Jean-Marc Boivin",
       "establishmentKey": "lycee-jean-marc-boivin"
@@ -3149,7 +3150,7 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 615,
       "establishment": "Lycée Marguerite de Valois en Charente ont souhaité s’interroger",
       "establishmentKey": "lycee-marguerite-de-valois-en-charente-ont-souhaite-s-interroger"
@@ -3166,8 +3167,8 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 1002,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 1003,
       "establishment": "Collège Maurice Satineau de la viklle de Baie-Mahault en Guadeloupe",
       "establishmentKey": "college-maurice-satineau-de-la-viklle-de-baie-mahault-en-guadeloupe"
     },
@@ -3184,7 +3185,7 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 199,
       "establishment": "Lycée Jean Rostand",
       "establishmentKey": "lycee-jean-rostand"
@@ -3202,7 +3203,7 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 84,
       "establishment": "Lycée Pierre Corneille",
       "establishmentKey": "lycee-pierre-corneille"
@@ -3219,7 +3220,7 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 112,
       "establishment": "Lycée de Taipei",
       "establishmentKey": "lycee-de-taipei"
@@ -3237,7 +3238,7 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 168,
       "establishment": "Lycée l'Annonciation",
       "establishmentKey": "lycee-l-annonciation"
@@ -3255,8 +3256,8 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 134,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 135,
       "establishment": "Lycée Charles Tillon de Rennes",
       "establishmentKey": "lycee-charles-tillon-de-rennes"
     },
@@ -3272,7 +3273,7 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 623,
       "establishment": "Lycée #16 UANL",
       "establishmentKey": "lycee-16-uanl"
@@ -3289,8 +3290,8 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 1049,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 1050,
       "establishment": "Lycée international Louis Massignon",
       "establishmentKey": "lycee-international-louis-massignon"
     },
@@ -3306,8 +3307,8 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 201,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 202,
       "establishment": "Lycée Istituto \"Cipriani Colombo\"",
       "establishmentKey": "lycee-istituto-cipriani-colombo"
     },
@@ -3324,7 +3325,7 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 559,
       "establishment": "Lycée des métiers de l'hôtellerie et du tourisme Violetta Chaville",
       "establishmentKey": "lycee-des-metiers-de-l-hotellerie-et-du-tourisme-violetta-chaville"
@@ -3341,7 +3342,7 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 16,
       "establishment": "Lycée Metodova de Bratislava en Slovaquie",
       "establishmentKey": "lycee-metodova-de-bratislava-en-slovaquie"
@@ -3358,7 +3359,7 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 443,
       "establishment": "Collège Lisette Moutachi situé au Lamentin Martinique",
       "establishmentKey": "college-lisette-moutachi-situe-au-lamentin-martinique"
@@ -3376,7 +3377,7 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 85,
       "establishment": "Collège Paul Landowski",
       "establishmentKey": "college-paul-landowski"
@@ -3394,8 +3395,8 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 309,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 310,
       "establishment": "Collège François Mitterrand d’Arras",
       "establishmentKey": "college-francois-mitterrand-d-arras"
     },
@@ -3412,7 +3413,7 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 61,
       "establishment": "Lycée Jacques Decour du 9éme arrondissement de Paris",
       "establishmentKey": "lycee-jacques-decour-du-9eme-arrondissement-de-paris"
@@ -3429,7 +3430,7 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 261,
       "establishment": "les élèves de 1ere 6 en EMC, du LFIGP",
       "establishmentKey": "les-eleves-de-1ere-6-en-emc-du-lfigp"
@@ -3447,8 +3448,8 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 614,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 620,
       "establishment": "Collège Camille Claudel",
       "establishmentKey": "college-camille-claudel"
     },
@@ -3465,8 +3466,8 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 307,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 308,
       "establishment": "Collège Chevreul",
       "establishmentKey": "college-chevreul"
     },
@@ -3483,7 +3484,7 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 402,
       "establishment": "Lycée les Bourdonnières",
       "establishmentKey": "lycee-les-bourdonnieres"
@@ -3501,7 +3502,7 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 32,
       "establishment": "les élèves de la Première B1 de l'Annonciation",
       "establishmentKey": "les-eleves-de-la-premiere-b1-de-l-annonciation"
@@ -3519,8 +3520,8 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 250,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 251,
       "establishment": "Collège Jules Ferry de Beaune",
       "establishmentKey": "college-jules-ferry-de-beaune"
     },
@@ -3537,8 +3538,8 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 1050,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 1051,
       "establishment": "Collège Louis Aragon",
       "establishmentKey": "college-louis-aragon"
     },
@@ -3555,7 +3556,7 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 258,
       "establishment": "Collège Europole de Grenoble",
       "establishmentKey": "college-europole-de-grenoble"
@@ -3572,7 +3573,7 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 141,
       "establishment": "Lycée Denis Diderot",
       "establishmentKey": "lycee-denis-diderot"
@@ -3590,8 +3591,8 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 464,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 466,
       "establishment": "Lycée Sacré-Cœur La Salle",
       "establishmentKey": "lycee-sacre-c-ur-la-salle"
     },
@@ -3607,7 +3608,7 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 122,
       "establishment": "Collège La Guicharde",
       "establishmentKey": "college-la-guicharde"
@@ -3624,8 +3625,8 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 21,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 22,
       "establishment": "Collège Mathalin",
       "establishmentKey": "college-mathalin"
     },
@@ -3641,7 +3642,7 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 146,
       "establishment": "Lycée International de La Havane \"Alejo Carpentier\"",
       "establishmentKey": "lycee-international-de-la-havane-alejo-carpentier"
@@ -3659,7 +3660,7 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 465,
       "establishment": "Lycée Gérard Ethève",
       "establishmentKey": "lycee-gerard-etheve"
@@ -3677,8 +3678,8 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 144,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 145,
       "establishment": "Collège Edmond Lucien Valard",
       "establishmentKey": "college-edmond-lucien-valard"
     },
@@ -3695,8 +3696,8 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 638,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 639,
       "establishment": "Collège Emile ZOLA de la ville Le Haillan",
       "establishmentKey": "college-emile-zola-de-la-ville-le-haillan"
     },
@@ -3713,8 +3714,8 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 1346,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 1347,
       "establishment": "Collège La Salle Saint-Michel",
       "establishmentKey": "college-la-salle-saint-michel"
     },
@@ -3730,8 +3731,8 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 521,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 524,
       "establishment": "Collège Florian d'Anduze",
       "establishmentKey": "college-florian-d-anduze"
     },
@@ -3746,7 +3747,7 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 122,
       "establishment": "Lycée \"G.Mazzini\" La Spezia ITALIE",
       "establishmentKey": "lycee-g-mazzini-la-spezia-italie"
@@ -3763,7 +3764,7 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 423,
       "establishment": "Lycée de Port-Bouët",
       "establishmentKey": "lycee-de-port-bouet"
@@ -3781,7 +3782,7 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 2159,
       "establishment": "LPO Marguerite Yourcenar",
       "establishmentKey": "lpo-marguerite-yourcenar"
@@ -3799,8 +3800,8 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 1577,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 1578,
       "establishment": "Lycée St Joseph La Cordeille",
       "establishmentKey": "lycee-st-joseph-la-cordeille"
     },
@@ -3815,7 +3816,7 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 3120,
       "establishment": "un groupe d'élèves de III G Esabac du Liceo Publio Virgilio Marone de Meta",
       "establishmentKey": "un-groupe-d-eleves-de-iii-g-esabac-du-liceo-publio-virgilio-marone-de-meta"
@@ -3833,8 +3834,8 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 477,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 480,
       "establishment": "Collège Louis Aragon",
       "establishmentKey": "college-louis-aragon"
     },
@@ -3851,7 +3852,7 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 16,
       "establishment": "Lycée Gabriel Deshayes",
       "establishmentKey": "lycee-gabriel-deshayes"
@@ -3868,7 +3869,7 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 410,
       "establishment": "les élèves de la classe 3G, du Istituto Istruzione Superiore Antonio Meucci",
       "establishmentKey": "les-eleves-de-la-classe-3g-du-istituto-istruzione-superiore-antonio-meucci"
@@ -3885,8 +3886,8 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 3057,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 3058,
       "establishment": "Lycée la Clairefontaine",
       "establishmentKey": "lycee-la-clairefontaine"
     },
@@ -3903,8 +3904,8 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 348,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 350,
       "establishment": "Collège Jules Marouzeau",
       "establishmentKey": "college-jules-marouzeau"
     },
@@ -3919,8 +3920,8 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 160,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 161,
       "establishment": "Collège victor hugo de Ham",
       "establishmentKey": "college-victor-hugo-de-ham"
     },
@@ -3937,8 +3938,8 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
-      "lastVotes": 515,
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
+      "lastVotes": 517,
       "establishment": "Collège Jules Marouzeau",
       "establishmentKey": "college-jules-marouzeau"
     },
@@ -3955,7 +3956,7 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 131,
       "establishment": "Lycée de Coiffure Pierre Masson",
       "establishmentKey": "lycee-de-coiffure-pierre-masson"
@@ -3972,7 +3973,7 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 190,
       "establishment": "Lycée Louise Michel d'Epinay sur Seine",
       "establishmentKey": "lycee-louise-michel-d-epinay-sur-seine"
@@ -3989,7 +3990,7 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 1795,
       "establishment": "Lycée la Clairefontaine",
       "establishmentKey": "lycee-la-clairefontaine"
@@ -4006,7 +4007,7 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-11T14:27:17.046+02:00",
+      "lastValidatedAt": "2026-06-11T17:01:45.601+02:00",
       "lastVotes": 838,
       "establishment": "Collège La Guicharde",
       "establishmentKey": "college-la-guicharde"
