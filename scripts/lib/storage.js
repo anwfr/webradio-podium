@@ -4,7 +4,6 @@ import { config } from './config.js';
 import {
   BACKUP_RETENTION_DAYS,
   SYNC_REPORT_BACKUP_DAYS,
-  JOURNAL_RETENTION_DAYS,
 } from './constants.js';
 
 function ensureDir(dir) {
@@ -107,12 +106,6 @@ export const emptyMeta = () => ({
   errors: [],
 });
 
-export const emptyExecutionJournal = () => ({
-  retentionDays: JOURNAL_RETENTION_DAYS,
-  updatedAt: null,
-  entries: [],
-});
-
 export const emptySyncReport = () => ({
   status: 'none',
   runAt: null,
@@ -198,8 +191,12 @@ export function ensureDataFiles() {
   if (!fs.existsSync(dataPath('sync-report.json'))) {
     writeJson(dataPath('sync-report.json'), emptySyncReport());
   }
-  if (!fs.existsSync(dataPath('execution-journal.json'))) {
-    _writeJson(dataPath('execution-journal.json'), emptyExecutionJournal());
+  if (
+    !fs.existsSync(dataPath('execution-journal.log')) &&
+    !fs.existsSync(dataPath('execution-journal.json'))
+  ) {
+    ensureDir(config.dataDir);
+    fs.writeFileSync(dataPath('execution-journal.log'), '', 'utf8');
   }
 }
 

@@ -137,7 +137,7 @@ webradio-podium/
 │   ├── alerts.json
 │   ├── meta.json
 │   ├── sync-report.json         # Dernier rapport de découverte (Pipeline B)
-│   ├── execution-journal.json   # Journal d'exécution (rétention 5 j)
+│   ├── execution-journal.log   # Journal d'exécution (rétention 5 j)
 │   └── backups/
 ├── public/                      # Déployé sur GitHub Pages
 │   ├── index.html
@@ -622,7 +622,7 @@ Contraintes détaillées : **[public-repo.md](public-repo.md)**.
 |-----------|--------|
 | `meta.json` | Statut du dernier run votes (Pipeline A) |
 | `sync-report.json` | Rapport du dernier run découverte (Pipeline B) |
-| `execution-journal.json` | Historique des runs (5 j) — événements + sorties sanitizées |
+| `execution-journal.log` | Historique des runs (5 j) — événements + sorties sanitizées |
 | Logs GitHub Actions | Conservés 90 jours |
 | Artifacts (optionnel) | Upload `data/backups/` en artifact si run échoue |
 | Badge README (optionnel) | « Dernier scrape : OK/KO » via shield.io |

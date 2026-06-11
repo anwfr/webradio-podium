@@ -10,7 +10,7 @@ const DATA_FILES = [
   'alerts.json',
   'meta.json',
   'sync-report.json',
-  'execution-journal.json',
+  'execution-journal.log',
 ];
 
 function copyDataToPublic() {

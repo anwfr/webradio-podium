@@ -171,7 +171,7 @@ Pipeline B **ne scrape pas les votes** et **ne calcule pas les alertes** — il 
 | `alerts.json` / `stats.json` | A | Scores de suspicion |
 | `meta.json` | A | Statut du dernier run votes |
 | `sync-report.json` | B | Rapport de diff (ouverts, fermés, nouveaux…) |
-| `execution-journal.json` | A et B | Journal public des exécutions (5 j) |
+| `execution-journal.log` | A et B | Journal public des exécutions (5 j) |
 
 Schémas détaillés : [donnees.md](donnees.md).
 

@@ -16,7 +16,7 @@
 | `alerts.json` | Alertes et scores de suspicion | `detect-alerts.js` |
 | `meta.json` | Journal du dernier run votes (Pipeline A) | `run-pipeline.js` |
 | `sync-report.json` | Rapport de la dernière découverte manuelle (Pipeline B) | `run-discover.js` |
-| `execution-journal.json` | Journal d'exécution public (événements + sorties sanitizées) | `run-pipeline.js` · `run-discover.js` |
+| `execution-journal.log` | Journal d'exécution public (événements + sorties sanitizées) | `run-pipeline.js` · `run-discover.js` |
 | `backups/` | Copies horodatées | Tous les scripts avant écriture |
 
 ---
@@ -300,44 +300,30 @@ Produit par Pipeline B. Affiché sur `decouverte.html`.
 
 ---
 
-## 11. `data/execution-journal.json`
+## 11. `data/execution-journal.log`
 
-Journal **public** des runs (Pipelines A et B). Rétention : **5 jours** (`JOURNAL_RETENTION_DAYS` dans `scripts/lib/constants.js`). Purge automatique à chaque écriture.
+Journal **public** des runs (Pipelines A et B), une ligne par événement. Rétention : **5 jours** (`JOURNAL_RETENTION_DAYS` dans `scripts/lib/constants.js`). Purge automatique au démarrage/fin de run et toutes les 100 lignes.
 
-```json
-{
-  "retentionDays": 5,
-  "updatedAt": "2026-06-11T16:05:00+02:00",
-  "entries": [
-    {
-      "id": "uuid",
-      "runId": "uuid",
-      "at": "2026-06-11T06:00:05+02:00",
-      "pipeline": "pipeline-a",
-      "event": "step_complete",
-      "step": "scrape-votes",
-      "level": "info",
-      "message": "Scrape terminé — 62 entrée(s)",
-      "output": {
-        "entriesCount": 62,
-        "scrapeErrors": 1,
-        "errors": [{ "slug": "exemple", "code": "http_429", "message": "…" }]
-      }
-    }
-  ]
-}
+```
+2026-06-11 06:00:05 [pipeline-a] INFO start Démarrage — workflow_dispatch trigger=workflow_dispatch
+2026-06-11 06:00:12 [pipeline-a] INFO http_request/fetch GET https://offre-pedagogique.afd.fr/… → 200 (847ms)
+2026-06-11 06:05:00 [pipeline-a] INFO step_complete/scrape-votes Scrape terminé — 62 entrée(s) entriesCount=62 scrapeErrors=1
+2026-06-11 06:05:30 [pipeline-a] ERROR fail Pipeline interrompu reason=timeout
 ```
 
-| Champ | Description |
-|-------|-------------|
-| `pipeline` | `pipeline-a` (votes) · `pipeline-b` (discover) |
-| `event` | `start` · `step_complete` · `step_error` · `http_request` · `complete` · `fail` |
-| `level` | `info` · `warn` · `error` |
-| `output` | Résumé sanitizé — **jamais** tokens, cookies, `.env` |
+| Segment | Description |
+|---------|-------------|
+| Horodatage | `YYYY-MM-DD HH:mm:ss` (Europe/Paris) |
+| `[pipeline]` | `pipeline-a` (votes) · `pipeline-b` (discover) |
+| Niveau | `INFO` · `WARN` · `ERROR` |
+| Événement | `start` · `step_complete/…` · `step_error/…` · `http_request/fetch` · `complete` · `fail` |
+| Message | Texte lisible ; métadonnées en `clé=valeur` en fin de ligne (sauf requêtes HTTP) |
 
 Sanitisation : `scripts/lib/journal.js` (`sanitizeForJournal`, `sanitizeUrl`) — clés sensibles redacted, chaînes longues tronquées, paramètres URL sensibles masqués.
 
-Chaque requête HTTP sortante (scraping) est journalisée via `scripts/lib/fetcher.js` : console `[http] …` + entrée `http_request` (URL, statut, durée — jamais cookies ni tokens).
+Chaque requête HTTP sortante (scraping) est journalisée via `scripts/lib/fetcher.js` : console `[http] …` + ligne `http_request` (URL, statut, durée — jamais cookies ni tokens).
+
+Migration : si `execution-journal.json` existe encore, il est converti automatiquement au premier accès.
 
 ---
 

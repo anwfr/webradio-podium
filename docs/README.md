@@ -36,7 +36,7 @@ Sans `seed-demo`, les scripts créent des fichiers JSON vides au premier lanceme
 | `npm run discover` | Pipeline B : re-validation complète (~10–18 min) |
 | `npm run publish` | Copie `data/` → `public/data/` + `site-config.json` |
 
-Les pipelines écrivent un journal public dans `data/execution-journal.json` (rétention 5 jours, sans données sensibles).
+Les pipelines écrivent un journal public dans `data/execution-journal.log` (rétention 5 jours, sans données sensibles).
 
 **Pipeline A vs B** (rôles respectifs, ce que chacun fait ou ne fait pas) → **[specifications/pipelines.md](specifications/pipelines.md)**
 
@@ -65,7 +65,7 @@ cp .env.example .env   # optionnel : liens GitHub dans le front après publish
 PIPELINE_TRIGGER=local npm run discover
 ```
 
-(`PIPELINE_TRIGGER` est journalisé dans `meta.json` et `execution-journal.json` — en Actions la valeur est `workflow_dispatch`.)
+(`PIPELINE_TRIGGER` est journalisé dans `meta.json` et `execution-journal.log` — en Actions la valeur est `workflow_dispatch`.)
 
 ### Pendant l'exécution
 
@@ -73,7 +73,7 @@ PIPELINE_TRIGGER=local npm run discover
 - **Chaque requête HTTP** est loggée (`[http] GET …`) dans la console et le journal.
 - **`sync-report.json`** : champ `progress` mis à jour en continu (`phase`, `percent`, `etaMs`, etc.).
 - **Page web** : lancer en parallèle `npm run dev` pour suivre la progression sur `decouverte.html` (URL admin, refresh auto 10 s).
-- **Journal** : `data/execution-journal.json` (événements + requêtes sortantes).
+- **Journal** : `data/execution-journal.log` (événements + requêtes sortantes).
 
 **Anti-flood** : délais aléatoires entre requêtes, referer chaîné, session cookies, pause longue après 429, retry avec backoff — constantes dans `scripts/lib/constants.js`.
 

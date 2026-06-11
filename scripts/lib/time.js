@@ -10,6 +10,16 @@ export function formatParisIso(dt) {
   return dt.setZone(PARIS).toISO({ suppressMilliseconds: true });
 }
 
+/** Horodatage compact pour execution-journal.log (Paris, sans ms). */
+export function formatParisLogTimestamp(dt) {
+  return dt.setZone(PARIS).toFormat('yyyy-MM-dd HH:mm:ss');
+}
+
+export function parseParisLogTimestamp(tsStr) {
+  const dt = DateTime.fromFormat(tsStr, 'yyyy-MM-dd HH:mm:ss', { zone: PARIS });
+  return dt.isValid ? dt.toMillis() : NaN;
+}
+
 /** Horodatage du relevé = instant du run (Paris, sans millisecondes). */
 export function getSnapshotTimestamp() {
   return nowParis().set({ millisecond: 0 });
