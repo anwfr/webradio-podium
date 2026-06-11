@@ -54,6 +54,7 @@ jobs:
       - name: Generate site-config.json
         env:
           GITHUB_REPOSITORY: ${{ github.repository }}
+          SITE_BASE_URL: https://concours.moo.com
         run: node --input-type=module -e "import { writeSiteConfig } from './scripts/publish-data.js'; writeSiteConfig();"
 
       - uses: actions/upload-pages-artifact@v3
