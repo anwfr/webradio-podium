@@ -172,7 +172,10 @@ function refreshPodcastsTab() {
   if (is24h) {
     hideBadgeContainer('podcast-badges');
   } else {
-    renderPodcastBadges(state.allRows, 'podcast-badges', { openPodcastDetail });
+    renderPodcastBadges(state.allRows, 'podcast-badges', {
+      openPodcastDetail,
+      getEstablishmentLabel: canonicalEstablishmentLabel,
+    });
   }
   updateTop3SectionTitle('podcast-top3-title', state.podcastSortMode);
 
@@ -183,7 +186,10 @@ function refreshPodcastsTab() {
 
   if (is24h) {
     if (podium) podium.innerHTML = '';
-    renderPodcastBoostDuJour(sorted, 'boost-podcasts', { openPodcastDetail });
+    renderPodcastBoostDuJour(sorted, 'boost-podcasts', {
+      openPodcastDetail,
+      getEstablishmentLabel: canonicalEstablishmentLabel,
+    });
   } else {
     if (boost) {
       boost.innerHTML = '';

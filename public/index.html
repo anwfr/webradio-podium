@@ -44,10 +44,87 @@
     </div>
 
   <section id="onboarding-screen" class="onboarding-screen" hidden>
+    <div class="onboarding-hero" aria-hidden="true">
+      <div class="onboarding-particles">
+        <span class="onboarding-particle onboarding-particle--1">🎙️</span>
+        <span class="onboarding-particle onboarding-particle--2">🏆</span>
+        <span class="onboarding-particle onboarding-particle--3">🔥</span>
+        <span class="onboarding-particle onboarding-particle--4">🥇</span>
+        <span class="onboarding-particle onboarding-particle--5">📈</span>
+        <span class="onboarding-particle onboarding-particle--6">⚡</span>
+      </div>
+      <div class="onboarding-logo-wrap">
+        <div class="onboarding-logo-glow"></div>
+        <div class="onboarding-logo">
+          <svg class="onboarding-logo-svg" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <defs>
+              <linearGradient id="onbDisc" x1="24" y1="16" x2="96" y2="104" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#1e2440"/>
+                <stop offset="0.45" stop-color="#252d52"/>
+                <stop offset="1" stop-color="#141829"/>
+              </linearGradient>
+              <linearGradient id="onbDiscRing" x1="20" y1="20" x2="100" y2="100" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#4ecdc4"/>
+                <stop offset="0.5" stop-color="#7c5cff"/>
+                <stop offset="1" stop-color="#ff6b6b"/>
+              </linearGradient>
+              <linearGradient id="onbMicCap" x1="46" y1="22" x2="74" y2="62" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#ff8a8a"/>
+                <stop offset="0.55" stop-color="#a855f7"/>
+                <stop offset="1" stop-color="#6366f1"/>
+              </linearGradient>
+              <linearGradient id="onbMicShine" x1="50" y1="24" x2="58" y2="52" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#ffffff" stop-opacity="0.45"/>
+                <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+              </linearGradient>
+              <linearGradient id="onbStand" x1="42" y1="56" x2="78" y2="84" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#4ecdc4"/>
+                <stop offset="1" stop-color="#7c5cff"/>
+              </linearGradient>
+              <linearGradient id="onbWave" x1="0" y1="0" x2="0" y2="1">
+                <stop stop-color="#4ecdc4"/>
+                <stop offset="1" stop-color="#7c5cff"/>
+              </linearGradient>
+              <linearGradient id="onbEq" x1="0" y1="1" x2="0" y2="0">
+                <stop stop-color="#4ecdc4"/>
+                <stop offset="1" stop-color="#ffd166"/>
+              </linearGradient>
+              <filter id="onbShadow" x="-20%" y="-20%" width="140%" height="140%">
+                <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.45"/>
+                <feDropShadow dx="0" dy="0" stdDeviation="10" flood-color="#7c5cff" flood-opacity="0.22"/>
+              </filter>
+            </defs>
+            <circle cx="60" cy="56" r="50" fill="url(#onbDisc)" filter="url(#onbShadow)"/>
+            <circle cx="60" cy="56" r="50" stroke="url(#onbDiscRing)" stroke-width="1.75" opacity="0.85"/>
+            <circle cx="60" cy="56" r="43" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+            <path class="onboarding-logo-wave onboarding-logo-wave--l" d="M26 44 C20 56 20 56 26 68" stroke="url(#onbWave)" stroke-width="2.5" stroke-linecap="round" opacity="0.85"/>
+            <path class="onboarding-logo-wave onboarding-logo-wave--l2" d="M18 38 C10 56 10 56 18 74" stroke="url(#onbWave)" stroke-width="2" stroke-linecap="round" opacity="0.45"/>
+            <path class="onboarding-logo-wave onboarding-logo-wave--r" d="M94 44 C100 56 100 56 94 68" stroke="url(#onbWave)" stroke-width="2.5" stroke-linecap="round" opacity="0.85"/>
+            <path class="onboarding-logo-wave onboarding-logo-wave--r2" d="M102 38 C110 56 110 56 102 74" stroke="url(#onbWave)" stroke-width="2" stroke-linecap="round" opacity="0.45"/>
+            <rect x="46" y="24" width="28" height="38" rx="14" fill="url(#onbMicCap)"/>
+            <rect x="50" y="28" width="7" height="24" rx="3.5" fill="url(#onbMicShine)"/>
+            <line x1="52" y1="34" x2="68" y2="34" stroke="rgba(255,255,255,0.14)" stroke-width="1.2" stroke-linecap="round"/>
+            <line x1="51" y1="40" x2="69" y2="40" stroke="rgba(255,255,255,0.14)" stroke-width="1.2" stroke-linecap="round"/>
+            <line x1="51" y1="46" x2="69" y2="46" stroke="rgba(255,255,255,0.14)" stroke-width="1.2" stroke-linecap="round"/>
+            <line x1="52" y1="52" x2="68" y2="52" stroke="rgba(255,255,255,0.14)" stroke-width="1.2" stroke-linecap="round"/>
+            <path d="M41 58 C41 71 49 76 60 76 C71 76 79 71 79 58" stroke="url(#onbStand)" stroke-width="3.5" stroke-linecap="round"/>
+            <line x1="60" y1="76" x2="60" y2="84" stroke="url(#onbStand)" stroke-width="3.5" stroke-linecap="round"/>
+            <line x1="51" y1="84" x2="69" y2="84" stroke="url(#onbStand)" stroke-width="3.5" stroke-linecap="round"/>
+            <rect class="onboarding-eq onboarding-eq--1" x="28" y="92" width="5" height="10" rx="2.5" fill="url(#onbEq)" opacity="0.7"/>
+            <rect class="onboarding-eq onboarding-eq--2" x="36" y="88" width="5" height="14" rx="2.5" fill="url(#onbEq)" opacity="0.85"/>
+            <rect class="onboarding-eq onboarding-eq--3" x="44" y="84" width="5" height="18" rx="2.5" fill="url(#onbEq)"/>
+            <rect class="onboarding-eq onboarding-eq--4" x="71" y="88" width="5" height="14" rx="2.5" fill="url(#onbEq)" opacity="0.85"/>
+            <rect class="onboarding-eq onboarding-eq--5" x="79" y="92" width="5" height="10" rx="2.5" fill="url(#onbEq)" opacity="0.7"/>
+            <circle cx="60" cy="20" r="3" fill="#ffd166" opacity="0.9"/>
+          </svg>
+        </div>
+      </div>
+      <p class="onboarding-brand">Concours podcast 2026</p>
+    </div>
     <div class="onboarding-inner">
       <h1 id="onboarding-title" class="onboarding-title">Choisis ton établissement</h1>
       <p id="onboarding-lead" class="onboarding-lead">Pour commencer, indique où tu étudies.</p>
-      <input type="search" id="onboarding-search" class="search-input" placeholder="Rechercher un lycée, collège…" autocomplete="off" />
+      <input type="search" id="onboarding-search" class="search-input onboarding-search" placeholder="Rechercher un lycée, collège, ville…" autocomplete="off" />
       <div id="onboarding-list" class="onboarding-list"></div>
     </div>
   </section>

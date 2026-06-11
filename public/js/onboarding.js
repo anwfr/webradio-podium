@@ -1,12 +1,15 @@
 import { setUserEstablishment } from './user-establishment.js';
 import { escapeHtml } from './ranking-view.js';
 import { closePodcastDetail, stashPodcastFromUrl } from './podcast-detail.js';
+import {
+  parsePodiumEstablishmentDisplay,
+  resolveEstablishmentCity,
+} from './establishment.js';
 
 const FEATURED_ESTABLISHMENT_KEY = 'college-florian-d-anduze';
 
 let entries = [];
 let onComplete = null;
-let mode = 'onboarding';
 
 function sortOnboardingEntries(items) {
   return [...items].sort((a, b) => {
@@ -31,7 +34,7 @@ export function initOnboarding({ onSelected } = {}) {
     list.dataset.bound = '1';
     list.addEventListener('click', (e) => {
       const btn = e.target.closest('[data-establishment-key]');
-      if (!btn || btn.tagName !== 'BUTTON') return;
+      if (!btn) return;
       const key = btn.dataset.establishmentKey;
       const label = btn.dataset.establishmentLabel;
       selectEstablishment(key, label);
@@ -44,8 +47,6 @@ export function setOnboardingEntries(establishmentEntries) {
 }
 
 export function showOnboarding({ reason = 'onboarding' } = {}) {
-  mode = reason;
-
   closePodcastDetail(true);
   stashPodcastFromUrl();
 
@@ -54,7 +55,10 @@ export function showOnboarding({ reason = 'onboarding' } = {}) {
   document.getElementById('empty-state').hidden = true;
 
   const screen = document.getElementById('onboarding-screen');
-  if (screen) screen.hidden = false;
+  if (screen) {
+    screen.hidden = false;
+    screen.classList.toggle('onboarding-screen--change', reason === 'change');
+  }
 
   const title = document.getElementById('onboarding-title');
   const lead = document.getElementById('onboarding-lead');
@@ -66,7 +70,7 @@ export function showOnboarding({ reason = 'onboarding' } = {}) {
     lead.textContent =
       reason === 'change'
         ? 'Sélectionne un nouvel établissement pour personnaliser l\'app.'
-        : 'Pour commencer, indique où tu étudies. Tu verras en priorité les podcasts de ton école.';
+        : 'Repère ton école dans le classement et débloque le podium en direct !';
   }
 
   const search = document.getElementById('onboarding-search');
@@ -81,15 +85,44 @@ export function hideOnboarding() {
   if (screen) screen.hidden = true;
 }
 
+function entrySearchHaystack(entry) {
+  const label = entry.label || entry.key || '';
+  const city = resolveEstablishmentCity({ label, key: entry.key }) || '';
+  return `${label} ${city}`.toLowerCase();
+}
+
+function renderOnboardingCard(entry) {
+  const label = entry.label || entry.key || 'Établissement';
+  const { city, establishmentName } = parsePodiumEstablishmentDisplay(label, {
+    key: entry.key,
+  });
+  const displayName = establishmentName || label;
+  const cityMarkup = city
+    ? `<span class="podium-establishment-city">${escapeHtml(city)}</span>`
+    : '';
+
+  return `
+    <button
+      type="button"
+      class="onboarding-card"
+      data-establishment-key="${escapeHtml(entry.key)}"
+      data-establishment-label="${escapeHtml(label)}"
+    >
+      <span class="onboarding-card-establishment">
+        ${cityMarkup}
+        <span class="podium-establishment-name onboarding-card-title">${escapeHtml(displayName)}</span>
+      </span>
+    </button>`;
+}
+
 function renderOnboardingList(query) {
   const list = document.getElementById('onboarding-list');
   if (!list) return;
 
   const q = query.trim().toLowerCase();
   const filtered = entries.filter((entry) => {
-    const label = entry.label || entry.key || '';
     if (!q) return true;
-    return label.toLowerCase().includes(q);
+    return entrySearchHaystack(entry).includes(q);
   });
 
   if (!filtered.length) {
@@ -99,20 +132,7 @@ function renderOnboardingList(query) {
 
   list.innerHTML = sortOnboardingEntries(filtered)
     .slice(0, 80)
-    .map(
-      (entry) => {
-        const label = entry.label || entry.key || 'Établissement';
-        return `
-    <div class="onboarding-card">
-      <div class="onboarding-card-body">
-        <strong class="onboarding-card-title">${escapeHtml(label)}</strong>
-      </div>
-      <button type="button" class="btn btn-small" data-establishment-key="${escapeHtml(entry.key)}" data-establishment-label="${escapeHtml(label)}">
-        ${mode === 'change' ? 'Sélectionner' : 'C\'est mon établissement'}
-      </button>
-    </div>`;
-      }
-    )
+    .map((entry) => renderOnboardingCard(entry))
     .join('');
 
   if (filtered.length > 80) {

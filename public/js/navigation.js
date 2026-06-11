@@ -1,7 +1,7 @@
 const TABS = [
+  { id: 'mon-ecole', label: 'Mon école', hash: '#mon-ecole' },
   { id: 'podcasts', label: 'Podcasts', hash: '#podcasts' },
   { id: 'ecoles', label: 'Écoles', hash: '#ecoles' },
-  { id: 'mon-ecole', label: 'Mon école', hash: '#mon-ecole' },
 ];
 
 const HASH_MAP = {

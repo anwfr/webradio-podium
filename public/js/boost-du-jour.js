@@ -97,6 +97,7 @@ export function renderHighlightBadgeCard({
   emoji,
   label,
   name = '',
+  establishment = '',
   text = '',
   statMarkup = '',
   href = null,
@@ -111,6 +112,9 @@ export function renderHighlightBadgeCard({
     : '';
   const nameMarkup = name
     ? `<p class="podcast-badge-name">${escapeHtml(name)}</p>`
+    : '';
+  const establishmentMarkup = establishment
+    ? `<p class="podcast-badge-establishment">${escapeHtml(establishment)}</p>`
     : '';
   const actionTitle = title ? ` title="${escapeHtml(title)}"` : '';
   let tag = 'div';
@@ -139,6 +143,7 @@ export function renderHighlightBadgeCard({
           ${cityMarkup}
         </div>
         ${nameMarkup}
+        ${establishmentMarkup}
         <p class="establishment-badge-card-text">${statContent}</p>
       </div>
     </${tag}>`;

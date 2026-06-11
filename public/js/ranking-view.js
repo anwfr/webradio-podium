@@ -15,6 +15,18 @@ import {
 } from './boost-du-jour.js';
 import { buildPodcastUrl } from './podcast-detail.js';
 import { computePodcastBadges, truncatePodcastTitle } from './podcast-badges.js';
+import { parsePodiumEstablishmentDisplay } from './establishment.js';
+
+function resolvePodcastEstablishmentMeta(row, getEstablishmentLabel) {
+  const label = getEstablishmentLabel?.(row) || row.establishment || row.school || '';
+  if (!label) return { city: '', establishmentName: '' };
+
+  const { city, establishmentName } = parsePodiumEstablishmentDisplay(label, {
+    key: row.establishmentKey,
+    school: row.school,
+  });
+  return { city, establishmentName: establishmentName || label };
+}
 
 export function escapeHtml(str) {
   return String(str)
@@ -24,7 +36,7 @@ export function escapeHtml(str) {
     .replace(/"/g, '&quot;');
 }
 
-export function renderPodcastBadges(rows, containerId, { openPodcastDetail } = {}) {
+export function renderPodcastBadges(rows, containerId, { openPodcastDetail, getEstablishmentLabel } = {}) {
   const container = document.getElementById(containerId);
   if (!container) return;
 
@@ -41,10 +53,16 @@ export function renderPodcastBadges(rows, containerId, { openPodcastDetail } = {
       const href = buildPodcastUrl(badge.slug);
       const podcastTitle = truncatePodcastTitle(badge.podcastTitle);
       const linkTitle = `Voir ${badge.podcastTitle || badge.slug}`;
+      const row = rows.find((item) => item.slug === badge.slug);
+      const { city, establishmentName } = row
+        ? resolvePodcastEstablishmentMeta(row, getEstablishmentLabel)
+        : { city: '', establishmentName: '' };
       return renderHighlightBadgeCard({
         emoji: badge.emoji,
         label: badge.title,
         name: podcastTitle,
+        establishment: establishmentName,
+        city,
         text: badge.text,
         statMarkup: badge.statMarkup,
         href,
@@ -68,11 +86,15 @@ function podcastModeRankDelta(row, mode) {
   return mode === 'total' ? row.deltaRankByTotal : row.deltaRankByDelta24h;
 }
 
-function renderPodcastBoostCard(row, { badge, story = null }) {
+function renderPodcastBoostCard(row, { badge, story = null, getEstablishmentLabel }) {
+  const { city, establishmentName } = resolvePodcastEstablishmentMeta(row, getEstablishmentLabel);
+
   return renderHighlightBadgeCard({
     emoji: badge.emoji,
     label: resolveBoostBadgeLabel(badge),
     name: truncatePodcastTitle(row.title),
+    establishment: establishmentName,
+    city,
     statMarkup: boostStoryStatMarkup(story ?? 'enFeu', row),
     href: buildPodcastUrl(row.slug),
     slug: row.slug,
@@ -83,6 +105,7 @@ function renderPodcastBoostCard(row, { badge, story = null }) {
 
 export function renderPodcastBoostDuJour(rows, containerId, {
   openPodcastDetail,
+  getEstablishmentLabel,
 } = {}) {
   const container = document.getElementById(containerId);
   if (!container) return;
@@ -99,9 +122,13 @@ export function renderPodcastBoostDuJour(rows, containerId, {
   const secondaryStories = buildBoostSecondaryStories(rows, hero, { keyField: 'slug' });
 
   const cardsMarkup = [
-    renderPodcastBoostCard(hero, { badge: BOOST_STORY_BADGES.enFeu, story: 'enFeu' }),
+    renderPodcastBoostCard(hero, {
+      badge: BOOST_STORY_BADGES.enFeu,
+      story: 'enFeu',
+      getEstablishmentLabel,
+    }),
     ...secondaryStories.map(({ item, badge, story }) =>
-      renderPodcastBoostCard(item, { badge, story })
+      renderPodcastBoostCard(item, { badge, story, getEstablishmentLabel })
     ),
   ];
 
