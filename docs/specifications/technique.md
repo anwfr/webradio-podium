@@ -25,13 +25,15 @@
 
 Deux pipelines **séparés** : votes automatiques vs découverte manuelle.
 
+> **Guide détaillé** (pourquoi deux pipelines, ce que chacun fait ou ne fait pas, scénarios) : **[pipelines.md](pipelines.md)**
+
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
 │  PIPELINE A — scrape.yml (automatique 06h/16h + manuel optionnel)   │
 │                                                                      │
-│  list-scan-léger → scrape-votes → detect-alerts → publish-data       │
+│  scrape-votes → detect-alerts → publish-data                       │
 │                                                                      │
-│  • Parcourt la liste paginée (13 pages) pour repérer les NOUVEAUX    │
+│  • Parcourt la liste paginée (filtre édition 2026) pour les NOUVEAUX │
 │    slugs uniquement — ne re-visite PAS les fiches inactives          │
 │  • Scrape les votes des participants active:true seulement           │
 └─────────────────────────────────────────────────────────────────────┘
@@ -111,10 +113,12 @@ webradio-podium/
 │   ├── scrape.yml               # Cron votes 06h/16h
 │   └── discover.yml             # Découverte manuelle uniquement
 ├── docs/
+│   ├── README.md            # Prise en main rapide
+│   └── specifications/      # Spécifications détaillées
 ├── scripts/
 │   ├── run-pipeline.js          # Pipeline A (votes)
 │   ├── run-discover.js          # Pipeline B (découverte + diff)
-│   ├── list-scan.js             # Crawl liste paginée (léger)
+│   ├── list-scan.js             # Crawl liste paginée (manuel, hors pipeline A)
 │   ├── discover-participants.js # Re-visite complète + diff
 │   ├── scrape-votes.js
 │   ├── detect-alerts.js
@@ -123,6 +127,8 @@ webradio-podium/
 │       ├── fetcher.js           # HTTP, anti-bot, retry
 │       ├── parser.js            # Sélecteurs Drupal
 │       ├── storage.js           # Lecture/écriture JSON atomique
+│       ├── constants.js         # Rétention journal, backups, etc.
+│       ├── journal.js           # Journal d'exécution public
 │       └── anomaly-detector.js
 ├── data/                        # Source de vérité (versionnée)
 │   ├── participants.json
@@ -131,6 +137,7 @@ webradio-podium/
 │   ├── alerts.json
 │   ├── meta.json
 │   ├── sync-report.json         # Dernier rapport de découverte (Pipeline B)
+│   ├── execution-journal.json   # Journal d'exécution (rétention 5 j)
 │   └── backups/
 ├── public/                      # Déployé sur GitHub Pages
 │   ├── index.html
@@ -152,10 +159,32 @@ webradio-podium/
     "discover": "node scripts/run-discover.js",
     "scrape": "node scripts/scrape-votes.js",
     "detect": "node scripts/detect-alerts.js",
-    "publish": "node scripts/publish-data.js"
+    "publish": "node scripts/publish-data.js",
+    "seed-demo": "node scripts/seed-demo.js",
+    "reset-data": "node scripts/reset-data.js"
   }
 }
 ```
+
+### Configuration locale (`.env` — non versionné)
+
+Copier `.env.example` vers `.env` et renseigner au minimum `GITHUB_OWNER` et `GITHUB_REPO`. Utilisé par les scripts Node pour générer `public/js/site-config.json` (également non versionné — fallback `site-config.defaults.json` sur Pages).
+
+| Variable | Rôle |
+|----------|------|
+| `GITHUB_OWNER` | Liens GitHub Actions / repo dans le front |
+| `GITHUB_REPO` | Nom du dépôt |
+| `SITE_BASE_URL` | URL Pages (optionnel) |
+| `HTTP_TIMEOUT_MS` | Timeout HTTP (défaut **15 s**) |
+
+En GitHub Actions, `GITHUB_REPOSITORY` est injecté automatiquement — pas besoin de `.env`.
+
+### Données par défaut et démo locale
+
+- Au premier run, si `data/*.json` est absent, les scripts créent des **fichiers minimaux vides** (`ensureDataFiles`).
+- **`npm run seed-demo`** : peuple `data/` avec un **extrait réaliste** (6 podcasts, 5 snapshots) inspiré de fiches AFD réelles — pour développer le front sans scraper.
+- **`npm run reset-data`** : supprime entièrement `data/` et `public/data/` — les JSON vides sont recréés au prochain pipeline.
+- **`npm run discover`** : scraping réel complet (Pipeline B) — à lancer avant le premier cron en prod.
 
 ---
 
@@ -169,21 +198,16 @@ webradio-podium/
         ▼
   run-pipeline.js
         │
-        ├─► list-scan.js
-        │     • crawl 13 pages liste (index 0-based)
-        │     • pour chaque slug INCONNU : visite fiche 1×, détermine active/status
-        │     • slugs connus inactifs : PAS de re-visite
-        │
         ├─► scrape-votes.js
         │     • visite uniquement participants active:true
-        │     • append snapshot (idempotent par snapshotTimestamp)
+        │     • append snapshot (horodatage = début du run)
         │
         ├─► detect-alerts.js
         │
         └─► publish-data.js → commit + push
 ```
 
-**Durée estimée :** **5–10 min** (~60–80 fiches actives × 3 s + 13 pages liste + éventuels nouveaux slugs).
+**Durée estimée :** **4–8 min** (~60–80 fiches actives × 3 s).
 
 ### 5.2 Pipeline B — Découverte manuelle (T6)
 
@@ -194,14 +218,14 @@ webradio-podium/
   run-discover.js
         │
         ├─► 1. Snapshot « avant » de participants.json (en mémoire)
-        ├─► 2. Crawl liste complète (13 pages)
+        ├─► 2. Crawl liste complète (filtre édition 2026)
         ├─► 3. Visite CHAQUE fiche (connue + nouvelle)
         ├─► 4. Met à jour participants.json (merge, jamais delete)
         ├─► 5. Calcule le diff avant/après → sync-report.json
         └─► 6. publish-data.js → commit + push
 ```
 
-**Durée estimée :** **20–35 min** (~180 fiches × 3 s).
+**Durée estimée :** **10–18 min** (~180 fiches, délais dans `constants.js`).
 
 **Premier lancement du projet :** exécuter Pipeline B une fois avant le premier cron de votes.
 
@@ -216,7 +240,7 @@ webradio-podium/
 
 > Le **rapport** est public. Seul le **bouton Run workflow** nécessite d'être collaborateur du repo — ce n'est pas une protection du contenu, c'est une limite GitHub. Voir [public-repo.md](public-repo.md).
 
-> Après « Run workflow », attendre ~20–35 min puis rafraîchir `decouverte.html` (auto-refresh 30 s si `status: running`).
+> Après « Run workflow », attendre ~10–18 min puis rafraîchir `decouverte.html` (auto-refresh 10 s si `status: running`).
 
 ---
 
@@ -226,7 +250,7 @@ webradio-podium/
 
 | Usage | URL |
 |-------|-----|
-| Liste filtrée | `https://offre-pedagogique.afd.fr/fr/publications/liste?type[6]=6&page={n}` |
+| Liste filtrée | `https://offre-pedagogique.afd.fr/fr/publications/liste?words=&type[6]=6&thematic[389]=389&location=&page={n}` |
 | Fiche podcast | `https://offre-pedagogique.afd.fr/fr/ressources/{slug}` |
 
 ### Pagination Drupal (⚠️ piège)
@@ -237,9 +261,11 @@ L'index est **0-based** :
 |----------------|------------------|
 | Page 1 | `page=0` ou absent |
 | Page 2 | `page=1` |
-| Dernière page | `page=12` (13 pages au total, juin 2026) |
+| Dernière page | `page=10` (11 pages au total avec filtre édition 2026, juin 2026) |
 
-**Détection du nombre de pages :** lire le lien `fr-pagination__link--last` → `href="?type[6]=6&page=12"`.
+Filtres URL : `type[6]=6` (podcast concours) + `thematic[389]=389` (programme pédagogique **Edition 2026**).
+
+**Détection du nombre de pages :** lire le lien `fr-pagination__link--last` (pagination dynamique).
 
 ### Filtrage édition 2026
 
@@ -313,23 +339,18 @@ Texte libre dans la page, ex. `Edition 2026`. Parser via regex :
 
 ---
 
-## 8. Scripts — Pipeline A (`list-scan` + `scrape-votes`)
+## 8. Scripts — Pipeline A (`scrape-votes`)
 
-### `list-scan.js`
+### `list-scan.js` (hors pipeline automatique)
 
-Scan léger exécuté à chaque cron 06h/16h :
-
-1. Crawl des 13 pages liste.
-2. Extraction des slugs `/fr/ressources/{slug}`.
-3. Pour chaque slug **absent** de `participants.json` : visite fiche, extraction métadonnées, `voteStatus`, `active`.
-4. Slugs déjà connus (actifs ou inactifs) : **aucune re-visite**.
+Script conservé pour usage manuel si besoin. Le cron Pipeline A ne l'appelle plus : la liste AFD est considérée figée. Pour resynchroniser le catalogue, lancer Pipeline B.
 
 ### `scrape-votes.js`
 
 1. Parcourt `participants.json` où `active: true`.
 2. Extrait le compteur via `input[data-drupal-selector="edit-likes"]`.
 3. Si « Votes clôturés » détecté : `active: false`, `voteStatus: closed`, pas de snapshot.
-4. Append dans `votes-history.json` (idempotent).
+4. Append dans `votes-history.json` (un snapshot par run, horodaté à l'instant du début).
 
 ### `detect-alerts.js`
 
@@ -343,7 +364,7 @@ Recalcule `stats.json` + `alerts.json` — algorithme dans [detection-anomalies.
 
 ```
 1. before ← copie participants.json
-2. Crawl liste (13 pages)
+2. Crawl liste (filtre édition 2026)
 3. Visite TOUTES les fiches (connues + nouvelles)
 4. Merge participants.json (jamais delete)
 5. after ← participants.json mis à jour
@@ -378,12 +399,12 @@ Au démarrage : `sync-report.json` passe à `status: running`. À la fin : `stat
 |--------|--------|
 | User-Agent | Pool de 10 UA récents, 1 UA par run (cohérent sur toute l'exécution) |
 | Headers | `Accept`, `Accept-Language: fr-FR,fr;q=0.9`, `Accept-Encoding: gzip, deflate, br`, `Referer` chaîné (liste → fiche), `Sec-Fetch-Dest: document`, `Sec-Fetch-Mode: navigate`, `Sec-Fetch-Site: same-origin` |
-| Délais | `random(2000, 6000)` ms entre fiches ; `random(5000, 12000)` ms entre pages liste |
+| Délais | `random(1000, 3000)` ms entre fiches ; `random(2500, 6000)` ms entre pages liste (`constants.js`) |
 | Session | `fetch` avec cookie jar (`tough-cookie` ou équivalent) |
 | Retry | Backoff exponentiel sur 429/503/timeout |
 | Parallélisme | **Aucun** — séquentiel strict |
 | Compression | Accepter gzip/br |
-| Volume Pipeline A | ~80 fiches actives × 2/jour + 13 pages liste ≈ **~180 req/jour** |
+| Volume Pipeline A | ~80 fiches actives × 2/jour ≈ **~160 req/jour** |
 | Volume Pipeline B | ~180 fiches en une fois, lancement manuel ponctuel |
 
 **Note :** le site utilise `antibot` sur le **formulaire de vote** (POST). Nous ne faisons que des **GET** de lecture — pas d'interaction avec le formulaire `like-form`.
@@ -402,9 +423,11 @@ try fetch + parse
 
 Un échec isolé **ne bloque pas** le pipeline.
 
-### Idempotence des snapshots
+### Snapshots — un relevé par run
 
-Avant d'append un snapshot, vérifier qu'aucun snapshot n'existe avec le même `timestamp` (arrondi au run, ex. `2026-06-11T06:00:00+02:00`). Si le workflow est relancé manuellement le même jour à 6h, **ne pas dupliquer**.
+Chaque exécution du pipeline crée un snapshot horodaté à l'**instant de début du run** (Europe/Paris, précision à la seconde). Relancer le pipeline autant de fois que souhaité enrichit l'historique — la fréquence du cron (`scrape.yml`) est indépendante de l'horodatage.
+
+En cas de collision exacte sur le même `timestamp` (relance dans la même seconde), le snapshot existant est **remplacé** plutôt que dupliqué.
 
 ### Écriture atomique
 
@@ -558,8 +581,8 @@ const [participants, history, alerts, stats, meta] = await Promise.all([
 
 | # | Sujet | Proposition |
 |---|-------|-------------|
-| T4 | URL du site | `*.github.io/webradio-podium` |
-| T7 | Timeout HTTP par fiche | **15 s** |
+| T4 | URL du site | `*.github.io/webradio-podium` — configurable via `.env` |
+| T7 | Timeout HTTP par fiche | **15 s** (`HTTP_TIMEOUT_MS`) |
 
 ---
 
@@ -573,7 +596,7 @@ Voir schéma `sync-report.json` dans [donnees.md](donnees.md#10-datasync-reportj
 - quels podcasts sont **nouveaux** dans notre base ;
 - ce qui n'a **pas changé** (compteur uniquement, section repliée).
 
-Les runs automatiques 06h/16h **ne modifient pas** le statut des inactifs connus — seul Pipeline B le fait.
+Les runs automatiques 06h/16h **ne modifient pas** le statut des inactifs connus — seul Pipeline B le fait. Tableau comparatif et FAQ : [pipelines.md](pipelines.md).
 
 ---
 
@@ -599,6 +622,7 @@ Contraintes détaillées : **[public-repo.md](public-repo.md)**.
 |-----------|--------|
 | `meta.json` | Statut du dernier run votes (Pipeline A) |
 | `sync-report.json` | Rapport du dernier run découverte (Pipeline B) |
+| `execution-journal.json` | Historique des runs (5 j) — événements + sorties sanitizées |
 | Logs GitHub Actions | Conservés 90 jours |
 | Artifacts (optionnel) | Upload `data/backups/` en artifact si run échoue |
 | Badge README (optionnel) | « Dernier scrape : OK/KO » via shield.io |
@@ -620,7 +644,7 @@ Contraintes détaillées : **[public-repo.md](public-repo.md)**.
 - [ ] URL GitHub Actions documentée et bookmarkable
 
 **Commun**
-- [ ] Pagination 0-based (13 pages)
+- [ ] Pagination 0-based (nombre de pages lu depuis la liste filtrée)
 - [ ] Votes via `input[data-drupal-selector="edit-likes"]`
 - [ ] `public/data/` synchronisé après chaque run réussi
 - [ ] Durée Pipeline A < 15 min ; Pipeline B < 90 min

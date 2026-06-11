@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Découverte des participants — Podium</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="site-header">
+      <h1>🔍 Découverte des participants</h1>
+      <p class="subtitle">Rapport de la dernière validation complète des fiches AFD</p>
+      <p id="run-info">—</p>
+      <p><span id="status-pill" class="status-pill status-none">—</span></p>
+      <p style="margin-top: 1rem">
+        <a id="btn-discover" class="btn" href="#" target="_blank" rel="noopener">Lancer une nouvelle découverte ↗</a>
+      </p>
+    </header>
+
+    <div id="loading" class="loading">Chargement du rapport…</div>
+    <div id="progress-block" class="progress-block" hidden></div>
+    <div id="sections"></div>
+
+    <footer class="site-footer">
+      <p><a id="link-home" href="index.html">← Retour au classement</a> · <a id="link-github" href="#" target="_blank" rel="noopener">GitHub</a></p>
+    </footer>
+  </div>
+
+  <script type="module" src="js/decouverte.js"></script>
+</body>
+</html>

@@ -29,6 +29,7 @@ Ce classement est **non officiel** et agrège des **données déjà publiques** 
 | `decouverte.html` + `sync-report.json` | Public (même niveau que le classement) |
 | Workflows GitHub Actions | Public (fichiers `.github/workflows/` visibles) |
 | Logs d'erreur dans `meta.json` | Public (pas de stack traces sensibles) |
+| `execution-journal.json` | Public (sorties sanitizées, rétention 5 jours) |
 
 ---
 

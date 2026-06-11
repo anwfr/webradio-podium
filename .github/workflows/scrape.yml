@@ -1,0 +1,49 @@
+name: Scrape votes
+
+on:
+  schedule:
+    - cron: '0 6,16 * * *'
+  workflow_dispatch:
+
+env:
+  TZ: Europe/Paris
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scrape
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+
+      - run: npm ci
+
+      - name: Run pipeline
+        env:
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          PIPELINE_TRIGGER: ${{ github.event_name == 'workflow_dispatch' && 'manual' || 'schedule' }}
+        run: npm run pipeline
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ public/data/ public/js/site-config.json
+          if git diff --staged --quiet; then
+            echo "No changes"
+          else
+            git commit -m "data: snapshot $(date +%Y-%m-%d_%H-%M)"
+            git push
+          fi

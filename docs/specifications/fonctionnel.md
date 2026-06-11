@@ -23,7 +23,7 @@ Une page web unique, ludique et publique, qui affiche :
 2. L'**évolution temporelle des votes** par participant (graphique).
 3. Des **alertes automatiques adaptatives** pour signaler des hausses statistiquement inhabituelles.
 
-**Source des données :** site [Offre pédagogique AFD](https://offre-pedagogique.afd.fr/fr/publications/liste?type%5B6%5D=6).
+**Source des données :** site [Offre pédagogique AFD](https://offre-pedagogique.afd.fr/fr/publications/liste?words=&type%5B6%5D=6&thematic%5B389%5D=389&location=) (podcasts + programme **Edition 2026**).
 
 ---
 
@@ -54,14 +54,16 @@ La découverte passe par la liste paginée, mais **chaque fiche est validée** a
 | Édition | Uniquement **2026**, votes ouverts |
 | Accès | **Tout public** — site, données JSON, rapport découverte, repo git ; sans authentification |
 | Fuseau horaire | **Europe/Paris** |
-| Mise à jour des votes | **Automatique**, 2×/jour à **06h00** et **16h00** |
-| Sync liste participants | **Léger** à chaque cycle (nouveaux slugs) · **Complet manuel** via Pipeline B |
+| Mise à jour des votes | **Automatique** (fréquence configurable via cron GitHub Actions, ex. 2×/jour) |
+| Sync liste participants | **Figée** en prod (Pipeline A) · **Complet manuel** via Pipeline B si resync |
 | Détection triche | **Score adaptatif** basé sur l'activité historique — voir [detection-anomalies.md](detection-anomalies.md) |
 | Stockage | **Fichiers JSON** + backups rotatifs (pas de BDD) |
 | Qualité code | Quick & dirty, acceptable pour la durée du projet |
 | Hébergement | Gratuit, avec cron intégré — voir [technique.md](technique.md) |
 | Stack | Node.js 20 · Vanilla JS · Chart.js · GitHub Pages + Actions |
 | Repo | **Public** — aucun secret ni donnée confidentielle ([public-repo.md](public-repo.md)) |
+| Config locale | **`.env`** (non versionné) pour `GITHUB_OWNER` / liens du site |
+| Données initiales | JSON vides auto-créés · **`npm run seed-demo`** pour extrait fictif de dev |
 
 ---
 
@@ -70,7 +72,7 @@ La découverte passe par la liste paginée, mais **chaque fiche est validée** a
 ### BF-01 — Classement
 
 - Afficher tous les participants actifs triés par nombre de votes décroissant.
-- Afficher le rang, la variation de rang et la variation de votes depuis le dernier relevé.
+- Afficher le rang, la variation de rang et la variation de votes sur les dernières 24 h.
 - Lien vers la fiche officielle AFD de chaque podcast.
 
 ### BF-02 — Podium
@@ -93,9 +95,10 @@ La découverte passe par la liste paginée, mais **chaque fiche est validée** a
 
 ### BF-05 — Actualisation des votes (automatique)
 
-- Collecter les votes à 06h et 16h (Paris) pour les participants déjà actifs.
-- Détecter les **nouveaux slugs** sur la liste AFD à chaque cycle (sans re-scanner les inactifs).
+- Collecter les votes pour les participants déjà actifs dans `participants.json` à chaque exécution du pipeline (horodatage réel du run, pas de créneaux fixes).
 - Conserver l'historique même si un participant devient inactif.
+
+Voir [pipelines.md](pipelines.md) pour le détail du compromis A / B.
 
 ### BF-06 — Découverte manuelle et rapport de changements
 
@@ -108,7 +111,7 @@ La découverte passe par la liste paginée, mais **chaque fiche est validée** a
   - nombre de fiches inchangées.
 - Le rapport et les JSON associés sont **publics** (pas de contenu confidentiel).
 
-Voir [technique.md § 5.2](technique.md#52-pipeline-b--découverte-manuelle-t6) et [public-repo.md](public-repo.md).
+Voir [pipelines.md](pipelines.md), [technique.md § 5.2](technique.md#52-pipeline-b--découverte-manuelle-t6) et [public-repo.md](public-repo.md).
 
 ### BF-07 — Transparence
 
@@ -126,7 +129,7 @@ Voir [technique.md § 5.2](technique.md#52-pipeline-b--découverte-manuelle-t6) 
 - [ ] Les alertes s'adaptent à l'activité historique (pas de seuils fixes)
 - [ ] Le score de suspicion (0–100) et les messages explicatifs sont affichés
 - [ ] Pas d'alerte avant 3 snapshots (phase d'échauffement)
-- [ ] Les données se mettent à jour sans intervention à 06h et 16h (Paris)
+- [ ] Les données se mettent à jour sans intervention à la fréquence configurée du cron
 - [ ] La découverte manuelle affiche précisément les ouvertures/fermetures de vote
 - [ ] Relancer un pipeline manuellement n'efface pas l'historique
 - [ ] Le site et toutes les données sont publics, sans secret dans le repo

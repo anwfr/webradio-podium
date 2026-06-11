@@ -1,0 +1,3689 @@
+{
+  "status": "complete",
+  "runAt": "2026-06-11T10:20:37.138+02:00",
+  "durationMs": 623044,
+  "trigger": "local",
+  "summary": {
+    "votesOpened": 0,
+    "votesClosed": 0,
+    "newlyDiscovered": 229,
+    "statusChanged": 0,
+    "metadataUpdated": 0,
+    "unchanged": 0,
+    "errors": 0
+  },
+  "changes": {
+    "votesOpened": [],
+    "votesClosed": [],
+    "newlyDiscovered": [
+      {
+        "slug": "2050-la-fin-des-poissons",
+        "title": "2050 : la fin des poissons ?",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/2050-la-fin-des-poissons",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 1425,
+          "title": "2050 : la fin des poissons ?",
+          "school": "les élèves de seconde 6, du lycée Blaise Pascal, de la ville d'Orsay, France.",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "2057",
+        "title": "2057",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/2057",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 218,
+          "title": "2057",
+          "school": "les élèves de Seconde 2 du Lycée Jean Michel à Lons le Saunier (France).",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "2068-en-direct-du-futur",
+        "title": "2068 : en direct du futur",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/2068-en-direct-du-futur",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 24,
+          "title": "2068 : en direct du futur",
+          "school": "les élèves de l'atelier radioconte du collège La Salle Saint-Rosaire de Sarcelles, France.  Le groupe est composé d'élèves en 6e, 5e et 4e.",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "3-wanted",
+        "title": "3 WANTED",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/3-wanted",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 620,
+          "title": "3 WANTED",
+          "school": "les élèves de 2A, de l'Ecole Belge du Bujumbura, de Bujumbura, au Burundi.",
+          "category": "Internationale"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "4-pour-lespoir",
+        "title": "4 pour l'espoir",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/4-pour-lespoir",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 476,
+          "title": "4 pour l'espoir",
+          "school": "des élèves de 4ème du Club Podcast, du collège Claudie Haigneré, de la ville de Rochefort du Gard, France.",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "aicha-et-la-promesse-de-la-serre",
+        "title": "Aïcha et la promesse de la serre",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/aicha-et-la-promesse-de-la-serre",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 255,
+          "title": "Aïcha et la promesse de la serre",
+          "school": "les élèves de 4eme groupe podcast 2026 (élève des classe 4B et 4C), du cours Sévigné d'Abidjan, Côte d’Ivoire",
+          "category": "Internationale"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "apocalypse-bleue",
+        "title": "Apocalypse bleue",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/apocalypse-bleue",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 240,
+          "title": "Apocalypse bleue",
+          "school": "les élèves de 2G3 du lycée Philibert Delorme de l'Isle d'Abeau, en France.",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "aryo-le-prix-cache-de-la-mode",
+        "title": "Aryo, le prix caché de la mode",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/aryo-le-prix-cache-de-la-mode",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 1004,
+          "title": "Aryo, le prix caché de la mode",
+          "school": "les élèves de seconde métiers de la vente. Travail en groupe au lycée François Arago à Villeneuve Saint Georges",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "au-dela-des-dechets",
+        "title": "Au-delà des déchets",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/au-dela-des-dechets",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 1238,
+          "title": "Au-delà des déchets",
+          "school": "les élèves de la 5-2 du collège de l'ISC D'El Menzah, de la ville de Tunis, Tunisie.",
+          "category": "Internationale"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "au-dela-du-hors-jeu",
+        "title": "Au-delà du hors-jeu",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/au-dela-du-hors-jeu",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 421,
+          "title": "Au-delà du hors-jeu",
+          "school": "les élèves du groupe de français (classes 3A, 3B et 3C) de l'Institut Anna Frank-collège Einaudi, de la ville de Sesto San Giovanni, Italie.",
+          "category": "Internationale"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "aura",
+        "title": "AURA",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/aura",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 1426,
+          "title": "AURA",
+          "school": "les élèves de classe terminal GA du Ly cee Franco-Qatarien Voltaire -Doha -Qatar",
+          "category": "Internationale"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "avec-ou-sans-huile-de-palme",
+        "title": "Avec ou sans huile de palme ?",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/avec-ou-sans-huile-de-palme",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 556,
+          "title": "Avec ou sans huile de palme ?",
+          "school": "un petit groupe d'élèves éco-délégués de 5ème et 4ème du collège Jean Jaurès de la ville de Guérigny, France.",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "avoir-de-leau-plus-pres",
+        "title": "Avoir de l'eau plus près...",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/avoir-de-leau-plus-pres",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 210,
+          "title": "Avoir de l'eau plus près...",
+          "school": "les élèves d'une classe de 4e en soutien de français et d'une élève de 6e d'une classe adaptée, du collège Alain Gerbault, de la ville de Laval, France.",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "aya-et-la-maison-en-bidon",
+        "title": "AYA ET LA MAISON EN BIDON",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/aya-et-la-maison-en-bidon",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 1278,
+          "title": "AYA ET LA MAISON EN BIDON",
+          "school": "les élèves de la seconde C3, du Lycée moderne 1 Abobo, de la Abidjan, Côte d'Ivoire.",
+          "category": "Internationale"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "bacterium-carbonivora",
+        "title": "Bacterium Carbonivora",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/bacterium-carbonivora",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 260,
+          "title": "Bacterium Carbonivora",
+          "school": "les élèves de l'atelier média du collège Eric Tabarly de la ville des Pavillons-Sous-Bois, France",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "bas-prix-quel-cout",
+        "title": "A bas prix à quel coût",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/bas-prix-quel-cout",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 277,
+          "title": "A bas prix à quel coût",
+          "school": "les élèves de seconde I, Shahine, Noé et Arthur, du lycée Les Bourdonnières, de la ville de NANTES, FRANCE.",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "beirut-crie-le-liban-sest-leve",
+        "title": "Beirut a crié, le Liban s'est levé!",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/beirut-crie-le-liban-sest-leve",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 650,
+          "title": "Beirut a crié, le Liban s'est levé!",
+          "school": "les élèves de premièreet terminale, du collège des Filles de la Charité Dar En-Nour, de la ville de Koura, Liban-Nord.",
+          "category": "Internationale"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "bouchons-gratines-nou-le-fatigues",
+        "title": "Bouchons gratinés : nou lé fatigués",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/bouchons-gratines-nou-le-fatigues",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 782,
+          "title": "Bouchons gratinés : nou lé fatigués",
+          "school": "les élèves de la classe de 3ème A du collège La Salle Saint-Charles 2 Pierrefonds, Saint-Pierre, Ile de la Réunion.",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "bout-de-souffle",
+        "title": "A bout de souffle",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/bout-de-souffle",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 367,
+          "title": "A bout de souffle",
+          "school": "Zoé Champagne du lycée Marie Curie de Tarbes, France",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "bout-de-souffle-0",
+        "title": "A bout de souffle",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/bout-de-souffle-0",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 11,
+          "title": "A bout de souffle",
+          "school": "les élèves de 2nde A, du lycée français Anna de Noailles de Bucarest, Roumanie",
+          "category": "Internationale"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "ce-que-lavenir-me-doit",
+        "title": "Ce que l’avenir me doit",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/ce-que-lavenir-me-doit",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 731,
+          "title": "Ce que l’avenir me doit",
+          "school": "les élèves de premières professionnelles en filière couture et confection du lycée polyvalent Emiland Gauthey de la ville de Chalon sur Saône en France",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "ce-quils-voyaientce-quelle-etait",
+        "title": "Ce qu’ils voyaient,ce qu’elle était",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/ce-quils-voyaientce-quelle-etait",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 187,
+          "title": "Ce qu’ils voyaient,ce qu’elle était",
+          "school": "les élèves de Première A1, du Lycée l'Annonciation, de la ville de Seilh (Haute-Garonne, France).",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "chantons-contre-la-pollution",
+        "title": "Chantons contre la pollution",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/chantons-contre-la-pollution",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 315,
+          "title": "Chantons contre la pollution",
+          "school": "les élèves de l'atelier Webradio Bambamboo du collège Florian d'Anduze (France).",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "chaque-goutte-compte",
+        "title": "Chaque goutte compte",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/chaque-goutte-compte",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 104,
+          "title": "Chaque goutte compte",
+          "school": "les élèves de 5°A groupe 1, du Collège Louis Aragon, de la ville d'Imphy, France.",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "chimali",
+        "title": "Chimali",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/chimali",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 15,
+          "title": "Chimali",
+          "school": "les élèves de 4è3 du Collège Mathalin d'Auch, dans le Gers (France).",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "contre-futur",
+        "title": "À contre-futur",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/contre-futur",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 132,
+          "title": "À contre-futur",
+          "school": "les élèves de la classe européenne plus de première, du Lycée de la Nativité, de la ville de Aix-en-Provence, France.",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "conversation-electrique-0",
+        "title": "Conversation électrique",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/conversation-electrique-0",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 45,
+          "title": "Conversation électrique",
+          "school": "les élèves de (seconde première terminal/éco délégués), du (LPO Marcel Cachin, de la ville de (Saint Ouen), (France).",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "coraux-chaud-devant",
+        "title": "Coraux : chaud devant !",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/coraux-chaud-devant",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 577,
+          "title": "Coraux : chaud devant !",
+          "school": "les élèves de 6ème B et de 4eme D, du collège Joseph Fontanet, de Frontenex, France",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "courir-pour-choisir",
+        "title": "Courir pour choisir",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/courir-pour-choisir",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 31,
+          "title": "Courir pour choisir",
+          "school": "les élèves de la classe de 5B, du Collège La Madeleine, de la ville du Mans, France.",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "de-vieux-tissus-de-nouvelles-idees",
+        "title": "De vieux tissus, de nouvelles idées",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/de-vieux-tissus-de-nouvelles-idees",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 188,
+          "title": "De vieux tissus, de nouvelles idées",
+          "school": "les élèves de 6e et 5e au sein du DRAS (dispositif ressources d'appui à la scolarisation), du collège Alain Gerbault , de la ville de LAVAL, en FRANCE.",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "des-abeilles-et-des-hommes",
+        "title": "Des abeilles et des hommes",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/des-abeilles-et-des-hommes",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 1194,
+          "title": "Des abeilles et des hommes",
+          "school": "les éco-délégués du lycée Renaudeau de Cholet, France.",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "des-algues-contre-le-plastique",
+        "title": "Des algues contre le plastique !",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/des-algues-contre-le-plastique",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 81,
+          "title": "Des algues contre le plastique !",
+          "school": "les élèves de 6A et 6B, du Collège Paul Landowski, de la ville de Boulogne-Billancourt, France.",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "des-nuances-de-rouges",
+        "title": "Des nuances de rouges",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/des-nuances-de-rouges",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 401,
+          "title": "Des nuances de rouges",
+          "school": "les élèves du groupe POP culture(des élèves 3pm, de 2nd, de 1er et terminale) du lycée polyvalent saint-martin, de Palaiseau, France",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "des-voix-qui-comptent",
+        "title": "Des voix qui comptent",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/des-voix-qui-comptent",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 668,
+          "title": "Des voix qui comptent",
+          "school": "des élèves d'une classe d'unité d'enseignement spécialisée de l'IRSAM La Ressource de niveau 6e et 4 ème et des élèves de collège de même niveau (collège Levavasseur Sainte MArie 974)",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "desinstallation-amoureuse",
+        "title": "Désinstallation amoureuse",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/desinstallation-amoureuse",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 3247,
+          "title": "Désinstallation amoureuse",
+          "school": "les élèves du groupe 3 de la classe de 2nde9, du lycée Charles de Foucauld, de la ville de Brest, France.",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "deux-bateaux-un-avenir",
+        "title": "Deux bâteaux, un avenir",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/deux-bateaux-un-avenir",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 466,
+          "title": "Deux bâteaux, un avenir",
+          "school": "les élèves de 2D2, du LPO Marguerite Yourcenar, de la ville de Beuvry, France.",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "deux-bidons-deau-par-jour",
+        "title": "Deux bidons d'eau par jour",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/deux-bidons-deau-par-jour",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 163,
+          "title": "Deux bidons d'eau par jour",
+          "school": "les élèves de 3e A, du Collège Anjou Bretagne, de la ville de Saint-Florent-le-vieil, France, en partenariat avec l'Association Avec l'Ethiopie (Angers).",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "du-chocolat-au-gout-amer",
+        "title": "Du chocolat au goût amer !",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/du-chocolat-au-gout-amer",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 86,
+          "title": "Du chocolat au goût amer !",
+          "school": "les élèves de 5°B groupe 1, du Collège Louis Aragon, de la ville d'Imphy, France.",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "du-local-au-global",
+        "title": "Du local au global",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/du-local-au-global",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 137,
+          "title": "Du local au global",
+          "school": "les élèves de Terminale Baccalauréat Professionnel Métiers de l’Accueil, du lycée Saint Vincent de Paul, de la ville de Nîmes, France.",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "eau-secours",
+        "title": "Eau secours !",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/eau-secours",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 1431,
+          "title": "Eau secours !",
+          "school": "les élèves de la classe de 3ème (303) du collège Nestor de Kermadec, de la ville de Pointe-à-Pitre en Guadeloupe (France).",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "eco-systeme-d",
+        "title": "Eco-Système-D",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/eco-systeme-d",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 719,
+          "title": "Eco-Système-D",
+          "school": "les éco-déléguées du collège Gustave Courbet de Romainville, France.",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "elio",
+        "title": "Elio",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/elio",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 337,
+          "title": "Elio",
+          "school": "les élèves du club E3D, du collège Jules Marouzeau, de la ville de Guéret (23), France.",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "elyndor",
+        "title": "ELYNDOR",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/elyndor",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 624,
+          "title": "ELYNDOR",
+          "school": "les élèves de la seconde A3 du Lycée moderne Koumassi de la ville d'Abidjan en Cote d'Ivoire.",
+          "category": "Internationale"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "enfances-volees",
+        "title": "Enfances volées",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/enfances-volees",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 118,
+          "title": "Enfances volées",
+          "school": "les élèves de l'Atelier podcast, du collège Jules Verne aux Mureaux, France.",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "entre-deux-lettres",
+        "title": "Entre deux lettres",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/entre-deux-lettres",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 347,
+          "title": "Entre deux lettres",
+          "school": "Hébat, Maïssa et Amine, élèves de la Seconde I, du Lycée polyvalent des Bourdonnières de NANTES, FRANCE;",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "fast-fashion-more-pression",
+        "title": "Fast Fashion, More Pression",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/fast-fashion-more-pression",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 573,
+          "title": "Fast Fashion, More Pression",
+          "school": "les éco-volontaires du lycée Geoffroy Saint-Hilaire d’Étampes, France, encadrés par madame Elisabeth Coquelin, professeure-documentaliste et référente EDD.",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "femmeland",
+        "title": "Femmeland",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/femmeland",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 143,
+          "title": "Femmeland",
+          "school": "cinq élèves de 6ème du club radio : Radio J.Z, du collège Jean Zay, de la ville de Chambon sur Voueize, France.",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "femmes-cen-est-assez-battez-vous",
+        "title": "Femmes, c'en est assez, battez-vous",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/femmes-cen-est-assez-battez-vous",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 93,
+          "title": "Femmes, c'en est assez, battez-vous",
+          "school": "les élèves de 4A (équivalent terminale française) du XVIII lycée de la ville de Zagreb, Croatie.",
+          "category": "Internationale"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "france-ghana",
+        "title": "France-Ghana",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/france-ghana",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 70,
+          "title": "France-Ghana",
+          "school": "les élèves de la classe de 2MRC3 du Lycée professionnel Charles Tillon de Rennes, France.",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "fuir-pour-etre-libre",
+        "title": "Fuir pour être libre",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/fuir-pour-etre-libre",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 115,
+          "title": "Fuir pour être libre",
+          "school": "les élèves de terminale T3 et T4, du Lycée Professionnel Privé de Coiffure Pierre Masson, de la ville de Saint-Herblain, France.",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "futur-ia",
+        "title": "Futur IA",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/futur-ia",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 18,
+          "title": "Futur IA",
+          "school": "les élèves de 4è3 du Collège Mathalin d'Auch, dans le Gers (France).",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "graine-dequite",
+        "title": "Graine d'équité",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/graine-dequite",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 1527,
+          "title": "Graine d'équité",
+          "school": "les élèves du groupe communication de la classe de seconde bac pro Métiers de la Relation Client du lycée professionnel Nelson Mandela, de la ville d'Audincourt, France.",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "hors-jeu",
+        "title": "Hors-jeu",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/hors-jeu",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 36,
+          "title": "Hors-jeu",
+          "school": "les élèves de 5ème SEGPA, du collège La Madeleine, de la ville du Mans, France.",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "il-etait-une-fois-une-astronaute",
+        "title": "Il était une fois une astronaute",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/il-etait-une-fois-une-astronaute",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 343,
+          "title": "Il était une fois une astronaute",
+          "school": "les élèves éco-délégués du collège Canterane de Castelnau-de-Médoc, France.",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "inaya-la-fille-de-leau",
+        "title": "Inaya, la fille de l'eau",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/inaya-la-fille-de-leau",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 977,
+          "title": "Inaya, la fille de l'eau",
+          "school": "les élèves de 5e Ducobu, du collège Bracke Desrousseaux, de Vendin-le-Vieil, en France.",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "isis-pharia-et-son-dernier-cri",
+        "title": "Isis Pharia et son dernier cri",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/isis-pharia-et-son-dernier-cri",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 215,
+          "title": "Isis Pharia et son dernier cri",
+          "school": "les élèves de la 3e, de l'école Girard, de la ville d' Alexandrie, Egypte.",
+          "category": "Internationale"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "je-lai-fait-pour-toi-et-ces-femmes",
+        "title": "Je l’ai fait pour toi et ces femmes",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/je-lai-fait-pour-toi-et-ces-femmes",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 140,
+          "title": "Je l’ai fait pour toi et ces femmes",
+          "school": "des élèves de la classe de 4e4, du collège Fernand Berthon, de la ville de Saint-Rambert-d'Albon, France.",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "journal-dune-refugiee-moderne",
+        "title": "Journal d'une réfugiée moderne",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/journal-dune-refugiee-moderne",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 95,
+          "title": "Journal d'une réfugiée moderne",
+          "school": "les élèves de 4ème - 3ème du collège de la Chrysalide à Captieux, France",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "la-brique-de-washington-dc",
+        "title": "La brique de Washington DC",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/la-brique-de-washington-dc",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 225,
+          "title": "La brique de Washington DC",
+          "school": "les élèves de 6ème (non SIA / Groupe 2) du Lycée Rochambeau à Bethesda, Etats-Unis.",
+          "category": "Internationale"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "la-chasse-au-bonheur",
+        "title": "La chasse au bonheur",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/la-chasse-au-bonheur",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 1142,
+          "title": "La chasse au bonheur",
+          "school": "les élèves de (3F ESABAC) du (Liceo Scientifico Linguistico Statale \"Aldo Moro\") de (Reggio Emilia), (Italia) 3F Lycée Linguistique Section ESABAC",
+          "category": "Internationale"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "la-derniere-digue",
+        "title": "La dernière digue",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/la-derniere-digue",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 1147,
+          "title": "La dernière digue",
+          "school": "les élèves de la 3H, du Lycée L. Spallanzani, de la ville de Tivoli , Italie.",
+          "category": "Internationale"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "la-derniere-humaine",
+        "title": "La dernière humaine",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/la-derniere-humaine",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 371,
+          "title": "La dernière humaine",
+          "school": "un groupe d'élèves de 5e2 et 5e3, du Collège Anne Frank, de la ville de BRIVES-CHARENSAC, France.",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "la-descolarisation",
+        "title": "La déscolarisation",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/la-descolarisation",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 87,
+          "title": "La déscolarisation",
+          "school": "les élèves de section européenne espagnol de 2nde Bac Pro AGORA et Métiers de la Relation Clients, du lycée Saint Vincent de Paul, de la ville de Nîmes, France dans la cadre d'un échange avec l´IES Nuevas Poblaciones, Espagne.",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "la-f1-au-feminin",
+        "title": "La F1 au féminin",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/la-f1-au-feminin",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 197,
+          "title": "La F1 au féminin",
+          "school": "les élèves de 2de8, Alicia, Louna, Carla, Nicolas, Sélénya du Lycée du Golfe de Saint-Tropez de la ville de Gassin en France.",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "la-grande-aventure-de-fast",
+        "title": "La grande aventure de Fast",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/la-grande-aventure-de-fast",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 195,
+          "title": "La grande aventure de Fast",
+          "school": "les élèves de 5e1, du collège Marc Bloch, de la ville de Bonnat en France.",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "la-lanterne-du-vent",
+        "title": "La lanterne du vent",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/la-lanterne-du-vent",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 288,
+          "title": "La lanterne du vent",
+          "school": "un groupe d'élèves de la classe 4ème anné de lycéee, du Lycée Général filière langues modernes de IISS Eugenio Montale Nuovo IPC de la ville de Gênes), Italie.",
+          "category": "Internationale"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "la-legende-du-micocoulier-de-st-charles",
+        "title": "La légende du micocoulier de St Charles",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/la-legende-du-micocoulier-de-st-charles",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 448,
+          "title": "La légende du micocoulier de St Charles",
+          "school": "les élèves de 4ème 1 et 4ème 2 avec Mme Nunes Juan du collège St Charles, de la ville d'Arles, France.",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "la-lumiere-qui-est-venue-du-soleil",
+        "title": "La lumière qui est venue du Soleil",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/la-lumiere-qui-est-venue-du-soleil",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 617,
+          "title": "La lumière qui est venue du Soleil",
+          "school": "les élèves de classe 201, du Lycée 12 Cadereyta UANL, de la ville de Cadereyta Jimenez, Mexique.",
+          "category": "Internationale"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "la-malediction-de-sangha",
+        "title": "La Malédiction de Sangha",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/la-malediction-de-sangha",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 56,
+          "title": "La Malédiction de Sangha",
+          "school": "des élèves du Lycée de jeunes Filles de Yopougon à Abidjan ( Cote d'Ivoire ) de la classe de 2C",
+          "category": "Internationale"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "la-mare-en-danger",
+        "title": "La mare en danger",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/la-mare-en-danger",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 294,
+          "title": "La mare en danger",
+          "school": "par Eden Gasneau (6A), Elena Legrand, Jamila Massondi, Dévy Paineau (5A) et Ouhaydi Ali Charia (5D) avec Camille Honoré (professeure documentaliste) du collège Alexandre Mauboussin de Mamers en France.",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "la-mer-nest-pas-un-piege",
+        "title": "La mer n'est pas un piège",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/la-mer-nest-pas-un-piege",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 28,
+          "title": "La mer n'est pas un piège",
+          "school": "\"classe 4 G ESABAC  Lycée \"\"G.Mazzini\"\"  La Spezia  Italie\"",
+          "category": "Internationale"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "la-mesaventure-de-niko",
+        "title": "La mésaventure de Niko",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/la-mesaventure-de-niko",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 349,
+          "title": "La mésaventure de Niko",
+          "school": "les élèves du groupe \"Réinventer Le Monde\", du collège Pierre SOULAGES, de la ville de MARCILLAC-VALLON, FRANCE.",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "la-messagere",
+        "title": "La messagère",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/la-messagere",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 1572,
+          "title": "La messagère",
+          "school": "les élèves de la classe de 2de C1 du lycée moderne Alassane Ouattara d' Anyama en Côte d'Ivoire",
+          "category": "Internationale"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "la-ou-la-mer-se-tait",
+        "title": "Là où la mer se tait",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/la-ou-la-mer-se-tait",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 719,
+          "title": "Là où la mer se tait",
+          "school": "les élèves de la classe 5ème \" Aziz FILALI et Ayhem BEN YAKHLEF, du Lycée Français International Victor Hugo , de la ville de Djerba , Tunisie",
+          "category": "Internationale"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "la-ou-nos-vies-flottent",
+        "title": "La où nos vies flottent",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/la-ou-nos-vies-flottent",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 61,
+          "title": "La où nos vies flottent",
+          "school": "les élèves de 2nde 9 du Lycée Lyautey de Casablanca au Maroc.",
+          "category": "Internationale"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "la-petite-voix-de-letang",
+        "title": "La petite voix de l'étang",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/la-petite-voix-de-letang",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 1794,
+          "title": "La petite voix de l'étang",
+          "school": "les élèves de la classe de 5°3 du collège Olympe de Gouges de Loupian dans l'Hérault en France métropolitaine.",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "la-planete-porte-plainte",
+        "title": "La planète porte plainte",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/la-planete-porte-plainte",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 1838,
+          "title": "La planète porte plainte",
+          "school": "les éco-délégués du Collège Panchon d'ARSAC (FRANCE)",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "la-plus-longue-migration-du-monde",
+        "title": "La plus longue migration du monde",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/la-plus-longue-migration-du-monde",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 646,
+          "title": "La plus longue migration du monde",
+          "school": "les élèves écodélégués, du collège Octave Gachon de Parsac, de la ville de Parsac, France.",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "la-quete-du-froid",
+        "title": "A la quête du froid",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/la-quete-du-froid",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 365,
+          "title": "A la quête du froid",
+          "school": "les élèves de la classe de 2nde 1 du lycée Blaise Pascal d'Orsay, France",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "la-recherche-de-larbre-perdu",
+        "title": "A la recherche de l'arbre perdu",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/la-recherche-de-larbre-perdu",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 351,
+          "title": "A la recherche de l'arbre perdu",
+          "school": "des élèves de l'atelier webradio Bambamboo du collège Florian d'Anduze (France).",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "la-recherche-du-poiscaille",
+        "title": "A la recherche du poiscaille",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/la-recherche-du-poiscaille",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 73,
+          "title": "A la recherche du poiscaille",
+          "school": "les élèves de TG1 du lycée Jean Monnet de Crepy en Valois, en France, avec la participation de jeunes",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "la-recherche-du-remede",
+        "title": "À la recherche du remède",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/la-recherche-du-remede",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 160,
+          "title": "À la recherche du remède",
+          "school": "les élèves de Terminale AEPA, du lycée Condé, de la ville de Besançon, en France.",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "la-revanche",
+        "title": "La revanche",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/la-revanche",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 118,
+          "title": "La revanche",
+          "school": "les élèves de 1ère ST2S 1, du Campus de Coulommiers, de la ville de Coulommiers, France.",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "la-revolte-de-lamazonie",
+        "title": "La révolte de l'Amazonie",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/la-revolte-de-lamazonie",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 58,
+          "title": "La révolte de l'Amazonie",
+          "school": "les élèves de 2nde 9 du Lycée Lyautey de Casablanca au Maroc.",
+          "category": "Internationale"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "la-revolte-des-fils-invisibles",
+        "title": "La révolte des fils invisibles",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/la-revolte-des-fils-invisibles",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 204,
+          "title": "La révolte des fils invisibles",
+          "school": "les éco-délégués (6ème A et B) du collège Grévy, de Mont sous Vaudrey, dans le Jura, en France.",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "la-sororite-face-la-fatalite",
+        "title": "La sororité face à la fatalité",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/la-sororite-face-la-fatalite",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 83,
+          "title": "La sororité face à la fatalité",
+          "school": "les élèves de la section bilingue francophone de la 3E (équivalent de la première française) du lycée IV de Zagreb, Croatie",
+          "category": "Internationale"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "la-sortie-de-lea",
+        "title": "La sortie de Léa",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/la-sortie-de-lea",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 285,
+          "title": "La sortie de Léa",
+          "school": "les élèves du club des éco-délégués, du collège JEAN RACINE, de la ville de CHATEAU-THIERRY (FRANCE)",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "la-vie-dun-survivant",
+        "title": "La vie d'un survivant",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/la-vie-dun-survivant",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 70,
+          "title": "La vie d'un survivant",
+          "school": "un groupe d'élève de 4ème, lycée français Anna de Noailles, Bucarest, Roumanie",
+          "category": "Internationale"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "la-ville-de-mes-reves",
+        "title": "La Ville de mes rêves",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/la-ville-de-mes-reves",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 237,
+          "title": "La Ville de mes rêves",
+          "school": "les élèves de 4eF, du collège Pierre Mendès France, de la ville de Saint-André (66690) en France métropolitaine.",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "la-voix-des-oublies",
+        "title": "La voix des oubliés",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/la-voix-des-oublies",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 73,
+          "title": "La voix des oubliés",
+          "school": "les élèves de 1ère ST2S 1, du Campus de Coulommiers, de la ville de Coulommiers, France.",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "lacademie-de-starlight",
+        "title": "L'académie de Starlight",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/lacademie-de-starlight",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 76,
+          "title": "L'académie de Starlight",
+          "school": "les élèves de 1ère de la classe euro + , du lycée La Nativité, de la ville de Aix en Provence, France",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "lame-bleue-le-voyage-dune-goutte",
+        "title": "L’âme bleue: le voyage d’une goutte",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/lame-bleue-le-voyage-dune-goutte",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 350,
+          "title": "L’âme bleue: le voyage d’une goutte",
+          "school": "les élèves de deuxième et troisième classe du collège \"A. Gramsci\" Lodi Vecchio, de la ville de Lodi Vecchio, Italie.",
+          "category": "Internationale"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "lappel-qui-sauve",
+        "title": "L'appel qui sauve",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/lappel-qui-sauve",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 112,
+          "title": "L'appel qui sauve",
+          "school": "les élèves de 2de8 / Indira, Katell, Mouad, Lila, Luisa-Jeanne, Salomé du Lycée du Golfe de Saint-Tropez de la ville de Gassin en France.",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "lassemblee-des-possibles",
+        "title": "L'assemblée des possibles",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/lassemblee-des-possibles",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 405,
+          "title": "L'assemblée des possibles",
+          "school": "les élèves de 1ère SAPAT, du lycée les Mandailles, de Châteauneuf-de-Galaure, France.",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "lavancee-vers-leau",
+        "title": "L'avancée vers l'eau",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/lavancee-vers-leau",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 461,
+          "title": "L'avancée vers l'eau",
+          "school": "des élèves éco-délégués de terminale du lycée Vauvenargues d'Aix-en-Provence, France.",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "le-bambou-monde",
+        "title": "Le Bambou-Monde",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/le-bambou-monde",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 2992,
+          "title": "Le Bambou-Monde",
+          "school": "les élèves de 5ème C, du collège Saint Dominique, de la ville de Pau, France",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "le-bruit-dans-sa-tete",
+        "title": "Le bruit dans sa tête",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/le-bruit-dans-sa-tete",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 326,
+          "title": "Le bruit dans sa tête",
+          "school": "Lou Turon de 1ère HLP du lycée Marie de Tarbes France",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "le-carnaval-de-la-digestion",
+        "title": "Le carnaval de la digestion",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/le-carnaval-de-la-digestion",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 1218,
+          "title": "Le carnaval de la digestion",
+          "school": "des élèves de 5e, 4e et 3e de l'option Audiovisuel du collège Aurélie Lambourde, de la ville des Abymes en Guadeloupe (France).",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "le-ceta-com",
+        "title": "Le Céta-Com",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/le-ceta-com",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 243,
+          "title": "Le Céta-Com",
+          "school": "quatre élèves de la classe de 4èA du Collège Henri Wallon de la ville de Lanester, France.",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "le-chant-des-oliviers",
+        "title": "Le chant des oliviers",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/le-chant-des-oliviers",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 2073,
+          "title": "Le chant des oliviers",
+          "school": "les élèves de la classe de 5e 4, du Collège des Frères Mont La Salle, de la ville de Aïn Saadé, Liban.",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "le-chant-du-corail",
+        "title": "Le Chant du Corail",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/le-chant-du-corail",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 925,
+          "title": "Le Chant du Corail",
+          "school": "les élèves éco-délégués du lycée Antoine Kéla, de la ville de Poindimié, Nouvelle-Calédonie, en partenariat avec les élèves éco-délégués du lycée Alain-Fournier, de la ville de Mirande, France.",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "le-coeur-de-la-martinique",
+        "title": "Le coeur de la Martinique",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/le-coeur-de-la-martinique",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 174,
+          "title": "Le coeur de la Martinique",
+          "school": "les élèves de Terminale HLP, du lycée Victor Schoelcher, à Fort-de-France, en Martinique.",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "le-crepuscule-des-lois-la-chute",
+        "title": "LE CRÉPUSCULE DES LOIS: LA CHUTE",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/le-crepuscule-des-lois-la-chute",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 37,
+          "title": "LE CRÉPUSCULE DES LOIS: LA CHUTE",
+          "school": "les élèves de première 7 en EMC, du lycée français international de la ville de Dubaï aux Émirats arabes unis.",
+          "category": "Internationale"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "le-cri-de-locean",
+        "title": "Le cri de l'océan",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/le-cri-de-locean",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 271,
+          "title": "Le cri de l'océan",
+          "school": "la classe HOPE du Pôle Innovant Lycéen, structure pour décrocheurs, hébergée au sein du lycée François Villon à Paris (France).",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "le-cri-dun-monde-en-desespoir",
+        "title": "LE CRI D'UN MONDE EN DESESPOIR",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/le-cri-dun-monde-en-desespoir",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 230,
+          "title": "LE CRI D'UN MONDE EN DESESPOIR",
+          "school": "2ND C2 Lycée Municipal 1 Attécoubé Abidjan Cote d'Ivoire",
+          "category": "Internationale"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "le-dernier-jour-de-la-tour-eiffel",
+        "title": "Le Dernier Jour de la Tour Eiffel",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/le-dernier-jour-de-la-tour-eiffel",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 1721,
+          "title": "Le Dernier Jour de la Tour Eiffel",
+          "school": "PODCAST REALISE PAR LES ELEVES DE 1ERE 1 Sara Larher, Kamilya Richaud, Louise Mathieu–Blanc et Émilie Riverain,DANS LE CADRE DU COURS DE EMC LYCEE FRANCAIS INTERNATIONAL GEORGES POMPIDOU DUBAI EMIRATS ARABES UNIS",
+          "category": "Internationale"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "le-dernier-kwh",
+        "title": "Le dernier kWh",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/le-dernier-kwh",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 330,
+          "title": "Le dernier kWh",
+          "school": "des élèves de 2nde (éco-délégués), du Lycée Saint Paul, de la ville de Lille, France.",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "le-dernier-souffle-du-corail",
+        "title": "Le Dernier souffle du corail",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/le-dernier-souffle-du-corail",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 189,
+          "title": "Le Dernier souffle du corail",
+          "school": "des élèves de 2nde B/ groupe 1, du Lycée Polyvalent Gaston Bachelard, de Bar-sur-Aube, France.",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "le-fabuleux-destin-dun-plancton",
+        "title": "Le fabuleux destin d'un plancton",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/le-fabuleux-destin-dun-plancton",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 124,
+          "title": "Le fabuleux destin d'un plancton",
+          "school": "la classe de 2nd 7, Lycée Honoré de Balzac, 75017 Paris",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "le-grand-soulevement",
+        "title": "Le grand soulèvement",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/le-grand-soulevement",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 157,
+          "title": "Le grand soulèvement",
+          "school": "les élèves de 5ème Telkès et MacGill du collège Pierre Mendès France, de la ville d'Arques, France",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "le-grand-voyage-de-bob",
+        "title": "Le grand voyage de Bob",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/le-grand-voyage-de-bob",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 358,
+          "title": "Le grand voyage de Bob",
+          "school": "les élèves du club des éco-délégués du collège JEAN RACINE à CHATEAU-THIERRY (FRANCE).",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "le-livre-de-faida",
+        "title": "Le livre de Faïda",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/le-livre-de-faida",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 56,
+          "title": "Le livre de Faïda",
+          "school": "les élèves de Terminale du Lycée Français de Taipei, de la ville de Taipei, Taiwan.",
+          "category": "Internationale"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "le-lutin-de-poche",
+        "title": "Le lutin de poche",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/le-lutin-de-poche",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 7,
+          "title": "Le lutin de poche",
+          "school": "les élèves de 1ère année, du lycée secondaire pilote , de Kairouan , Tunisie.",
+          "category": "Internationale"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "le-maillot-numero-dix",
+        "title": "Le maillot numéro dix",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/le-maillot-numero-dix",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 678,
+          "title": "Le maillot numéro dix",
+          "school": "les élèves de la classe de Français LV2 (II A-II C) du collège “ Antonio Gramsci” ( I.C. “Capponi”) de la ville de Milano, Italia.",
+          "category": "Internationale"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "le-mirage-de-labondance",
+        "title": "Le mirage de l'abondance",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/le-mirage-de-labondance",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 503,
+          "title": "Le mirage de l'abondance",
+          "school": "les élèves Tetieka Grâce, Bayo Assetou, Faleye Grâce, Gbaka Grâce Emmanuella et Diallo Ramatoulaye, membres du Club Environnement et de la classe de Seconde A du Lycée Moderne du Plateau, de la ville d’Abidjan, en Côte d’Ivoire.",
+          "category": "Internationale"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "le-monde-apres-le-coma",
+        "title": "Le monde après le coma",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/le-monde-apres-le-coma",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 352,
+          "title": "Le monde après le coma",
+          "school": "les élèves de 4e, du lycée français de Cuenca, en Equateur",
+          "category": "Internationale"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "le-monde-de-lena",
+        "title": "Le monde de Léna",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/le-monde-de-lena",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 851,
+          "title": "Le monde de Léna",
+          "school": "les élèves de 2nde bac pro métiers de la relation client, du lycée professionnel Anne Veaute, de la ville de Castres, France.",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "le-peintre-lerudite-et-le-tableau",
+        "title": "Le Peintre, l'Erudite et le Tableau",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/le-peintre-lerudite-et-le-tableau",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 162,
+          "title": "Le Peintre, l'Erudite et le Tableau",
+          "school": "Juna Macé de 1ère HLP du lycée Marie Curie de Tarbes, France.",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "le-poids-du-panier-vide",
+        "title": "Le poids du panier vide",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/le-poids-du-panier-vide",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 318,
+          "title": "Le poids du panier vide",
+          "school": "les élèves de Terminale du groupe TG2 et TG1 du lycée polyvalent Léopold Elfort de Mana en Guyane.",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "le-poisson-aux-mille-histoires",
+        "title": "Le poisson aux mille histoires",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/le-poisson-aux-mille-histoires",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 92,
+          "title": "Le poisson aux mille histoires",
+          "school": "les élèves de collège et lycée, du conseil municipal des jeunes aixois (CMJA), d'Aix-en-Provence, France",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "le-poisson-qui-change-le-monde",
+        "title": "Le poisson qui a changé le monde",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/le-poisson-qui-change-le-monde",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 337,
+          "title": "Le poisson qui a changé le monde",
+          "school": "un groupe d'élèves de 5e1, du collège Anne Frank, de la ville de BRIVES-CHARENSAC, France.",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "le-prix-du-savoir",
+        "title": "Le prix du savoir",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/le-prix-du-savoir",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 6,
+          "title": "Le prix du savoir",
+          "school": "les élèves de 5A du collège Stanislas de la ville de Nice, France.",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "le-proces",
+        "title": "Le Procès",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/le-proces",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 1130,
+          "title": "Le Procès",
+          "school": "les élèves du groupe 8 de la classe de 2nde9 du lycée Charles de Foucauld, de la ville de Brest (Bretagne) en France.",
+          "category": "Internationale"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "le-proces-de-la-clim-404",
+        "title": "Le procès de la clim 404",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/le-proces-de-la-clim-404",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 119,
+          "title": "Le procès de la clim 404",
+          "school": "les éco-délégués du collège Henri Matisse, de la ville de Choisy-le-Roi, France.",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "le-proces-du-dessert",
+        "title": "Le Procès du dessert",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/le-proces-du-dessert",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 313,
+          "title": "Le Procès du dessert",
+          "school": "les élèves de 2nde BAMA et 2nde BEM1, du lycée professionnel Albert Ramassamy, de la ville de Saint-Denis, Réunion, France.",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "le-remede-vert",
+        "title": "Le remède vert",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/le-remede-vert",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 319,
+          "title": "Le remède vert",
+          "school": "les élèves de 2D2, du LPO Marguerite Yourcenar, de la ville de Beuvry, France.",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "le-reve-impossible",
+        "title": "Le rêve impossible.",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/le-reve-impossible",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 143,
+          "title": "Le rêve impossible.",
+          "school": "les élèves de la classe européenne + (première euro plus ), de la Nativité, de la ville d'Aix-en-Provence, France",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "le-salaire-discrimine-aussi",
+        "title": "Le salaire discrimine aussi",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/le-salaire-discrimine-aussi",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 827,
+          "title": "Le salaire discrimine aussi",
+          "school": "les élèves de classe 201, du Lycée 12 Cadereyta UANL, de la ville de Cadereyta, Mexique.",
+          "category": "Internationale"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "le-sexisme-cest-pas-foot",
+        "title": "Le sexisme, c'est pas foot !",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/le-sexisme-cest-pas-foot",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 188,
+          "title": "Le sexisme, c'est pas foot !",
+          "school": "6 élèves de la commission concours des éco-délégués du collège Pierre MENDES FRANCE à Bessines-sur-Gartempe (87) en France.",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "le-souffle-des-baleines",
+        "title": "Le souffle des baleines",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/le-souffle-des-baleines",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 669,
+          "title": "Le souffle des baleines",
+          "school": "les écodélégués du collège Octave Gachon de Parsac, France.",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "le-temps-dune-soiree",
+        "title": "Le temps d'une soirée",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/le-temps-dune-soiree",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 157,
+          "title": "Le temps d'une soirée",
+          "school": "les élèves de 2de8, Ana, Laurène, Luna, Andréa, Eléa, Vitoria du Lycée du Golfe de Saint-Tropez à Gassin en France.",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "le-terrain-qui-disparait",
+        "title": "Le terrain qui disparaît",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/le-terrain-qui-disparait",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 291,
+          "title": "Le terrain qui disparaît",
+          "school": "la classe de 6ème 4 du collège La Guicharde à Sanary-sur-Mer en France dans le VAR.",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "le-vent-douest",
+        "title": "Le vent d'Ouest",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/le-vent-douest",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 3005,
+          "title": "Le vent d'Ouest",
+          "school": "un groupe d'élèves de la 2nde 4 du lycée Jean Michel de Lons le Saunier (France)",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "le-village-des-cendres",
+        "title": "Le village des cendres",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/le-village-des-cendres",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 85,
+          "title": "Le village des cendres",
+          "school": "les élèves de seconde (classe 503 groupe 1), du lycée Auguste Renoir de Limoges (FRANCE).",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "le-vivasea",
+        "title": "Le Vivasea",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/le-vivasea",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 283,
+          "title": "Le Vivasea",
+          "school": "les élèves du club CDI du Lycée Victor Schoelcher de Fort-de-France, Martinique, France.",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "le-voyage-dafak",
+        "title": "Le voyage d'Afak",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/le-voyage-dafak",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 562,
+          "title": "Le voyage d'Afak",
+          "school": "un groupe d'élèves de 5e1, du collège Anne Frank, de la ville de BRIVES-CHARENSAC, France.",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "le-voyage-de-la-riviere",
+        "title": "Le voyage de la rivière",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/le-voyage-de-la-riviere",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 277,
+          "title": "Le voyage de la rivière",
+          "school": "les élèves de 1ère SAPAT, du Lycée Technique Privé Les Mandailles, de Châteauneuf-de-Galaure, France.",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "le-voyage-dun-fil-de-coton",
+        "title": "Le voyage d'un fil de coton",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/le-voyage-dun-fil-de-coton",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 184,
+          "title": "Le voyage d'un fil de coton",
+          "school": "des éco délégués du collège Marcel Pagnol de Noyen sur Sarthe, en France.",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "le-voyage-extraordinaire-de-bicou",
+        "title": "Le voyage extraordinaire de Bicou",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/le-voyage-extraordinaire-de-bicou",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 5510,
+          "title": "Le voyage extraordinaire de Bicou",
+          "school": "les élèves « Eco-délégués » du collège Max Linder de Saint-Loubès (France)",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "leau-un-luxe-qui-separe-deux-vies",
+        "title": "L'eau, un luxe qui sépare deux vies",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/leau-un-luxe-qui-separe-deux-vies",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 1122,
+          "title": "L'eau, un luxe qui sépare deux vies",
+          "school": "les élèves de 1ère 4, du LFIGP, de la ville de Dubai, Emirats Arabes Unis",
+          "category": "Internationale"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "lecho-des-jardins-invisibles",
+        "title": "L’ÉCHO DES JARDINS INVISIBLES",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/lecho-des-jardins-invisibles",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 510,
+          "title": "L’ÉCHO DES JARDINS INVISIBLES",
+          "school": "les élèves de (10p2), du (lycée Nguyễn Thị Minh Khai), de la ville de (Hồ Chí Minh), (Việt Nam).",
+          "category": "Internationale"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "lechoue",
+        "title": "L'échoué",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/lechoue",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 42,
+          "title": "L'échoué",
+          "school": "les élèves de 4ème du Lycée agricole Louis Pasteur (La Canourgue- France)",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "lenvers-du-decor-le-fil-empoisonne",
+        "title": "L'envers du décor le fil empoisonné",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/lenvers-du-decor-le-fil-empoisonne",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 41,
+          "title": "L'envers du décor le fil empoisonné",
+          "school": "4 élèves de 2ndeB/groupe 4, du lycée Polyvalent Gaston Bachelard, de Bar-sur-Aube, France.",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "les-animaux-de-la-resistance",
+        "title": "Les animaux de la résistance",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/les-animaux-de-la-resistance",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 443,
+          "title": "Les animaux de la résistance",
+          "school": "les 14 éco-délégué.es du collège Les Deux-Rivières, de la 6e à la 3e.",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "les-aventures-de-toru-et-coco",
+        "title": "Les aventures de Toru et Coco",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/les-aventures-de-toru-et-coco",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 239,
+          "title": "Les aventures de Toru et Coco",
+          "school": "Yliana, Camille et Justine de la classe de 6C du Collège Victor Hugo de Ham en France",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "les-commerages-de-lespace",
+        "title": "Les commérages de l'espace",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/les-commerages-de-lespace",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 163,
+          "title": "Les commérages de l'espace",
+          "school": "par les étudiants de 1ère et 2ème année de BTS Négociation et Digitalisation de la Relation Client, du lycée professionnel Lumina Sophie, de la ville de la ville de Schoelcher en Martinique.",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "les-deux-mondes",
+        "title": "Les deux mondes",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/les-deux-mondes",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 157,
+          "title": "Les deux mondes",
+          "school": "les élèves de secondes D et E du lycée Louise Weiss, de la ville d'Achères , France.",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "les-echos-de-lemploi",
+        "title": "Les échos de l'emploi",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/les-echos-de-lemploi",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 199,
+          "title": "Les échos de l'emploi",
+          "school": "les élèves de 1º Bachillerato, de l'IES Leonardo Torres Quevedo de la ville de Santander, Espagne.",
+          "category": "Internationale"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "les-filles-aussi-ont-des-ailes",
+        "title": "Les filles aussi ont des ailes",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/les-filles-aussi-ont-des-ailes",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 440,
+          "title": "Les filles aussi ont des ailes",
+          "school": "les élèves de l'atelier podcast du collège de Kawéni 1, de la ville de Mamoudzou à Mayotte, France.",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "les-murmures-dune-eau-blessee",
+        "title": "Les murmures d'une eau blessée",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/les-murmures-dune-eau-blessee",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 341,
+          "title": "Les murmures d'une eau blessée",
+          "school": "les élèves de 1ere AGORA, du lycée Caucadis, de Vitrolles, France.",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "les-ruines-de-lancien-monde",
+        "title": "Les ruines de l'ancien monde",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/les-ruines-de-lancien-monde",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 40,
+          "title": "Les ruines de l'ancien monde",
+          "school": "les élèves de 2nde 9 du Lycée Lyautey de Casablanca au Maroc.",
+          "category": "Internationale"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "letant-de-lor-en-colere",
+        "title": "L'Etant de l'Or en colère",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/letant-de-lor-en-colere",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 429,
+          "title": "L'Etant de l'Or en colère",
+          "school": "des élèves de 5ème, du club écomotivés et du club webradio, du collège Saint François Régis de Montpellier, en France.",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "lets-go",
+        "title": "Let's go !",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/lets-go",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 443,
+          "title": "Let's go !",
+          "school": "les élèves de 6ème A du collège Vallée du Lys, de Lys-Haut-Layon, France",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "lhommiculture",
+        "title": "L'hommiculture",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/lhommiculture",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 6892,
+          "title": "L'hommiculture",
+          "school": "les élèves de seconde (classe 505 groupe 2), du lycée Auguste Renoir de Limoges (FRANCE).",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "limposture-de-la-machine",
+        "title": "L'IMPOSTURE DE LA MACHINE",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/limposture-de-la-machine",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 197,
+          "title": "L'IMPOSTURE DE LA MACHINE",
+          "school": "les élèves du dispositif ULIS Troubles des Fonctions Cognitives du collège Jules Ferry de Beaune, France. Elèves ayant des difficultés d'apprentissage et qui nécessitent un accompagnement particulier et une scolarisation adaptée.",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "linvention-du-film-denrupatate",
+        "title": "L'invention du film d'enrupatate",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/linvention-du-film-denrupatate",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 219,
+          "title": "L'invention du film d'enrupatate",
+          "school": "les élèves de 5e1, du collège Marc Bloch, de la ville de Bonnat, en France.",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "lontan-aster-domin",
+        "title": "Lontan, aster, domin",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/lontan-aster-domin",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 339,
+          "title": "Lontan, aster, domin",
+          "school": "les élèves de la Classe Médias (4ème Picasso) du collège Jules Reydellet de St Denis de la Réunion, France.",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "loup-que-fais-tu",
+        "title": "Loup, que fais-tu ?",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/loup-que-fais-tu",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 101,
+          "title": "Loup, que fais-tu ?",
+          "school": "les élèves de 4e-3e, éco-délégués et membres du club lecture du Collège Sainte Jeanne d'Arc, Décines-Charpieu (69), France.",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "lunion-des-differences",
+        "title": "L'union des différences",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/lunion-des-differences",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 434,
+          "title": "L'union des différences",
+          "school": "les élèves du Club Média, de la classe UPE2A, des éco- délégués (membres de la maison des lycéens, du conseil de vie lycéenne) et des ambassadeurs pHAre du lycée polyvalent Etienne-Jules Marey de Boulogne-Billancourt.",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "luxoria",
+        "title": "LUXORIA",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/luxoria",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 162,
+          "title": "LUXORIA",
+          "school": "les élèves de la classe de 2TNE, du lycée professionnel Dumas JEAN-JOSEPH, de Fort-de-France, Martinique.",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "ma-conscience-en-soldes",
+        "title": "Ma conscience en soldes",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/ma-conscience-en-soldes",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 328,
+          "title": "Ma conscience en soldes",
+          "school": "les élèves de 4e et de 3e de l'Atelier Jeunes reporters internationaux, du Lycée Français International de La Havane \"Alejo Carpentier\", de la ville La Havane, Cuba.",
+          "category": "Internationale"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "ma-vie-de-garcon-ma-prison-0",
+        "title": "Ma vie de garçon, ma prison",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/ma-vie-de-garcon-ma-prison-0",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 330,
+          "title": "Ma vie de garçon, ma prison",
+          "school": "les élèves du Club Émir Radio du collège Saint-Exupéry de la ville de Rabat, Maroc",
+          "category": "Internationale"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "madagascar-2037",
+        "title": "Madagascar 2037",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/madagascar-2037",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 117,
+          "title": "Madagascar 2037",
+          "school": "les élèves de Terminale AEPA, du lycée Condé, de la ville de Besançon, France.",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "mariage-ou-exil",
+        "title": "Mariage ou exil",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/mariage-ou-exil",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 214,
+          "title": "Mariage ou exil",
+          "school": "Ecodélégués du collège",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "marseille-2040",
+        "title": "Marseille 2040",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/marseille-2040",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 127,
+          "title": "Marseille 2040",
+          "school": "trois élèves de 3e, élu.es au Conseil de la Vie Collégienne et Eco délégués, du collège Chape, de la ville de Marseille, France",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "memoires-dune-terre-perdue",
+        "title": "Mémoires d'une terre perdue",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/memoires-dune-terre-perdue",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 137,
+          "title": "Mémoires d'une terre perdue",
+          "school": "les élèves de 4G (ESABAC), du Lycée G. Mazzini, de La Spezia, Italie.",
+          "category": "Internationale"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "memoriam",
+        "title": "In memoriam",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/memoriam",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 44,
+          "title": "In memoriam",
+          "school": "les élèves de 4ème C:  Cemre  Smaranda Farah  Tymeo Mara",
+          "category": "Internationale"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "mentalites-oubliees-dans-le-congele",
+        "title": "Mentalités oubliées dans le congèle",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/mentalites-oubliees-dans-le-congele",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 34,
+          "title": "Mentalités oubliées dans le congèle",
+          "school": "les élèves de 1AF et 1BF, du lycée Metodova de Bratislava en Slovaquie.",
+          "category": "Internationale"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "message-du-futur",
+        "title": "Message du futur",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/message-du-futur",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 771,
+          "title": "Message du futur",
+          "school": "les éco-délégués du collège Sainte Clotilde.",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "mets-toi-sa-place",
+        "title": "Mets-toi à sa place !",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/mets-toi-sa-place",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 23,
+          "title": "Mets-toi à sa place !",
+          "school": "les élèves de Seconde 4, du lycée Jean-Marc Boivin, de la ville de Chevigny-Saint-Sauveur, France.",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "mexique-eau-empathie",
+        "title": "Mexique Eau Empathie",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/mexique-eau-empathie",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 324,
+          "title": "Mexique Eau Empathie",
+          "school": "les élèves de 2D07, du lycée Martin Luther King, de la ville de Bussy-Saint-Georges, France.",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "mon-combat-contre-les-inegalites",
+        "title": "Mon combat contre les inégalités",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/mon-combat-contre-les-inegalites",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 74,
+          "title": "Mon combat contre les inégalités",
+          "school": "les élèves de 2nde PL (préparatoire à l'entrée au lycée) du Lycée Général et Technologique Georges Cabanis de Brive-la-Gaillarde, France.",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "mon-espoir",
+        "title": "Mon espoir",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/mon-espoir",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 220,
+          "title": "Mon espoir",
+          "school": "4 élèves de 2nde 10, du lycée Jean Michel, de la ville de Lons-le-Saunier, France.",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "new-york-40degc-la-nuit",
+        "title": "New-York, 40°C la nuit.",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/new-york-40degc-la-nuit",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 179,
+          "title": "New-York, 40°C la nuit.",
+          "school": "4 élèves de 2ndeB/groupe 3, du lycée Polyvalent Gaston Bachelard, de Bar-sur-Aube, France.",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "oceane-la-petite-goutte-deau",
+        "title": "Océane, la petite goutte d'eau",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/oceane-la-petite-goutte-deau",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 586,
+          "title": "Océane, la petite goutte d'eau",
+          "school": "les élèves de Seconde C2, du Lycée Moderne de Cocody, de la ville de Abidjan, Côte d'Ivoire.",
+          "category": "Internationale"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "pauvrete-brisee-grace-leducation",
+        "title": "Pauvreté brisée grâce à l'éducation",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/pauvrete-brisee-grace-leducation",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 363,
+          "title": "Pauvreté brisée grâce à l'éducation",
+          "school": "deux élèves de premières professionnelles des métiers de la couture et confection du lycée polyvalent Emiland Gauthey de la ville de Chalon sur Saône en France.",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "pleyben-demain",
+        "title": "Pleyben Demain",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/pleyben-demain",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 189,
+          "title": "Pleyben Demain",
+          "school": "les élèves du dispositif ULIS du collège Louis Hémon de Pleyben, France.",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "polatouche",
+        "title": "Polatouche !",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/polatouche",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 36,
+          "title": "Polatouche !",
+          "school": "les élèves de 3è4 du Collège Mathalin de la ville d'Auch (France).",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "pourquoi-nous",
+        "title": "Pourquoi nous ?",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/pourquoi-nous",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 24,
+          "title": "Pourquoi nous ?",
+          "school": "les élèves de Seconde 4, du lycée Jean-Marc Boivin, de la ville de Chevigny-Saint-Sauveur, France.",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "prends-soin-de-toi",
+        "title": "Prends soin de toi",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/prends-soin-de-toi",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 615,
+          "title": "Prends soin de toi",
+          "school": "Les élèves de premières Sciences et Techniques Médico-Sociales du Lycée Marguerite de Valois en Charente ont souhaité s’interroger à partir de questions d’actualités sanitaires et sociales et aborder une approche factuelle de la résilience possible.",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "promo-tout-prix",
+        "title": "Promo à tout prix",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/promo-tout-prix",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 1000,
+          "title": "Promo à tout prix",
+          "school": "10 élèves de la classe de 4ème 6 Option Théâtre du collège Maurice Satineau de la viklle de Baie-Mahault en Guadeloupe (France).",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "proteger-les-hirondelles-voyageuses",
+        "title": "Protéger les hirondelles voyageuses",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/proteger-les-hirondelles-voyageuses",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 199,
+          "title": "Protéger les hirondelles voyageuses",
+          "school": "Quentin, Tim, Yvan et Théophane, élèves d'une unité d'enseignement IME au sein du lycée professionnel Jean Rostand à Nevers ( France )",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "quand-la-terre-seteint",
+        "title": "Quand la Terre s'éteint",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/quand-la-terre-seteint",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 84,
+          "title": "Quand la Terre s'éteint",
+          "school": "les élèves éco-délégues, du lycée Pierre Corneille, de la ville de La-celle-Saint-Cloud, France.",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "quand-la-ville-grignote-le-vivant",
+        "title": "Quand la ville grignote le vivant",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/quand-la-ville-grignote-le-vivant",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 112,
+          "title": "Quand la ville grignote le vivant",
+          "school": "une élève de terminale, du Lycée Français de Taipei, de la ville de Taipei, Taïwan",
+          "category": "Internationale"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "quand-ma-mere-est-devenue-personne",
+        "title": "Quand ma mère est devenue personne",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/quand-ma-mere-est-devenue-personne",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 167,
+          "title": "Quand ma mère est devenue personne",
+          "school": "les élèves du Lycée l'Annonciation, de la ville de Seilh, (Haute-Garonne, France).",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "qui-viendra-me-sauver",
+        "title": "Qui viendra me sauver ?",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/qui-viendra-me-sauver",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 134,
+          "title": "Qui viendra me sauver ?",
+          "school": "les élèves de 2MRC3, du Lycée Charles Tillon de Rennes, France.",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "reinventer-le-quotidien",
+        "title": "Réinventer le quotidien",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/reinventer-le-quotidien",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 623,
+          "title": "Réinventer le quotidien",
+          "school": "les élèves de 2e et 4e semestre du lycée #16 UANL, de la ville de San Nicolás de los Garza, Nuevo León, Mexique.",
+          "category": "Internationale"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "renaissance-au-coeur-de-loasis",
+        "title": "Renaissance, au cœur de l'Oasis",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/renaissance-au-coeur-de-loasis",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 1049,
+          "title": "Renaissance, au cœur de l'Oasis",
+          "school": "les élèves éco-engagés de 5èm, du Lycée français international Louis Massignon  de la ville de Casablanca au Maroc",
+          "category": "Internationale"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "repecher-le-futur",
+        "title": "Repêcher le futur",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/repecher-le-futur",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 199,
+          "title": "Repêcher le futur",
+          "school": "les étudiants de la classe IV^ L (filière : Servizi Commerciali), du Lycée Istituto \"Cipriani Colombo\", de la ville de Adria (RO), Italie.",
+          "category": "Internationale"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "robert-et-la-riviere",
+        "title": "Robert et la Rivière",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/robert-et-la-riviere",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 559,
+          "title": "Robert et la Rivière",
+          "school": "un groupe composé d'1 élève de seconde STHR, 1 élève d'une Unité éducative externalisée, 3 élèves de terminale STHR, du lycée des métiers de l'hôtellerie et du tourisme Violetta Chaville , de la ville du Gosier en Guadeloupe.",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "sante-et-bien-etre",
+        "title": "Santé et bien être",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/sante-et-bien-etre",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 16,
+          "title": "Santé et bien être",
+          "school": "les élèves de 1BF, du lycée Metodova de Bratislava en Slovaquie.",
+          "category": "Internationale"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "sargasses-sante-environnement",
+        "title": "Sargasses, Santé, Environnement",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/sargasses-sante-environnement",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 443,
+          "title": "Sargasses, Santé, Environnement",
+          "school": "les éco-délégués de la 6ème à la 3ème ; du collège Lisette Moutachi situé au Lamentin Martinique.",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "sauvons-les-limules",
+        "title": "Sauvons les limules !",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/sauvons-les-limules",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 81,
+          "title": "Sauvons les limules !",
+          "school": "les élèves de 6D, du collège Paul Landowski, de la ville de Boulogne-Billancourt, France.",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "sauvons-patty-et-son-bebe",
+        "title": "Sauvons Patty et son bébé",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/sauvons-patty-et-son-bebe",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 308,
+          "title": "Sauvons Patty et son bébé",
+          "school": "6 élèves de différents niveaux du club webradio du collège François Mitterrand d’Arras, France.",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "se-battre-comme-des-chiffonniers",
+        "title": "Se battre comme des chiffonniers",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/se-battre-comme-des-chiffonniers",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 61,
+          "title": "Se battre comme des chiffonniers",
+          "school": "les élèves de Seconde 6 du Lycée Jacques Decour du 9éme arrondissement de Paris, en France.",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "silence-au-bout-du-fil",
+        "title": "SILENCE AU BOUT DU FIL",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/silence-au-bout-du-fil",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 261,
+          "title": "SILENCE AU BOUT DU FIL",
+          "school": "les élèves de 1ere 6 en EMC, du LFIGP, de la ville de DUBAI aux EMIRATS ARABES UNIS.",
+          "category": "Internationale"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "silver-et-le-souffle-du-plancton",
+        "title": "Silver et le souffle du plancton",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/silver-et-le-souffle-du-plancton",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 614,
+          "title": "Silver et le souffle du plancton",
+          "school": "les éco-délégués du collège Camille Claudel, de la ville de Montreux Château, France.",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "sky-de-la-bouteille",
+        "title": "Sky a de la bouteille",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/sky-de-la-bouteille",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 305,
+          "title": "Sky a de la bouteille",
+          "school": "les élèves de la classe de 5e E du collège Chevreul de la ville de Lyon, France.",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "souffle-vert",
+        "title": "Souffle vert",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/souffle-vert",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 402,
+          "title": "Souffle vert",
+          "school": "les élèves de la Seconde I du lycée les Bourdonnières, Hénolina, Sidonie, Emy, Charline et Shahine, de la ville de NANTES, France.",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "sous-la-surface",
+        "title": "Sous la surface",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/sous-la-surface",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 32,
+          "title": "Sous la surface",
+          "school": "les élèves de la Première B1 de l'Annonciation, de la ville de Seilh (Haute-Garonne, France).",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "sous-mes-pieds-le-mali",
+        "title": "SOUS MES PIEDS LE MALI",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/sous-mes-pieds-le-mali",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 245,
+          "title": "SOUS MES PIEDS LE MALI",
+          "school": "les élèves du dispositif ULIS Troubles des Fonctions Cognitives du collège Jules Ferry de Beaune, France. Elèves ayant des difficultés d'apprentissage et qui nécessitent un accompagnement particulier et une scolarisation adaptée.",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "sur-les-pas-delisey",
+        "title": "Sur les pas d'Elisey",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/sur-les-pas-delisey",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 1049,
+          "title": "Sur les pas d'Elisey",
+          "school": "les élèves de 5°A groupe 2, du Collège Louis Aragon, de la ville d'Imphy, France.",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "tacos-des-alpages",
+        "title": "Tacos des alpages",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/tacos-des-alpages",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 257,
+          "title": "Tacos des alpages",
+          "school": "les élèves du club radio du collège Europole de Grenoble, en France.",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "tim-tembo-destins-croises",
+        "title": "Tim & Tembo : destins croisés",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/tim-tembo-destins-croises",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 141,
+          "title": "Tim & Tembo : destins croisés",
+          "school": "les élèves éco-délégués (2025-2026) du lycée français Denis Diderot, à Nairobi, au Kenya.",
+          "category": "Internationale"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "toi-moi-et-notre-nouvelle-vie",
+        "title": "Toi, Moi et notre nouvelle vie",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/toi-moi-et-notre-nouvelle-vie",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 464,
+          "title": "Toi, Moi et notre nouvelle vie",
+          "school": "les élèves de la classe de Première Spécialité HLP du lycée Sacré-Cœur La Salle, de la ville d’Angers en France",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "tony-le-protecteur-des-fleuves",
+        "title": "Tony le protecteur des fleuves",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/tony-le-protecteur-des-fleuves",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 122,
+          "title": "Tony le protecteur des fleuves",
+          "school": "la classe de 5ème 5 du collège La Guicharde à Sanary-sur-Mer",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "tor-tue-plastique",
+        "title": "Tor-tue plastique",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/tor-tue-plastique",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 20,
+          "title": "Tor-tue plastique",
+          "school": "les élèves de 3è4 du collège Mathalin à Auch (France).",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "tour-du-monde-en-80-jours",
+        "title": "Tour du monde en 80 jours",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/tour-du-monde-en-80-jours",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 146,
+          "title": "Tour du monde en 80 jours",
+          "school": "les élèves de l'Atelier Jeunes reporters internationaux, du Lycée Français International de La Havane \"Alejo Carpentier\", de La Havane, Cuba",
+          "category": "Internationale"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "toxique-plastique",
+        "title": "Toxique Plastique",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/toxique-plastique",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 463,
+          "title": "Toxique Plastique",
+          "school": "Ce podcast a été réalisé par huit lycéens du Lycée Gérard Ethève à Stella (Île de la Réunion). Les élèves, tous volontaires, sont issus de classes différentes de la Seconde à la Terminale, et certains sont rédacteurs du Journal des Lycéens",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "tragi-comedie-chez-les-albatar",
+        "title": "Tragi-comédie chez les Al'batar",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/tragi-comedie-chez-les-albatar",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 143,
+          "title": "Tragi-comédie chez les Al'batar",
+          "school": "les élèves éco-délégués de l'option EDD du collège Edmond Lucien Valard, de la ville du Saint-Esprit, en Martinique.",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "trier-cest-gagner",
+        "title": "Trier c'est Gagner!",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/trier-cest-gagner",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 638,
+          "title": "Trier c'est Gagner!",
+          "school": "les écodélégués des classes de 6è,5è et 3è, du du collège Emile ZOLA de la ville Le Haillan, en France.",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "tsilaosa-et-le-ciel-etoile",
+        "title": "Tsilaosa et le ciel étoilé",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/tsilaosa-et-le-ciel-etoile",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 1317,
+          "title": "Tsilaosa et le ciel étoilé",
+          "school": "des élèves éco-délégués du collège La Salle Saint-Michel, de Saint-Denis (974), France.",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "tukuna",
+        "title": "Tukuna",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/tukuna",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 513,
+          "title": "Tukuna",
+          "school": "des élèves de l'atelier Webradio Bambamboo du collège Florian d'Anduze (France).",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "un-echange-qui-te-change",
+        "title": "Un échange qui te change",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/un-echange-qui-te-change",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 121,
+          "title": "Un échange qui te change",
+          "school": "les élèves de 4 G (ESABAC)  Lycée \"G.Mazzini\"  La Spezia  ITALIE",
+          "category": "Internationale"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "un-faux-refuge",
+        "title": "Un faux refuge",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/un-faux-refuge",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 423,
+          "title": "Un faux refuge",
+          "school": "les élèves de la classe de seconde C1, du Lycée Moderne de Port-Bouët, de la ville d'Abidjan, Côte d'Ivoire.",
+          "category": "Internationale"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "un-monde-bouleverse",
+        "title": "Un monde bouleversé",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/un-monde-bouleverse",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 2158,
+          "title": "Un monde bouleversé",
+          "school": "les élèves de 2D2, du LPO Marguerite Yourcenar, de la ville de Beuvry, France.",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "un-monde-deux-verites",
+        "title": "Un monde, deux vérités",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/un-monde-deux-verites",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 1575,
+          "title": "Un monde, deux vérités",
+          "school": "les élèves de la classe de seconde 4 du lycée St Joseph La Cordeille à Ollioules (83), France",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "un-monde-sans-voix-0",
+        "title": "Un monde sans voix",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/un-monde-sans-voix-0",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 3119,
+          "title": "Un monde sans voix",
+          "school": "un groupe d'élèves de III G Esabac du Liceo Publio Virgilio Marone de Meta (Italie)",
+          "category": "Internationale"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "un-sandwich-et-reinventer-le-monde",
+        "title": "Un sandwich et réinventer le monde",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/un-sandwich-et-reinventer-le-monde",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 476,
+          "title": "Un sandwich et réinventer le monde",
+          "school": "les élèves de 5°B groupe 2, du Collège Louis Aragon, de la ville d'Imphy, France.",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "une-cassette-la-mer",
+        "title": "Une cassette à la mer",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/une-cassette-la-mer",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 16,
+          "title": "Une cassette à la mer",
+          "school": "les élèves de Terminale STMG du lycée Gabriel Deshayes, de Saint Gildas des Bois (France).",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "une-famille-au-burkina-faso",
+        "title": "Une famille au Burkina Faso",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/une-famille-au-burkina-faso",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 410,
+          "title": "Une famille au Burkina Faso",
+          "school": "les élèves de la classe 3G, du Istituto Istruzione Superiore Antonio Meucci, de la ville de Carpi, Italie.",
+          "category": "Internationale"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "une-journee-sans-eau",
+        "title": "Une journée sans eau",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/une-journee-sans-eau",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 3057,
+          "title": "Une journée sans eau",
+          "school": "les élèves de seconde et première, du lycée la Clairefontaine, de la ville de Fort-Dauphin, Madagascar.",
+          "category": "Internationale"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "une-piece-sil-vous-plait",
+        "title": "Une pièce s'il vous plaît",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/une-piece-sil-vous-plait",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 329,
+          "title": "Une pièce s'il vous plaît",
+          "school": "les élèves du club E3D, du collège Jules Marouzeau, de la ville de Guéret (23), France.",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "une-rencontre-qui-change-tout",
+        "title": "Une rencontre qui change tout",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/une-rencontre-qui-change-tout",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 160,
+          "title": "Une rencontre qui change tout",
+          "school": "5 élèves de la 6D du collège victor hugo de Ham en France.",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "une-sortie-au-musee",
+        "title": "Une sortie au musée",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/une-sortie-au-musee",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 495,
+          "title": "Une sortie au musée",
+          "school": "les élèves du club E3D, du collège Jules Marouzeau, de la ville de Guéret (23), France.",
+          "category": "Cycle 4 (12-14 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "une-voix-contre-lexcision",
+        "title": "Une voix contre l'excision",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/une-voix-contre-lexcision",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 131,
+          "title": "Une voix contre l'excision",
+          "school": "les élèves de terminale T1 et T2, du Lycée Professionnel Privé de Coiffure Pierre Masson, de la ville de Saint-Herblain, France.",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "veloria-le-dernier-souffle",
+        "title": "Véloria : le dernier souffle",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/veloria-le-dernier-souffle",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 187,
+          "title": "Véloria : le dernier souffle",
+          "school": "les élèves éco délégués et éco volontaires du lycée Polyvalent Louise Michel d'Epinay sur Seine ( Seine St Denis -France). Tous ont participé à la génése du scénario et à sa rédaction.",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "vent-et-silence",
+        "title": "Vent et silence",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/vent-et-silence",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 1795,
+          "title": "Vent et silence",
+          "school": "3 élèves de Première et 1 élève de Seconde, du lycée la Clairefontaine, de la ville de Fort-Dauphin, Madagascar.",
+          "category": "Internationale"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      },
+      {
+        "slug": "voyage-tortuguero",
+        "title": "Voyage à Tortuguero",
+        "url": "https://offre-pedagogique.afd.fr/fr/ressources/voyage-tortuguero",
+        "previous": null,
+        "current": {
+          "active": true,
+          "voteStatus": "open",
+          "edition": "2026",
+          "votes": 838,
+          "title": "Voyage à Tortuguero",
+          "school": "l'ensemble de la classe de 6ème 3 du collège La Guicharde à Sanary-sur-Mer dans le VAR",
+          "category": "Lycée (15-18 ans)"
+        },
+        "reason": "Nouveau slug détecté sur la liste AFD, éligible édition 2026"
+      }
+    ],
+    "statusChanged": [],
+    "metadataUpdated": [],
+    "unchanged": 0
+  },
+  "errors": []
+}

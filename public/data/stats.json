@@ -1,0 +1,1849 @@
+{
+  "generatedAt": "2026-06-11T14:36:32.065+02:00",
+  "snapshotCount": 2,
+  "global": {
+    "medianDelta": 0,
+    "madDelta": 0,
+    "medianVelocity": 0,
+    "madVelocity": 0,
+    "medianRankJump": 0,
+    "madRankJump": 0,
+    "p95Velocity": 400,
+    "participantCount": 229,
+    "deltaMin": 3
+  },
+  "participants": {
+    "2057": {
+      "historyLength": 2,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 50,
+      "madVelocity": 50,
+      "p95Velocity": 100
+    },
+    "2050-la-fin-des-poissons": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "2068-en-direct-du-futur": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "3-wanted": {
+      "historyLength": 2,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 50,
+      "madVelocity": 50,
+      "p95Velocity": 100
+    },
+    "4-pour-lespoir": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "aicha-et-la-promesse-de-la-serre": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "apocalypse-bleue": {
+      "historyLength": 2,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 50,
+      "madVelocity": 50,
+      "p95Velocity": 100
+    },
+    "aryo-le-prix-cache-de-la-mode": {
+      "historyLength": 2,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 50,
+      "madVelocity": 50,
+      "p95Velocity": 100
+    },
+    "au-dela-des-dechets": {
+      "historyLength": 2,
+      "medianDelta": 4,
+      "madDelta": 4,
+      "medianVelocity": 400,
+      "madVelocity": 400,
+      "p95Velocity": 800
+    },
+    "au-dela-du-hors-jeu": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "aura": {
+      "historyLength": 2,
+      "medianDelta": 1,
+      "madDelta": 1,
+      "medianVelocity": 100,
+      "madVelocity": 100,
+      "p95Velocity": 200
+    },
+    "avec-ou-sans-huile-de-palme": {
+      "historyLength": 2,
+      "medianDelta": 11.5,
+      "madDelta": 11.5,
+      "medianVelocity": 1150,
+      "madVelocity": 1150,
+      "p95Velocity": 2300
+    },
+    "avoir-de-leau-plus-pres": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "aya-et-la-maison-en-bidon": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "bacterium-carbonivora": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "bas-prix-quel-cout": {
+      "historyLength": 2,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 50,
+      "madVelocity": 50,
+      "p95Velocity": 100
+    },
+    "beirut-crie-le-liban-sest-leve": {
+      "historyLength": 2,
+      "medianDelta": 2,
+      "madDelta": 2,
+      "medianVelocity": 200,
+      "madVelocity": 200,
+      "p95Velocity": 400
+    },
+    "bouchons-gratines-nou-le-fatigues": {
+      "historyLength": 2,
+      "medianDelta": 1.5,
+      "madDelta": 1.5,
+      "medianVelocity": 150,
+      "madVelocity": 150,
+      "p95Velocity": 300
+    },
+    "bout-de-souffle": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "bout-de-souffle-0": {
+      "historyLength": 2,
+      "medianDelta": 1,
+      "madDelta": 1,
+      "medianVelocity": 100,
+      "madVelocity": 100,
+      "p95Velocity": 200
+    },
+    "ce-que-lavenir-me-doit": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "ce-quils-voyaientce-quelle-etait": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "chantons-contre-la-pollution": {
+      "historyLength": 2,
+      "medianDelta": 5,
+      "madDelta": 5,
+      "medianVelocity": 500,
+      "madVelocity": 500,
+      "p95Velocity": 1000
+    },
+    "chaque-goutte-compte": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "chimali": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "contre-futur": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "conversation-electrique-0": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "coraux-chaud-devant": {
+      "historyLength": 2,
+      "medianDelta": 10,
+      "madDelta": 10,
+      "medianVelocity": 1000,
+      "madVelocity": 1000,
+      "p95Velocity": 2000
+    },
+    "courir-pour-choisir": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "de-vieux-tissus-de-nouvelles-idees": {
+      "historyLength": 2,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 50,
+      "madVelocity": 50,
+      "p95Velocity": 100
+    },
+    "des-abeilles-et-des-hommes": {
+      "historyLength": 2,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 50,
+      "madVelocity": 50,
+      "p95Velocity": 100
+    },
+    "des-algues-contre-le-plastique": {
+      "historyLength": 2,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 50,
+      "madVelocity": 50,
+      "p95Velocity": 100
+    },
+    "des-nuances-de-rouges": {
+      "historyLength": 2,
+      "medianDelta": 5.5,
+      "madDelta": 5.5,
+      "medianVelocity": 550,
+      "madVelocity": 550,
+      "p95Velocity": 1100
+    },
+    "des-voix-qui-comptent": {
+      "historyLength": 2,
+      "medianDelta": 1,
+      "madDelta": 1,
+      "medianVelocity": 100,
+      "madVelocity": 100,
+      "p95Velocity": 200
+    },
+    "desinstallation-amoureuse": {
+      "historyLength": 2,
+      "medianDelta": 57.5,
+      "madDelta": 57.5,
+      "medianVelocity": 5750,
+      "madVelocity": 5750,
+      "p95Velocity": 11500
+    },
+    "deux-bateaux-un-avenir": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "deux-bidons-deau-par-jour": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "du-chocolat-au-gout-amer": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "du-local-au-global": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "eau-secours": {
+      "historyLength": 2,
+      "medianDelta": 4,
+      "madDelta": 4,
+      "medianVelocity": 400,
+      "madVelocity": 400,
+      "p95Velocity": 800
+    },
+    "eco-systeme-d": {
+      "historyLength": 2,
+      "medianDelta": 2,
+      "madDelta": 2,
+      "medianVelocity": 200,
+      "madVelocity": 200,
+      "p95Velocity": 400
+    },
+    "elio": {
+      "historyLength": 2,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 50,
+      "madVelocity": 50,
+      "p95Velocity": 100
+    },
+    "elyndor": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "enfances-volees": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "entre-deux-lettres": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "fast-fashion-more-pression": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "femmeland": {
+      "historyLength": 2,
+      "medianDelta": 1.5,
+      "madDelta": 1.5,
+      "medianVelocity": 150,
+      "madVelocity": 150,
+      "p95Velocity": 300
+    },
+    "femmes-cen-est-assez-battez-vous": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "france-ghana": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "fuir-pour-etre-libre": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "futur-ia": {
+      "historyLength": 2,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 50,
+      "madVelocity": 50,
+      "p95Velocity": 100
+    },
+    "graine-dequite": {
+      "historyLength": 2,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 50,
+      "madVelocity": 50,
+      "p95Velocity": 100
+    },
+    "hors-jeu": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "il-etait-une-fois-une-astronaute": {
+      "historyLength": 2,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 50,
+      "madVelocity": 50,
+      "p95Velocity": 100
+    },
+    "inaya-la-fille-de-leau": {
+      "historyLength": 2,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 50,
+      "madVelocity": 50,
+      "p95Velocity": 100
+    },
+    "isis-pharia-et-son-dernier-cri": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "je-lai-fait-pour-toi-et-ces-femmes": {
+      "historyLength": 2,
+      "medianDelta": 2,
+      "madDelta": 2,
+      "medianVelocity": 200,
+      "madVelocity": 200,
+      "p95Velocity": 400
+    },
+    "journal-dune-refugiee-moderne": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "la-brique-de-washington-dc": {
+      "historyLength": 2,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 50,
+      "madVelocity": 50,
+      "p95Velocity": 100
+    },
+    "la-chasse-au-bonheur": {
+      "historyLength": 2,
+      "medianDelta": 2,
+      "madDelta": 2,
+      "medianVelocity": 200,
+      "madVelocity": 200,
+      "p95Velocity": 400
+    },
+    "la-derniere-digue": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "la-derniere-humaine": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "la-descolarisation": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "la-f1-au-feminin": {
+      "historyLength": 2,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 50,
+      "madVelocity": 50,
+      "p95Velocity": 100
+    },
+    "la-grande-aventure-de-fast": {
+      "historyLength": 2,
+      "medianDelta": -0.5,
+      "madDelta": 0.5,
+      "medianVelocity": -50,
+      "madVelocity": 50,
+      "p95Velocity": 0
+    },
+    "la-lanterne-du-vent": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "la-legende-du-micocoulier-de-st-charles": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "la-lumiere-qui-est-venue-du-soleil": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "la-malediction-de-sangha": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "la-mare-en-danger": {
+      "historyLength": 2,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 50,
+      "madVelocity": 50,
+      "p95Velocity": 100
+    },
+    "la-mer-nest-pas-un-piege": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "la-mesaventure-de-niko": {
+      "historyLength": 2,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 50,
+      "madVelocity": 50,
+      "p95Velocity": 100
+    },
+    "la-messagere": {
+      "historyLength": 2,
+      "medianDelta": 4.5,
+      "madDelta": 4.5,
+      "medianVelocity": 450,
+      "madVelocity": 450,
+      "p95Velocity": 900
+    },
+    "la-ou-la-mer-se-tait": {
+      "historyLength": 2,
+      "medianDelta": 3.5,
+      "madDelta": 3.5,
+      "medianVelocity": 350,
+      "madVelocity": 350,
+      "p95Velocity": 700
+    },
+    "la-ou-nos-vies-flottent": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "la-petite-voix-de-letang": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "la-planete-porte-plainte": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "la-plus-longue-migration-du-monde": {
+      "historyLength": 2,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 50,
+      "madVelocity": 50,
+      "p95Velocity": 100
+    },
+    "la-quete-du-froid": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "la-recherche-de-larbre-perdu": {
+      "historyLength": 2,
+      "medianDelta": 1.5,
+      "madDelta": 1.5,
+      "medianVelocity": 150,
+      "madVelocity": 150,
+      "p95Velocity": 300
+    },
+    "la-recherche-du-poiscaille": {
+      "historyLength": 2,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 50,
+      "madVelocity": 50,
+      "p95Velocity": 100
+    },
+    "la-recherche-du-remede": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "la-revanche": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "la-revolte-de-lamazonie": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "la-revolte-des-fils-invisibles": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "la-sororite-face-la-fatalite": {
+      "historyLength": 2,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 50,
+      "madVelocity": 50,
+      "p95Velocity": 100
+    },
+    "la-sortie-de-lea": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "la-vie-dun-survivant": {
+      "historyLength": 2,
+      "medianDelta": 2,
+      "madDelta": 2,
+      "medianVelocity": 200,
+      "madVelocity": 200,
+      "p95Velocity": 400
+    },
+    "la-ville-de-mes-reves": {
+      "historyLength": 2,
+      "medianDelta": 1.5,
+      "madDelta": 1.5,
+      "medianVelocity": 150,
+      "madVelocity": 150,
+      "p95Velocity": 300
+    },
+    "la-voix-des-oublies": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "lacademie-de-starlight": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "lame-bleue-le-voyage-dune-goutte": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "lappel-qui-sauve": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "lassemblee-des-possibles": {
+      "historyLength": 2,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 50,
+      "madVelocity": 50,
+      "p95Velocity": 100
+    },
+    "lavancee-vers-leau": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "le-bambou-monde": {
+      "historyLength": 2,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 50,
+      "madVelocity": 50,
+      "p95Velocity": 100
+    },
+    "le-bruit-dans-sa-tete": {
+      "historyLength": 2,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 50,
+      "madVelocity": 50,
+      "p95Velocity": 100
+    },
+    "le-carnaval-de-la-digestion": {
+      "historyLength": 2,
+      "medianDelta": 8,
+      "madDelta": 8,
+      "medianVelocity": 800,
+      "madVelocity": 800,
+      "p95Velocity": 1600
+    },
+    "le-ceta-com": {
+      "historyLength": 2,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 50,
+      "madVelocity": 50,
+      "p95Velocity": 100
+    },
+    "le-chant-des-oliviers": {
+      "historyLength": 2,
+      "medianDelta": 5.5,
+      "madDelta": 5.5,
+      "medianVelocity": 550,
+      "madVelocity": 550,
+      "p95Velocity": 1100
+    },
+    "le-chant-du-corail": {
+      "historyLength": 2,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 50,
+      "madVelocity": 50,
+      "p95Velocity": 100
+    },
+    "le-coeur-de-la-martinique": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "le-crepuscule-des-lois-la-chute": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "le-cri-de-locean": {
+      "historyLength": 2,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 50,
+      "madVelocity": 50,
+      "p95Velocity": 100
+    },
+    "le-cri-dun-monde-en-desespoir": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "le-dernier-jour-de-la-tour-eiffel": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "le-dernier-kwh": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "le-dernier-souffle-du-corail": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "le-fabuleux-destin-dun-plancton": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "le-grand-soulevement": {
+      "historyLength": 2,
+      "medianDelta": 2,
+      "madDelta": 2,
+      "medianVelocity": 200,
+      "madVelocity": 200,
+      "p95Velocity": 400
+    },
+    "le-grand-voyage-de-bob": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "le-livre-de-faida": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "le-lutin-de-poche": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "le-maillot-numero-dix": {
+      "historyLength": 2,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 50,
+      "madVelocity": 50,
+      "p95Velocity": 100
+    },
+    "le-mirage-de-labondance": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "le-monde-apres-le-coma": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "le-monde-de-lena": {
+      "historyLength": 2,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 50,
+      "madVelocity": 50,
+      "p95Velocity": 100
+    },
+    "le-peintre-lerudite-et-le-tableau": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "le-poids-du-panier-vide": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "le-poisson-aux-mille-histoires": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "le-poisson-qui-change-le-monde": {
+      "historyLength": 2,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 50,
+      "madVelocity": 50,
+      "p95Velocity": 100
+    },
+    "le-prix-du-savoir": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "le-proces": {
+      "historyLength": 2,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 50,
+      "madVelocity": 50,
+      "p95Velocity": 100
+    },
+    "le-proces-de-la-clim-404": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "le-proces-du-dessert": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "le-remede-vert": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "le-reve-impossible": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "le-salaire-discrimine-aussi": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "le-sexisme-cest-pas-foot": {
+      "historyLength": 2,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 50,
+      "madVelocity": 50,
+      "p95Velocity": 100
+    },
+    "le-souffle-des-baleines": {
+      "historyLength": 2,
+      "medianDelta": 2,
+      "madDelta": 2,
+      "medianVelocity": 200,
+      "madVelocity": 200,
+      "p95Velocity": 400
+    },
+    "le-temps-dune-soiree": {
+      "historyLength": 2,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 50,
+      "madVelocity": 50,
+      "p95Velocity": 100
+    },
+    "le-terrain-qui-disparait": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "le-vent-douest": {
+      "historyLength": 2,
+      "medianDelta": 1.5,
+      "madDelta": 1.5,
+      "medianVelocity": 150,
+      "madVelocity": 150,
+      "p95Velocity": 300
+    },
+    "le-village-des-cendres": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "le-vivasea": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "le-voyage-dafak": {
+      "historyLength": 2,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 50,
+      "madVelocity": 50,
+      "p95Velocity": 100
+    },
+    "le-voyage-de-la-riviere": {
+      "historyLength": 2,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 50,
+      "madVelocity": 50,
+      "p95Velocity": 100
+    },
+    "le-voyage-dun-fil-de-coton": {
+      "historyLength": 2,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 50,
+      "madVelocity": 50,
+      "p95Velocity": 100
+    },
+    "le-voyage-extraordinaire-de-bicou": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "leau-un-luxe-qui-separe-deux-vies": {
+      "historyLength": 2,
+      "medianDelta": 1,
+      "madDelta": 1,
+      "medianVelocity": 100,
+      "madVelocity": 100,
+      "p95Velocity": 200
+    },
+    "lecho-des-jardins-invisibles": {
+      "historyLength": 2,
+      "medianDelta": 2.5,
+      "madDelta": 2.5,
+      "medianVelocity": 250,
+      "madVelocity": 250,
+      "p95Velocity": 500
+    },
+    "lechoue": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "lenvers-du-decor-le-fil-empoisonne": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "les-animaux-de-la-resistance": {
+      "historyLength": 2,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 50,
+      "madVelocity": 50,
+      "p95Velocity": 100
+    },
+    "les-aventures-de-toru-et-coco": {
+      "historyLength": 2,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 50,
+      "madVelocity": 50,
+      "p95Velocity": 100
+    },
+    "les-commerages-de-lespace": {
+      "historyLength": 2,
+      "medianDelta": 1,
+      "madDelta": 1,
+      "medianVelocity": 100,
+      "madVelocity": 100,
+      "p95Velocity": 200
+    },
+    "les-deux-mondes": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "les-echos-de-lemploi": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "les-filles-aussi-ont-des-ailes": {
+      "historyLength": 2,
+      "medianDelta": -0.5,
+      "madDelta": 0.5,
+      "medianVelocity": -50,
+      "madVelocity": 50,
+      "p95Velocity": 0
+    },
+    "les-murmures-dune-eau-blessee": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "les-ruines-de-lancien-monde": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "letant-de-lor-en-colere": {
+      "historyLength": 2,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 50,
+      "madVelocity": 50,
+      "p95Velocity": 100
+    },
+    "lets-go": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "lhommiculture": {
+      "historyLength": 2,
+      "medianDelta": 1.5,
+      "madDelta": 1.5,
+      "medianVelocity": 150,
+      "madVelocity": 150,
+      "p95Velocity": 300
+    },
+    "limposture-de-la-machine": {
+      "historyLength": 2,
+      "medianDelta": 2.5,
+      "madDelta": 2.5,
+      "medianVelocity": 250,
+      "madVelocity": 250,
+      "p95Velocity": 500
+    },
+    "linvention-du-film-denrupatate": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "lontan-aster-domin": {
+      "historyLength": 2,
+      "medianDelta": 3.5,
+      "madDelta": 3.5,
+      "medianVelocity": 350,
+      "madVelocity": 350,
+      "p95Velocity": 700
+    },
+    "loup-que-fais-tu": {
+      "historyLength": 2,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 50,
+      "madVelocity": 50,
+      "p95Velocity": 100
+    },
+    "lunion-des-differences": {
+      "historyLength": 2,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 50,
+      "madVelocity": 50,
+      "p95Velocity": 100
+    },
+    "luxoria": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "ma-conscience-en-soldes": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "ma-vie-de-garcon-ma-prison-0": {
+      "historyLength": 2,
+      "medianDelta": 15.5,
+      "madDelta": 15.5,
+      "medianVelocity": 1550,
+      "madVelocity": 1550,
+      "p95Velocity": 3100
+    },
+    "madagascar-2037": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "mariage-ou-exil": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "marseille-2040": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "memoires-dune-terre-perdue": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "memoriam": {
+      "historyLength": 2,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 50,
+      "madVelocity": 50,
+      "p95Velocity": 100
+    },
+    "mentalites-oubliees-dans-le-congele": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "message-du-futur": {
+      "historyLength": 2,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 50,
+      "madVelocity": 50,
+      "p95Velocity": 100
+    },
+    "mets-toi-sa-place": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "mexique-eau-empathie": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "mon-combat-contre-les-inegalites": {
+      "historyLength": 2,
+      "medianDelta": 16.5,
+      "madDelta": 16.5,
+      "medianVelocity": 1650,
+      "madVelocity": 1650,
+      "p95Velocity": 3300
+    },
+    "mon-espoir": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "new-york-40degc-la-nuit": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "oceane-la-petite-goutte-deau": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "pauvrete-brisee-grace-leducation": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "pleyben-demain": {
+      "historyLength": 2,
+      "medianDelta": 1.5,
+      "madDelta": 1.5,
+      "medianVelocity": 150,
+      "madVelocity": 150,
+      "p95Velocity": 300
+    },
+    "polatouche": {
+      "historyLength": 2,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 50,
+      "madVelocity": 50,
+      "p95Velocity": 100
+    },
+    "pourquoi-nous": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "prends-soin-de-toi": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "promo-tout-prix": {
+      "historyLength": 2,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 50,
+      "madVelocity": 50,
+      "p95Velocity": 100
+    },
+    "proteger-les-hirondelles-voyageuses": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "quand-la-terre-seteint": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "quand-la-ville-grignote-le-vivant": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "quand-ma-mere-est-devenue-personne": {
+      "historyLength": 2,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 50,
+      "madVelocity": 50,
+      "p95Velocity": 100
+    },
+    "qui-viendra-me-sauver": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "reinventer-le-quotidien": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "renaissance-au-coeur-de-loasis": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "repecher-le-futur": {
+      "historyLength": 2,
+      "medianDelta": 1,
+      "madDelta": 1,
+      "medianVelocity": 100,
+      "madVelocity": 100,
+      "p95Velocity": 200
+    },
+    "robert-et-la-riviere": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "sante-et-bien-etre": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "sargasses-sante-environnement": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "sauvons-les-limules": {
+      "historyLength": 2,
+      "medianDelta": 1.5,
+      "madDelta": 1.5,
+      "medianVelocity": 150,
+      "madVelocity": 150,
+      "p95Velocity": 300
+    },
+    "sauvons-patty-et-son-bebe": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "se-battre-comme-des-chiffonniers": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "silence-au-bout-du-fil": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "silver-et-le-souffle-du-plancton": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "sky-de-la-bouteille": {
+      "historyLength": 2,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 50,
+      "madVelocity": 50,
+      "p95Velocity": 100
+    },
+    "souffle-vert": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "sous-la-surface": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "sous-mes-pieds-le-mali": {
+      "historyLength": 2,
+      "medianDelta": 2.5,
+      "madDelta": 2.5,
+      "medianVelocity": 250,
+      "madVelocity": 250,
+      "p95Velocity": 500
+    },
+    "sur-les-pas-delisey": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "tacos-des-alpages": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "tim-tembo-destins-croises": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "toi-moi-et-notre-nouvelle-vie": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "tony-le-protecteur-des-fleuves": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "tor-tue-plastique": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "tour-du-monde-en-80-jours": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "toxique-plastique": {
+      "historyLength": 2,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 50,
+      "madVelocity": 50,
+      "p95Velocity": 100
+    },
+    "tragi-comedie-chez-les-albatar": {
+      "historyLength": 2,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 50,
+      "madVelocity": 50,
+      "p95Velocity": 100
+    },
+    "trier-cest-gagner": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "tsilaosa-et-le-ciel-etoile": {
+      "historyLength": 2,
+      "medianDelta": 3,
+      "madDelta": 3,
+      "medianVelocity": 300,
+      "madVelocity": 300,
+      "p95Velocity": 600
+    },
+    "tukuna": {
+      "historyLength": 2,
+      "medianDelta": 3.5,
+      "madDelta": 3.5,
+      "medianVelocity": 350,
+      "madVelocity": 350,
+      "p95Velocity": 700
+    },
+    "un-echange-qui-te-change": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "un-faux-refuge": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "un-monde-bouleverse": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "un-monde-deux-verites": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "un-monde-sans-voix-0": {
+      "historyLength": 2,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 50,
+      "madVelocity": 50,
+      "p95Velocity": 100
+    },
+    "un-sandwich-et-reinventer-le-monde": {
+      "historyLength": 2,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 50,
+      "madVelocity": 50,
+      "p95Velocity": 100
+    },
+    "une-cassette-la-mer": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "une-famille-au-burkina-faso": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "une-journee-sans-eau": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "une-piece-sil-vous-plait": {
+      "historyLength": 2,
+      "medianDelta": 1,
+      "madDelta": 1,
+      "medianVelocity": 100,
+      "madVelocity": 100,
+      "p95Velocity": 200
+    },
+    "une-rencontre-qui-change-tout": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "une-sortie-au-musee": {
+      "historyLength": 2,
+      "medianDelta": 1,
+      "madDelta": 1,
+      "medianVelocity": 100,
+      "madVelocity": 100,
+      "p95Velocity": 200
+    },
+    "une-voix-contre-lexcision": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "veloria-le-dernier-souffle": {
+      "historyLength": 2,
+      "medianDelta": 0.5,
+      "madDelta": 0.5,
+      "medianVelocity": 50,
+      "madVelocity": 50,
+      "p95Velocity": 100
+    },
+    "vent-et-silence": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    },
+    "voyage-tortuguero": {
+      "historyLength": 2,
+      "medianDelta": 0,
+      "madDelta": 0,
+      "medianVelocity": 0,
+      "madVelocity": 0,
+      "p95Velocity": 0
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "webradio-podium",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Classement public des votes — concours Réinventer le monde 2026",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "pipeline": "node scripts/run-pipeline.js",
+    "discover": "node scripts/run-discover.js",
+    "scrape": "node scripts/scrape-votes.js",
+    "detect": "node scripts/detect-alerts.js",
+    "publish": "node scripts/publish-data.js",
+    "seed-demo": "node scripts/seed-demo.js",
+    "migrate-establishments": "node scripts/migrate-establishments.js",
+    "reset-data": "node scripts/reset-data.js",
+    "dev": "serve -s public -l 3000",
+    "test": "node --test scripts/test/*.test.js"
+  },
+  "devDependencies": {
+    "serve": "^14.2.4"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "dotenv": "^16.4.7",
+    "luxon": "^3.5.0",
+    "tough-cookie": "^5.0.0"
+  }
+}

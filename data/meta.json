@@ -1,0 +1,15 @@
+{
+  "lastRunAt": "2026-06-11T14:36:32.109+02:00",
+  "lastRunStatus": "success",
+  "lastRunDurationMs": 555085,
+  "trigger": "local",
+  "snapshotTimestamp": "2026-06-11T14:27:17+02:00",
+  "counts": {
+    "participantsActive": 229,
+    "participantsTotal": 229,
+    "snapshotsTotal": 2,
+    "scrapeErrors": 0,
+    "newParticipants": 0
+  },
+  "errors": []
+}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0f1220" />
+  <title>Concours de podcast 2026 — Réinventer le monde</title>
+  <script>
+    (function () {
+      var path = location.pathname.replace(/\/index\.html$/, '').replace(/\/404\.html$/, '');
+      var match = path.match(/^(.*)\/etablissement\/[^/]+$/);
+      var basePath = match ? match[1] : (path === '' || path === '/') ? '' : path.replace(/\/$/, '');
+      window.__APP_BASE__ = basePath ? basePath + '/' : '/';
+      var base = document.createElement('base');
+      base.href = window.__APP_BASE__;
+      document.head.appendChild(base);
+    })();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div id="app-root" class="app-root">
+    <div id="loading" class="app-loading">
+      <div class="spinner"></div>
+      <p>Chargement du classement…</p>
+    </div>
+
+    <div id="empty-state" class="empty-state" hidden>
+      <div class="empty-state-card">
+        <div class="empty-state-icon" aria-hidden="true">🎙️</div>
+        <h2>Le podium se prépare…</h2>
+        <p class="empty-state-lead">Merci de revenir plus tard !</p>
+        <p class="empty-state-detail" id="empty-state-detail">
+          Le classement n'est pas encore disponible. Revenez plus tard pour consulter les résultats.
+        </p>
+        <div class="empty-state-actions">
+          <button type="button" class="btn" id="empty-reload">Actualiser la page</button>
+          <a id="link-afd-empty" class="btn btn-secondary" href="#" target="_blank" rel="noopener">Voir les podcasts 2026 ↗</a>
+        </div>
+      </div>
+    </div>
+
+  <section id="onboarding-screen" class="onboarding-screen" hidden>
+    <div class="onboarding-inner">
+      <h1 id="onboarding-title" class="onboarding-title">Choisis ton établissement</h1>
+      <p id="onboarding-lead" class="onboarding-lead">Pour commencer, indique où tu étudies.</p>
+      <input type="search" id="onboarding-search" class="search-input" placeholder="Rechercher un lycée, collège…" autocomplete="off" />
+      <div id="onboarding-list" class="onboarding-list"></div>
+    </div>
+  </section>
+
+  <div id="app-shell" class="app-shell" hidden>
+    <header class="app-header">
+      <div class="app-header-top">
+        <h1 class="app-title">Concours de podcast 2026</h1>
+      </div>
+      <div id="school-header" class="school-header">
+        <div class="school-header-row">
+          <div>
+            <h2 id="school-header-title" class="school-header-title"></h2>
+          </div>
+          <div class="school-header-actions">
+            <button type="button" class="btn btn-small btn-secondary" id="btn-change-school">Changer</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="app-main">
+      <div id="tab-mon-ecole" class="tab-panel" data-tab-panel="mon-ecole">
+        <div id="my-establishment-summary" class="establishment-summary-wrap" hidden></div>
+        <h2 class="section-title">📊 Podcasts de l'établissement</h2>
+        <div id="list-mon-ecole" class="podcast-list"></div>
+      </div>
+
+      <div id="tab-podcasts" class="tab-panel" data-tab-panel="podcasts" hidden>
+        <h2 class="section-title">🎙️ Podcasts</h2>
+        <div class="segmented-control" id="podcast-mode-toggle" role="tablist" aria-label="Mode de classement des podcasts">
+          <button type="button" class="segmented-control-btn segmented-control-btn--active" data-mode="delta24h" role="tab" aria-selected="true">Aujourd'hui</button>
+          <button type="button" class="segmented-control-btn" data-mode="total" role="tab" aria-selected="false">Au général</button>
+        </div>
+        <div id="podcast-badges" class="establishment-badges" hidden></div>
+        <h3 class="section-subtitle" id="podcast-top3-title">🔥 Qui cartonne aujourd'hui ?</h3>
+        <div id="boost-podcasts" class="establishment-badges" hidden></div>
+        <div class="podium" id="podium-global" hidden></div>
+        <input type="search" id="filter-text" class="search-input" placeholder="Rechercher un podcast…" />
+        <div id="list-podcasts" class="podcast-list"></div>
+      </div>
+
+      <div id="tab-ecoles" class="tab-panel" data-tab-panel="ecoles" hidden>
+        <h2 class="section-title">🏫 Classement des écoles</h2>
+        <div class="segmented-control" id="establishment-mode-toggle" role="tablist" aria-label="Mode de classement des établissements">
+          <button type="button" class="segmented-control-btn segmented-control-btn--active" data-mode="delta24h" role="tab" aria-selected="true">Aujourd'hui</button>
+          <button type="button" class="segmented-control-btn" data-mode="total" role="tab" aria-selected="false">Au général</button>
+        </div>
+        <div id="establishment-badges" class="establishment-badges" hidden></div>
+        <h3 class="section-subtitle" id="establishment-top3-title">🔥 Qui cartonne aujourd'hui ?</h3>
+        <div id="boost-ecoles" class="establishment-badges" hidden></div>
+        <div class="podium" id="podium-ecoles" hidden></div>
+        <h3 class="section-subtitle">🏫 Mon établissement</h3>
+        <div class="rank-neighbors-wrap">
+          <div id="my-establishment-neighbors" class="rank-neighbors"></div>
+        </div>
+      </div>
+
+    </main>
+
+    <footer class="site-footer site-footer--compact">
+      <p id="footer-last-update" class="footer-last-update"></p>
+    </footer>
+
+    <nav id="app-tab-bar" class="app-tab-bar" role="tablist" aria-label="Navigation principale"></nav>
+  </div>
+
+  </div>
+
+  <div id="podcast-sheet" class="podcast-sheet" hidden>
+    <header class="podcast-sheet-header">
+      <button type="button" class="podcast-sheet-close" id="podcast-sheet-close" aria-label="Fermer">← Retour</button>
+    </header>
+    <div id="podcast-sheet-content" class="podcast-sheet-content"></div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

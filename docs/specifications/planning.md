@@ -24,7 +24,7 @@
 |--------|--------|------------|
 | Blocage IP / rate-limit (IP Azure GH Actions) | Scraping interrompu | Délais aléatoires, rotation UA, volume faible ; fallback Cloudflare Worker |
 | Fiches sans widget vote (template partiel) | Trous dans le classement | Flag `no_vote_widget`, exclusion du classement actif, log dans meta.json |
-| Pagination Drupal 0-based | Pages manquantes si mal parsée | Lire le lien `pagination--last`, tester sur 13 pages |
+| Pagination Drupal 0-based | Pages manquantes si mal parsée | Lire le lien `pagination--last` sur la liste filtrée |
 | Changement structure HTML | Données non parsées | Parser tolérant + logs ; alerte si 0 votes parsés |
 | Fiches sans compteur visible | Trou dans l'historique | Logger + conserver dernière valeur connue |
 | GitHub Actions indisponible | Pas de mise à jour | `workflow_dispatch` manuel en secours |

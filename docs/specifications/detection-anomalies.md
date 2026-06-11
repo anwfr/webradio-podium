@@ -32,7 +32,9 @@ votes-history.json
 
 ## 2. Métriques par intervalle
 
-Calculées entre deux snapshots consécutifs :
+Calculées sur une fenêtre glissante de **24 h** : pour chaque snapshot courant, on compare au dernier snapshot dont le timestamp est ≤ courant − 24 h (sinon au premier snapshot disponible si l'historique est plus court).
+
+Cela évite que plusieurs exécutions dans la même journée faussent les deltas et la vélocité.
 
 | Métrique | Formule | Usage |
 |----------|---------|-------|

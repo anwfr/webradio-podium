@@ -1,0 +1,40 @@
+name: Discover participants
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: discover
+  cancel-in-progress: false
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+
+      - run: npm ci
+
+      - name: Run discover pipeline
+        env:
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          PIPELINE_TRIGGER: workflow_dispatch
+        run: npm run discover
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ public/data/ public/js/site-config.json
+          git commit -m "discover: rapport $(date +%Y-%m-%d_%H-%M)" || echo "No changes"
+          git push

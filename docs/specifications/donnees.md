@@ -10,12 +10,13 @@
 
 | Fichier | Rôle | Écrit par |
 |---------|------|-----------|
-| `participants.json` | Catalogue des podcasts suivis | `sync-participants.js` |
+| `participants.json` | Catalogue des podcasts suivis | `discover-participants.js` (Pipeline B, complet) · `scrape-votes.js` (clôtures sur actifs) — voir [pipelines.md](pipelines.md) |
 | `votes-history.json` | Historique des snapshots de votes | `scrape-votes.js` |
 | `stats.json` | Baselines statistiques (globales + par participant) | `detect-alerts.js` |
 | `alerts.json` | Alertes et scores de suspicion | `detect-alerts.js` |
 | `meta.json` | Journal du dernier run votes (Pipeline A) | `run-pipeline.js` |
 | `sync-report.json` | Rapport de la dernière découverte manuelle (Pipeline B) | `run-discover.js` |
+| `execution-journal.json` | Journal d'exécution public (événements + sorties sanitizées) | `run-pipeline.js` · `run-discover.js` |
 | `backups/` | Copies horodatées | Tous les scripts avant écriture |
 
 ---
@@ -51,7 +52,7 @@
 | `voteStatus` | enum | `open` · `closed` · `unavailable` · `not_eligible` |
 | `active` | boolean | `true` seulement si `voteStatus === open` |
 | `firstSeenAt` | ISO 8601 | Date de première découverte, jamais modifiée |
-| `lastValidatedAt` | ISO 8601 | Dernière visite de la fiche (Pipeline B ou list-scan) |
+| `lastValidatedAt` | ISO 8601 | Dernière visite de la fiche (Pipeline B ou scrape-votes) |
 
 ---
 
@@ -177,9 +178,10 @@ Journal du dernier run — affiché dans l'en-tête du site (« Actualisé le…
 
 | Champ | Description |
 |-------|-------------|
-| `lastRunStatus` | `success` / `partial` (erreurs mais snapshot créé) / `failed` |
+| `lastRunStatus` | `running` pendant le job · `success` / `partial` (erreurs mais snapshot créé) / `failed` |
 | `trigger` | `schedule` / `manual` / `local` |
-| `snapshotTimestamp` | Horodatage arrondi du snapshot (identifiant d'idempotence) |
+| `snapshotTimestamp` | Horodatage du relevé (= début du run, Europe/Paris) |
+| `progress` | Pendant `running` : `{ phase, phaseLabel, percent, current, total, slug, elapsedMs, etaMs, errors, listSlugsFound, voteDelta, cumulativeVoteDelta, votes, previousVotes }` — champs votes présents en phase `scrape_votes` |
 | `errors` | Max 20 entrées conservées (rotation) |
 
 ---
@@ -291,17 +293,59 @@ Produit par Pipeline B. Affiché sur `decouverte.html`.
 | Champ | Description |
 |-------|-------------|
 | `status` | `running` pendant le job · `complete` · `failed` |
+| `progress` | Pendant `running` : `{ phase, percent, current, total, slug, elapsedMs, etaMs, errors }` |
 | `changes.votesOpened` | `active` passé de `false` à `true` |
 | `changes.votesClosed` | `active` passé de `true` à `false` |
 | `changes.unchanged` | Nombre de fiches sans changement de statut |
 
 ---
 
-## 11. Règles d'intégrité
+## 11. `data/execution-journal.json`
+
+Journal **public** des runs (Pipelines A et B). Rétention : **5 jours** (`JOURNAL_RETENTION_DAYS` dans `scripts/lib/constants.js`). Purge automatique à chaque écriture.
+
+```json
+{
+  "retentionDays": 5,
+  "updatedAt": "2026-06-11T16:05:00+02:00",
+  "entries": [
+    {
+      "id": "uuid",
+      "runId": "uuid",
+      "at": "2026-06-11T06:00:05+02:00",
+      "pipeline": "pipeline-a",
+      "event": "step_complete",
+      "step": "scrape-votes",
+      "level": "info",
+      "message": "Scrape terminé — 62 entrée(s)",
+      "output": {
+        "entriesCount": 62,
+        "scrapeErrors": 1,
+        "errors": [{ "slug": "exemple", "code": "http_429", "message": "…" }]
+      }
+    }
+  ]
+}
+```
+
+| Champ | Description |
+|-------|-------------|
+| `pipeline` | `pipeline-a` (votes) · `pipeline-b` (discover) |
+| `event` | `start` · `step_complete` · `step_error` · `http_request` · `complete` · `fail` |
+| `level` | `info` · `warn` · `error` |
+| `output` | Résumé sanitizé — **jamais** tokens, cookies, `.env` |
+
+Sanitisation : `scripts/lib/journal.js` (`sanitizeForJournal`, `sanitizeUrl`) — clés sensibles redacted, chaînes longues tronquées, paramètres URL sensibles masqués.
+
+Chaque requête HTTP sortante (scraping) est journalisée via `scripts/lib/fetcher.js` : console `[http] …` + entrée `http_request` (URL, statut, durée — jamais cookies ni tokens).
+
+---
+
+## 12. Règles d'intégrité
 
 1. **Jamais supprimer** un participant ou un snapshot existant.
 2. **Merge** à l'ajout : si `slug` existe, mettre à jour les métadonnées uniquement.
-3. **Append** pour les snapshots : une nouvelle entrée par cycle réussi.
-4. **Idempotence** : relancer un script sur le même cycle ne crée pas de doublon — clé = `snapshotTimestamp` dans `meta.json`.
+3. **Append** pour les snapshots : une nouvelle entrée par run réussi (horodatage = début du run).
+4. **Relance** : chaque exécution du pipeline ajoute un snapshot ; seule une collision exacte sur le même `timestamp` (à la seconde) remplace l'entrée existante.
 5. **Publication** : `public/data/` est toujours une copie conforme de `data/` après un run réussi.
 6. **Découverte** : Pipeline B ne supprime jamais de participant ; les changements sont toujours traçables dans `sync-report.json` et ses backups.
