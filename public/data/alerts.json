@@ -1,37 +1,37 @@
 {
-  "generatedAt": "2026-06-11T17:10:41.264+02:00",
+  "generatedAt": "2026-06-11T21:01:23.794+02:00",
   "modelVersion": "adaptive-v1",
   "alerts": [
-    {
-      "slug": "desinstallation-amoureuse",
-      "type": "anomaly_spike",
-      "severity": "high",
-      "confidence": "low",
-      "message": "+115 votes en 1h — —× la médiane du concours (+0) et 1.0× son habitude (+115). Ce podcast est dans le top 0 % des hausses de cette période.",
-      "votesDelta": 115,
-      "periodHours": 1,
-      "metrics": {
-        "modifiedZGlobal": 115,
-        "modifiedZPersonal": 1,
-        "percentileAmongPeers": 100,
-        "velocity": 111.74,
-        "velocityRatioVsGlobal": 111.74
-      }
-    },
     {
       "slug": "ma-vie-de-garcon-ma-prison-0",
       "type": "anomaly_spike",
       "severity": "high",
       "confidence": "low",
-      "message": "+103 votes en 1h — —× la médiane du concours (+0) et 3.3× son habitude (+31). Ce podcast est dans le top 0 % des hausses de cette période.",
-      "votesDelta": 103,
-      "periodHours": 1,
+      "message": "+163 votes en 5h — —× la médiane du concours (+0) et 2.4× son habitude (+67). Ce podcast est dans le top 0 % des hausses de cette période.",
+      "votesDelta": 163,
+      "periodHours": 5,
       "metrics": {
-        "modifiedZGlobal": 103,
-        "modifiedZPersonal": 1.57,
+        "modifiedZGlobal": 163,
+        "modifiedZPersonal": 1.26,
         "percentileAmongPeers": 100,
-        "velocity": 100.08,
-        "velocityRatioVsGlobal": 100.08
+        "velocity": 33.47,
+        "velocityRatioVsGlobal": 33.47
+      }
+    },
+    {
+      "slug": "desinstallation-amoureuse",
+      "type": "anomaly_spike",
+      "severity": "high",
+      "confidence": "low",
+      "message": "+119 votes en 5h — —× la médiane du concours (+0) et 1.0× son habitude (+115). Ce podcast est dans le top 0 % des hausses de cette période.",
+      "votesDelta": 119,
+      "periodHours": 5,
+      "metrics": {
+        "modifiedZGlobal": 119,
+        "modifiedZPersonal": 1.35,
+        "percentileAmongPeers": 100,
+        "velocity": 24.44,
+        "velocityRatioVsGlobal": 24.44
       }
     },
     {
@@ -39,95 +39,15 @@
       "type": "anomaly_spike",
       "severity": "high",
       "confidence": "low",
-      "message": "+97 votes en 1h — —× la médiane du concours (+0) et 32.3× son habitude (+3). Ce podcast est dans le top 1 % des hausses de cette période.",
-      "votesDelta": 97,
-      "periodHours": 1,
+      "message": "+114 votes en 5h — —× la médiane du concours (+0) et 2.3× son habitude (+50). Ce podcast est dans le top 1 % des hausses de cette période.",
+      "votesDelta": 114,
+      "periodHours": 5,
       "metrics": {
-        "modifiedZGlobal": 97,
-        "modifiedZPersonal": 21.13,
+        "modifiedZGlobal": 114,
+        "modifiedZPersonal": 0.89,
         "percentileAmongPeers": 99,
-        "velocity": 94.25,
-        "velocityRatioVsGlobal": 94.25
-      }
-    },
-    {
-      "slug": "mon-combat-contre-les-inegalites",
-      "type": "anomaly_spike",
-      "severity": "high",
-      "confidence": "low",
-      "message": "+44 votes en 1h — —× la médiane du concours (+0) et 1.3× son habitude (+33). Ce podcast est dans le top 1 % des hausses de cette période.",
-      "votesDelta": 44,
-      "periodHours": 1,
-      "metrics": {
-        "modifiedZGlobal": 44,
-        "modifiedZPersonal": 0.67,
-        "percentileAmongPeers": 99,
-        "velocity": 42.75,
-        "velocityRatioVsGlobal": 42.75
-      }
-    },
-    {
-      "slug": "au-dela-des-dechets",
-      "type": "anomaly_spike",
-      "severity": "high",
-      "confidence": "low",
-      "message": "+38 votes en 1h — —× la médiane du concours (+0) et 4.8× son habitude (+8). Ce podcast est dans le top 2 % des hausses de cette période.",
-      "votesDelta": 38,
-      "periodHours": 1,
-      "metrics": {
-        "modifiedZGlobal": 38,
-        "modifiedZPersonal": 2.53,
-        "percentileAmongPeers": 98,
-        "velocity": 36.92,
-        "velocityRatioVsGlobal": 36.92
-      }
-    },
-    {
-      "slug": "isis-pharia-et-son-dernier-cri",
-      "type": "anomaly_spike",
-      "severity": "high",
-      "confidence": "low",
-      "message": "+33 votes en 1h — —× la médiane du concours (+0) et —× son habitude (+0). Ce podcast est dans le top 2 % des hausses de cette période.",
-      "votesDelta": 33,
-      "periodHours": 1,
-      "metrics": {
-        "modifiedZGlobal": 33,
-        "modifiedZPersonal": 33,
-        "percentileAmongPeers": 98,
-        "velocity": 32.06,
-        "velocityRatioVsGlobal": 32.06
-      }
-    },
-    {
-      "slug": "coraux-chaud-devant",
-      "type": "anomaly_spike",
-      "severity": "high",
-      "confidence": "low",
-      "message": "+30 votes en 1h — —× la médiane du concours (+0) et 1.5× son habitude (+20). Ce podcast est dans le top 3 % des hausses de cette période.",
-      "votesDelta": 30,
-      "periodHours": 1,
-      "metrics": {
-        "modifiedZGlobal": 30,
-        "modifiedZPersonal": 0.67,
-        "percentileAmongPeers": 97,
-        "velocity": 29.15,
-        "velocityRatioVsGlobal": 29.15
-      }
-    },
-    {
-      "slug": "avec-ou-sans-huile-de-palme",
-      "type": "anomaly_spike",
-      "severity": "high",
-      "confidence": "low",
-      "message": "+28 votes en 1h — —× la médiane du concours (+0) et 1.2× son habitude (+23). Ce podcast est dans le top 4 % des hausses de cette période.",
-      "votesDelta": 28,
-      "periodHours": 1,
-      "metrics": {
-        "modifiedZGlobal": 28,
-        "modifiedZPersonal": 0.67,
-        "percentileAmongPeers": 96,
-        "velocity": 27.21,
-        "velocityRatioVsGlobal": 27.21
+        "velocity": 23.41,
+        "velocityRatioVsGlobal": 23.41
       }
     },
     {
@@ -135,303 +55,31 @@
       "type": "anomaly_spike",
       "severity": "high",
       "confidence": "low",
-      "message": "+28 votes en 1h — —× la médiane du concours (+0) et 2.5× son habitude (+11). Ce podcast est dans le top 4 % des hausses de cette période.",
-      "votesDelta": 28,
-      "periodHours": 1,
+      "message": "+106 votes en 5h — —× la médiane du concours (+0) et 5.3× son habitude (+20). Ce podcast est dans le top 1 % des hausses de cette période.",
+      "votesDelta": 106,
+      "periodHours": 5,
       "metrics": {
-        "modifiedZGlobal": 28,
-        "modifiedZPersonal": 1.04,
-        "percentileAmongPeers": 96,
-        "velocity": 27.21,
-        "velocityRatioVsGlobal": 27.21
+        "modifiedZGlobal": 106,
+        "modifiedZPersonal": 4.17,
+        "percentileAmongPeers": 99,
+        "velocity": 21.77,
+        "velocityRatioVsGlobal": 21.77
       }
     },
     {
-      "slug": "je-lai-fait-pour-toi-et-ces-femmes",
+      "slug": "isis-pharia-et-son-dernier-cri",
       "type": "anomaly_spike",
       "severity": "high",
       "confidence": "low",
-      "message": "+27 votes en 1h — —× la médiane du concours (+0) et 6.8× son habitude (+4). Ce podcast est dans le top 4 % des hausses de cette période.",
-      "votesDelta": 27,
-      "periodHours": 1,
+      "message": "+71 votes en 5h — —× la médiane du concours (+0) et 4.2× son habitude (+17). Ce podcast est dans le top 2 % des hausses de cette période.",
+      "votesDelta": 71,
+      "periodHours": 5,
       "metrics": {
-        "modifiedZGlobal": 27,
-        "modifiedZPersonal": 3.88,
-        "percentileAmongPeers": 96,
-        "velocity": 26.23,
-        "velocityRatioVsGlobal": 26.23
-      }
-    },
-    {
-      "slug": "lassemblee-des-possibles",
-      "type": "anomaly_spike",
-      "severity": "high",
-      "confidence": "low",
-      "message": "+23 votes en 1h — —× la médiane du concours (+0) et 23.0× son habitude (+1). Ce podcast est dans le top 4 % des hausses de cette période.",
-      "votesDelta": 23,
-      "periodHours": 1,
-      "metrics": {
-        "modifiedZGlobal": 23,
-        "modifiedZPersonal": 14.84,
-        "percentileAmongPeers": 96,
-        "velocity": 22.35,
-        "velocityRatioVsGlobal": 22.35
-      }
-    },
-    {
-      "slug": "le-voyage-de-la-riviere",
-      "type": "anomaly_spike",
-      "severity": "high",
-      "confidence": "low",
-      "message": "+21 votes en 1h — —× la médiane du concours (+0) et 21.0× son habitude (+1). Ce podcast est dans le top 5 % des hausses de cette période.",
-      "votesDelta": 21,
-      "periodHours": 1,
-      "metrics": {
-        "modifiedZGlobal": 21,
-        "modifiedZPersonal": 13.49,
-        "percentileAmongPeers": 95,
-        "velocity": 20.4,
-        "velocityRatioVsGlobal": 20.4
-      }
-    },
-    {
-      "slug": "graine-dequite",
-      "type": "anomaly_spike",
-      "severity": "high",
-      "confidence": "low",
-      "message": "+19 votes en 1h — —× la médiane du concours (+0) et 19.0× son habitude (+1). Ce podcast est dans le top 5 % des hausses de cette période.",
-      "votesDelta": 19,
-      "periodHours": 1,
-      "metrics": {
-        "modifiedZGlobal": 19,
-        "modifiedZPersonal": 12.14,
-        "percentileAmongPeers": 95,
-        "velocity": 18.46,
-        "velocityRatioVsGlobal": 18.46
-      }
-    },
-    {
-      "slug": "des-nuances-de-rouges",
-      "type": "anomaly_spike",
-      "severity": "high",
-      "confidence": "low",
-      "message": "+18 votes en 1h — —× la médiane du concours (+0) et 1.6× son habitude (+11). Ce podcast est dans le top 6 % des hausses de cette période.",
-      "votesDelta": 18,
-      "periodHours": 1,
-      "metrics": {
-        "modifiedZGlobal": 18,
-        "modifiedZPersonal": 0.67,
-        "percentileAmongPeers": 94,
-        "velocity": 17.49,
-        "velocityRatioVsGlobal": 17.49
-      }
-    },
-    {
-      "slug": "eau-secours",
-      "type": "anomaly_spike",
-      "severity": "high",
-      "confidence": "low",
-      "message": "+18 votes en 1h — —× la médiane du concours (+0) et 2.3× son habitude (+8). Ce podcast est dans le top 6 % des hausses de cette période.",
-      "votesDelta": 18,
-      "periodHours": 1,
-      "metrics": {
-        "modifiedZGlobal": 18,
-        "modifiedZPersonal": 0.84,
-        "percentileAmongPeers": 94,
-        "velocity": 17.49,
-        "velocityRatioVsGlobal": 17.49
-      }
-    },
-    {
-      "slug": "le-carnaval-de-la-digestion",
-      "type": "anomaly_spike",
-      "severity": "high",
-      "confidence": "low",
-      "message": "+17 votes en 1h — —× la médiane du concours (+0) et 1.1× son habitude (+16). Ce podcast est dans le top 7 % des hausses de cette période.",
-      "votesDelta": 17,
-      "periodHours": 1,
-      "metrics": {
-        "modifiedZGlobal": 17,
-        "modifiedZPersonal": 0.67,
-        "percentileAmongPeers": 93,
-        "velocity": 16.52,
-        "velocityRatioVsGlobal": 16.52
-      }
-    },
-    {
-      "slug": "lontan-aster-domin",
-      "type": "anomaly_spike",
-      "severity": "high",
-      "confidence": "low",
-      "message": "+14 votes en 1h — —× la médiane du concours (+0) et 2.0× son habitude (+7). Ce podcast est dans le top 7 % des hausses de cette période.",
-      "votesDelta": 14,
-      "periodHours": 1,
-      "metrics": {
-        "modifiedZGlobal": 14,
-        "modifiedZPersonal": 0.67,
-        "percentileAmongPeers": 93,
-        "velocity": 13.6,
-        "velocityRatioVsGlobal": 13.6
-      }
-    },
-    {
-      "slug": "la-messagere",
-      "type": "anomaly_spike",
-      "severity": "high",
-      "confidence": "low",
-      "message": "+13 votes en 1h — —× la médiane du concours (+0) et 1.4× son habitude (+9). Ce podcast est dans le top 7 % des hausses de cette période.",
-      "votesDelta": 13,
-      "periodHours": 1,
-      "metrics": {
-        "modifiedZGlobal": 13,
-        "modifiedZPersonal": 0.67,
-        "percentileAmongPeers": 93,
-        "velocity": 12.63,
-        "velocityRatioVsGlobal": 12.63
-      }
-    },
-    {
-      "slug": "chantons-contre-la-pollution",
-      "type": "anomaly_spike",
-      "severity": "high",
-      "confidence": "low",
-      "message": "+11 votes en 1h — —× la médiane du concours (+0) et 1.1× son habitude (+10). Ce podcast est dans le top 8 % des hausses de cette période.",
-      "votesDelta": 11,
-      "periodHours": 1,
-      "metrics": {
-        "modifiedZGlobal": 11,
-        "modifiedZPersonal": 0.67,
-        "percentileAmongPeers": 92,
-        "velocity": 10.69,
-        "velocityRatioVsGlobal": 10.69
-      }
-    },
-    {
-      "slug": "memoriam",
-      "type": "anomaly_spike",
-      "severity": "high",
-      "confidence": "low",
-      "message": "+11 votes en 1h — —× la médiane du concours (+0) et 11.0× son habitude (+1). Ce podcast est dans le top 8 % des hausses de cette période.",
-      "votesDelta": 11,
-      "periodHours": 1,
-      "metrics": {
-        "modifiedZGlobal": 11,
-        "modifiedZPersonal": 6.75,
-        "percentileAmongPeers": 92,
-        "velocity": 10.69,
-        "velocityRatioVsGlobal": 10.69
-      }
-    },
-    {
-      "slug": "bout-de-souffle-0",
-      "type": "anomaly_spike",
-      "severity": "high",
-      "confidence": "low",
-      "message": "+10 votes en 1h — —× la médiane du concours (+0) et 5.0× son habitude (+2). Ce podcast est dans le top 10 % des hausses de cette période.",
-      "votesDelta": 10,
-      "periodHours": 1,
-      "metrics": {
-        "modifiedZGlobal": 10,
-        "modifiedZPersonal": 2.7,
-        "percentileAmongPeers": 90,
-        "velocity": 9.72,
-        "velocityRatioVsGlobal": 9.72
-      }
-    },
-    {
-      "slug": "lhommiculture",
-      "type": "anomaly_spike",
-      "severity": "high",
-      "confidence": "low",
-      "message": "+10 votes en 1h — —× la médiane du concours (+0) et 3.3× son habitude (+3). Ce podcast est dans le top 10 % des hausses de cette période.",
-      "votesDelta": 10,
-      "periodHours": 1,
-      "metrics": {
-        "modifiedZGlobal": 10,
-        "modifiedZPersonal": 1.57,
-        "percentileAmongPeers": 90,
-        "velocity": 9.72,
-        "velocityRatioVsGlobal": 9.72
-      }
-    },
-    {
-      "slug": "tukuna",
-      "type": "anomaly_spike",
-      "severity": "high",
-      "confidence": "low",
-      "message": "+10 votes en 1h — —× la médiane du concours (+0) et 1.4× son habitude (+7). Ce podcast est dans le top 10 % des hausses de cette période.",
-      "votesDelta": 10,
-      "periodHours": 1,
-      "metrics": {
-        "modifiedZGlobal": 10,
-        "modifiedZPersonal": 0.67,
-        "percentileAmongPeers": 90,
-        "velocity": 9.72,
-        "velocityRatioVsGlobal": 9.72
-      }
-    },
-    {
-      "slug": "la-ou-la-mer-se-tait",
-      "type": "anomaly_spike",
-      "severity": "high",
-      "confidence": "low",
-      "message": "+8 votes en 1h — —× la médiane du concours (+0) et 1.1× son habitude (+7).",
-      "votesDelta": 8,
-      "periodHours": 1,
-      "metrics": {
-        "modifiedZGlobal": 8,
-        "modifiedZPersonal": 0.67,
-        "percentileAmongPeers": 89,
-        "velocity": 7.77,
-        "velocityRatioVsGlobal": 7.77
-      }
-    },
-    {
-      "slug": "la-vie-dun-survivant",
-      "type": "anomaly_spike",
-      "severity": "high",
-      "confidence": "low",
-      "message": "+8 votes en 1h — —× la médiane du concours (+0) et 2.0× son habitude (+4).",
-      "votesDelta": 8,
-      "periodHours": 1,
-      "metrics": {
-        "modifiedZGlobal": 8,
-        "modifiedZPersonal": 0.67,
-        "percentileAmongPeers": 89,
-        "velocity": 7.77,
-        "velocityRatioVsGlobal": 7.77
-      }
-    },
-    {
-      "slug": "le-souffle-des-baleines",
-      "type": "anomaly_spike",
-      "severity": "high",
-      "confidence": "low",
-      "message": "+8 votes en 1h — —× la médiane du concours (+0) et 2.0× son habitude (+4).",
-      "votesDelta": 8,
-      "periodHours": 1,
-      "metrics": {
-        "modifiedZGlobal": 8,
-        "modifiedZPersonal": 0.67,
-        "percentileAmongPeers": 89,
-        "velocity": 7.77,
-        "velocityRatioVsGlobal": 7.77
-      }
-    },
-    {
-      "slug": "lecho-des-jardins-invisibles",
-      "type": "anomaly_spike",
-      "severity": "high",
-      "confidence": "low",
-      "message": "+8 votes en 1h — —× la médiane du concours (+0) et 1.6× son habitude (+5).",
-      "votesDelta": 8,
-      "periodHours": 1,
-      "metrics": {
-        "modifiedZGlobal": 8,
-        "modifiedZPersonal": 0.67,
-        "percentileAmongPeers": 89,
-        "velocity": 7.77,
-        "velocityRatioVsGlobal": 7.77
+        "modifiedZGlobal": 71,
+        "modifiedZPersonal": 2.23,
+        "percentileAmongPeers": 98,
+        "velocity": 14.58,
+        "velocityRatioVsGlobal": 14.58
       }
     },
     {
@@ -439,63 +87,143 @@
       "type": "anomaly_spike",
       "severity": "high",
       "confidence": "low",
-      "message": "+7 votes en 1h — —× la médiane du concours (+0) et 2.3× son habitude (+3).",
-      "votesDelta": 7,
-      "periodHours": 1,
+      "message": "+60 votes en 5h — —× la médiane du concours (+0) et 12.0× son habitude (+5). Ce podcast est dans le top 2 % des hausses de cette période.",
+      "votesDelta": 60,
+      "periodHours": 5,
       "metrics": {
-        "modifiedZGlobal": 7,
-        "modifiedZPersonal": 0.9,
-        "percentileAmongPeers": 87,
-        "velocity": 6.8,
-        "velocityRatioVsGlobal": 6.8
+        "modifiedZGlobal": 60,
+        "modifiedZPersonal": 10.6,
+        "percentileAmongPeers": 98,
+        "velocity": 12.32,
+        "velocityRatioVsGlobal": 12.32
       }
     },
     {
-      "slug": "le-poisson-aux-mille-histoires",
+      "slug": "au-dela-des-dechets",
       "type": "anomaly_spike",
       "severity": "high",
       "confidence": "low",
-      "message": "+7 votes en 1h — —× la médiane du concours (+0) et —× son habitude (+0).",
-      "votesDelta": 7,
-      "periodHours": 1,
+      "message": "+59 votes en 5h — —× la médiane du concours (+0) et 2.6× son habitude (+23). Ce podcast est dans le top 3 % des hausses de cette période.",
+      "votesDelta": 59,
+      "periodHours": 5,
       "metrics": {
-        "modifiedZGlobal": 7,
-        "modifiedZPersonal": 7,
-        "percentileAmongPeers": 87,
-        "velocity": 6.8,
-        "velocityRatioVsGlobal": 6.8
+        "modifiedZGlobal": 59,
+        "modifiedZPersonal": 1.28,
+        "percentileAmongPeers": 97,
+        "velocity": 12.11,
+        "velocityRatioVsGlobal": 12.11
       }
     },
     {
-      "slug": "tsilaosa-et-le-ciel-etoile",
+      "slug": "coraux-chaud-devant",
       "type": "anomaly_spike",
       "severity": "high",
       "confidence": "low",
-      "message": "+7 votes en 1h — —× la médiane du concours (+0) et 1.2× son habitude (+6).",
-      "votesDelta": 7,
-      "periodHours": 1,
+      "message": "+55 votes en 5h — —× la médiane du concours (+0) et 2.2× son habitude (+25). Ce podcast est dans le top 3 % des hausses de cette période.",
+      "votesDelta": 55,
+      "periodHours": 5,
       "metrics": {
-        "modifiedZGlobal": 7,
-        "modifiedZPersonal": 0.67,
-        "percentileAmongPeers": 87,
-        "velocity": 6.8,
-        "velocityRatioVsGlobal": 6.8
-      }
-    },
-    {
-      "slug": "des-voix-qui-comptent",
-      "type": "anomaly_spike",
-      "severity": "high",
-      "confidence": "low",
-      "message": "+6 votes en 1h — —× la médiane du concours (+0) et 3.0× son habitude (+2).",
-      "votesDelta": 6,
-      "periodHours": 1,
-      "metrics": {
-        "modifiedZGlobal": 6,
+        "modifiedZGlobal": 55,
         "modifiedZPersonal": 1.35,
-        "percentileAmongPeers": 85,
-        "velocity": 5.83,
-        "velocityRatioVsGlobal": 5.83
+        "percentileAmongPeers": 97,
+        "velocity": 11.29,
+        "velocityRatioVsGlobal": 11.29
+      }
+    },
+    {
+      "slug": "mon-combat-contre-les-inegalites",
+      "type": "anomaly_spike",
+      "severity": "high",
+      "confidence": "low",
+      "message": "+52 votes en 5h — —× la médiane du concours (+0) et 1.3× son habitude (+39). Ce podcast est dans le top 4 % des hausses de cette période.",
+      "votesDelta": 52,
+      "periodHours": 5,
+      "metrics": {
+        "modifiedZGlobal": 52,
+        "modifiedZPersonal": 0.96,
+        "percentileAmongPeers": 96,
+        "velocity": 10.68,
+        "velocityRatioVsGlobal": 10.68
+      }
+    },
+    {
+      "slug": "chantons-contre-la-pollution",
+      "type": "anomaly_spike",
+      "severity": "high",
+      "confidence": "low",
+      "message": "+48 votes en 5h — —× la médiane du concours (+0) et 4.4× son habitude (+11). Ce podcast est dans le top 4 % des hausses de cette période.",
+      "votesDelta": 48,
+      "periodHours": 5,
+      "metrics": {
+        "modifiedZGlobal": 48,
+        "modifiedZPersonal": 4.6,
+        "percentileAmongPeers": 96,
+        "velocity": 9.86,
+        "velocityRatioVsGlobal": 9.86
+      }
+    },
+    {
+      "slug": "la-messagere",
+      "type": "anomaly_spike",
+      "severity": "high",
+      "confidence": "low",
+      "message": "+48 votes en 5h — —× la médiane du concours (+0) et 4.4× son habitude (+11). Ce podcast est dans le top 4 % des hausses de cette période.",
+      "votesDelta": 48,
+      "periodHours": 5,
+      "metrics": {
+        "modifiedZGlobal": 48,
+        "modifiedZPersonal": 3.84,
+        "percentileAmongPeers": 96,
+        "velocity": 9.86,
+        "velocityRatioVsGlobal": 9.86
+      }
+    },
+    {
+      "slug": "avec-ou-sans-huile-de-palme",
+      "type": "anomaly_spike",
+      "severity": "high",
+      "confidence": "low",
+      "message": "+47 votes en 5h — —× la médiane du concours (+0) et 1.8× son habitude (+26). Ce podcast est dans le top 5 % des hausses de cette période.",
+      "votesDelta": 47,
+      "periodHours": 5,
+      "metrics": {
+        "modifiedZGlobal": 47,
+        "modifiedZPersonal": 1.21,
+        "percentileAmongPeers": 95,
+        "velocity": 9.65,
+        "velocityRatioVsGlobal": 9.65
+      }
+    },
+    {
+      "slug": "je-lai-fait-pour-toi-et-ces-femmes",
+      "type": "anomaly_spike",
+      "severity": "high",
+      "confidence": "low",
+      "message": "+43 votes en 5h — —× la médiane du concours (+0) et 2.7× son habitude (+16). Ce podcast est dans le top 5 % des hausses de cette période.",
+      "votesDelta": 43,
+      "periodHours": 5,
+      "metrics": {
+        "modifiedZGlobal": 43,
+        "modifiedZPersonal": 1.37,
+        "percentileAmongPeers": 95,
+        "velocity": 8.83,
+        "velocityRatioVsGlobal": 8.83
+      }
+    },
+    {
+      "slug": "eau-secours",
+      "type": "anomaly_spike",
+      "severity": "high",
+      "confidence": "low",
+      "message": "+33 votes en 5h — —× la médiane du concours (+0) et 2.5× son habitude (+13). Ce podcast est dans le top 6 % des hausses de cette période.",
+      "votesDelta": 33,
+      "periodHours": 5,
+      "metrics": {
+        "modifiedZGlobal": 33,
+        "modifiedZPersonal": 1.5,
+        "percentileAmongPeers": 94,
+        "velocity": 6.78,
+        "velocityRatioVsGlobal": 6.78
       }
     },
     {
@@ -503,47 +231,447 @@
       "type": "anomaly_spike",
       "severity": "high",
       "confidence": "low",
-      "message": "+6 votes en 1h — —× la médiane du concours (+0) et 1.5× son habitude (+4).",
-      "votesDelta": 6,
-      "periodHours": 1,
+      "message": "+32 votes en 5h — —× la médiane du concours (+0) et 6.4× son habitude (+5). Ce podcast est dans le top 6 % des hausses de cette période.",
+      "votesDelta": 32,
+      "periodHours": 5,
       "metrics": {
-        "modifiedZGlobal": 6,
-        "modifiedZPersonal": 0.67,
-        "percentileAmongPeers": 85,
-        "velocity": 5.83,
-        "velocityRatioVsGlobal": 5.83
+        "modifiedZGlobal": 32,
+        "modifiedZPersonal": 6.07,
+        "percentileAmongPeers": 94,
+        "velocity": 6.57,
+        "velocityRatioVsGlobal": 6.57
       }
     },
     {
-      "slug": "le-vent-douest",
+      "slug": "des-nuances-de-rouges",
       "type": "anomaly_spike",
       "severity": "high",
       "confidence": "low",
-      "message": "+6 votes en 1h — —× la médiane du concours (+0) et 2.0× son habitude (+3).",
-      "votesDelta": 6,
-      "periodHours": 1,
+      "message": "+27 votes en 5h — —× la médiane du concours (+0) et 1.8× son habitude (+15). Ce podcast est dans le top 7 % des hausses de cette période.",
+      "votesDelta": 27,
+      "periodHours": 5,
       "metrics": {
-        "modifiedZGlobal": 6,
-        "modifiedZPersonal": 0.67,
-        "percentileAmongPeers": 85,
-        "velocity": 5.83,
-        "velocityRatioVsGlobal": 5.83
+        "modifiedZGlobal": 27,
+        "modifiedZPersonal": 1.05,
+        "percentileAmongPeers": 93,
+        "velocity": 5.54,
+        "velocityRatioVsGlobal": 5.54
       }
     },
     {
-      "slug": "limposture-de-la-machine",
+      "slug": "lhommiculture",
       "type": "anomaly_spike",
       "severity": "high",
       "confidence": "low",
-      "message": "+6 votes en 1h — —× la médiane du concours (+0) et 1.2× son habitude (+5).",
-      "votesDelta": 6,
-      "periodHours": 1,
+      "message": "+25 votes en 5h — —× la médiane du concours (+0) et 3.6× son habitude (+7). Ce podcast est dans le top 7 % des hausses de cette période.",
+      "votesDelta": 25,
+      "periodHours": 5,
       "metrics": {
-        "modifiedZGlobal": 6,
-        "modifiedZPersonal": 0.67,
+        "modifiedZGlobal": 25,
+        "modifiedZPersonal": 2.5,
+        "percentileAmongPeers": 93,
+        "velocity": 5.13,
+        "velocityRatioVsGlobal": 5.13
+      }
+    },
+    {
+      "slug": "graine-dequite",
+      "type": "anomaly_spike",
+      "severity": "high",
+      "confidence": "low",
+      "message": "+24 votes en 5h — —× la médiane du concours (+0) et 2.4× son habitude (+10). Ce podcast est dans le top 8 % des hausses de cette période.",
+      "votesDelta": 24,
+      "periodHours": 5,
+      "metrics": {
+        "modifiedZGlobal": 24,
+        "modifiedZPersonal": 0.99,
+        "percentileAmongPeers": 92,
+        "velocity": 4.93,
+        "velocityRatioVsGlobal": 4.93
+      }
+    },
+    {
+      "slug": "lassemblee-des-possibles",
+      "type": "anomaly_spike",
+      "severity": "high",
+      "confidence": "low",
+      "message": "+24 votes en 5h — —× la médiane du concours (+0) et 2.0× son habitude (+12). Ce podcast est dans le top 8 % des hausses de cette période.",
+      "votesDelta": 24,
+      "periodHours": 5,
+      "metrics": {
+        "modifiedZGlobal": 24,
+        "modifiedZPersonal": 0.7,
+        "percentileAmongPeers": 92,
+        "velocity": 4.93,
+        "velocityRatioVsGlobal": 4.93
+      }
+    },
+    {
+      "slug": "le-voyage-de-la-riviere",
+      "type": "anomaly_spike",
+      "severity": "high",
+      "confidence": "low",
+      "message": "+22 votes en 5h — —× la médiane du concours (+0) et 2.0× son habitude (+11). Ce podcast est dans le top 8 % des hausses de cette période.",
+      "votesDelta": 22,
+      "periodHours": 5,
+      "metrics": {
+        "modifiedZGlobal": 22,
+        "modifiedZPersonal": 0.71,
+        "percentileAmongPeers": 92,
+        "velocity": 4.52,
+        "velocityRatioVsGlobal": 4.52
+      }
+    },
+    {
+      "slug": "le-carnaval-de-la-digestion",
+      "type": "anomaly_spike",
+      "severity": "high",
+      "confidence": "low",
+      "message": "+20 votes en 5h — —× la médiane du concours (+0) et 1.2× son habitude (+17). Ce podcast est dans le top 9 % des hausses de cette période.",
+      "votesDelta": 20,
+      "periodHours": 5,
+      "metrics": {
+        "modifiedZGlobal": 20,
+        "modifiedZPersonal": 1.18,
+        "percentileAmongPeers": 91,
+        "velocity": 4.11,
+        "velocityRatioVsGlobal": 4.11
+      }
+    },
+    {
+      "slug": "lontan-aster-domin",
+      "type": "anomaly_spike",
+      "severity": "high",
+      "confidence": "low",
+      "message": "+19 votes en 5h — —× la médiane du concours (+0) et 1.7× son habitude (+11). Ce podcast est dans le top 10 % des hausses de cette période.",
+      "votesDelta": 19,
+      "periodHours": 5,
+      "metrics": {
+        "modifiedZGlobal": 19,
+        "modifiedZPersonal": 0.96,
+        "percentileAmongPeers": 90,
+        "velocity": 3.9,
+        "velocityRatioVsGlobal": 3.9
+      }
+    },
+    {
+      "slug": "un-sandwich-et-reinventer-le-monde",
+      "type": "anomaly_spike",
+      "severity": "high",
+      "confidence": "low",
+      "message": "+19 votes en 5h — —× la médiane du concours (+0) et 6.3× son habitude (+3). Ce podcast est dans le top 10 % des hausses de cette période.",
+      "votesDelta": 19,
+      "periodHours": 5,
+      "metrics": {
+        "modifiedZGlobal": 19,
+        "modifiedZPersonal": 5.56,
+        "percentileAmongPeers": 90,
+        "velocity": 3.9,
+        "velocityRatioVsGlobal": 3.9
+      }
+    },
+    {
+      "slug": "le-voyage-dafak",
+      "type": "anomaly_spike",
+      "severity": "high",
+      "confidence": "low",
+      "message": "+18 votes en 5h — —× la médiane du concours (+0) et 6.0× son habitude (+3).",
+      "votesDelta": 18,
+      "periodHours": 5,
+      "metrics": {
+        "modifiedZGlobal": 18,
+        "modifiedZPersonal": 5.23,
+        "percentileAmongPeers": 89,
+        "velocity": 3.7,
+        "velocityRatioVsGlobal": 3.7
+      }
+    },
+    {
+      "slug": "memoriam",
+      "type": "anomaly_spike",
+      "severity": "high",
+      "confidence": "low",
+      "message": "+18 votes en 5h — —× la médiane du concours (+0) et 3.0× son habitude (+6).",
+      "votesDelta": 18,
+      "periodHours": 5,
+      "metrics": {
+        "modifiedZGlobal": 18,
+        "modifiedZPersonal": 1.47,
+        "percentileAmongPeers": 89,
+        "velocity": 3.7,
+        "velocityRatioVsGlobal": 3.7
+      }
+    },
+    {
+      "slug": "tukuna",
+      "type": "anomaly_spike",
+      "severity": "high",
+      "confidence": "low",
+      "message": "+16 votes en 5h — —× la médiane du concours (+0) et 1.8× son habitude (+9).",
+      "votesDelta": 16,
+      "periodHours": 5,
+      "metrics": {
+        "modifiedZGlobal": 16,
+        "modifiedZPersonal": 1.12,
+        "percentileAmongPeers": 89,
+        "velocity": 3.29,
+        "velocityRatioVsGlobal": 3.29
+      }
+    },
+    {
+      "slug": "aicha-et-la-promesse-de-la-serre",
+      "type": "anomaly_spike",
+      "severity": "high",
+      "confidence": "low",
+      "message": "+15 votes en 5h — —× la médiane du concours (+0) et 5.0× son habitude (+3).",
+      "votesDelta": 15,
+      "periodHours": 5,
+      "metrics": {
+        "modifiedZGlobal": 15,
+        "modifiedZPersonal": 3.37,
+        "percentileAmongPeers": 88,
+        "velocity": 3.08,
+        "velocityRatioVsGlobal": 3.08
+      }
+    },
+    {
+      "slug": "bout-de-souffle-0",
+      "type": "anomaly_spike",
+      "severity": "high",
+      "confidence": "low",
+      "message": "+15 votes en 5h — —× la médiane du concours (+0) et 2.5× son habitude (+6).",
+      "votesDelta": 15,
+      "periodHours": 5,
+      "metrics": {
+        "modifiedZGlobal": 15,
+        "modifiedZPersonal": 1.21,
+        "percentileAmongPeers": 88,
+        "velocity": 3.08,
+        "velocityRatioVsGlobal": 3.08
+      }
+    },
+    {
+      "slug": "le-souffle-des-baleines",
+      "type": "anomaly_spike",
+      "severity": "high",
+      "confidence": "low",
+      "message": "+15 votes en 5h — —× la médiane du concours (+0) et 2.5× son habitude (+6).",
+      "votesDelta": 15,
+      "periodHours": 5,
+      "metrics": {
+        "modifiedZGlobal": 15,
+        "modifiedZPersonal": 1.52,
+        "percentileAmongPeers": 88,
+        "velocity": 3.08,
+        "velocityRatioVsGlobal": 3.08
+      }
+    },
+    {
+      "slug": "une-journee-sans-eau",
+      "type": "anomaly_spike",
+      "severity": "high",
+      "confidence": "low",
+      "message": "+13 votes en 5h — —× la médiane du concours (+0) et 13.0× son habitude (+1).",
+      "votesDelta": 13,
+      "periodHours": 5,
+      "metrics": {
+        "modifiedZGlobal": 13,
+        "modifiedZPersonal": 16.86,
+        "percentileAmongPeers": 87,
+        "velocity": 2.67,
+        "velocityRatioVsGlobal": 2.67
+      }
+    },
+    {
+      "slug": "3-wanted",
+      "type": "anomaly_spike",
+      "severity": "high",
+      "confidence": "low",
+      "message": "+12 votes en 5h — —× la médiane du concours (+0) et 6.0× son habitude (+2).",
+      "votesDelta": 12,
+      "periodHours": 5,
+      "metrics": {
+        "modifiedZGlobal": 12,
+        "modifiedZPersonal": 4.5,
         "percentileAmongPeers": 85,
-        "velocity": 5.83,
-        "velocityRatioVsGlobal": 5.83
+        "velocity": 2.46,
+        "velocityRatioVsGlobal": 2.46
+      }
+    },
+    {
+      "slug": "la-ou-la-mer-se-tait",
+      "type": "anomaly_spike",
+      "severity": "high",
+      "confidence": "low",
+      "message": "+12 votes en 5h — —× la médiane du concours (+0) et 1.5× son habitude (+8).",
+      "votesDelta": 12,
+      "periodHours": 5,
+      "metrics": {
+        "modifiedZGlobal": 12,
+        "modifiedZPersonal": 1.21,
+        "percentileAmongPeers": 85,
+        "velocity": 2.46,
+        "velocityRatioVsGlobal": 2.46
+      }
+    },
+    {
+      "slug": "le-poisson-qui-change-le-monde",
+      "type": "anomaly_spike",
+      "severity": "high",
+      "confidence": "low",
+      "message": "+12 votes en 5h — —× la médiane du concours (+0) et 6.0× son habitude (+2).",
+      "votesDelta": 12,
+      "periodHours": 5,
+      "metrics": {
+        "modifiedZGlobal": 12,
+        "modifiedZPersonal": 4.5,
+        "percentileAmongPeers": 85,
+        "velocity": 2.46,
+        "velocityRatioVsGlobal": 2.46
+      }
+    },
+    {
+      "slug": "lecho-des-jardins-invisibles",
+      "type": "anomaly_spike",
+      "severity": "high",
+      "confidence": "low",
+      "message": "+12 votes en 5h — —× la médiane du concours (+0) et 1.7× son habitude (+7).",
+      "votesDelta": 12,
+      "periodHours": 5,
+      "metrics": {
+        "modifiedZGlobal": 12,
+        "modifiedZPersonal": 1.06,
+        "percentileAmongPeers": 85,
+        "velocity": 2.46,
+        "velocityRatioVsGlobal": 2.46
+      }
+    },
+    {
+      "slug": "tsilaosa-et-le-ciel-etoile",
+      "type": "anomaly_spike",
+      "severity": "high",
+      "confidence": "low",
+      "message": "+12 votes en 5h — —× la médiane du concours (+0) et 1.7× son habitude (+7).",
+      "votesDelta": 12,
+      "periodHours": 5,
+      "metrics": {
+        "modifiedZGlobal": 12,
+        "modifiedZPersonal": 1.24,
+        "percentileAmongPeers": 85,
+        "velocity": 2.46,
+        "velocityRatioVsGlobal": 2.46
+      }
+    },
+    {
+      "slug": "la-derniere-humaine",
+      "type": "anomaly_spike",
+      "severity": "high",
+      "confidence": "low",
+      "message": "+11 votes en 5h — —× la médiane du concours (+0) et 11.0× son habitude (+1).",
+      "votesDelta": 11,
+      "periodHours": 5,
+      "metrics": {
+        "modifiedZGlobal": 11,
+        "modifiedZPersonal": 6.75,
+        "percentileAmongPeers": 84,
+        "velocity": 2.26,
+        "velocityRatioVsGlobal": 2.26
+      }
+    },
+    {
+      "slug": "la-vie-dun-survivant",
+      "type": "anomaly_spike",
+      "severity": "high",
+      "confidence": "low",
+      "message": "+11 votes en 5h — —× la médiane du concours (+0) et 1.8× son habitude (+6).",
+      "votesDelta": 11,
+      "periodHours": 5,
+      "metrics": {
+        "modifiedZGlobal": 11,
+        "modifiedZPersonal": 0.96,
+        "percentileAmongPeers": 84,
+        "velocity": 2.26,
+        "velocityRatioVsGlobal": 2.26
+      }
+    },
+    {
+      "slug": "le-dernier-jour-de-la-tour-eiffel",
+      "type": "anomaly_spike",
+      "severity": "high",
+      "confidence": "low",
+      "message": "+10 votes en 5h — —× la médiane du concours (+0) et 10.0× son habitude (+1).",
+      "votesDelta": 10,
+      "periodHours": 5,
+      "metrics": {
+        "modifiedZGlobal": 10,
+        "modifiedZPersonal": 6.07,
+        "percentileAmongPeers": 83,
+        "velocity": 2.05,
+        "velocityRatioVsGlobal": 2.05
+      }
+    },
+    {
+      "slug": "sur-les-pas-delisey",
+      "type": "anomaly_spike",
+      "severity": "high",
+      "confidence": "low",
+      "message": "+10 votes en 5h — —× la médiane du concours (+0) et 10.0× son habitude (+1).",
+      "votesDelta": 10,
+      "periodHours": 5,
+      "metrics": {
+        "modifiedZGlobal": 10,
+        "modifiedZPersonal": 12.82,
+        "percentileAmongPeers": 83,
+        "velocity": 2.05,
+        "velocityRatioVsGlobal": 2.05
+      }
+    },
+    {
+      "slug": "des-voix-qui-comptent",
+      "type": "anomaly_spike",
+      "severity": "high",
+      "confidence": "low",
+      "message": "+9 votes en 5h — —× la médiane du concours (+0) et 2.3× son habitude (+4).",
+      "votesDelta": 9,
+      "periodHours": 5,
+      "metrics": {
+        "modifiedZGlobal": 9,
+        "modifiedZPersonal": 1.12,
+        "percentileAmongPeers": 82,
+        "velocity": 1.85,
+        "velocityRatioVsGlobal": 1.85
+      }
+    },
+    {
+      "slug": "eco-systeme-d",
+      "type": "anomaly_spike",
+      "severity": "high",
+      "confidence": "low",
+      "message": "+9 votes en 5h — —× la médiane du concours (+0) et 1.8× son habitude (+5).",
+      "votesDelta": 9,
+      "periodHours": 5,
+      "metrics": {
+        "modifiedZGlobal": 9,
+        "modifiedZPersonal": 1.21,
+        "percentileAmongPeers": 82,
+        "velocity": 1.85,
+        "velocityRatioVsGlobal": 1.85
+      }
+    },
+    {
+      "slug": "le-poisson-aux-mille-histoires",
+      "type": "anomaly_spike",
+      "severity": "high",
+      "confidence": "low",
+      "message": "+9 votes en 5h — —× la médiane du concours (+0) et 2.3× son habitude (+4).",
+      "votesDelta": 9,
+      "periodHours": 5,
+      "metrics": {
+        "modifiedZGlobal": 9,
+        "modifiedZPersonal": 1.06,
+        "percentileAmongPeers": 82,
+        "velocity": 1.85,
+        "velocityRatioVsGlobal": 1.85
       }
     },
     {
@@ -551,15 +679,207 @@
       "type": "anomaly_spike",
       "severity": "high",
       "confidence": "low",
-      "message": "+6 votes en 1h — —× la médiane du concours (+0) et —× son habitude (+0).",
+      "message": "+9 votes en 5h — —× la médiane du concours (+0) et 3.0× son habitude (+3).",
+      "votesDelta": 9,
+      "periodHours": 5,
+      "metrics": {
+        "modifiedZGlobal": 9,
+        "modifiedZPersonal": 1.35,
+        "percentileAmongPeers": 82,
+        "velocity": 1.85,
+        "velocityRatioVsGlobal": 1.85
+      }
+    },
+    {
+      "slug": "fast-fashion-more-pression",
+      "type": "anomaly_spike",
+      "severity": "high",
+      "confidence": "low",
+      "message": "+8 votes en 5h — —× la médiane du concours (+0) et 4.0× son habitude (+2).",
+      "votesDelta": 8,
+      "periodHours": 5,
+      "metrics": {
+        "modifiedZGlobal": 8,
+        "modifiedZPersonal": 2.92,
+        "percentileAmongPeers": 80,
+        "velocity": 1.64,
+        "velocityRatioVsGlobal": 1.64
+      }
+    },
+    {
+      "slug": "la-legende-du-micocoulier-de-st-charles",
+      "type": "anomaly_spike",
+      "severity": "high",
+      "confidence": "low",
+      "message": "+8 votes en 5h — —× la médiane du concours (+0) et 8.0× son habitude (+1).",
+      "votesDelta": 8,
+      "periodHours": 5,
+      "metrics": {
+        "modifiedZGlobal": 8,
+        "modifiedZPersonal": 4.72,
+        "percentileAmongPeers": 80,
+        "velocity": 1.64,
+        "velocityRatioVsGlobal": 1.64
+      }
+    },
+    {
+      "slug": "lets-go",
+      "type": "anomaly_spike",
+      "severity": "high",
+      "confidence": "low",
+      "message": "+8 votes en 5h — —× la médiane du concours (+0) et 8.0× son habitude (+1).",
+      "votesDelta": 8,
+      "periodHours": 5,
+      "metrics": {
+        "modifiedZGlobal": 8,
+        "modifiedZPersonal": 10.12,
+        "percentileAmongPeers": 80,
+        "velocity": 1.64,
+        "velocityRatioVsGlobal": 1.64
+      }
+    },
+    {
+      "slug": "pleyben-demain",
+      "type": "anomaly_spike",
+      "severity": "high",
+      "confidence": "low",
+      "message": "+8 votes en 5h — —× la médiane du concours (+0) et 2.0× son habitude (+4).",
+      "votesDelta": 8,
+      "periodHours": 5,
+      "metrics": {
+        "modifiedZGlobal": 8,
+        "modifiedZPersonal": 1.08,
+        "percentileAmongPeers": 80,
+        "velocity": 1.64,
+        "velocityRatioVsGlobal": 1.64
+      }
+    },
+    {
+      "slug": "aura",
+      "type": "anomaly_spike",
+      "severity": "high",
+      "confidence": "low",
+      "message": "+7 votes en 5h — —× la médiane du concours (+0) et 2.3× son habitude (+3).",
+      "votesDelta": 7,
+      "periodHours": 5,
+      "metrics": {
+        "modifiedZGlobal": 7,
+        "modifiedZPersonal": 1.35,
+        "percentileAmongPeers": 79,
+        "velocity": 1.44,
+        "velocityRatioVsGlobal": 1.44
+      }
+    },
+    {
+      "slug": "elio",
+      "type": "anomaly_spike",
+      "severity": "high",
+      "confidence": "low",
+      "message": "+7 votes en 5h — —× la médiane du concours (+0) et 2.3× son habitude (+3).",
+      "votesDelta": 7,
+      "periodHours": 5,
+      "metrics": {
+        "modifiedZGlobal": 7,
+        "modifiedZPersonal": 1.08,
+        "percentileAmongPeers": 79,
+        "velocity": 1.44,
+        "velocityRatioVsGlobal": 1.44
+      }
+    },
+    {
+      "slug": "le-vent-douest",
+      "type": "anomaly_spike",
+      "severity": "high",
+      "confidence": "low",
+      "message": "+7 votes en 5h — —× la médiane du concours (+0) et 1.4× son habitude (+5).",
+      "votesDelta": 7,
+      "periodHours": 5,
+      "metrics": {
+        "modifiedZGlobal": 7,
+        "modifiedZPersonal": 0.84,
+        "percentileAmongPeers": 79,
+        "velocity": 1.44,
+        "velocityRatioVsGlobal": 1.44
+      }
+    },
+    {
+      "slug": "il-etait-une-fois-une-astronaute",
+      "type": "anomaly_spike",
+      "severity": "high",
+      "confidence": "low",
+      "message": "+6 votes en 5h — —× la médiane du concours (+0) et 3.0× son habitude (+2).",
       "votesDelta": 6,
-      "periodHours": 1,
+      "periodHours": 5,
       "metrics": {
         "modifiedZGlobal": 6,
-        "modifiedZPersonal": 6,
-        "percentileAmongPeers": 85,
-        "velocity": 5.83,
-        "velocityRatioVsGlobal": 5.83
+        "modifiedZPersonal": 1.8,
+        "percentileAmongPeers": 76,
+        "velocity": 1.23,
+        "velocityRatioVsGlobal": 1.23
+      }
+    },
+    {
+      "slug": "inaya-la-fille-de-leau",
+      "type": "anomaly_spike",
+      "severity": "high",
+      "confidence": "low",
+      "message": "+6 votes en 5h — —× la médiane du concours (+0) et 2.0× son habitude (+3).",
+      "votesDelta": 6,
+      "periodHours": 5,
+      "metrics": {
+        "modifiedZGlobal": 6,
+        "modifiedZPersonal": 1.18,
+        "percentileAmongPeers": 76,
+        "velocity": 1.23,
+        "velocityRatioVsGlobal": 1.23
+      }
+    },
+    {
+      "slug": "le-monde-de-lena",
+      "type": "anomaly_spike",
+      "severity": "high",
+      "confidence": "low",
+      "message": "+6 votes en 5h — —× la médiane du concours (+0) et 2.0× son habitude (+3).",
+      "votesDelta": 6,
+      "periodHours": 5,
+      "metrics": {
+        "modifiedZGlobal": 6,
+        "modifiedZPersonal": 1.18,
+        "percentileAmongPeers": 76,
+        "velocity": 1.23,
+        "velocityRatioVsGlobal": 1.23
+      }
+    },
+    {
+      "slug": "les-commerages-de-lespace",
+      "type": "anomaly_spike",
+      "severity": "high",
+      "confidence": "low",
+      "message": "+6 votes en 5h — —× la médiane du concours (+0) et 2.0× son habitude (+3).",
+      "votesDelta": 6,
+      "periodHours": 5,
+      "metrics": {
+        "modifiedZGlobal": 6,
+        "modifiedZPersonal": 1.57,
+        "percentileAmongPeers": 76,
+        "velocity": 1.23,
+        "velocityRatioVsGlobal": 1.23
+      }
+    },
+    {
+      "slug": "limposture-de-la-machine",
+      "type": "anomaly_spike",
+      "severity": "high",
+      "confidence": "low",
+      "message": "+6 votes en 5h — —× la médiane du concours (+0) et 1.0× son habitude (+6).",
+      "votesDelta": 6,
+      "periodHours": 5,
+      "metrics": {
+        "modifiedZGlobal": 6,
+        "modifiedZPersonal": 0.67,
+        "percentileAmongPeers": 76,
+        "velocity": 1.23,
+        "velocityRatioVsGlobal": 1.23
       }
     },
     {
@@ -567,79 +887,127 @@
       "type": "anomaly_spike",
       "severity": "high",
       "confidence": "low",
-      "message": "+6 votes en 1h — —× la médiane du concours (+0) et 1.2× son habitude (+5).",
+      "message": "+6 votes en 5h — —× la médiane du concours (+0) et 1.0× son habitude (+6).",
       "votesDelta": 6,
-      "periodHours": 1,
+      "periodHours": 5,
       "metrics": {
         "modifiedZGlobal": 6,
         "modifiedZPersonal": 0.67,
-        "percentileAmongPeers": 85,
-        "velocity": 5.83,
-        "velocityRatioVsGlobal": 5.83
+        "percentileAmongPeers": 76,
+        "velocity": 1.23,
+        "velocityRatioVsGlobal": 1.23
       }
     },
     {
-      "slug": "aicha-et-la-promesse-de-la-serre",
+      "slug": "de-vieux-tissus-de-nouvelles-idees",
       "type": "anomaly_spike",
       "severity": "medium",
       "confidence": "low",
-      "message": "+5 votes en 1h — —× la médiane du concours (+0) et —× son habitude (+0).",
+      "message": "+5 votes en 5h — —× la médiane du concours (+0) et 2.5× son habitude (+2).",
       "votesDelta": 5,
-      "periodHours": 1,
+      "periodHours": 5,
       "metrics": {
         "modifiedZGlobal": 5,
-        "modifiedZPersonal": 5,
-        "percentileAmongPeers": 83,
-        "velocity": 4.86,
-        "velocityRatioVsGlobal": 4.86
+        "modifiedZPersonal": 1.35,
+        "percentileAmongPeers": 73,
+        "velocity": 1.03,
+        "velocityRatioVsGlobal": 1.03
       }
     },
     {
-      "slug": "eco-systeme-d",
+      "slug": "femmeland",
       "type": "anomaly_spike",
       "severity": "medium",
       "confidence": "low",
-      "message": "+5 votes en 1h — —× la médiane du concours (+0) et 1.3× son habitude (+4).",
+      "message": "+5 votes en 5h — —× la médiane du concours (+0) et 1.3× son habitude (+4).",
       "votesDelta": 5,
-      "periodHours": 1,
+      "periodHours": 5,
       "metrics": {
         "modifiedZGlobal": 5,
-        "modifiedZPersonal": 0.67,
-        "percentileAmongPeers": 83,
-        "velocity": 4.86,
-        "velocityRatioVsGlobal": 4.86
+        "modifiedZPersonal": 1.01,
+        "percentileAmongPeers": 73,
+        "velocity": 1.03,
+        "velocityRatioVsGlobal": 1.03
       }
     },
     {
-      "slug": "elio",
+      "slug": "la-ville-de-mes-reves",
       "type": "anomaly_spike",
       "severity": "medium",
       "confidence": "low",
-      "message": "+5 votes en 1h — —× la médiane du concours (+0) et 5.0× son habitude (+1).",
+      "message": "+5 votes en 5h — —× la médiane du concours (+0) et 1.3× son habitude (+4).",
       "votesDelta": 5,
-      "periodHours": 1,
+      "periodHours": 5,
       "metrics": {
         "modifiedZGlobal": 5,
-        "modifiedZPersonal": 2.7,
-        "percentileAmongPeers": 83,
-        "velocity": 4.86,
-        "velocityRatioVsGlobal": 4.86
+        "modifiedZPersonal": 1.01,
+        "percentileAmongPeers": 73,
+        "velocity": 1.03,
+        "velocityRatioVsGlobal": 1.03
       }
     },
     {
-      "slug": "pleyben-demain",
+      "slug": "le-proces",
       "type": "anomaly_spike",
       "severity": "medium",
       "confidence": "low",
-      "message": "+5 votes en 1h — —× la médiane du concours (+0) et 1.7× son habitude (+3).",
+      "message": "+5 votes en 5h — —× la médiane du concours (+0) et 2.5× son habitude (+2).",
       "votesDelta": 5,
-      "periodHours": 1,
+      "periodHours": 5,
       "metrics": {
         "modifiedZGlobal": 5,
-        "modifiedZPersonal": 0.67,
-        "percentileAmongPeers": 83,
-        "velocity": 4.86,
-        "velocityRatioVsGlobal": 4.86
+        "modifiedZPersonal": 2.36,
+        "percentileAmongPeers": 73,
+        "velocity": 1.03,
+        "velocityRatioVsGlobal": 1.03
+      }
+    },
+    {
+      "slug": "le-sexisme-cest-pas-foot",
+      "type": "anomaly_spike",
+      "severity": "medium",
+      "confidence": "low",
+      "message": "+5 votes en 5h — —× la médiane du concours (+0) et 2.5× son habitude (+2).",
+      "votesDelta": 5,
+      "periodHours": 5,
+      "metrics": {
+        "modifiedZGlobal": 5,
+        "modifiedZPersonal": 2.36,
+        "percentileAmongPeers": 73,
+        "velocity": 1.03,
+        "velocityRatioVsGlobal": 1.03
+      }
+    },
+    {
+      "slug": "une-sortie-au-musee",
+      "type": "anomaly_spike",
+      "severity": "medium",
+      "confidence": "low",
+      "message": "+5 votes en 5h — —× la médiane du concours (+0) et 1.7× son habitude (+3).",
+      "votesDelta": 5,
+      "periodHours": 5,
+      "metrics": {
+        "modifiedZGlobal": 5,
+        "modifiedZPersonal": 0.9,
+        "percentileAmongPeers": 73,
+        "velocity": 1.03,
+        "velocityRatioVsGlobal": 1.03
+      }
+    },
+    {
+      "slug": "le-fabuleux-destin-dun-plancton",
+      "type": "anomaly_spike",
+      "severity": "medium",
+      "confidence": "low",
+      "message": "+4 votes en 5h — —× la médiane du concours (+0) et 4.0× son habitude (+1).",
+      "votesDelta": 4,
+      "periodHours": 5,
+      "metrics": {
+        "modifiedZGlobal": 4,
+        "modifiedZPersonal": 4.72,
+        "percentileAmongPeers": 68,
+        "velocity": 0.82,
+        "velocityRatioVsGlobal": 0.82
       }
     }
   ]
