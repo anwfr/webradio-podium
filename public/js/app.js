@@ -329,7 +329,7 @@ function loadRankingsData(participants, history) {
 function applyUserEstablishment({ key, label }) {
   state.userEstablishment = { key, label };
   setUserEstablishment(key, label);
-  setActiveTab('mon-ecole');
+  setActiveTab('podcasts');
 }
 
 function tryAutoSelectEstablishmentFromPendingPodcast() {

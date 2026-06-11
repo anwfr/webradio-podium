@@ -1,7 +1,7 @@
 const TABS = [
-  { id: 'mon-ecole', label: 'Mon école', hash: '#mon-ecole' },
   { id: 'podcasts', label: 'Podcasts', hash: '#podcasts' },
   { id: 'ecoles', label: 'Écoles', hash: '#ecoles' },
+  { id: 'mon-ecole', label: 'Mon école', hash: '#mon-ecole' },
 ];
 
 const HASH_MAP = {
@@ -14,20 +14,20 @@ const HASH_MAP = {
 
 export function normalizeTabId(tabId) {
   if (tabId === 'podium-global' || tabId === 'classement') return 'podcasts';
-  return TABS.some((t) => t.id === tabId) ? tabId : 'mon-ecole';
+  return TABS.some((t) => t.id === tabId) ? tabId : 'podcasts';
 }
 
-let activeTab = 'mon-ecole';
+let activeTab = 'podcasts';
 let onTabChange = null;
 
 export function tabFromHash() {
   const hash = location.hash.replace(/^#/, '');
-  return HASH_MAP[hash] || 'mon-ecole';
+  return HASH_MAP[hash] || 'podcasts';
 }
 
 export function hashForTab(tabId) {
   const tab = TABS.find((t) => t.id === tabId);
-  return tab?.hash || '#mon-ecole';
+  return tab?.hash || '#podcasts';
 }
 
 export function getActiveTab() {
