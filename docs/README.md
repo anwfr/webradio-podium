@@ -101,10 +101,15 @@ git push
 
 ## Mise en ligne (GitHub)
 
+Guide pas à pas complet : **[specifications/deploiement.md](specifications/deploiement.md)** (Pages via Actions, discover, cron votes, dépannage).
+
+Résumé :
+
 1. Pousser le repo sur GitHub (public).
-2. **Settings → Pages** : branche `main`, dossier **`/public`**.
-3. Lancer **Discover participants** dans Actions (une fois, avant le 1er cron).
-4. Les votes se mettent à jour automatiquement selon la fréquence du cron GitHub Actions (par défaut 06h et 16h Paris — modifiable dans `scrape.yml`).
+2. **Settings → Pages** : source **GitHub Actions** (le site est dans `public/`, pas à la racine).
+3. **Settings → Actions** : **Read and write permissions**.
+4. Lancer **Deploy site to GitHub Pages**, puis **Scrape votes** (ou **Discover** si catalogue vide).
+5. Cron votes : 2×/jour par défaut (`scrape.yml` — horaires en UTC, voir doc déploiement).
 
 En Actions, `GITHUB_REPOSITORY` suffit — pas besoin de `.env` sur le serveur.
 

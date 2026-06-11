@@ -67,11 +67,15 @@ GitHub Pages ne sert que `/public`. Les scripts écrivent dans `/data` (source d
 
 ### Configuration Pages
 
+Le site est servi depuis le dossier `public/` via le workflow **Deploy site to GitHub Pages** (`.github/workflows/pages.yml`).  
+GitHub ne permet pas de choisir `/public` en mode « Deploy from branch » (seuls `/` et `/docs`).
+
+→ Guide complet : **[deploiement.md](deploiement.md)**
+
 ```yaml
 # Settings → Pages
-source: Deploy from branch
-branch: main
-folder: /public
+source: GitHub Actions   # pas « Deploy from branch »
+# artifact path: public/  (défini dans pages.yml)
 ```
 
 ### Permissions workflow

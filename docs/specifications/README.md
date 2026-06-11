@@ -16,6 +16,7 @@ Page web ludique affichant le classement en temps quasi réel des podcasts du [c
 | [Fonctionnel](fonctionnel.md) | Contexte, objectifs, périmètre, décisions, critères d'acceptation |
 | [UX / Interface](ux.md) | Design, sections de la page, responsive |
 | [Technique](technique.md) | Architecture, hébergement, scripts, scraping, flux opérationnel |
+| [**Déploiement**](deploiement.md) | **Mise en prod GitHub Pages + Actions, cron, dépannage** |
 | [Données](donnees.md) | Schémas JSON, backups, champs extraits |
 | [Détection d'anomalies](detection-anomalies.md) | Algorithme adaptatif de suspicion (anti-triche) |
 | [Planning](planning.md) | Estimation d'effort, risques, hors périmètre |
