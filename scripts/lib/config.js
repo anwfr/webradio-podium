@@ -12,18 +12,20 @@ const [repoOwner, repoName] = repository.includes('/')
   ? repository.split('/')
   : [null, null];
 
+const githubOwner =
+  process.env.GITHUB_OWNER || repoOwner || 'YOUR_GITHUB_USER';
+const githubRepo = repoName || 'webradio-podium';
+
 export const config = {
   rootDir,
   dataDir: path.join(rootDir, 'data'),
   publicDataDir: path.join(rootDir, 'public/data'),
   publicJsDir: path.join(rootDir, 'public/js'),
-  githubOwner:
-    process.env.GITHUB_OWNER || repoOwner || 'YOUR_GITHUB_USER',
-  githubRepo:
-    process.env.GITHUB_REPO || repoName || 'webradio-podium',
+  githubOwner,
+  githubRepo,
   siteBaseUrl:
     process.env.SITE_BASE_URL ||
-    `https://${process.env.GITHUB_OWNER || repoOwner || 'YOUR_GITHUB_USER'}.github.io/${process.env.GITHUB_REPO || repoName || 'webradio-podium'}`,
+    `https://${githubOwner}.github.io/${githubRepo}`,
   httpTimeoutMs: Number(process.env.HTTP_TIMEOUT_MS || 15000),
   afdBaseUrl: 'https://offre-pedagogique.afd.fr',
   /** Podcast + programme pédagogique « Edition 2026 » (thematic 389). */

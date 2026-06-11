@@ -32,8 +32,6 @@ function ensureDir(dir) {
 export function writeSiteConfig() {
   ensureDir(config.publicJsDir);
   const siteConfig = {
-    githubOwner: config.githubOwner,
-    githubRepo: config.githubRepo,
     siteBaseUrl: config.siteBaseUrl,
     repoUrl: repoUrl(),
     afdListUrl: config.listUrl,
