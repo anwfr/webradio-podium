@@ -90,7 +90,7 @@ npm run dev
 Pour versionner les résultats (comme le bot Actions) :
 
 ```bash
-git add data/ public/data/ public/js/site-config.json
+git add data/ public/data/
 git commit -m "discover: rapport $(date +%Y-%m-%d_%H-%M)"
 git push
 ```

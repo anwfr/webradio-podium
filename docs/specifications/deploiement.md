@@ -91,7 +91,7 @@ Le workflow **Deploy site to GitHub Pages** se déclenche :
 - Site : `https://{owner}.github.io/webradio-podium/`
 - Rapport discover (admin) : `https://{owner}.github.io/webradio-podium/decouverte.html`
 
-Au premier déploiement, le front utilise `public/js/site-config.defaults.json` (placeholders GitHub). Les vrais liens (`site-config.json`) sont générés au premier run **Scrape** ou **Discover** sur Actions.
+Au premier déploiement, le front utilise `public/js/site-config.defaults.json` (placeholders GitHub) jusqu’au prochain déploiement Pages, qui génère `site-config.json` à partir de `GITHUB_REPOSITORY`.
 
 ---
 
@@ -129,7 +129,7 @@ Contrôles :
 | Actions | Steps `Run pipeline` et `Commit and push` en succès |
 | Commits | Nouveau snapshot sur `main` |
 | Site | Classement visible, footer « Dernière mise à jour : … » |
-| `public/js/site-config.json` | Généré et commité (liens GitHub corrects) |
+| Liens GitHub dans le front | Générés au déploiement Pages (`site-config.json`, non versionné) |
 
 ---
 
@@ -225,8 +225,8 @@ Comportement normal. Utiliser le workflow `pages.yml` (source Actions).
 
 ### Liens GitHub incorrects dans le front
 
-- Attendre un run **Scrape votes** ou **Discover** (génère `public/js/site-config.json`)
-- Ou lancer `npm run publish` en local avec un `.env` renseigné, puis push
+- Relancer **Deploy site to GitHub Pages** (génère `site-config.json` au build)
+- Ou lancer `npm run publish` en local avec un `.env` renseigné (fichier gitignoré, usage dev uniquement)
 
 ---
 
