@@ -17,7 +17,6 @@ import { parsePodiumEstablishmentDisplay } from './establishment.js';
 import { escapeHtml } from './ranking-view.js';
 import {
   sortEstablishmentsForMode,
-  computeEstablishmentBadges,
 } from './establishment-leaderboard.js';
 
 function formatNumber(n) {
@@ -36,34 +35,6 @@ function rankNeighborMedal(rank) {
   if (rank === 2) return '🥈';
   if (rank === 3) return '🥉';
   return '';
-}
-
-export function renderEstablishmentBadges(entries, containerId) {
-  const container = document.getElementById(containerId);
-  if (!container) return;
-
-  const badges = computeEstablishmentBadges(entries);
-  if (!badges.length) {
-    container.innerHTML = '';
-    container.hidden = true;
-    return;
-  }
-
-  container.hidden = false;
-  container.innerHTML = badges
-    .map((badge) => {
-      const cityMarkup = badge.city
-        ? badge.city
-        : '';
-      return renderHighlightBadgeCard({
-        emoji: badge.emoji,
-        label: badge.title,
-        text: badge.text,
-        statMarkup: badge.statMarkup,
-        city: cityMarkup,
-      });
-    })
-    .join('');
 }
 
 function renderEstablishmentBoostCard(entry, { badge, story = null }) {

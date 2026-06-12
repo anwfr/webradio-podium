@@ -8,7 +8,8 @@
   <script>
     (function () {
       var path = location.pathname.replace(/\/index\.html$/, '').replace(/\/404\.html$/, '');
-      var match = path.match(/^(.*)\/etablissement\/[^/]+$/);
+      var match = path.match(/^(.*)\/etablissement\/[^/]+$/)
+        || path.match(/^(.*)\/(\d+)$/);
       var basePath = match ? match[1] : (path === '' || path === '/') ? '' : path.replace(/\/$/, '');
       window.__APP_BASE__ = basePath ? basePath + '/' : '/';
       var base = document.createElement('base');
@@ -137,27 +138,50 @@
     </header>
 
     <main class="app-main">
-      <div id="tab-mon-ecole" class="tab-panel" data-tab-panel="mon-ecole">
-        <div id="my-establishment-summary" class="establishment-summary-wrap" hidden></div>
-        <h2 class="section-title" id="mon-ecole-podcasts-title">Podcasts</h2>
-        <div id="list-mon-ecole" class="podcast-list"></div>
+      <div id="tab-podium" class="tab-panel" data-tab-panel="podium">
+        <h2 class="section-title">🏆 Podium</h2>
+        <div id="vote-countdown" class="vote-countdown" hidden aria-label="Temps restant avant la fin des votes">
+          <div class="vote-countdown-inner">
+            <span class="vote-countdown-badge"><span aria-hidden="true">⏳</span> Fin des votes</span>
+            <p class="vote-countdown-lead">Encore</p>
+            <div class="vote-countdown-timer" role="timer" aria-live="polite">
+              <div class="vote-countdown-unit" data-countdown-unit="days">
+                <span class="vote-countdown-value" data-countdown="days">0</span>
+                <span class="vote-countdown-label">j</span>
+              </div>
+              <span class="vote-countdown-sep" aria-hidden="true">:</span>
+              <div class="vote-countdown-unit">
+                <span class="vote-countdown-value" data-countdown="hours">00</span>
+                <span class="vote-countdown-label">h</span>
+              </div>
+              <span class="vote-countdown-sep" aria-hidden="true">:</span>
+              <div class="vote-countdown-unit">
+                <span class="vote-countdown-value" data-countdown="minutes">00</span>
+                <span class="vote-countdown-label">min</span>
+              </div>
+              <span class="vote-countdown-sep" aria-hidden="true">:</span>
+              <div class="vote-countdown-unit vote-countdown-unit--seconds">
+                <span class="vote-countdown-value" data-countdown="seconds">00</span>
+                <span class="vote-countdown-label">s</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="podium" id="podium-global"></div>
+        <div id="podcast-badges" class="establishment-badges" hidden></div>
       </div>
 
       <div id="tab-podcasts" class="tab-panel" data-tab-panel="podcasts" hidden>
         <h2 class="section-title">🎙️ Podcasts</h2>
-        <div id="podcast-badges" class="establishment-badges" hidden></div>
-        <h3 class="section-subtitle" id="podcast-top3-title">🏆 Podium</h3>
-        <div class="podium" id="podium-global"></div>
         <input type="search" id="filter-text" class="search-input" placeholder="Rechercher un podcast…" />
         <div id="list-podcasts" class="podcast-list"></div>
       </div>
 
-      <div id="tab-ecoles" class="tab-panel" data-tab-panel="ecoles" hidden>
-        <h2 class="section-title">🏫 Classement des écoles</h2>
-        <div id="establishment-badges" class="establishment-badges" hidden></div>
-        <h3 class="section-subtitle" id="establishment-top3-title">🏆 Podium</h3>
-        <div class="podium" id="podium-ecoles"></div>
-        <h3 class="section-subtitle">🏫 Mon établissement</h3>
+      <div id="tab-mon-ecole" class="tab-panel" data-tab-panel="mon-ecole" hidden>
+        <div id="my-establishment-summary" class="establishment-summary-wrap" hidden></div>
+        <h2 class="section-title" id="mon-ecole-podcasts-title">Podcasts de mon école</h2>
+        <div id="list-mon-ecole" class="podcast-list"></div>
+        <h2 class="section-title" id="establishment-ranking-title">🏫 Mon établissement</h2>
         <div class="rank-neighbors-wrap">
           <div id="my-establishment-neighbors" class="rank-neighbors"></div>
         </div>

@@ -22,14 +22,17 @@ import {
   openPodcastDetail,
   syncPodcastFromUrl,
   stashPodcastFromUrl,
-  getPendingPodcastSlug,
+  resolvePendingPodcastSlug,
+  hasPendingPodcastOpen,
   getPendingShareMode,
   openPendingPodcast,
+  setShareIdLookup,
 } from './podcast-detail.js';
 import {
   redirectEstablishmentUrl,
   redirectLegacyEstablishmentUrl,
 } from './router.js';
+import { buildShareIdMaps } from './share-id.js';
 import {
   buildEstablishmentLeaderboard,
   buildLocalRanks,
@@ -41,8 +44,6 @@ import {
   renderPodcastBadges,
 } from './ranking-view.js';
 import {
-  renderEstablishmentBadges,
-  renderEstablishmentPodium,
   renderMyEstablishmentSummary,
   renderMyEstablishmentNeighbors,
 } from './establishment-ranking-view.js';
@@ -53,7 +54,8 @@ import {
 } from './user-establishment.js';
 import { initOnboarding, setOnboardingEntries, showOnboarding } from './onboarding.js';
 import { initNavigation, setActiveTab, getActiveTab } from './navigation.js';
-import { showChampionSplash } from './champion-splash.js';
+import { showChampionSplash, dismissChampionSplash } from './champion-splash.js';
+import { initVoteCountdown } from './vote-countdown.js';
 
 function getAfdListUrl(config) {
   return (
@@ -73,6 +75,8 @@ const state = {
   config: null,
   meta: null,
   participants: null,
+  shareIdBySlug: new Map(),
+  slugByShareId: new Map(),
 };
 
 function enrichRow(row) {
@@ -130,6 +134,11 @@ function refreshMonEcoleTab() {
     totalEstablishmentCount: state.establishmentEntries.length,
   });
 
+  renderMyEstablishmentNeighbors('my-establishment-neighbors', state.establishmentEntries, {
+    mode: 'total',
+    establishmentKey: key,
+  });
+
   renderRankingList(
     'list-mon-ecole',
     [...rows].sort((a, b) => a.rank - b.rank),
@@ -142,13 +151,8 @@ function refreshMonEcoleTab() {
   );
 }
 
-function refreshPodcastsTab() {
+function refreshPodiumTab() {
   const sorted = sortPodcastsForMode(state.allRows, 'total');
-
-  renderPodcastBadges(state.allRows, 'podcast-badges', {
-    openPodcastDetail,
-    getEstablishmentLabel: canonicalEstablishmentLabel,
-  });
 
   renderPodium(sorted, 'podium-global', {
     establishmentCellMarkup,
@@ -158,10 +162,20 @@ function refreshPodcastsTab() {
     mode: 'total',
   });
 
+  renderPodcastBadges(state.allRows, 'podcast-badges', {
+    openPodcastDetail,
+    getEstablishmentLabel: canonicalEstablishmentLabel,
+  });
+}
+
+function refreshPodcastsTab() {
+  const sorted = sortPodcastsForMode(state.allRows, 'total');
+
   renderRankingList('list-podcasts', sorted, {
     showEstablishment: true,
     filterText: state.filterText,
     sortMode: 'total',
+    showTopTierStyles: false,
     establishmentDisplay: 'podium',
     highlightEstablishmentKey: state.userEstablishment?.key,
     establishmentCellMarkup,
@@ -169,27 +183,13 @@ function refreshPodcastsTab() {
   });
 }
 
-function refreshEcolesTab() {
-  const { establishmentEntries } = state;
-
-  renderEstablishmentBadges(establishmentEntries, 'establishment-badges');
-
-  renderEstablishmentPodium(establishmentEntries, 'podium-ecoles', {
-    mode: 'total',
-  });
-  renderMyEstablishmentNeighbors('my-establishment-neighbors', establishmentEntries, {
-    mode: 'total',
-    establishmentKey: state.userEstablishment?.key,
-  });
-}
-
 function refreshActiveTab() {
   if (!state.allRows.length) return;
 
   const tab = getActiveTab();
-  if (tab === 'mon-ecole') refreshMonEcoleTab();
+  if (tab === 'podium') refreshPodiumTab();
+  else if (tab === 'mon-ecole') refreshMonEcoleTab();
   else if (tab === 'podcasts') refreshPodcastsTab();
-  else if (tab === 'ecoles') refreshEcolesTab();
 }
 
 function updateFooterLastUpdate(meta, participants) {
@@ -240,15 +240,16 @@ function showAppShell({ openPendingPodcastAfter = false, showChampionSplashOnOpe
   updateFooterLastUpdate(state.meta, state.participants);
   document.title = state.defaultTitle;
 
+  initPodcastRouting();
+  initVoteCountdown();
   setActiveTab(getActiveTab(), { updateHash: false, notify: false });
   refreshActiveTab();
-  initPodcastRouting();
   stashPodcastFromUrl();
 
-  const pendingPodcastSlug = getPendingPodcastSlug();
+  const pendingPodcastSlug = resolvePendingPodcastSlug();
   const pendingShareMode = getPendingShareMode();
 
-  if (showChampionSplashOnOpen && !pendingPodcastSlug && !pendingShareMode) {
+  if (showChampionSplashOnOpen && !hasPendingPodcastOpen() && !pendingShareMode) {
     showChampionSplash(state.allRows, {
       getEstablishmentLabel: canonicalEstablishmentLabel,
       onOpenPodcast: (slug) => openPodcastDetail(slug),
@@ -261,6 +262,21 @@ function showAppShell({ openPendingPodcastAfter = false, showChampionSplashOnOpe
 }
 
 function setupAppShellControls() {
+  const shell = document.getElementById('app-shell');
+  if (shell && !shell.dataset.splashDismissBound) {
+    shell.dataset.splashDismissBound = '1';
+    shell.addEventListener(
+      'pointerdown',
+      (e) => {
+        if (e.target.closest('.champion-splash-card, .champion-splash-crown, .champion-splash-backdrop')) {
+          return;
+        }
+        dismissChampionSplash();
+      },
+      true
+    );
+  }
+
   const summaryWrap = document.getElementById('my-establishment-summary');
   if (summaryWrap && !summaryWrap.dataset.bound) {
     summaryWrap.dataset.bound = '1';
@@ -270,7 +286,10 @@ function setupAppShellControls() {
         return;
       }
       if (e.target.closest('.establishment-summary-stats')) {
-        setActiveTab('ecoles');
+        document.getElementById('my-establishment-neighbors')?.scrollIntoView({
+          behavior: 'smooth',
+          block: 'start',
+        });
       }
     });
   }
@@ -283,6 +302,31 @@ function setupAppShellControls() {
       refreshPodcastsTab();
     });
   }
+
+  const main = document.querySelector('.app-main');
+  if (main && !main.dataset.podcastMainBound) {
+    main.dataset.podcastMainBound = '1';
+    main.addEventListener('click', (e) => {
+      const link = e.target.closest('a.podcast-detail-link[data-slug]');
+      if (!link) return;
+
+      const panel = link.closest('.tab-panel');
+      if (panel?.hidden) return;
+
+      e.preventDefault();
+      openPodcastDetail(link.dataset.slug);
+    });
+  }
+}
+
+function initShareIdLookup(participants) {
+  const maps = buildShareIdMaps(participants);
+  state.shareIdBySlug = maps.shareIdBySlug;
+  state.slugByShareId = maps.slugByShareId;
+  setShareIdLookup({
+    getShareIdBySlug: (slug) => state.shareIdBySlug.get(slug) ?? null,
+    getSlugByShareId: (shareId) => state.slugByShareId.get(shareId) ?? null,
+  });
 }
 
 function initPodcastRouting() {
@@ -294,6 +338,7 @@ function initPodcastRouting() {
     getAllRows: () => state.allRows,
     getHistory: () => state.history,
     getCanonicalEstablishmentLabel: canonicalEstablishmentLabel,
+    getShareIdBySlug: (slug) => state.shareIdBySlug.get(slug) ?? null,
   });
   window.__podcastDetailReady = true;
 }
@@ -322,11 +367,11 @@ function loadRankingsData(participants, history) {
 function applyUserEstablishment({ key, label }) {
   state.userEstablishment = { key, label };
   setUserEstablishment(key, label);
-  setActiveTab('podcasts');
+  setActiveTab('podium');
 }
 
 function tryAutoSelectEstablishmentFromPendingPodcast() {
-  const slug = getPendingPodcastSlug();
+  const slug = resolvePendingPodcastSlug();
   if (!slug) return null;
 
   const row = state.allRows.find((r) => r.slug === slug);
@@ -368,6 +413,7 @@ async function main() {
     }
 
     loadRankingsData(participants, history);
+    initShareIdLookup(participants);
 
     stashPodcastFromUrl();
 

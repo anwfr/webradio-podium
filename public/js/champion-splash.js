@@ -301,6 +301,7 @@ function mountSplash(story, {
   const close = (reason) => {
     if (closed) return;
     closed = true;
+    overlay.style.pointerEvents = 'none';
     window.clearTimeout(autoTimer);
     overlay.classList.remove('champion-splash--visible');
     overlay.classList.add('champion-splash--closing');
@@ -377,5 +378,7 @@ export function showChampionSplash(rows, { getEstablishmentLabel, onOpenPodcast,
 }
 
 export function dismissChampionSplash() {
-  activeSplash?.querySelector('.champion-splash-backdrop')?.click();
+  if (!activeSplash) return;
+  activeSplash.style.pointerEvents = 'none';
+  activeSplash.querySelector('.champion-splash-backdrop')?.click();
 }

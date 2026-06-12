@@ -1,33 +1,37 @@
+import { dismissChampionSplash } from './champion-splash.js';
+
 const TABS = [
+  { id: 'podium', label: 'Podium', hash: '#podium' },
   { id: 'podcasts', label: 'Podcasts', hash: '#podcasts' },
-  { id: 'ecoles', label: 'Écoles', hash: '#ecoles' },
   { id: 'mon-ecole', label: 'Mon école', hash: '#mon-ecole' },
 ];
 
 const HASH_MAP = {
   'mon-ecole': 'mon-ecole',
   podcasts: 'podcasts',
-  podium: 'podcasts',
+  podium: 'podium',
   classement: 'podcasts',
-  ecoles: 'ecoles',
+  ecoles: 'mon-ecole',
 };
 
 export function normalizeTabId(tabId) {
-  if (tabId === 'podium-global' || tabId === 'classement') return 'podcasts';
-  return TABS.some((t) => t.id === tabId) ? tabId : 'podcasts';
+  if (tabId === 'podium-global') return 'podium';
+  if (tabId === 'classement') return 'podcasts';
+  if (tabId === 'ecoles') return 'mon-ecole';
+  return TABS.some((t) => t.id === tabId) ? tabId : 'podium';
 }
 
-let activeTab = 'podcasts';
+let activeTab = 'podium';
 let onTabChange = null;
 
 export function tabFromHash() {
   const hash = location.hash.replace(/^#/, '');
-  return HASH_MAP[hash] || 'podcasts';
+  return HASH_MAP[hash] || 'podium';
 }
 
 export function hashForTab(tabId) {
   const tab = TABS.find((t) => t.id === tabId);
-  return tab?.hash || '#podcasts';
+  return tab?.hash || '#podium';
 }
 
 export function getActiveTab() {
@@ -40,6 +44,7 @@ export function setActiveTab(tabId, { updateHash = true, notify = true } = {}) {
   if (!tab) return;
 
   activeTab = tabId;
+  dismissChampionSplash();
 
   document.querySelectorAll('.tab-panel[data-tab-panel]').forEach((panel) => {
     panel.hidden = panel.dataset.tabPanel !== tabId;
@@ -92,12 +97,12 @@ export function initNavigation({ onChange } = {}) {
 
 function tabIcon(id) {
   switch (id) {
+    case 'podium':
+      return `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9H4.5a2.5 2.5 0 010-5C7 4 7 7 7 7"/><path d="M18 9h1.5a2.5 2.5 0 000-5C17 4 17 7 17 7"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20 17 22"/><path d="M18 2H6v7a6 6 0 0012 0V2z"/></svg>`;
     case 'mon-ecole':
       return `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9.5L12 3l9 6.5V20a1 1 0 01-1 1h-5v-6H9v6H4a1 1 0 01-1-1V9.5z"/></svg>`;
     case 'podcasts':
       return `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a3 3 0 00-3 3v7a3 3 0 006 0V5a3 3 0 00-3-3z"/><path d="M19 10v2a7 7 0 01-14 0v-2"/><path d="M12 19v3"/></svg>`;
-    case 'ecoles':
-      return `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9H4.5a2.5 2.5 0 010-5C7 4 7 7 7 7"/><path d="M18 9h1.5a2.5 2.5 0 000-5C17 4 17 7 17 7"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20 17 22"/><path d="M18 2H6v7a6 6 0 0012 0V2z"/></svg>`;
     default:
       return '';
   }

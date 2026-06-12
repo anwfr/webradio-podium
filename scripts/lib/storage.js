@@ -1,6 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import { config } from './config.js';
+import { assignShareIds } from './share-id.js';
 import {
   BACKUP_RETENTION_DAYS,
   SYNC_REPORT_BACKUP_DAYS,
@@ -125,7 +126,10 @@ export function loadVotesHistory() {
 
 export function saveParticipants(data) {
   backupFile(dataPath('participants.json'), 'participants');
-  writeJson(dataPath('participants.json'), data);
+  writeJson(dataPath('participants.json'), {
+    ...data,
+    participants: assignShareIds(data.participants || []),
+  });
 }
 
 export function saveVotesHistory(data) {

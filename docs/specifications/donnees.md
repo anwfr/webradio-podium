@@ -46,7 +46,8 @@
 
 | Champ | Type | Notes |
 |-------|------|-------|
-| `slug` | string | Clé primaire, immuable |
+| `slug` | string | Clé primaire AFD, immuable |
+| `shareId` | integer | Identifiant court interne pour les liens de partage (`/{shareId}`), assigné à la découverte, immuable |
 | `voteStatus` | enum | `open` · `closed` · `unavailable` · `not_eligible` |
 | `active` | boolean | `true` seulement si `voteStatus === open` |
 | `firstSeenAt` | ISO 8601 | Date de première découverte, jamais modifiée |

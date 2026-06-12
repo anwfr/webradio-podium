@@ -1,3 +1,6 @@
+import { formatDelta, formatRankDelta } from './data.js';
+import { findReferenceSnapshot } from './snapshot-window.js';
+
 const COLORS = [
   '#ff6b6b', '#4ecdc4', '#7c5cff', '#ffd166', '#6ee7a0',
   '#f472b6', '#60a5fa', '#fb923c', '#a78bfa', '#34d399',
@@ -33,6 +36,27 @@ const CHART_OPTIONS = {
   },
 };
 
+function snapshotDayKey(timestamp) {
+  const parts = new Intl.DateTimeFormat('fr-CA', {
+    timeZone: 'Europe/Paris',
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+  }).formatToParts(new Date(timestamp));
+  const get = (type) => parts.find((p) => p.type === type).value;
+  return `${get('year')}-${get('month')}-${get('day')}`;
+}
+
+function snapshotsOnePerDay(snapshots) {
+  const byDay = new Map();
+  for (const snap of snapshots) {
+    byDay.set(snapshotDayKey(snap.timestamp), snap);
+  }
+  return [...byDay.values()].sort(
+    (a, b) => new Date(a.timestamp) - new Date(b.timestamp),
+  );
+}
+
 function snapshotLabels(snapshots) {
   return snapshots.map((s) => {
     const d = new Date(s.timestamp);
@@ -56,19 +80,116 @@ function rankAtSnapshot(snapshot, slug, activeSlugs) {
   return idx >= 0 ? idx + 1 : null;
 }
 
-function rankSeries(history, slug, activeSlugs) {
-  const snapshots = history.snapshots || [];
+function rankSeries(snapshots, slug, activeSlugs) {
   return snapshots.map((snap) => rankAtSnapshot(snap, slug, activeSlugs));
 }
 
+function snapshotVotes(snapshot, slug) {
+  const entry = snapshot?.entries?.find((e) => e.slug === slug);
+  return entry != null ? entry.votes : null;
+}
+
+function voteDeltaAtSnapshot(allSnapshots, snap, slug) {
+  const ref = findReferenceSnapshot(allSnapshots, snap.timestamp);
+  if (!ref || ref.timestamp === snap.timestamp) return null;
+
+  const votes = snapshotVotes(snap, slug);
+  if (votes == null) return null;
+
+  const refEntry = ref.entries.find((e) => e.slug === slug);
+  const refVotes = refEntry != null ? refEntry.votes : votes;
+  return votes - refVotes;
+}
+
+function rankDeltaAtSnapshot(allSnapshots, snap, slug, activeSlugs) {
+  const ref = findReferenceSnapshot(allSnapshots, snap.timestamp);
+  if (!ref || ref.timestamp === snap.timestamp) return null;
+
+  const rank = rankAtSnapshot(snap, slug, activeSlugs);
+  const refRank = rankAtSnapshot(ref, slug, activeSlugs);
+  if (rank == null || refRank == null) return null;
+  return refRank - rank;
+}
+
+function voteDeltasForSnapshots(allSnapshots, dailySnapshots, slug) {
+  return dailySnapshots.map((snap) => voteDeltaAtSnapshot(allSnapshots, snap, slug));
+}
+
+function rankDeltasForSnapshots(allSnapshots, dailySnapshots, slug, activeSlugs) {
+  return dailySnapshots.map((snap) =>
+    rankDeltaAtSnapshot(allSnapshots, snap, slug, activeSlugs),
+  );
+}
+
+function appendDelta(base, delta, formatter) {
+  if (delta == null) return base;
+  const formatted = formatter(delta);
+  if (!formatted) return base;
+  return `${base} (${formatted})`;
+}
+
+function numericValues(values) {
+  return values.filter((v) => v != null && Number.isFinite(v));
+}
+
+function paddedRange(values, {
+  paddingRatio = 0.15,
+  minPadding = 1,
+  floor = null,
+  ceil = null,
+  integer = false,
+} = {}) {
+  const nums = numericValues(values);
+  if (!nums.length) return { min: floor ?? 0, max: ceil ?? 1 };
+
+  let min = Math.min(...nums);
+  let max = Math.max(...nums);
+  const span = Math.max(max - min, 0);
+  const pad = Math.max(minPadding, span * paddingRatio);
+
+  min -= pad;
+  max += pad;
+
+  if (floor != null) min = Math.max(floor, min);
+  if (ceil != null) max = Math.min(ceil, max);
+
+  if (integer) {
+    min = Math.floor(min);
+    max = Math.ceil(max);
+  }
+
+  if (min >= max) {
+    max = integer ? min + 1 : min + minPadding;
+  }
+
+  return { min, max };
+}
+
+function voteScale(values) {
+  return paddedRange(values, {
+    minPadding: 5,
+    floor: 0,
+    integer: true,
+  });
+}
+
+function rankScale(values, maxRank) {
+  return paddedRange(values, {
+    minPadding: 2,
+    floor: 1,
+    ceil: maxRank,
+    integer: true,
+  });
+}
+
 export function initDetailVoteChart(canvas, history, slug, label) {
-  const snapshots = history.snapshots || [];
+  const allSnapshots = history.snapshots || [];
+  const snapshots = snapshotsOnePerDay(allSnapshots);
   const labels = snapshotLabels(snapshots);
   const color = COLORS[1];
-  const data = snapshots.map((snap) => {
-    const entry = snap.entries.find((e) => e.slug === slug);
-    return entry ? entry.votes : null;
-  });
+  const data = snapshots.map((snap) => snapshotVotes(snap, slug));
+  const voteDeltas = voteDeltasForSnapshots(allSnapshots, snapshots, slug);
+  const voteY = voteScale(data);
 
   if (detailVoteChartInstance) {
     detailVoteChartInstance.destroy();
@@ -82,6 +203,7 @@ export function initDetailVoteChart(canvas, history, slug, label) {
         {
           label,
           data,
+          voteDeltas,
           borderColor: color,
           backgroundColor: color + '33',
           tension: 0.25,
@@ -97,6 +219,31 @@ export function initDetailVoteChart(canvas, history, slug, label) {
       plugins: {
         ...CHART_OPTIONS.plugins,
         legend: { display: false },
+        tooltip: {
+          ...CHART_OPTIONS.plugins.tooltip,
+          callbacks: {
+            label(ctx) {
+              const votes = ctx.parsed.y;
+              if (votes == null) return '—';
+              const formatted = `${new Intl.NumberFormat('fr-FR').format(votes)} votes`;
+              const delta = ctx.dataset.voteDeltas?.[ctx.dataIndex];
+              return appendDelta(formatted, delta, (n) => formatDelta(n, ' votes').text);
+            },
+          },
+        },
+      },
+      scales: {
+        ...CHART_OPTIONS.scales,
+        y: {
+          ...CHART_OPTIONS.scales.y,
+          beginAtZero: false,
+          min: voteY.min,
+          max: voteY.max,
+          ticks: {
+            color: '#9aa5c4',
+            maxTicksLimit: 6,
+          },
+        },
       },
     },
   });
@@ -105,11 +252,14 @@ export function initDetailVoteChart(canvas, history, slug, label) {
 }
 
 export function initDetailRankChart(canvas, history, slug, activeSlugs) {
-  const snapshots = history.snapshots || [];
+  const allSnapshots = history.snapshots || [];
+  const snapshots = snapshotsOnePerDay(allSnapshots);
   const labels = snapshotLabels(snapshots);
   const color = COLORS[2];
-  const data = rankSeries(history, slug, activeSlugs);
+  const data = rankSeries(snapshots, slug, activeSlugs);
+  const rankDeltas = rankDeltasForSnapshots(allSnapshots, snapshots, slug, activeSlugs);
   const maxRank = Math.max(1, activeSlugs.length);
+  const rankY = rankScale(data, maxRank);
 
   if (detailRankChartInstance) {
     detailRankChartInstance.destroy();
@@ -123,6 +273,7 @@ export function initDetailRankChart(canvas, history, slug, activeSlugs) {
         {
           label: 'Rang',
           data,
+          rankDeltas,
           borderColor: color,
           backgroundColor: color + '33',
           tension: 0.25,
@@ -143,7 +294,10 @@ export function initDetailRankChart(canvas, history, slug, activeSlugs) {
           callbacks: {
             label(ctx) {
               const rank = ctx.parsed.y;
-              return rank != null ? `Rang : ${rank}` : 'Non classé';
+              if (rank == null) return 'Non classé';
+              const base = `Rang : ${rank}`;
+              const delta = ctx.dataset.rankDeltas?.[ctx.dataIndex];
+              return appendDelta(base, delta, (n) => formatRankDelta(n).text);
             },
           },
         },
@@ -153,11 +307,13 @@ export function initDetailRankChart(canvas, history, slug, activeSlugs) {
         y: {
           ...CHART_OPTIONS.scales.y,
           reverse: true,
-          min: 1,
-          max: maxRank,
+          beginAtZero: false,
+          min: rankY.min,
+          max: rankY.max,
           ticks: {
             color: '#9aa5c4',
-            stepSize: Math.max(1, Math.ceil(maxRank / 10)),
+            stepSize: Math.max(1, Math.ceil((rankY.max - rankY.min) / 5)),
+            maxTicksLimit: 6,
             callback: (v) => (Number.isInteger(v) ? v : ''),
           },
           title: {

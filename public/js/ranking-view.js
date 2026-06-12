@@ -190,8 +190,8 @@ function podcastListRank(row, { ordinalRank = false } = {}) {
   return ordinalRank ? row.localRank ?? row.rank : row.displayRank ?? row.rank;
 }
 
-function podcastCardTierClass(row, { sortMode = 'total', ordinalRank = false } = {}) {
-  if (ordinalRank || sortMode !== 'total') return '';
+function podcastCardTierClass(row, { sortMode = 'total', ordinalRank = false, showTopTierStyles = true } = {}) {
+  if (!showTopTierStyles || ordinalRank || sortMode !== 'total') return '';
   const rank = podcastListRank(row, { ordinalRank });
   if (rank === 1) return ' podcast-card--tier-1';
   if (rank === 2) return ' podcast-card--tier-2';
@@ -199,8 +199,8 @@ function podcastCardTierClass(row, { sortMode = 'total', ordinalRank = false } =
   return '';
 }
 
-function rankBadgeTierClass(row, { sortMode = 'total', ordinalRank = false } = {}) {
-  if (ordinalRank || sortMode !== 'total') return '';
+function rankBadgeTierClass(row, { sortMode = 'total', ordinalRank = false, showTopTierStyles = true } = {}) {
+  if (!showTopTierStyles || ordinalRank || sortMode !== 'total') return '';
   const rank = podcastListRank(row, { ordinalRank });
   if (rank === 1) return ' rank-list-badge--tier-1';
   if (rank === 2) return ' rank-list-badge--tier-2';
@@ -208,7 +208,7 @@ function rankBadgeTierClass(row, { sortMode = 'total', ordinalRank = false } = {
   return '';
 }
 
-function rankDisplay(row, { showGlobalRankHint = false, sortMode = 'total', ordinalRank = false } = {}) {
+function rankDisplay(row, { showGlobalRankHint = false, sortMode = 'total', ordinalRank = false, showTopTierStyles = true } = {}) {
   if (showGlobalRankHint) {
     return `<span class="podcast-card-rank rank-list-badge">${formatRankOrdinal(row.localRank)}</span><span class="podcast-card-rank-hint">#${row.globalRank} global</span>`;
   }
@@ -219,7 +219,7 @@ function rankDisplay(row, { showGlobalRankHint = false, sortMode = 'total', ordi
 
   const rank = podcastListRank(row, { ordinalRank });
   const rankText = ordinalRank ? formatRankOrdinal(rank) : rank;
-  const tierClass = rankBadgeTierClass(row, { sortMode, ordinalRank });
+  const tierClass = rankBadgeTierClass(row, { sortMode, ordinalRank, showTopTierStyles });
   return `<span class="podcast-card-rank rank-list-badge${tierClass}">${rankText}</span>`;
 }
 
@@ -246,6 +246,7 @@ export function renderPodcastCard(row, {
   sortMode = 'total',
   establishmentDisplay = 'chip',
   highlightEstablishmentKey = null,
+  showTopTierStyles = true,
   establishmentCellMarkup,
   openPodcastDetail,
 }) {
@@ -253,7 +254,7 @@ export function renderPodcastCard(row, {
     highlightEstablishmentKey && row.establishmentKey === highlightEstablishmentKey
       ? ' podcast-card--my-school'
       : '';
-  const tierClass = podcastCardTierClass(row, { sortMode, ordinalRank });
+  const tierClass = podcastCardTierClass(row, { sortMode, ordinalRank, showTopTierStyles });
   const establishmentBlock =
     showEstablishment && establishmentCellMarkup
       ? `<div class="podcast-card-establishment${establishmentDisplay === 'podium' ? ' podcast-card-establishment--podium' : ''}">${establishmentCellMarkup(row, { display: establishmentDisplay })}</div>`
@@ -261,10 +262,10 @@ export function renderPodcastCard(row, {
 
   return `
     <article class="podcast-card${highlightClass}${tierClass}" id="card-${escapeHtml(row.slug)}" data-slug="${escapeHtml(row.slug)}">
-      <div class="podcast-card-rank-col">${rankDisplay(row, { showGlobalRankHint, sortMode, ordinalRank })}</div>
+      <div class="podcast-card-rank-col">${rankDisplay(row, { showGlobalRankHint, sortMode, ordinalRank, showTopTierStyles })}</div>
       <div class="podcast-card-body">
         <h3 class="podcast-card-title">
-          <a href="${buildPodcastUrl(row.slug)}" class="podcast-detail-link">${escapeHtml(row.title)}</a>
+          <a href="#" class="podcast-detail-link" data-slug="${escapeHtml(row.slug)}">${escapeHtml(row.title)}</a>
         </h3>
         ${establishmentBlock}
         ${podcastCardStatsMarkup(row, sortMode)}
@@ -284,6 +285,7 @@ export function renderRankingList(containerId, rows, options = {}) {
     establishmentDisplay = 'chip',
     highlightEstablishmentKey = null,
     sortMode = 'total',
+    showTopTierStyles = true,
     establishmentCellMarkup,
     openPodcastDetail,
     emptyMessage = 'Aucun podcast trouvé.',
@@ -310,21 +312,36 @@ export function renderRankingList(containerId, rows, options = {}) {
         highlightEstablishmentKey,
         sortMode,
         ordinalRank,
+        showTopTierStyles,
         establishmentCellMarkup,
         openPodcastDetail,
       })
     )
     .join('');
 
-  container.querySelectorAll('.podcast-card').forEach((card) => {
-    const slug = card.dataset.slug;
-    card.addEventListener('click', (e) => {
+  bindPodcastCardInteractions(container, openPodcastDetail);
+}
+
+export function bindPodcastCardInteractions(container, openPodcastDetail) {
+  if (!container || !openPodcastDetail) return;
+
+  if (!container.dataset.podcastCardsBound) {
+    container.dataset.podcastCardsBound = '1';
+    container.addEventListener('click', (e) => {
+      const card = e.target.closest('.podcast-card');
+      if (!card || !container.contains(card)) return;
+
+      const panel = card.closest('.tab-panel');
+      if (panel?.hidden) return;
+
       if (e.target.closest('a.external-link')) return;
       if (e.target.closest('.establishment-chip, .podium-establishment-link')) return;
-      if (e.target.closest('a.podcast-detail-link')) {
-        e.preventDefault();
-      }
+
+      const slug = card.dataset.slug;
+      if (!slug) return;
+
+      e.preventDefault();
       openPodcastDetail(slug);
     });
-  });
+  }
 }

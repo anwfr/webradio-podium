@@ -317,8 +317,7 @@ export function establishmentChipMarkup({
     : '';
 
   const chipInner = `${typeMarkup}<span class="establishment-chip-name">${escapeMarkup(displayName)}</span>`;
-  const chipAttrs = `class="establishment-chip" title="${escapeMarkup(title)}"`;
-  const chipMarkup = `<span ${chipAttrs}>${chipInner}</span>`;
+  const chipMarkup = `<span class="establishment-chip" title="${escapeMarkup(title)}">${chipInner}</span>`;
 
   return `
     <span class="establishment-cell">
@@ -346,8 +345,7 @@ export function podiumEstablishmentMarkup({
     ? `<span class="podium-establishment-city">${escapeMarkup(city)}</span>`
     : '';
   const nameMarkup = `<span class="podium-establishment-name">${escapeMarkup(establishmentName)}</span>`;
-  const linkInner = `${cityMarkup}${nameMarkup}`;
-  const linkMarkup = `<span class="podium-establishment-link">${linkInner}</span>`;
+  const labelInner = `${cityMarkup}${nameMarkup}`;
 
-  return `<span class="podium-establishment">${linkMarkup}</span>`;
+  return `<span class="podium-establishment"><span class="podium-establishment-link">${labelInner}</span></span>`;
 }

@@ -273,8 +273,13 @@ a:hover {
   font-weight: 700;
 }
 
-.section-title:has(+ .podium) {
+.section-title:has(+ .podium),
+.section-title:has(+ .vote-countdown) {
   margin-bottom: 0;
+}
+
+#tab-mon-ecole #establishment-ranking-title {
+  margin-top: 1.5rem;
 }
 
 .section-lead {
@@ -693,6 +698,141 @@ a:hover {
   outline-offset: 2px;
 }
 
+/* Compte à rebours fin des votes (onglet Podium) */
+.vote-countdown {
+  margin: 0.65rem 0 1rem;
+  padding: 0.85rem 0.75rem 0.8rem;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 209, 102, 0.28);
+  background: linear-gradient(
+    135deg,
+    rgba(255, 209, 102, 0.14) 0%,
+    rgba(124, 92, 255, 0.12) 45%,
+    rgba(26, 31, 53, 0.92) 100%
+  );
+  box-shadow:
+    0 8px 28px rgba(255, 209, 102, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  text-align: center;
+}
+
+.vote-countdown-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.vote-countdown-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.2rem 0.55rem;
+  border-radius: 999px;
+  background: rgba(255, 209, 102, 0.18);
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.vote-countdown-lead {
+  margin: 0;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--text-muted);
+}
+
+.vote-countdown-timer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 0.2rem;
+}
+
+.vote-countdown-unit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.1rem;
+  min-width: 2.6rem;
+}
+
+.vote-countdown-value {
+  display: block;
+  min-width: 2.35rem;
+  padding: 0.3rem 0.35rem;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.28);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 1.35rem;
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.1;
+  box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.25);
+}
+
+.vote-countdown-unit--seconds .vote-countdown-value {
+  color: var(--gold);
+}
+
+.vote-countdown-label {
+  font-size: 0.62rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  text-transform: lowercase;
+}
+
+.vote-countdown-sep {
+  align-self: center;
+  margin-bottom: 1.1rem;
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: rgba(255, 255, 255, 0.35);
+  line-height: 1;
+}
+
+.vote-countdown--urgent {
+  border-color: rgba(255, 107, 107, 0.42);
+  background: linear-gradient(
+    135deg,
+    rgba(255, 107, 107, 0.18) 0%,
+    rgba(124, 92, 255, 0.14) 50%,
+    rgba(26, 31, 53, 0.94) 100%
+  );
+  animation: vote-countdown-pulse 2.4s ease-in-out infinite;
+}
+
+.vote-countdown--urgent .vote-countdown-badge {
+  background: rgba(255, 107, 107, 0.22);
+}
+
+.vote-countdown--critical {
+  border-color: rgba(255, 107, 107, 0.55);
+  animation: vote-countdown-pulse 1.1s ease-in-out infinite;
+}
+
+.vote-countdown--critical .vote-countdown-unit--seconds .vote-countdown-value {
+  color: var(--coral);
+  box-shadow:
+    inset 0 2px 6px rgba(0, 0, 0, 0.25),
+    0 0 12px rgba(255, 107, 107, 0.35);
+}
+
+@keyframes vote-countdown-pulse {
+  0%,
+  100% {
+    box-shadow:
+      0 8px 28px rgba(255, 107, 107, 0.08),
+      inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  }
+  50% {
+    box-shadow:
+      0 10px 32px rgba(255, 107, 107, 0.22),
+      inset 0 1px 0 rgba(255, 255, 255, 0.12);
+  }
+}
+
 /* Podium horizontal (marches) */
 .podium {
   display: flex;
@@ -719,6 +859,11 @@ a:hover {
 
 .podium-slot:active {
   transform: translateY(-4px);
+}
+
+#tab-mon-ecole .establishment-badge-card,
+#tab-mon-ecole .rank-neighbor {
+  cursor: default;
 }
 
 .podium-slot--1 {
@@ -907,13 +1052,10 @@ a:hover {
   max-width: 100%;
   margin: 0;
   padding: 0;
-  background: none;
-  border: none;
   color: inherit;
   font: inherit;
-  text-decoration: none;
-  cursor: pointer;
   text-align: center;
+  cursor: default;
 }
 
 .podium-establishment-city {
@@ -927,10 +1069,6 @@ a:hover {
   padding: 0.1rem 0.35rem;
   border-radius: 4px;
   background: rgba(78, 205, 196, 0.12);
-}
-
-.podium-establishment-link:hover .podium-establishment-city {
-  background: rgba(78, 205, 196, 0.2);
 }
 
 .podium-establishment-name {
@@ -1226,14 +1364,9 @@ a:hover {
   border: 1px solid rgba(78, 205, 196, 0.35);
   border-radius: 999px;
   font-size: 0.75rem;
+  font-family: inherit;
   color: var(--turquoise);
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.establishment-chip:hover {
-  background: rgba(78, 205, 196, 0.2);
-  text-decoration: none;
+  cursor: default;
 }
 
 .establishment-chip-type {
@@ -1250,10 +1383,6 @@ a:hover {
 .establishment-plain {
   color: var(--text-muted);
   font-size: 0.8rem;
-}
-
-a.establishment-chip {
-  color: var(--turquoise);
 }
 
 /* Deltas */
@@ -1981,6 +2110,39 @@ body.sheet-open {
   background: rgba(255, 255, 255, 0.06);
   border-color: rgba(255, 255, 255, 0.12);
   color: var(--text);
+}
+
+.podcast-hero-share-actions .sheet-action-btn--copy-link {
+  flex-direction: column;
+  gap: 0.3rem;
+  padding-top: 0.55rem;
+  padding-bottom: 0.55rem;
+}
+
+.sheet-action-btn-copy-link-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.2rem;
+  width: 100%;
+  min-width: 0;
+}
+
+.sheet-action-btn-copy-link-label {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+}
+
+.sheet-action-btn-copy-link-url {
+  display: block;
+  max-width: 100%;
+  font-size: 0.68rem;
+  font-weight: 500;
+  line-height: 1.25;
+  color: var(--text-muted, rgba(255, 255, 255, 0.62));
+  word-break: break-all;
 }
 
 .podcast-hero-share-actions .sheet-action-btn--copy-link:hover,

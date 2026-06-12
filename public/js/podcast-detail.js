@@ -21,11 +21,18 @@ import {
   VOTE_AFD_BUTTON_LABEL,
   VOTE_AFD_STEP_HINT,
 } from './flyer-print.js';
+import {
+  buildGlobalUrl,
+  buildPodcastShareUrl,
+  parseShareIdFromUrl,
+} from './router.js';
 
 const PODCAST_PARAM = 'podcast';
 const SHARE_PARAM = 'partage';
 let context = null;
+let shareIdLookup = null;
 let pendingPodcastSlug = null;
+let pendingShareId = null;
 let pendingShareMode = false;
 let activeShareMode = false;
 let popstateBound = false;
@@ -41,19 +48,43 @@ function escapeHtml(str) {
 }
 
 export function getPodcastSlugFromUrl() {
+  const shareId = parseShareIdFromUrl();
+  if (shareId) {
+    return shareIdLookup?.getSlugByShareId?.(shareId) || null;
+  }
   return new URLSearchParams(location.search).get(PODCAST_PARAM) || null;
 }
 
 export function isShareModeFromUrl() {
+  if (parseShareIdFromUrl()) return true;
   return new URLSearchParams(location.search).get(SHARE_PARAM) === '1';
 }
 
-export function buildPodcastShareUrl(slug) {
-  const url = new URL(location.origin + location.pathname);
-  url.searchParams.set(PODCAST_PARAM, slug);
-  url.searchParams.set(SHARE_PARAM, '1');
-  url.hash = '';
-  return url.toString();
+export { buildPodcastShareUrl };
+
+export function setShareIdLookup(lookup) {
+  shareIdLookup = lookup;
+}
+
+function getShareIdForSlug(slug) {
+  return shareIdLookup?.getShareIdBySlug?.(slug) ?? null;
+}
+
+function buildShareUrlForSlug(slug) {
+  const shareId = getShareIdForSlug(slug);
+  return shareId ? buildPodcastShareUrl(shareId) : '';
+}
+
+export function resolvePendingPodcastSlug() {
+  if (pendingPodcastSlug) return pendingPodcastSlug;
+  if (pendingShareId) {
+    return shareIdLookup?.getSlugByShareId?.(pendingShareId) || null;
+  }
+  return null;
+}
+
+export function hasPendingPodcastOpen() {
+  return Boolean(pendingPodcastSlug || pendingShareId);
 }
 
 export function buildPodcastUrl(slug) {
@@ -75,43 +106,57 @@ export function getPendingPodcastSlug() {
   return pendingPodcastSlug;
 }
 
+export function getPendingShareId() {
+  return pendingShareId;
+}
+
 export function getPendingShareMode() {
   return pendingShareMode;
 }
 
 export function stashPodcastFromUrl() {
-  const slug = getPodcastSlugFromUrl();
-  if (!slug) return null;
-  pendingPodcastSlug = slug;
+  const shareId = parseShareIdFromUrl();
+  const slugFromQuery = new URLSearchParams(location.search).get(PODCAST_PARAM);
+
+  if (!shareId && !slugFromQuery) return null;
+
   pendingShareMode = isShareModeFromUrl();
-  const url = new URL(location.href);
-  url.searchParams.delete(PODCAST_PARAM);
-  url.searchParams.delete(SHARE_PARAM);
+
+  if (shareId) {
+    pendingShareId = shareId;
+    pendingPodcastSlug = null;
+  } else {
+    pendingPodcastSlug = slugFromQuery;
+    pendingShareId = null;
+  }
+
+  const url = new URL(buildGlobalUrl());
+  url.hash = location.hash;
   history.replaceState(history.state ?? {}, '', url);
-  return slug;
+  return shareId || slugFromQuery;
 }
 
 export function openPendingPodcast() {
   if (!isMainAppVisible()) return;
-  const slug = pendingPodcastSlug;
+  const slug = resolvePendingPodcastSlug();
   const shareMode = pendingShareMode;
   if (!slug) return;
   pendingPodcastSlug = null;
+  pendingShareId = null;
   pendingShareMode = false;
   openPodcastDetail(slug, { replaceUrl: true, shareMode });
 }
 
 function setPodcastUrl(slug, { replace = false, tab = getActiveTab(), shareMode = false } = {}) {
-  const url = new URL(location.href);
-  if (slug) {
-    url.searchParams.set(PODCAST_PARAM, slug);
-    if (shareMode) url.searchParams.set(SHARE_PARAM, '1');
-    else url.searchParams.delete(SHARE_PARAM);
+  let url;
+  if (slug && shareMode) {
+    const shareId = getShareIdForSlug(slug);
+    url = shareId ? new URL(buildPodcastShareUrl(shareId)) : new URL(buildGlobalUrl());
   } else {
-    url.searchParams.delete(PODCAST_PARAM);
-    url.searchParams.delete(SHARE_PARAM);
+    url = new URL(buildGlobalUrl());
+    if (slug) url.searchParams.set(PODCAST_PARAM, slug);
+    if (!shareMode) url.hash = hashForTab(tab);
   }
-  url.hash = hashForTab(tab);
   const state = { podcast: slug || null, tab, shareMode: shareMode || null };
   if (replace) {
     history.replaceState(state, '', url);
@@ -167,10 +212,27 @@ function sheetActionIcon(type) {
   return `<span class="sheet-action-btn-icon" aria-hidden="true">${svg}</span>`;
 }
 
-function copyLinkButtonHtml(copied = false) {
-  return copied
-    ? `${sheetActionIcon('check')} Lien copié ! Envoie-le à tes amis pour les inviter à voter !`
-    : `${sheetActionIcon('link')} Copier le lien`;
+function copyLinkButtonHtml(copied = false, shareUrl = '') {
+  if (copied) {
+    return `
+      <span class="sheet-action-btn-copy-link-body">
+        <span class="sheet-action-btn-copy-link-label">
+          ${sheetActionIcon('check')} Lien copié ! Envoie-le à tes amis pour les inviter à voter !
+        </span>
+      </span>`;
+  }
+
+  const urlMarkup = shareUrl
+    ? `<span class="sheet-action-btn-copy-link-url">${escapeHtml(shareUrl)}</span>`
+    : '';
+
+  return `
+    <span class="sheet-action-btn-copy-link-body">
+      <span class="sheet-action-btn-copy-link-label">
+        ${sheetActionIcon('link')} Copier le lien
+      </span>
+      ${urlMarkup}
+    </span>`;
 }
 
 function canUseNativeShare() {
@@ -199,14 +261,14 @@ function nativeShareButtonMarkup() {
   </button>`;
 }
 
-function shareActionsMarkup({ shareMode = false } = {}) {
+function shareActionsMarkup({ shareMode = false, shareUrl = '' } = {}) {
   const modeClass = shareMode ? ' podcast-hero-share-actions--share-mode' : '';
 
   return `
     <div class="podcast-hero-share-actions${modeClass}">
-      ${nativeShareButtonMarkup()}
+      ${canUseNativeShare() ? nativeShareButtonMarkup() : ''}
       <button type="button" class="sheet-action-btn sheet-action-btn--muted sheet-action-btn--copy-link" id="podcast-copy-link">
-        ${copyLinkButtonHtml()}
+        ${copyLinkButtonHtml(false, shareUrl)}
       </button>
       <button type="button" class="sheet-action-btn sheet-action-btn--muted sheet-action-btn--print-flyer" id="podcast-print-flyer">
         ${sheetActionIcon('print')} Imprimer des flyers
@@ -353,7 +415,7 @@ function getEstablishmentPeersSection(allRows, currentRow) {
 function renderSheetContent(row, allRows, history, { shareMode = false } = {}) {
   const total = allRows.length;
   const rankPct = rankMarkerPercent(row.rank, total);
-  const shareUrl = buildPodcastShareUrl(row.slug);
+  const shareUrl = buildShareUrlForSlug(row.slug);
   const trackMessage = shareMode
     ? (row.voteStatus === 'open'
         ? 'Chaque vote peut faire la différence — fais-le monter dans le classement !'
@@ -369,7 +431,7 @@ function renderSheetContent(row, allRows, history, { shareMode = false } = {}) {
         ${podcastHeroStatsMarkup(row)}
         <div class="podcast-hero-actions">
           ${voteButtonMarkup(row)}
-          ${shareActionsMarkup({ shareMode })}
+          ${shareActionsMarkup({ shareMode, shareUrl })}
         </div>
       </div>
     </div>
@@ -457,6 +519,7 @@ function updateSheetHeaderMode(shareMode) {
 function goToAllParticipants() {
   activeShareMode = false;
   pendingShareMode = false;
+  pendingShareId = null;
   podcastUrlPushed = false;
 
   const sheet = getSheet();
@@ -501,6 +564,8 @@ export function closePodcastDetail(fromPopstate = false) {
 }
 
 export function openPodcastDetail(slug, { replaceUrl = false, shareMode = false } = {}) {
+  if (!slug) return;
+
   if (!context) {
     pendingPodcastSlug = slug;
     return;
@@ -562,7 +627,7 @@ export function openPodcastDetail(slug, { replaceUrl = false, shareMode = false 
       });
     }
 
-    const shareUrl = buildPodcastShareUrl(row.slug);
+    const shareUrl = buildShareUrlForSlug(row.slug);
     const copyBtn = document.getElementById('podcast-copy-link');
     const shareBtn = document.getElementById('podcast-share-btn');
     const printFlyerBtn = document.getElementById('podcast-print-flyer');
@@ -572,10 +637,10 @@ export function openPodcastDetail(slug, { replaceUrl = false, shareMode = false 
       try {
         await navigator.clipboard.writeText(shareUrl);
         copyBtn.classList.add('sheet-action-btn--copied');
-        copyBtn.innerHTML = copyLinkButtonHtml(true);
+        copyBtn.innerHTML = copyLinkButtonHtml(true, shareUrl);
         window.setTimeout(() => {
           copyBtn.classList.remove('sheet-action-btn--copied');
-          copyBtn.innerHTML = copyLinkButtonHtml(false);
+          copyBtn.innerHTML = copyLinkButtonHtml(false, shareUrl);
         }, 3500);
       } catch {
         /* clipboard unavailable */
@@ -676,5 +741,11 @@ export function initPodcastDetailRouting(ctx) {
   if (!popstateBound) {
     window.addEventListener('popstate', () => syncPodcastFromUrl());
     popstateBound = true;
+  }
+
+  const pendingSlug = pendingPodcastSlug;
+  if (pendingSlug && isMainAppVisible()) {
+    pendingPodcastSlug = null;
+    openPodcastDetail(pendingSlug, { replaceUrl: true });
   }
 }

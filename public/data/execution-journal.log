@@ -1443,3 +1443,4 @@
 2026-06-12 08:01:04 [pipeline-a] INFO http_request/fetch GET https://offre-pedagogique.afd.fr/fr/ressources/voyage-tortuguero → 200 (622ms)
 2026-06-12 08:01:04 [pipeline-a] INFO step_complete/scrape-votes Scrape terminé — 229 entrée(s) snapshotTimestamp=2026-06-12T07:51:38+02:00 entriesCount=229 scrapeErrors=0 cumulativeVoteDelta=891
 2026-06-12 08:01:04 [pipeline-a] INFO step_complete/publish Données publiées vers public/data/
+2026-06-12 08:01:04 [pipeline-a] INFO complete Pipeline OK en 566s durationMs=566388 status=success snapshotTimestamp=2026-06-12T07:51:38+02:00 newParticipants=0 entriesCount=229 errorCount=0

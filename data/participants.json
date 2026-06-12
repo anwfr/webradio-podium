@@ -17,7 +17,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 1429,
       "establishment": "Lycée Blaise Pascal",
-      "establishmentKey": "lycee-blaise-pascal"
+      "establishmentKey": "lycee-blaise-pascal",
+      "shareId": 1
     },
     {
       "slug": "2057",
@@ -34,7 +35,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 221,
       "establishment": "Lycée Jean Michel",
-      "establishmentKey": "lycee-jean-michel"
+      "establishmentKey": "lycee-jean-michel",
+      "shareId": 2
     },
     {
       "slug": "2068-en-direct-du-futur",
@@ -52,7 +54,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 52,
       "establishment": "Collège La Salle Saint-Rosaire de Sarcelles",
-      "establishmentKey": "college-la-salle-saint-rosaire-de-sarcelles"
+      "establishmentKey": "college-la-salle-saint-rosaire-de-sarcelles",
+      "shareId": 3
     },
     {
       "slug": "3-wanted",
@@ -69,7 +72,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 632,
       "establishment": "les élèves de 2A, de l'Ecole Belge du Bujumbura, de Bujumbura, au Burundi",
-      "establishmentKey": "les-eleves-de-2a-de-l-ecole-belge-du-bujumbura-de-bujumbura-au-burundi"
+      "establishmentKey": "les-eleves-de-2a-de-l-ecole-belge-du-bujumbura-de-bujumbura-au-burundi",
+      "shareId": 4
     },
     {
       "slug": "4-pour-lespoir",
@@ -87,7 +91,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 477,
       "establishment": "Collège Claudie Haigneré",
-      "establishmentKey": "college-claudie-haignere"
+      "establishmentKey": "college-claudie-haignere",
+      "shareId": 5
     },
     {
       "slug": "aicha-et-la-promesse-de-la-serre",
@@ -104,7 +109,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 277,
       "establishment": "Cours Sévigné d'Abidjan",
-      "establishmentKey": "cours-sevigne-d-abidjan"
+      "establishmentKey": "cours-sevigne-d-abidjan",
+      "shareId": 6
     },
     {
       "slug": "apocalypse-bleue",
@@ -122,7 +128,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 241,
       "establishment": "Lycée Philibert Delorme de l'Isle d'Abeau",
-      "establishmentKey": "lycee-philibert-delorme-de-l-isle-d-abeau"
+      "establishmentKey": "lycee-philibert-delorme-de-l-isle-d-abeau",
+      "shareId": 7
     },
     {
       "slug": "aryo-le-prix-cache-de-la-mode",
@@ -139,7 +146,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 1007,
       "establishment": "Lycée François Arago",
-      "establishmentKey": "lycee-francois-arago"
+      "establishmentKey": "lycee-francois-arago",
+      "shareId": 8
     },
     {
       "slug": "au-dela-des-dechets",
@@ -156,7 +164,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 1336,
       "establishment": "Collège de l'ISC D'El Menzah",
-      "establishmentKey": "college-de-l-isc-d-el-menzah"
+      "establishmentKey": "college-de-l-isc-d-el-menzah",
+      "shareId": 9
     },
     {
       "slug": "au-dela-du-hors-jeu",
@@ -173,7 +182,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 421,
       "establishment": "Institut Anna Frank-collège Einaudi",
-      "establishmentKey": "institut-anna-frank-college-einaudi"
+      "establishmentKey": "institut-anna-frank-college-einaudi",
+      "shareId": 10
     },
     {
       "slug": "aura",
@@ -189,7 +199,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 1437,
       "establishment": "Lycée Franco",
-      "establishmentKey": "lycee-franco"
+      "establishmentKey": "lycee-franco",
+      "shareId": 11
     },
     {
       "slug": "avec-ou-sans-huile-de-palme",
@@ -207,7 +218,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 700,
       "establishment": "Collège Jean Jaurès",
-      "establishmentKey": "college-jean-jaures"
+      "establishmentKey": "college-jean-jaures",
+      "shareId": 12
     },
     {
       "slug": "avoir-de-leau-plus-pres",
@@ -225,7 +237,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 213,
       "establishment": "Collège Alain Gerbault",
-      "establishmentKey": "college-alain-gerbault"
+      "establishmentKey": "college-alain-gerbault",
+      "shareId": 13
     },
     {
       "slug": "aya-et-la-maison-en-bidon",
@@ -242,7 +255,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 1281,
       "establishment": "Lycée 1 Abobo",
-      "establishmentKey": "lycee-1-abobo"
+      "establishmentKey": "lycee-1-abobo",
+      "shareId": 14
     },
     {
       "slug": "bacterium-carbonivora",
@@ -260,7 +274,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 260,
       "establishment": "Collège Eric Tabarly",
-      "establishmentKey": "college-eric-tabarly"
+      "establishmentKey": "college-eric-tabarly",
+      "shareId": 15
     },
     {
       "slug": "bas-prix-quel-cout",
@@ -278,7 +293,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 280,
       "establishment": "Lycée Les Bourdonnières",
-      "establishmentKey": "lycee-les-bourdonnieres"
+      "establishmentKey": "lycee-les-bourdonnieres",
+      "shareId": 16
     },
     {
       "slug": "beirut-crie-le-liban-sest-leve",
@@ -295,7 +311,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 653,
       "establishment": "Collège des Filles de la Charité Dar En-Nour",
-      "establishmentKey": "college-des-filles-de-la-charite-dar-en-nour"
+      "establishmentKey": "college-des-filles-de-la-charite-dar-en-nour",
+      "shareId": 17
     },
     {
       "slug": "bouchons-gratines-nou-le-fatigues",
@@ -313,7 +330,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 925,
       "establishment": "Collège La Salle Saint-Charles 2 Pierrefonds",
-      "establishmentKey": "college-la-salle-saint-charles-2-pierrefonds"
+      "establishmentKey": "college-la-salle-saint-charles-2-pierrefonds",
+      "shareId": 18
     },
     {
       "slug": "bout-de-souffle",
@@ -331,7 +349,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 367,
       "establishment": "Lycée Marie Curie de Tarbes",
-      "establishmentKey": "lycee-marie-curie-de-tarbes"
+      "establishmentKey": "lycee-marie-curie-de-tarbes",
+      "shareId": 19
     },
     {
       "slug": "bout-de-souffle-0",
@@ -348,7 +367,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 33,
       "establishment": "Lycée Anna de Noailles de Bucarest",
-      "establishmentKey": "lycee-anna-de-noailles-de-bucarest"
+      "establishmentKey": "lycee-anna-de-noailles-de-bucarest",
+      "shareId": 20
     },
     {
       "slug": "ce-que-lavenir-me-doit",
@@ -365,7 +385,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 736,
       "establishment": "Lycée Emiland Gauthey",
-      "establishmentKey": "lycee-emiland-gauthey"
+      "establishmentKey": "lycee-emiland-gauthey",
+      "shareId": 21
     },
     {
       "slug": "ce-quils-voyaientce-quelle-etait",
@@ -383,7 +404,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 188,
       "establishment": "Lycée l'Annonciation",
-      "establishmentKey": "lycee-l-annonciation"
+      "establishmentKey": "lycee-l-annonciation",
+      "shareId": 22
     },
     {
       "slug": "chantons-contre-la-pollution",
@@ -400,7 +422,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 371,
       "establishment": "Collège Florian d'Anduze",
-      "establishmentKey": "college-florian-d-anduze"
+      "establishmentKey": "college-florian-d-anduze",
+      "shareId": 23
     },
     {
       "slug": "chaque-goutte-compte",
@@ -418,7 +441,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 106,
       "establishment": "Collège Louis Aragon",
-      "establishmentKey": "college-louis-aragon"
+      "establishmentKey": "college-louis-aragon",
+      "shareId": 24
     },
     {
       "slug": "chimali",
@@ -436,7 +460,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 16,
       "establishment": "Collège Mathalin d'Auch",
-      "establishmentKey": "college-mathalin-d-auch"
+      "establishmentKey": "college-mathalin-d-auch",
+      "shareId": 25
     },
     {
       "slug": "contre-futur",
@@ -453,7 +478,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 132,
       "establishment": "Lycée de la Nativité",
-      "establishmentKey": "lycee-de-la-nativite"
+      "establishmentKey": "lycee-de-la-nativite",
+      "shareId": 26
     },
     {
       "slug": "conversation-electrique-0",
@@ -471,7 +497,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 45,
       "establishment": "les élèves de",
-      "establishmentKey": "les-eleves-de"
+      "establishmentKey": "les-eleves-de",
+      "shareId": 27
     },
     {
       "slug": "coraux-chaud-devant",
@@ -489,7 +516,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 648,
       "establishment": "Collège Joseph Fontanet",
-      "establishmentKey": "college-joseph-fontanet"
+      "establishmentKey": "college-joseph-fontanet",
+      "shareId": 28
     },
     {
       "slug": "courir-pour-choisir",
@@ -507,7 +535,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 35,
       "establishment": "Collège La Madeleine",
-      "establishmentKey": "college-la-madeleine"
+      "establishmentKey": "college-la-madeleine",
+      "shareId": 29
     },
     {
       "slug": "de-vieux-tissus-de-nouvelles-idees",
@@ -525,7 +554,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 201,
       "establishment": "Collège Alain Gerbault",
-      "establishmentKey": "college-alain-gerbault"
+      "establishmentKey": "college-alain-gerbault",
+      "shareId": 30
     },
     {
       "slug": "des-abeilles-et-des-hommes",
@@ -543,7 +573,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 1200,
       "establishment": "Lycée Renaudeau de Cholet",
-      "establishmentKey": "lycee-renaudeau-de-cholet"
+      "establishmentKey": "lycee-renaudeau-de-cholet",
+      "shareId": 31
     },
     {
       "slug": "des-algues-contre-le-plastique",
@@ -561,7 +592,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 83,
       "establishment": "Collège Paul Landowski",
-      "establishmentKey": "college-paul-landowski"
+      "establishmentKey": "college-paul-landowski",
+      "shareId": 32
     },
     {
       "slug": "des-nuances-de-rouges",
@@ -579,7 +611,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 432,
       "establishment": "Lycée saint-martin",
-      "establishmentKey": "lycee-saint-martin"
+      "establishmentKey": "lycee-saint-martin",
+      "shareId": 33
     },
     {
       "slug": "des-voix-qui-comptent",
@@ -596,7 +629,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 679,
       "establishment": "Collège de même niveau",
-      "establishmentKey": "college-de-meme-niveau"
+      "establishmentKey": "college-de-meme-niveau",
+      "shareId": 34
     },
     {
       "slug": "desinstallation-amoureuse",
@@ -614,7 +648,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 3381,
       "establishment": "Lycée Charles de Foucauld",
-      "establishmentKey": "lycee-charles-de-foucauld"
+      "establishmentKey": "lycee-charles-de-foucauld",
+      "shareId": 35
     },
     {
       "slug": "deux-bateaux-un-avenir",
@@ -632,7 +667,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 472,
       "establishment": "LPO Marguerite Yourcenar",
-      "establishmentKey": "lpo-marguerite-yourcenar"
+      "establishmentKey": "lpo-marguerite-yourcenar",
+      "shareId": 36
     },
     {
       "slug": "deux-bidons-deau-par-jour",
@@ -650,7 +686,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 164,
       "establishment": "Collège Anjou Bretagne",
-      "establishmentKey": "college-anjou-bretagne"
+      "establishmentKey": "college-anjou-bretagne",
+      "shareId": 37
     },
     {
       "slug": "du-chocolat-au-gout-amer",
@@ -668,7 +705,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 86,
       "establishment": "Collège Louis Aragon",
-      "establishmentKey": "college-louis-aragon"
+      "establishmentKey": "college-louis-aragon",
+      "shareId": 38
     },
     {
       "slug": "du-local-au-global",
@@ -686,7 +724,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 137,
       "establishment": "Lycée Saint Vincent de Paul",
-      "establishmentKey": "lycee-saint-vincent-de-paul"
+      "establishmentKey": "lycee-saint-vincent-de-paul",
+      "shareId": 39
     },
     {
       "slug": "eau-secours",
@@ -704,7 +743,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 1492,
       "establishment": "Collège Nestor de Kermadec",
-      "establishmentKey": "college-nestor-de-kermadec"
+      "establishmentKey": "college-nestor-de-kermadec",
+      "shareId": 40
     },
     {
       "slug": "eco-systeme-d",
@@ -722,7 +762,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 730,
       "establishment": "Collège Gustave Courbet de Romainville",
-      "establishmentKey": "college-gustave-courbet-de-romainville"
+      "establishmentKey": "college-gustave-courbet-de-romainville",
+      "shareId": 41
     },
     {
       "slug": "elio",
@@ -740,7 +781,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 388,
       "establishment": "Collège Jules Marouzeau",
-      "establishmentKey": "college-jules-marouzeau"
+      "establishmentKey": "college-jules-marouzeau",
+      "shareId": 42
     },
     {
       "slug": "elyndor",
@@ -756,7 +798,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 630,
       "establishment": "Lycée Koumassi",
-      "establishmentKey": "lycee-koumassi"
+      "establishmentKey": "lycee-koumassi",
+      "shareId": 43
     },
     {
       "slug": "enfances-volees",
@@ -774,7 +817,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 118,
       "establishment": "Collège Jules Verne aux Mureaux",
-      "establishmentKey": "college-jules-verne-aux-mureaux"
+      "establishmentKey": "college-jules-verne-aux-mureaux",
+      "shareId": 44
     },
     {
       "slug": "entre-deux-lettres",
@@ -792,7 +836,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 347,
       "establishment": "Lycée des Bourdonnières de NANTES",
-      "establishmentKey": "lycee-des-bourdonnieres-de-nantes"
+      "establishmentKey": "lycee-des-bourdonnieres-de-nantes",
+      "shareId": 45
     },
     {
       "slug": "fast-fashion-more-pression",
@@ -810,7 +855,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 586,
       "establishment": "Lycée Geoffroy Saint-Hilaire d’Étampes",
-      "establishmentKey": "lycee-geoffroy-saint-hilaire-d-etampes"
+      "establishmentKey": "lycee-geoffroy-saint-hilaire-d-etampes",
+      "shareId": 46
     },
     {
       "slug": "femmeland",
@@ -828,7 +874,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 149,
       "establishment": "Collège Jean Zay",
-      "establishmentKey": "college-jean-zay"
+      "establishmentKey": "college-jean-zay",
+      "shareId": 47
     },
     {
       "slug": "femmes-cen-est-assez-battez-vous",
@@ -845,7 +892,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 94,
       "establishment": "les élèves de 4A",
-      "establishmentKey": "les-eleves-de-4a"
+      "establishmentKey": "les-eleves-de-4a",
+      "shareId": 48
     },
     {
       "slug": "france-ghana",
@@ -863,7 +911,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 71,
       "establishment": "Lycée Charles Tillon de Rennes",
-      "establishmentKey": "lycee-charles-tillon-de-rennes"
+      "establishmentKey": "lycee-charles-tillon-de-rennes",
+      "shareId": 49
     },
     {
       "slug": "fuir-pour-etre-libre",
@@ -881,7 +930,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 115,
       "establishment": "Lycée de Coiffure Pierre Masson",
-      "establishmentKey": "lycee-de-coiffure-pierre-masson"
+      "establishmentKey": "lycee-de-coiffure-pierre-masson",
+      "shareId": 50
     },
     {
       "slug": "futur-ia",
@@ -899,7 +949,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 19,
       "establishment": "Collège Mathalin d'Auch",
-      "establishmentKey": "college-mathalin-d-auch"
+      "establishmentKey": "college-mathalin-d-auch",
+      "shareId": 51
     },
     {
       "slug": "graine-dequite",
@@ -917,7 +968,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 1554,
       "establishment": "Lycée Nelson Mandela",
-      "establishmentKey": "lycee-nelson-mandela"
+      "establishmentKey": "lycee-nelson-mandela",
+      "shareId": 52
     },
     {
       "slug": "hors-jeu",
@@ -935,7 +987,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 37,
       "establishment": "Collège La Madeleine",
-      "establishmentKey": "college-la-madeleine"
+      "establishmentKey": "college-la-madeleine",
+      "shareId": 53
     },
     {
       "slug": "il-etait-une-fois-une-astronaute",
@@ -953,7 +1006,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 353,
       "establishment": "Collège Canterane de Castelnau-de-Médoc",
-      "establishmentKey": "college-canterane-de-castelnau-de-medoc"
+      "establishmentKey": "college-canterane-de-castelnau-de-medoc",
+      "shareId": 54
     },
     {
       "slug": "inaya-la-fille-de-leau",
@@ -971,7 +1025,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 984,
       "establishment": "Collège Bracke Desrousseaux",
-      "establishmentKey": "college-bracke-desrousseaux"
+      "establishmentKey": "college-bracke-desrousseaux",
+      "shareId": 55
     },
     {
       "slug": "isis-pharia-et-son-dernier-cri",
@@ -988,7 +1043,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 334,
       "establishment": "École Girard",
-      "establishmentKey": "ecole-girard"
+      "establishmentKey": "ecole-girard",
+      "shareId": 56
     },
     {
       "slug": "je-lai-fait-pour-toi-et-ces-femmes",
@@ -1006,7 +1062,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 290,
       "establishment": "Collège Fernand Berthon",
-      "establishmentKey": "college-fernand-berthon"
+      "establishmentKey": "college-fernand-berthon",
+      "shareId": 57
     },
     {
       "slug": "journal-dune-refugiee-moderne",
@@ -1024,7 +1081,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 96,
       "establishment": "Collège de la Chrysalide",
-      "establishmentKey": "college-de-la-chrysalide"
+      "establishmentKey": "college-de-la-chrysalide",
+      "shareId": 58
     },
     {
       "slug": "la-brique-de-washington-dc",
@@ -1041,7 +1099,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 226,
       "establishment": "Lycée Rochambeau",
-      "establishmentKey": "lycee-rochambeau"
+      "establishmentKey": "lycee-rochambeau",
+      "shareId": 59
     },
     {
       "slug": "la-chasse-au-bonheur",
@@ -1058,7 +1117,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 1177,
       "establishment": "Lycée Linguistique Section ESABAC",
-      "establishmentKey": "lycee-linguistique-section-esabac"
+      "establishmentKey": "lycee-linguistique-section-esabac",
+      "shareId": 60
     },
     {
       "slug": "la-derniere-digue",
@@ -1075,7 +1135,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 1147,
       "establishment": "Lycée L. Spallanzani",
-      "establishmentKey": "lycee-l-spallanzani"
+      "establishmentKey": "lycee-l-spallanzani",
+      "shareId": 61
     },
     {
       "slug": "la-derniere-humaine",
@@ -1093,7 +1154,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 390,
       "establishment": "Collège Anne Frank",
-      "establishmentKey": "college-anne-frank"
+      "establishmentKey": "college-anne-frank",
+      "shareId": 62
     },
     {
       "slug": "la-descolarisation",
@@ -1111,7 +1173,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 87,
       "establishment": "Lycée Saint Vincent de Paul",
-      "establishmentKey": "lycee-saint-vincent-de-paul"
+      "establishmentKey": "lycee-saint-vincent-de-paul",
+      "shareId": 63
     },
     {
       "slug": "la-f1-au-feminin",
@@ -1129,7 +1192,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 199,
       "establishment": "Lycée du Golfe de Saint-Tropez",
-      "establishmentKey": "lycee-du-golfe-de-saint-tropez"
+      "establishmentKey": "lycee-du-golfe-de-saint-tropez",
+      "shareId": 64
     },
     {
       "slug": "la-grande-aventure-de-fast",
@@ -1147,7 +1211,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 196,
       "establishment": "Collège Marc Bloch",
-      "establishmentKey": "college-marc-bloch"
+      "establishmentKey": "college-marc-bloch",
+      "shareId": 65
     },
     {
       "slug": "la-lanterne-du-vent",
@@ -1164,7 +1229,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 288,
       "establishment": "Lycée filière langues modernes de IISS Eugenio Montale Nuovo IPC",
-      "establishmentKey": "lycee-filiere-langues-modernes-de-iiss-eugenio-montale-nuovo-ipc"
+      "establishmentKey": "lycee-filiere-langues-modernes-de-iiss-eugenio-montale-nuovo-ipc",
+      "shareId": 66
     },
     {
       "slug": "la-legende-du-micocoulier-de-st-charles",
@@ -1181,7 +1247,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 458,
       "establishment": "Collège St Charles",
-      "establishmentKey": "college-st-charles"
+      "establishmentKey": "college-st-charles",
+      "shareId": 67
     },
     {
       "slug": "la-lumiere-qui-est-venue-du-soleil",
@@ -1198,7 +1265,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 617,
       "establishment": "Lycée 12 Cadereyta UANL",
-      "establishmentKey": "lycee-12-cadereyta-uanl"
+      "establishmentKey": "lycee-12-cadereyta-uanl",
+      "shareId": 68
     },
     {
       "slug": "la-malediction-de-sangha",
@@ -1214,7 +1282,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 56,
       "establishment": "Lycée de jeunes Filles de Yopougon",
-      "establishmentKey": "lycee-de-jeunes-filles-de-yopougon"
+      "establishmentKey": "lycee-de-jeunes-filles-de-yopougon",
+      "shareId": 69
     },
     {
       "slug": "la-mare-en-danger",
@@ -1232,7 +1301,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 295,
       "establishment": "Collège Alexandre Mauboussin de Mamers",
-      "establishmentKey": "college-alexandre-mauboussin-de-mamers"
+      "establishmentKey": "college-alexandre-mauboussin-de-mamers",
+      "shareId": 70
     },
     {
       "slug": "la-mer-nest-pas-un-piege",
@@ -1248,7 +1318,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 30,
       "establishment": "Lycée \"\"G.Mazzini\"\" La Spezia Italie\"",
-      "establishmentKey": "lycee-g-mazzini-la-spezia-italie"
+      "establishmentKey": "lycee-g-mazzini-la-spezia-italie",
+      "shareId": 71
     },
     {
       "slug": "la-mesaventure-de-niko",
@@ -1266,7 +1337,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 352,
       "establishment": "Collège Pierre SOULAGES",
-      "establishmentKey": "college-pierre-soulages"
+      "establishmentKey": "college-pierre-soulages",
+      "shareId": 72
     },
     {
       "slug": "la-messagere",
@@ -1282,7 +1354,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 1648,
       "establishment": "Lycée Alassane Ouattara d' Anyama en Côte d'Ivoire",
-      "establishmentKey": "lycee-alassane-ouattara-d-anyama-en-cote-d-ivoire"
+      "establishmentKey": "lycee-alassane-ouattara-d-anyama-en-cote-d-ivoire",
+      "shareId": 73
     },
     {
       "slug": "la-ou-la-mer-se-tait",
@@ -1299,7 +1372,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 737,
       "establishment": "Lycée International Victor Hugo",
-      "establishmentKey": "lycee-international-victor-hugo"
+      "establishmentKey": "lycee-international-victor-hugo",
+      "shareId": 74
     },
     {
       "slug": "la-ou-nos-vies-flottent",
@@ -1315,7 +1389,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 65,
       "establishment": "Lycée Lyautey de Casablanca au Maroc",
-      "establishmentKey": "lycee-lyautey-de-casablanca-au-maroc"
+      "establishmentKey": "lycee-lyautey-de-casablanca-au-maroc",
+      "shareId": 75
     },
     {
       "slug": "la-petite-voix-de-letang",
@@ -1332,7 +1407,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 1808,
       "establishment": "Collège Olympe de Gouges de Loupian dans l'Hérault",
-      "establishmentKey": "college-olympe-de-gouges-de-loupian-dans-l-herault"
+      "establishmentKey": "college-olympe-de-gouges-de-loupian-dans-l-herault",
+      "shareId": 76
     },
     {
       "slug": "la-planete-porte-plainte",
@@ -1349,7 +1425,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 1843,
       "establishment": "Collège Panchon d'ARSAC",
-      "establishmentKey": "college-panchon-d-arsac"
+      "establishmentKey": "college-panchon-d-arsac",
+      "shareId": 77
     },
     {
       "slug": "la-plus-longue-migration-du-monde",
@@ -1367,7 +1444,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 653,
       "establishment": "Collège Octave Gachon de Parsac",
-      "establishmentKey": "college-octave-gachon-de-parsac"
+      "establishmentKey": "college-octave-gachon-de-parsac",
+      "shareId": 78
     },
     {
       "slug": "la-quete-du-froid",
@@ -1385,7 +1463,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 368,
       "establishment": "Lycée Blaise Pascal d'Orsay",
-      "establishmentKey": "lycee-blaise-pascal-d-orsay"
+      "establishmentKey": "lycee-blaise-pascal-d-orsay",
+      "shareId": 79
     },
     {
       "slug": "la-recherche-de-larbre-perdu",
@@ -1402,7 +1481,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 426,
       "establishment": "Collège Florian d'Anduze",
-      "establishmentKey": "college-florian-d-anduze"
+      "establishmentKey": "college-florian-d-anduze",
+      "shareId": 80
     },
     {
       "slug": "la-recherche-du-poiscaille",
@@ -1419,7 +1499,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 75,
       "establishment": "Lycée Jean Monnet de Crepy en Valois",
-      "establishmentKey": "lycee-jean-monnet-de-crepy-en-valois"
+      "establishmentKey": "lycee-jean-monnet-de-crepy-en-valois",
+      "shareId": 81
     },
     {
       "slug": "la-recherche-du-remede",
@@ -1437,7 +1518,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 160,
       "establishment": "Lycée Condé",
-      "establishmentKey": "lycee-conde"
+      "establishmentKey": "lycee-conde",
+      "shareId": 82
     },
     {
       "slug": "la-revanche",
@@ -1455,7 +1537,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 118,
       "establishment": "Campus Coulommiers",
-      "establishmentKey": "campus-coulommiers"
+      "establishmentKey": "campus-coulommiers",
+      "shareId": 83
     },
     {
       "slug": "la-revolte-de-lamazonie",
@@ -1471,7 +1554,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 63,
       "establishment": "Lycée Lyautey de Casablanca au Maroc",
-      "establishmentKey": "lycee-lyautey-de-casablanca-au-maroc"
+      "establishmentKey": "lycee-lyautey-de-casablanca-au-maroc",
+      "shareId": 84
     },
     {
       "slug": "la-revolte-des-fils-invisibles",
@@ -1489,7 +1573,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 204,
       "establishment": "Collège Grévy",
-      "establishmentKey": "college-grevy"
+      "establishmentKey": "college-grevy",
+      "shareId": 85
     },
     {
       "slug": "la-sororite-face-la-fatalite",
@@ -1506,7 +1591,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 84,
       "establishment": "Lycée IV de Zagreb",
-      "establishmentKey": "lycee-iv-de-zagreb"
+      "establishmentKey": "lycee-iv-de-zagreb",
+      "shareId": 86
     },
     {
       "slug": "la-sortie-de-lea",
@@ -1523,7 +1609,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 295,
       "establishment": "Collège JEAN RACINE",
-      "establishmentKey": "college-jean-racine"
+      "establishmentKey": "college-jean-racine",
+      "shareId": 87
     },
     {
       "slug": "la-vie-dun-survivant",
@@ -1540,7 +1627,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 86,
       "establishment": "Lycée français Anna de Noailles",
-      "establishmentKey": "lycee-francais-anna-de-noailles"
+      "establishmentKey": "lycee-francais-anna-de-noailles",
+      "shareId": 88
     },
     {
       "slug": "la-ville-de-mes-reves",
@@ -1558,7 +1646,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 254,
       "establishment": "Collège Pierre Mendès",
-      "establishmentKey": "college-pierre-mendes"
+      "establishmentKey": "college-pierre-mendes",
+      "shareId": 89
     },
     {
       "slug": "la-voix-des-oublies",
@@ -1576,7 +1665,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 73,
       "establishment": "Campus Coulommiers",
-      "establishmentKey": "campus-coulommiers"
+      "establishmentKey": "campus-coulommiers",
+      "shareId": 90
     },
     {
       "slug": "lacademie-de-starlight",
@@ -1594,7 +1684,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 76,
       "establishment": "Lycée La Nativité",
-      "establishmentKey": "lycee-la-nativite"
+      "establishmentKey": "lycee-la-nativite",
+      "shareId": 91
     },
     {
       "slug": "lame-bleue-le-voyage-dune-goutte",
@@ -1611,7 +1702,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 354,
       "establishment": "Collège \"A. Gramsci\" Lodi Vecchio",
-      "establishmentKey": "college-a-gramsci-lodi-vecchio"
+      "establishmentKey": "college-a-gramsci-lodi-vecchio",
+      "shareId": 92
     },
     {
       "slug": "lappel-qui-sauve",
@@ -1629,7 +1721,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 113,
       "establishment": "Lycée du Golfe de Saint-Tropez",
-      "establishmentKey": "lycee-du-golfe-de-saint-tropez"
+      "establishmentKey": "lycee-du-golfe-de-saint-tropez",
+      "shareId": 93
     },
     {
       "slug": "lassemblee-des-possibles",
@@ -1647,7 +1740,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 433,
       "establishment": "Lycée les Mandailles",
-      "establishmentKey": "lycee-les-mandailles"
+      "establishmentKey": "lycee-les-mandailles",
+      "shareId": 94
     },
     {
       "slug": "lavancee-vers-leau",
@@ -1664,7 +1758,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 464,
       "establishment": "Lycée Vauvenargues d'Aix-en-Provence",
-      "establishmentKey": "lycee-vauvenargues-d-aix-en-provence"
+      "establishmentKey": "lycee-vauvenargues-d-aix-en-provence",
+      "shareId": 95
     },
     {
       "slug": "le-bambou-monde",
@@ -1682,7 +1777,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 2993,
       "establishment": "Collège Saint Dominique",
-      "establishmentKey": "college-saint-dominique"
+      "establishmentKey": "college-saint-dominique",
+      "shareId": 96
     },
     {
       "slug": "le-bruit-dans-sa-tete",
@@ -1699,7 +1795,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 327,
       "establishment": "Lycée Marie de Tarbes",
-      "establishmentKey": "lycee-marie-de-tarbes"
+      "establishmentKey": "lycee-marie-de-tarbes",
+      "shareId": 97
     },
     {
       "slug": "le-carnaval-de-la-digestion",
@@ -1717,7 +1814,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 1262,
       "establishment": "Collège Aurélie Lambourde",
-      "establishmentKey": "college-aurelie-lambourde"
+      "establishmentKey": "college-aurelie-lambourde",
+      "shareId": 98
     },
     {
       "slug": "le-ceta-com",
@@ -1735,7 +1833,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 246,
       "establishment": "Collège Henri Wallon",
-      "establishmentKey": "college-henri-wallon"
+      "establishmentKey": "college-henri-wallon",
+      "shareId": 99
     },
     {
       "slug": "le-chant-des-oliviers",
@@ -1752,7 +1851,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 2216,
       "establishment": "Collège des Frères Mont La Salle",
-      "establishmentKey": "college-des-freres-mont-la-salle"
+      "establishmentKey": "college-des-freres-mont-la-salle",
+      "shareId": 100
     },
     {
       "slug": "le-chant-du-corail",
@@ -1770,7 +1870,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 932,
       "establishment": "Lycée Antoine Kéla",
-      "establishmentKey": "lycee-antoine-kela"
+      "establishmentKey": "lycee-antoine-kela",
+      "shareId": 101
     },
     {
       "slug": "le-coeur-de-la-martinique",
@@ -1788,7 +1889,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 179,
       "establishment": "Lycée Victor Schoelcher",
-      "establishmentKey": "lycee-victor-schoelcher"
+      "establishmentKey": "lycee-victor-schoelcher",
+      "shareId": 102
     },
     {
       "slug": "le-crepuscule-des-lois-la-chute",
@@ -1805,7 +1907,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 37,
       "establishment": "Lycée international",
-      "establishmentKey": "lycee-international"
+      "establishmentKey": "lycee-international",
+      "shareId": 103
     },
     {
       "slug": "le-cri-de-locean",
@@ -1823,7 +1926,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 275,
       "establishment": "Lycée François Villon",
-      "establishmentKey": "lycee-francois-villon"
+      "establishmentKey": "lycee-francois-villon",
+      "shareId": 104
     },
     {
       "slug": "le-cri-dun-monde-en-desespoir",
@@ -1839,7 +1943,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 230,
       "establishment": "Lycée Municipal 1 Attécoubé Abidjan Cote d'Ivoire",
-      "establishmentKey": "lycee-municipal-1-attecoube-abidjan-cote-d-ivoire"
+      "establishmentKey": "lycee-municipal-1-attecoube-abidjan-cote-d-ivoire",
+      "shareId": 105
     },
     {
       "slug": "le-dernier-jour-de-la-tour-eiffel",
@@ -1856,7 +1961,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 1739,
       "establishment": "Cours DE EMC LYCEE FRANCAIS INTERNATIONAL GEORGES POMPIDOU DUBAI EMIRATS ARABES UNIS",
-      "establishmentKey": "cours-de-emc-lycee-francais-international-georges-pompidou-dubai-emirats-arabes-unis"
+      "establishmentKey": "cours-de-emc-lycee-francais-international-georges-pompidou-dubai-emirats-arabes-unis",
+      "shareId": 106
     },
     {
       "slug": "le-dernier-kwh",
@@ -1874,7 +1980,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 332,
       "establishment": "Lycée Saint Paul",
-      "establishmentKey": "lycee-saint-paul"
+      "establishmentKey": "lycee-saint-paul",
+      "shareId": 107
     },
     {
       "slug": "le-dernier-souffle-du-corail",
@@ -1892,7 +1999,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 190,
       "establishment": "Lycée Gaston Bachelard",
-      "establishmentKey": "lycee-gaston-bachelard"
+      "establishmentKey": "lycee-gaston-bachelard",
+      "shareId": 108
     },
     {
       "slug": "le-fabuleux-destin-dun-plancton",
@@ -1910,7 +2018,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 129,
       "establishment": "Lycée Honoré de Balzac",
-      "establishmentKey": "lycee-honore-de-balzac"
+      "establishmentKey": "lycee-honore-de-balzac",
+      "shareId": 109
     },
     {
       "slug": "le-grand-soulevement",
@@ -1928,7 +2037,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 161,
       "establishment": "Collège Pierre Mendès",
-      "establishmentKey": "college-pierre-mendes"
+      "establishmentKey": "college-pierre-mendes",
+      "shareId": 110
     },
     {
       "slug": "le-grand-voyage-de-bob",
@@ -1944,7 +2054,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 367,
       "establishment": "Collège JEAN RACINE",
-      "establishmentKey": "college-jean-racine"
+      "establishmentKey": "college-jean-racine",
+      "shareId": 111
     },
     {
       "slug": "le-livre-de-faida",
@@ -1961,7 +2072,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 56,
       "establishment": "Lycée de Taipei",
-      "establishmentKey": "lycee-de-taipei"
+      "establishmentKey": "lycee-de-taipei",
+      "shareId": 112
     },
     {
       "slug": "le-lutin-de-poche",
@@ -1978,7 +2090,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 8,
       "establishment": "Lycée secondaire pilote",
-      "establishmentKey": "lycee-secondaire-pilote"
+      "establishmentKey": "lycee-secondaire-pilote",
+      "shareId": 113
     },
     {
       "slug": "le-maillot-numero-dix",
@@ -1995,7 +2108,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 681,
       "establishment": "Collège “ Antonio Gramsci”",
-      "establishmentKey": "college-antonio-gramsci"
+      "establishmentKey": "college-antonio-gramsci",
+      "shareId": 114
     },
     {
       "slug": "le-mirage-de-labondance",
@@ -2012,7 +2126,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 505,
       "establishment": "Lycée du Plateau",
-      "establishmentKey": "lycee-du-plateau"
+      "establishmentKey": "lycee-du-plateau",
+      "shareId": 115
     },
     {
       "slug": "le-monde-apres-le-coma",
@@ -2029,7 +2144,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 352,
       "establishment": "Lycée de Cuenca",
-      "establishmentKey": "lycee-de-cuenca"
+      "establishmentKey": "lycee-de-cuenca",
+      "shareId": 116
     },
     {
       "slug": "le-monde-de-lena",
@@ -2047,7 +2163,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 859,
       "establishment": "Lycée Anne Veaute",
-      "establishmentKey": "lycee-anne-veaute"
+      "establishmentKey": "lycee-anne-veaute",
+      "shareId": 117
     },
     {
       "slug": "le-peintre-lerudite-et-le-tableau",
@@ -2065,7 +2182,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 162,
       "establishment": "Lycée Marie Curie de Tarbes",
-      "establishmentKey": "lycee-marie-curie-de-tarbes"
+      "establishmentKey": "lycee-marie-curie-de-tarbes",
+      "shareId": 118
     },
     {
       "slug": "le-poids-du-panier-vide",
@@ -2082,7 +2200,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 318,
       "establishment": "Lycée Léopold Elfort de Mana en Guyane",
-      "establishmentKey": "lycee-leopold-elfort-de-mana-en-guyane"
+      "establishmentKey": "lycee-leopold-elfort-de-mana-en-guyane",
+      "shareId": 119
     },
     {
       "slug": "le-poisson-aux-mille-histoires",
@@ -2099,7 +2218,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 103,
       "establishment": "Collège et lycée",
-      "establishmentKey": "college-et-lycee"
+      "establishmentKey": "college-et-lycee",
+      "shareId": 120
     },
     {
       "slug": "le-poisson-qui-change-le-monde",
@@ -2117,7 +2237,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 357,
       "establishment": "Collège Anne Frank",
-      "establishmentKey": "college-anne-frank"
+      "establishmentKey": "college-anne-frank",
+      "shareId": 121
     },
     {
       "slug": "le-prix-du-savoir",
@@ -2135,7 +2256,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 6,
       "establishment": "Collège Stanislas",
-      "establishmentKey": "college-stanislas"
+      "establishmentKey": "college-stanislas",
+      "shareId": 122
     },
     {
       "slug": "le-proces",
@@ -2153,7 +2275,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 1138,
       "establishment": "Lycée Charles de Foucauld",
-      "establishmentKey": "lycee-charles-de-foucauld"
+      "establishmentKey": "lycee-charles-de-foucauld",
+      "shareId": 123
     },
     {
       "slug": "le-proces-de-la-clim-404",
@@ -2171,7 +2294,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 119,
       "establishment": "Collège Henri Matisse",
-      "establishmentKey": "college-henri-matisse"
+      "establishmentKey": "college-henri-matisse",
+      "shareId": 124
     },
     {
       "slug": "le-proces-du-dessert",
@@ -2189,7 +2313,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 315,
       "establishment": "Lycée Albert Ramassamy",
-      "establishmentKey": "lycee-albert-ramassamy"
+      "establishmentKey": "lycee-albert-ramassamy",
+      "shareId": 125
     },
     {
       "slug": "le-remede-vert",
@@ -2207,7 +2332,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 322,
       "establishment": "LPO Marguerite Yourcenar",
-      "establishmentKey": "lpo-marguerite-yourcenar"
+      "establishmentKey": "lpo-marguerite-yourcenar",
+      "shareId": 126
     },
     {
       "slug": "le-reve-impossible",
@@ -2224,7 +2350,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 143,
       "establishment": "les élèves de la classe européenne +",
-      "establishmentKey": "les-eleves-de-la-classe-europeenne"
+      "establishmentKey": "les-eleves-de-la-classe-europeenne",
+      "shareId": 127
     },
     {
       "slug": "le-salaire-discrimine-aussi",
@@ -2241,7 +2368,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 827,
       "establishment": "Lycée 12 Cadereyta UANL",
-      "establishmentKey": "lycee-12-cadereyta-uanl"
+      "establishmentKey": "lycee-12-cadereyta-uanl",
+      "shareId": 128
     },
     {
       "slug": "le-sexisme-cest-pas-foot",
@@ -2258,7 +2386,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 193,
       "establishment": "Collège Pierre MENDES",
-      "establishmentKey": "college-pierre-mendes"
+      "establishmentKey": "college-pierre-mendes",
+      "shareId": 129
     },
     {
       "slug": "le-souffle-des-baleines",
@@ -2276,7 +2405,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 686,
       "establishment": "Collège Octave Gachon de Parsac",
-      "establishmentKey": "college-octave-gachon-de-parsac"
+      "establishmentKey": "college-octave-gachon-de-parsac",
+      "shareId": 130
     },
     {
       "slug": "le-temps-dune-soiree",
@@ -2294,7 +2424,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 159,
       "establishment": "Lycée du Golfe de Saint-Tropez",
-      "establishmentKey": "lycee-du-golfe-de-saint-tropez"
+      "establishmentKey": "lycee-du-golfe-de-saint-tropez",
+      "shareId": 131
     },
     {
       "slug": "le-terrain-qui-disparait",
@@ -2311,7 +2442,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 293,
       "establishment": "Collège La Guicharde",
-      "establishmentKey": "college-la-guicharde"
+      "establishmentKey": "college-la-guicharde",
+      "shareId": 132
     },
     {
       "slug": "le-vent-douest",
@@ -2328,7 +2460,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 3216,
       "establishment": "Lycée Jean Michel de Lons le Saunier",
-      "establishmentKey": "lycee-jean-michel-de-lons-le-saunier"
+      "establishmentKey": "lycee-jean-michel-de-lons-le-saunier",
+      "shareId": 133
     },
     {
       "slug": "le-village-des-cendres",
@@ -2346,7 +2479,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 85,
       "establishment": "Lycée Auguste Renoir de Limoges",
-      "establishmentKey": "lycee-auguste-renoir-de-limoges"
+      "establishmentKey": "lycee-auguste-renoir-de-limoges",
+      "shareId": 134
     },
     {
       "slug": "le-vivasea",
@@ -2364,7 +2498,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 284,
       "establishment": "Lycée Victor Schoelcher de Fort-de-",
-      "establishmentKey": "lycee-victor-schoelcher-de-fort-de"
+      "establishmentKey": "lycee-victor-schoelcher-de-fort-de",
+      "shareId": 135
     },
     {
       "slug": "le-voyage-dafak",
@@ -2382,7 +2517,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 589,
       "establishment": "Collège Anne Frank",
-      "establishmentKey": "college-anne-frank"
+      "establishmentKey": "college-anne-frank",
+      "shareId": 136
     },
     {
       "slug": "le-voyage-de-la-riviere",
@@ -2400,7 +2536,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 299,
       "establishment": "Lycée Technique Privé Les Mandailles",
-      "establishmentKey": "lycee-technique-prive-les-mandailles"
+      "establishmentKey": "lycee-technique-prive-les-mandailles",
+      "shareId": 137
     },
     {
       "slug": "le-voyage-dun-fil-de-coton",
@@ -2418,7 +2555,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 187,
       "establishment": "Collège Marcel Pagnol de Noyen sur Sarthe",
-      "establishmentKey": "college-marcel-pagnol-de-noyen-sur-sarthe"
+      "establishmentKey": "college-marcel-pagnol-de-noyen-sur-sarthe",
+      "shareId": 138
     },
     {
       "slug": "le-voyage-extraordinaire-de-bicou",
@@ -2435,7 +2573,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 5514,
       "establishment": "Collège Max Linder de Saint-Loubès",
-      "establishmentKey": "college-max-linder-de-saint-loubes"
+      "establishmentKey": "college-max-linder-de-saint-loubes",
+      "shareId": 139
     },
     {
       "slug": "leau-un-luxe-qui-separe-deux-vies",
@@ -2452,7 +2591,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 1125,
       "establishment": "les élèves de 1ère 4, du LFIGP",
-      "establishmentKey": "les-eleves-de-1ere-4-du-lfigp"
+      "establishmentKey": "les-eleves-de-1ere-4-du-lfigp",
+      "shareId": 140
     },
     {
       "slug": "lecho-des-jardins-invisibles",
@@ -2469,7 +2609,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 531,
       "establishment": "les élèves de",
-      "establishmentKey": "les-eleves-de"
+      "establishmentKey": "les-eleves-de",
+      "shareId": 141
     },
     {
       "slug": "lechoue",
@@ -2486,7 +2627,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 42,
       "establishment": "Lycée Louis Pasteur",
-      "establishmentKey": "lycee-louis-pasteur"
+      "establishmentKey": "lycee-louis-pasteur",
+      "shareId": 142
     },
     {
       "slug": "lenvers-du-decor-le-fil-empoisonne",
@@ -2504,7 +2646,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 41,
       "establishment": "Lycée Gaston Bachelard",
-      "establishmentKey": "lycee-gaston-bachelard"
+      "establishmentKey": "lycee-gaston-bachelard",
+      "shareId": 143
     },
     {
       "slug": "les-animaux-de-la-resistance",
@@ -2522,7 +2665,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 447,
       "establishment": "Collège Les Deux-Rivières",
-      "establishmentKey": "college-les-deux-rivieres"
+      "establishmentKey": "college-les-deux-rivieres",
+      "shareId": 144
     },
     {
       "slug": "les-aventures-de-toru-et-coco",
@@ -2539,7 +2683,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 240,
       "establishment": "Collège Victor Hugo de Ham",
-      "establishmentKey": "college-victor-hugo-de-ham"
+      "establishmentKey": "college-victor-hugo-de-ham",
+      "shareId": 145
     },
     {
       "slug": "les-commerages-de-lespace",
@@ -2557,7 +2702,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 172,
       "establishment": "Lycée Lumina Sophie",
-      "establishmentKey": "lycee-lumina-sophie"
+      "establishmentKey": "lycee-lumina-sophie",
+      "shareId": 146
     },
     {
       "slug": "les-deux-mondes",
@@ -2575,7 +2721,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 158,
       "establishment": "Lycée Louise Weiss",
-      "establishmentKey": "lycee-louise-weiss"
+      "establishmentKey": "lycee-louise-weiss",
+      "shareId": 147
     },
     {
       "slug": "les-echos-de-lemploi",
@@ -2592,7 +2739,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 199,
       "establishment": "les élèves de 1º Bachillerato, de l'IES Leonardo Torres Quevedo",
-      "establishmentKey": "les-eleves-de-1-bachillerato-de-l-ies-leonardo-torres-quevedo"
+      "establishmentKey": "les-eleves-de-1-bachillerato-de-l-ies-leonardo-torres-quevedo",
+      "shareId": 148
     },
     {
       "slug": "les-filles-aussi-ont-des-ailes",
@@ -2610,7 +2758,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 445,
       "establishment": "Collège de Kawéni 1",
-      "establishmentKey": "college-de-kaweni-1"
+      "establishmentKey": "college-de-kaweni-1",
+      "shareId": 149
     },
     {
       "slug": "les-murmures-dune-eau-blessee",
@@ -2628,7 +2777,8 @@
       "lastVotes": 341,
       "establishment": "Lycée Caucadis",
       "establishmentKey": "lycee-caucadis",
-      "academy": "Académie de Starlight Podcast (concours Réinventer le monde) La Malédiction de Sangha Podcast (concours Réinventer le monde) Le lutin de poche Podcast (concours Réinventer le monde) Mon combat contre les inégalités Podcast (concours Réinventer le monde) Abonnez-vous à notre lettre d’information - Inscrivez-vous !Vous souhaitez suivre notre actualité et/ou participer à nos événements ? Découvrez nos newsletters Nos programmes pédagogiques Réinventer le monde Négociation internationale Nos ressources pédagogiques Le quiz ODD ! Livret pédagogique - Agir pour un monde en commun Livret enseignant - Océan Bibliothèque de ressources Actus FAQ Qui sommes-nous ? Siège de l'AFD 5 rue Roland Barthes 75 598 PARIS CEDEX 12, FRANCE afd.fr tilt.fr Contactez-nous Mentions légales Plan du site Accessibilité numérique : partiellement conforme Back to top of page {\"path\":{\"baseUrl\":\"\\/\",\"pathPrefix\":\"fr\\/\",\"currentPath\":\"node\\/200\",\"currentPathIsAdmin\":false,\"isFront\":false,\"currentLanguage\":\"fr\"},\"pluralDelimiter\":\"\\u0003\",\"suppressDeprecationErrors\":true,\"dsfr4drupal\":{\"production\":1,\"verbose\":0,\"level\":\"info\"},\"ajaxPageState\":{\"libraries\":\"eJyNlO12gyAMhm9I9M_uxxMgIhUIg7C1d7-4rqftVs_4o0KefPgmAIudLS7QAs-8YsTJBdIQ1FIo8QCJvSaeft7jQiUOGpmxzHjOVNHOiw-yrJPDhAXCYKjgZChmSpi4jvA7hVJgBLKeUg-sC4I1pUXdQxsotoez-IGBchS7kvJj7XFaKAT67CNJovaTiikrKab1uKwiSF9wH8GhMpQvKqA0qEua4NOmNHc1J5AjlUA-LVbT45HgwzvgzuYnslL_Cpm66X51HvBrDoXWM_X7sueAPXQ1RUZnb3IXvfm8N-HvTNq6lDdbWpYTqnRjpqRcofY37BP5M2Mv5-sJ3Nv5P6Eoy0l_JdQTyuD-BQ6qz2jBkfN4k-RbaVXR3AfnGmWEE5yvGz7JTybZOr03LJfrZfWQ8J5gNCuaTdP5wOxTbnxgi2Tlkntte2-i84GNQYdDW4FUA4hv8BtO-2PIUMAVyGu9_el9Z2xSoA6-rmiHX1o9X-DZQ6IZRJULe1On7_Wez2w-uaFeKmOcNFT8AkpoVIA\",\"theme\":\"pedagogie_theme\",\"theme_token\":null},\"ajaxTrustedUrl\":{\"form_action_p_pvdeGsVG5zNF_XLGPTvYSKCf43t8qZYSwcfZl2uzM\":true,\"\\/fr\\/ressources\\/les-murmures-dune-eau-blessee?ajax_form=1\":true,\"\\/fr\\/recherche\":true},\"pianoAnalytics\":{\"token\":\"649508\",\"dataLayer\":{\"site_name\":\"Offre p\\u00e9dagogique AFD \\u2013 Monde \\u00e9ducatif\",\"path\":\"\\/node\\/200\",\"route\":\"entity.node.canonical\",\"url\":\"https:\\/\\/offre-pedagogique.afd.fr\\/fr\\/ressources\\/les-murmures-dune-eau-blessee\",\"query\":[],\"language\":\"fr\",\"page\":\"Les murmures d\\u0027une eau bless\\u00e9e\",\"content_type\":\"resource\",\"content_id\":\"200\",\"content_page\":\"Les murmures d\\u0027une eau bless\\u00e9e\",\"content_language\":\"fr\",\"content_created\":\"1780027044\",\"content_changed\":1780027371,\"content_status\":true},\"click_tracking_enabled\":true,\"click_selectors\":\"a, button, input[type=\\u0022button\\u0022], input[type=\\u0022submit\\u0022]\",\"download_tracking_enabled\":true,\"download_extensions\":\"pdf,zip,tar,gz,doc,docx,xls,xlsx,ppt,pptx,mp3,mp4,avi\",\"respect_dnt\":true,\"anonymize_ip\":true},\"like\":{\"node:200\":{\"entity_type\":\"node\",\"entity_id\":\"200\",\"default_state\":\"Je vote pour ce podcast\",\"liked_state\":\"Vous avez d\\u00e9j\\u00e0 vot\\u00e9 pour ce podcast.\"}},\"antibot\":{\"forms\":{\"like-form-node-200\":{\"id\":\"like-form-node-200\",\"key\":\"sHu3cgWGCSGxFhh5FUlxIriCJINw-Psj1-MLrjSVQOF\"}}},\"ajax\":{\"edit-like-toggle\":{\"wrapper\":\"like-form-node-200\",\"callback\":[{},\"ajaxSubmit\"],\"effect\":\"fade\",\"progress\":{\"type\":\"none\"},\"event\":\"change\",\"url\":\"\\/fr\\/ressources\\/les-murmures-dune-eau-blessee?ajax_form=1\",\"httpMethod\":\"POST\",\"dialogType\":\"ajax\",\"submit\":{\"_triggering_element_name\":\"like_toggle\"}}},\"user\":{\"uid\":0,\"permissionsHash\":\"20cd5112f7c6416962511446b1b76cf86cc489cc5ef8ba83836cb4f75c79e2d9\"}}"
+      "academy": "Académie de Starlight Podcast (concours Réinventer le monde) La Malédiction de Sangha Podcast (concours Réinventer le monde) Le lutin de poche Podcast (concours Réinventer le monde) Mon combat contre les inégalités Podcast (concours Réinventer le monde) Abonnez-vous à notre lettre d’information - Inscrivez-vous !Vous souhaitez suivre notre actualité et/ou participer à nos événements ? Découvrez nos newsletters Nos programmes pédagogiques Réinventer le monde Négociation internationale Nos ressources pédagogiques Le quiz ODD ! Livret pédagogique - Agir pour un monde en commun Livret enseignant - Océan Bibliothèque de ressources Actus FAQ Qui sommes-nous ? Siège de l'AFD 5 rue Roland Barthes 75 598 PARIS CEDEX 12, FRANCE afd.fr tilt.fr Contactez-nous Mentions légales Plan du site Accessibilité numérique : partiellement conforme Back to top of page {\"path\":{\"baseUrl\":\"\\/\",\"pathPrefix\":\"fr\\/\",\"currentPath\":\"node\\/200\",\"currentPathIsAdmin\":false,\"isFront\":false,\"currentLanguage\":\"fr\"},\"pluralDelimiter\":\"\\u0003\",\"suppressDeprecationErrors\":true,\"dsfr4drupal\":{\"production\":1,\"verbose\":0,\"level\":\"info\"},\"ajaxPageState\":{\"libraries\":\"eJyNlO12gyAMhm9I9M_uxxMgIhUIg7C1d7-4rqftVs_4o0KefPgmAIudLS7QAs-8YsTJBdIQ1FIo8QCJvSaeft7jQiUOGpmxzHjOVNHOiw-yrJPDhAXCYKjgZChmSpi4jvA7hVJgBLKeUg-sC4I1pUXdQxsotoez-IGBchS7kvJj7XFaKAT67CNJovaTiikrKab1uKwiSF9wH8GhMpQvKqA0qEua4NOmNHc1J5AjlUA-LVbT45HgwzvgzuYnslL_Cpm66X51HvBrDoXWM_X7sueAPXQ1RUZnb3IXvfm8N-HvTNq6lDdbWpYTqnRjpqRcofY37BP5M2Mv5-sJ3Nv5P6Eoy0l_JdQTyuD-BQ6qz2jBkfN4k-RbaVXR3AfnGmWEE5yvGz7JTybZOr03LJfrZfWQ8J5gNCuaTdP5wOxTbnxgi2Tlkntte2-i84GNQYdDW4FUA4hv8BtO-2PIUMAVyGu9_el9Z2xSoA6-rmiHX1o9X-DZQ6IZRJULe1On7_Wez2w-uaFeKmOcNFT8AkpoVIA\",\"theme\":\"pedagogie_theme\",\"theme_token\":null},\"ajaxTrustedUrl\":{\"form_action_p_pvdeGsVG5zNF_XLGPTvYSKCf43t8qZYSwcfZl2uzM\":true,\"\\/fr\\/ressources\\/les-murmures-dune-eau-blessee?ajax_form=1\":true,\"\\/fr\\/recherche\":true},\"pianoAnalytics\":{\"token\":\"649508\",\"dataLayer\":{\"site_name\":\"Offre p\\u00e9dagogique AFD \\u2013 Monde \\u00e9ducatif\",\"path\":\"\\/node\\/200\",\"route\":\"entity.node.canonical\",\"url\":\"https:\\/\\/offre-pedagogique.afd.fr\\/fr\\/ressources\\/les-murmures-dune-eau-blessee\",\"query\":[],\"language\":\"fr\",\"page\":\"Les murmures d\\u0027une eau bless\\u00e9e\",\"content_type\":\"resource\",\"content_id\":\"200\",\"content_page\":\"Les murmures d\\u0027une eau bless\\u00e9e\",\"content_language\":\"fr\",\"content_created\":\"1780027044\",\"content_changed\":1780027371,\"content_status\":true},\"click_tracking_enabled\":true,\"click_selectors\":\"a, button, input[type=\\u0022button\\u0022], input[type=\\u0022submit\\u0022]\",\"download_tracking_enabled\":true,\"download_extensions\":\"pdf,zip,tar,gz,doc,docx,xls,xlsx,ppt,pptx,mp3,mp4,avi\",\"respect_dnt\":true,\"anonymize_ip\":true},\"like\":{\"node:200\":{\"entity_type\":\"node\",\"entity_id\":\"200\",\"default_state\":\"Je vote pour ce podcast\",\"liked_state\":\"Vous avez d\\u00e9j\\u00e0 vot\\u00e9 pour ce podcast.\"}},\"antibot\":{\"forms\":{\"like-form-node-200\":{\"id\":\"like-form-node-200\",\"key\":\"sHu3cgWGCSGxFhh5FUlxIriCJINw-Psj1-MLrjSVQOF\"}}},\"ajax\":{\"edit-like-toggle\":{\"wrapper\":\"like-form-node-200\",\"callback\":[{},\"ajaxSubmit\"],\"effect\":\"fade\",\"progress\":{\"type\":\"none\"},\"event\":\"change\",\"url\":\"\\/fr\\/ressources\\/les-murmures-dune-eau-blessee?ajax_form=1\",\"httpMethod\":\"POST\",\"dialogType\":\"ajax\",\"submit\":{\"_triggering_element_name\":\"like_toggle\"}}},\"user\":{\"uid\":0,\"permissionsHash\":\"20cd5112f7c6416962511446b1b76cf86cc489cc5ef8ba83836cb4f75c79e2d9\"}}",
+      "shareId": 150
     },
     {
       "slug": "les-ruines-de-lancien-monde",
@@ -2644,7 +2794,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 47,
       "establishment": "Lycée Lyautey de Casablanca au Maroc",
-      "establishmentKey": "lycee-lyautey-de-casablanca-au-maroc"
+      "establishmentKey": "lycee-lyautey-de-casablanca-au-maroc",
+      "shareId": 151
     },
     {
       "slug": "letant-de-lor-en-colere",
@@ -2662,7 +2813,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 436,
       "establishment": "Collège Saint François Régis de Montpellier",
-      "establishmentKey": "college-saint-francois-regis-de-montpellier"
+      "establishmentKey": "college-saint-francois-regis-de-montpellier",
+      "shareId": 152
     },
     {
       "slug": "lets-go",
@@ -2680,7 +2832,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 476,
       "establishment": "Collège Vallée du Lys",
-      "establishmentKey": "college-vallee-du-lys"
+      "establishmentKey": "college-vallee-du-lys",
+      "shareId": 153
     },
     {
       "slug": "lhommiculture",
@@ -2698,7 +2851,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 6917,
       "establishment": "Lycée Auguste Renoir de Limoges",
-      "establishmentKey": "lycee-auguste-renoir-de-limoges"
+      "establishmentKey": "lycee-auguste-renoir-de-limoges",
+      "shareId": 154
     },
     {
       "slug": "limposture-de-la-machine",
@@ -2716,7 +2870,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 203,
       "establishment": "Collège Jules Ferry de Beaune",
-      "establishmentKey": "college-jules-ferry-de-beaune"
+      "establishmentKey": "college-jules-ferry-de-beaune",
+      "shareId": 155
     },
     {
       "slug": "linvention-du-film-denrupatate",
@@ -2734,7 +2889,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 220,
       "establishment": "Collège Marc Bloch",
-      "establishmentKey": "college-marc-bloch"
+      "establishmentKey": "college-marc-bloch",
+      "shareId": 156
     },
     {
       "slug": "lontan-aster-domin",
@@ -2752,7 +2908,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 381,
       "establishment": "Collège Jules Reydellet de St Denis de la Réunion",
-      "establishmentKey": "college-jules-reydellet-de-st-denis-de-la-reunion"
+      "establishmentKey": "college-jules-reydellet-de-st-denis-de-la-reunion",
+      "shareId": 157
     },
     {
       "slug": "loup-que-fais-tu",
@@ -2770,7 +2927,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 103,
       "establishment": "Collège Sainte Jeanne d'Arc",
-      "establishmentKey": "college-sainte-jeanne-d-arc"
+      "establishmentKey": "college-sainte-jeanne-d-arc",
+      "shareId": 158
     },
     {
       "slug": "lunion-des-differences",
@@ -2788,7 +2946,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 438,
       "establishment": "Lycée Etienne-Jules Marey de Boulogne-Billancourt",
-      "establishmentKey": "lycee-etienne-jules-marey-de-boulogne-billancourt"
+      "establishmentKey": "lycee-etienne-jules-marey-de-boulogne-billancourt",
+      "shareId": 159
     },
     {
       "slug": "luxoria",
@@ -2806,7 +2965,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 165,
       "establishment": "Lycée Dumas JEAN-JOSEPH",
-      "establishmentKey": "lycee-dumas-jean-joseph"
+      "establishmentKey": "lycee-dumas-jean-joseph",
+      "shareId": 160
     },
     {
       "slug": "ma-conscience-en-soldes",
@@ -2823,7 +2983,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 329,
       "establishment": "Lycée International de La Havane \"Alejo Carpentier\"",
-      "establishmentKey": "lycee-international-de-la-havane-alejo-carpentier"
+      "establishmentKey": "lycee-international-de-la-havane-alejo-carpentier",
+      "shareId": 161
     },
     {
       "slug": "ma-vie-de-garcon-ma-prison-0",
@@ -2840,7 +3001,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 608,
       "establishment": "Collège Saint-Exupéry",
-      "establishmentKey": "college-saint-exupery"
+      "establishmentKey": "college-saint-exupery",
+      "shareId": 162
     },
     {
       "slug": "madagascar-2037",
@@ -2858,7 +3020,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 117,
       "establishment": "Lycée Condé",
-      "establishmentKey": "lycee-conde"
+      "establishmentKey": "lycee-conde",
+      "shareId": 163
     },
     {
       "slug": "mariage-ou-exil",
@@ -2875,7 +3038,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 217,
       "establishment": "Ecodélégués du collège",
-      "establishmentKey": "ecodelegues-du-college"
+      "establishmentKey": "ecodelegues-du-college",
+      "shareId": 164
     },
     {
       "slug": "marseille-2040",
@@ -2892,7 +3056,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 127,
       "establishment": "Collège Chape",
-      "establishmentKey": "college-chape"
+      "establishmentKey": "college-chape",
+      "shareId": 165
     },
     {
       "slug": "memoires-dune-terre-perdue",
@@ -2909,7 +3074,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 139,
       "establishment": "Lycée G. Mazzini",
-      "establishmentKey": "lycee-g-mazzini"
+      "establishmentKey": "lycee-g-mazzini",
+      "shareId": 166
     },
     {
       "slug": "memoriam",
@@ -2925,7 +3091,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 68,
       "establishment": "les élèves de 4ème C: Cemre Smaranda Farah Tymeo Mara",
-      "establishmentKey": "les-eleves-de-4eme-c-cemre-smaranda-farah-tymeo-mara"
+      "establishmentKey": "les-eleves-de-4eme-c-cemre-smaranda-farah-tymeo-mara",
+      "shareId": 167
     },
     {
       "slug": "mentalites-oubliees-dans-le-congele",
@@ -2942,7 +3109,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 35,
       "establishment": "Lycée Metodova de Bratislava en Slovaquie",
-      "establishmentKey": "lycee-metodova-de-bratislava-en-slovaquie"
+      "establishmentKey": "lycee-metodova-de-bratislava-en-slovaquie",
+      "shareId": 168
     },
     {
       "slug": "message-du-futur",
@@ -2959,7 +3127,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 774,
       "establishment": "Collège Sainte Clotilde",
-      "establishmentKey": "college-sainte-clotilde"
+      "establishmentKey": "college-sainte-clotilde",
+      "shareId": 169
     },
     {
       "slug": "mets-toi-sa-place",
@@ -2977,7 +3146,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 23,
       "establishment": "Lycée Jean-Marc Boivin",
-      "establishmentKey": "lycee-jean-marc-boivin"
+      "establishmentKey": "lycee-jean-marc-boivin",
+      "shareId": 170
     },
     {
       "slug": "mexique-eau-empathie",
@@ -2995,7 +3165,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 324,
       "establishment": "Lycée Martin Luther King",
-      "establishmentKey": "lycee-martin-luther-king"
+      "establishmentKey": "lycee-martin-luther-king",
+      "shareId": 171
     },
     {
       "slug": "mon-combat-contre-les-inegalites",
@@ -3013,7 +3184,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 173,
       "establishment": "Lycée Georges Cabanis de Brive-la-Gaillarde",
-      "establishmentKey": "lycee-georges-cabanis-de-brive-la-gaillarde"
+      "establishmentKey": "lycee-georges-cabanis-de-brive-la-gaillarde",
+      "shareId": 172
     },
     {
       "slug": "mon-espoir",
@@ -3031,7 +3203,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 224,
       "establishment": "Lycée Jean Michel",
-      "establishmentKey": "lycee-jean-michel"
+      "establishmentKey": "lycee-jean-michel",
+      "shareId": 173
     },
     {
       "slug": "new-york-40degc-la-nuit",
@@ -3049,7 +3222,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 179,
       "establishment": "Lycée Gaston Bachelard",
-      "establishmentKey": "lycee-gaston-bachelard"
+      "establishmentKey": "lycee-gaston-bachelard",
+      "shareId": 174
     },
     {
       "slug": "oceane-la-petite-goutte-deau",
@@ -3066,7 +3240,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 588,
       "establishment": "Lycée de Cocody",
-      "establishmentKey": "lycee-de-cocody"
+      "establishmentKey": "lycee-de-cocody",
+      "shareId": 175
     },
     {
       "slug": "pauvrete-brisee-grace-leducation",
@@ -3083,7 +3258,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 365,
       "establishment": "Lycée Emiland Gauthey",
-      "establishmentKey": "lycee-emiland-gauthey"
+      "establishmentKey": "lycee-emiland-gauthey",
+      "shareId": 176
     },
     {
       "slug": "pleyben-demain",
@@ -3101,7 +3277,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 203,
       "establishment": "Collège Louis Hémon de Pleyben",
-      "establishmentKey": "college-louis-hemon-de-pleyben"
+      "establishmentKey": "college-louis-hemon-de-pleyben",
+      "shareId": 177
     },
     {
       "slug": "polatouche",
@@ -3118,7 +3295,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 40,
       "establishment": "Collège Mathalin",
-      "establishmentKey": "college-mathalin"
+      "establishmentKey": "college-mathalin",
+      "shareId": 178
     },
     {
       "slug": "pourquoi-nous",
@@ -3136,7 +3314,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 24,
       "establishment": "Lycée Jean-Marc Boivin",
-      "establishmentKey": "lycee-jean-marc-boivin"
+      "establishmentKey": "lycee-jean-marc-boivin",
+      "shareId": 179
     },
     {
       "slug": "prends-soin-de-toi",
@@ -3153,7 +3332,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 615,
       "establishment": "Lycée Marguerite de Valois en Charente ont souhaité s’interroger",
-      "establishmentKey": "lycee-marguerite-de-valois-en-charente-ont-souhaite-s-interroger"
+      "establishmentKey": "lycee-marguerite-de-valois-en-charente-ont-souhaite-s-interroger",
+      "shareId": 180
     },
     {
       "slug": "promo-tout-prix",
@@ -3170,7 +3350,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 1004,
       "establishment": "Collège Maurice Satineau de la viklle de Baie-Mahault en Guadeloupe",
-      "establishmentKey": "college-maurice-satineau-de-la-viklle-de-baie-mahault-en-guadeloupe"
+      "establishmentKey": "college-maurice-satineau-de-la-viklle-de-baie-mahault-en-guadeloupe",
+      "shareId": 181
     },
     {
       "slug": "proteger-les-hirondelles-voyageuses",
@@ -3188,7 +3369,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 199,
       "establishment": "Lycée Jean Rostand",
-      "establishmentKey": "lycee-jean-rostand"
+      "establishmentKey": "lycee-jean-rostand",
+      "shareId": 182
     },
     {
       "slug": "quand-la-terre-seteint",
@@ -3206,7 +3388,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 84,
       "establishment": "Lycée Pierre Corneille",
-      "establishmentKey": "lycee-pierre-corneille"
+      "establishmentKey": "lycee-pierre-corneille",
+      "shareId": 183
     },
     {
       "slug": "quand-la-ville-grignote-le-vivant",
@@ -3223,7 +3406,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 112,
       "establishment": "Lycée de Taipei",
-      "establishmentKey": "lycee-de-taipei"
+      "establishmentKey": "lycee-de-taipei",
+      "shareId": 184
     },
     {
       "slug": "quand-ma-mere-est-devenue-personne",
@@ -3241,7 +3425,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 168,
       "establishment": "Lycée l'Annonciation",
-      "establishmentKey": "lycee-l-annonciation"
+      "establishmentKey": "lycee-l-annonciation",
+      "shareId": 185
     },
     {
       "slug": "qui-viendra-me-sauver",
@@ -3259,7 +3444,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 135,
       "establishment": "Lycée Charles Tillon de Rennes",
-      "establishmentKey": "lycee-charles-tillon-de-rennes"
+      "establishmentKey": "lycee-charles-tillon-de-rennes",
+      "shareId": 186
     },
     {
       "slug": "reinventer-le-quotidien",
@@ -3276,7 +3462,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 623,
       "establishment": "Lycée #16 UANL",
-      "establishmentKey": "lycee-16-uanl"
+      "establishmentKey": "lycee-16-uanl",
+      "shareId": 187
     },
     {
       "slug": "renaissance-au-coeur-de-loasis",
@@ -3293,7 +3480,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 1052,
       "establishment": "Lycée international Louis Massignon",
-      "establishmentKey": "lycee-international-louis-massignon"
+      "establishmentKey": "lycee-international-louis-massignon",
+      "shareId": 188
     },
     {
       "slug": "repecher-le-futur",
@@ -3310,7 +3498,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 202,
       "establishment": "Lycée Istituto \"Cipriani Colombo\"",
-      "establishmentKey": "lycee-istituto-cipriani-colombo"
+      "establishmentKey": "lycee-istituto-cipriani-colombo",
+      "shareId": 189
     },
     {
       "slug": "robert-et-la-riviere",
@@ -3328,7 +3517,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 560,
       "establishment": "Lycée des métiers de l'hôtellerie et du tourisme Violetta Chaville",
-      "establishmentKey": "lycee-des-metiers-de-l-hotellerie-et-du-tourisme-violetta-chaville"
+      "establishmentKey": "lycee-des-metiers-de-l-hotellerie-et-du-tourisme-violetta-chaville",
+      "shareId": 190
     },
     {
       "slug": "sante-et-bien-etre",
@@ -3345,7 +3535,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 16,
       "establishment": "Lycée Metodova de Bratislava en Slovaquie",
-      "establishmentKey": "lycee-metodova-de-bratislava-en-slovaquie"
+      "establishmentKey": "lycee-metodova-de-bratislava-en-slovaquie",
+      "shareId": 191
     },
     {
       "slug": "sargasses-sante-environnement",
@@ -3362,7 +3553,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 448,
       "establishment": "Collège Lisette Moutachi situé au Lamentin Martinique",
-      "establishmentKey": "college-lisette-moutachi-situe-au-lamentin-martinique"
+      "establishmentKey": "college-lisette-moutachi-situe-au-lamentin-martinique",
+      "shareId": 192
     },
     {
       "slug": "sauvons-les-limules",
@@ -3380,7 +3572,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 87,
       "establishment": "Collège Paul Landowski",
-      "establishmentKey": "college-paul-landowski"
+      "establishmentKey": "college-paul-landowski",
+      "shareId": 193
     },
     {
       "slug": "sauvons-patty-et-son-bebe",
@@ -3398,7 +3591,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 313,
       "establishment": "Collège François Mitterrand d’Arras",
-      "establishmentKey": "college-francois-mitterrand-d-arras"
+      "establishmentKey": "college-francois-mitterrand-d-arras",
+      "shareId": 194
     },
     {
       "slug": "se-battre-comme-des-chiffonniers",
@@ -3416,7 +3610,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 61,
       "establishment": "Lycée Jacques Decour du 9éme arrondissement de Paris",
-      "establishmentKey": "lycee-jacques-decour-du-9eme-arrondissement-de-paris"
+      "establishmentKey": "lycee-jacques-decour-du-9eme-arrondissement-de-paris",
+      "shareId": 195
     },
     {
       "slug": "silence-au-bout-du-fil",
@@ -3433,7 +3628,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 261,
       "establishment": "les élèves de 1ere 6 en EMC, du LFIGP",
-      "establishmentKey": "les-eleves-de-1ere-6-en-emc-du-lfigp"
+      "establishmentKey": "les-eleves-de-1ere-6-en-emc-du-lfigp",
+      "shareId": 196
     },
     {
       "slug": "silver-et-le-souffle-du-plancton",
@@ -3451,7 +3647,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 630,
       "establishment": "Collège Camille Claudel",
-      "establishmentKey": "college-camille-claudel"
+      "establishmentKey": "college-camille-claudel",
+      "shareId": 197
     },
     {
       "slug": "sky-de-la-bouteille",
@@ -3469,7 +3666,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 310,
       "establishment": "Collège Chevreul",
-      "establishmentKey": "college-chevreul"
+      "establishmentKey": "college-chevreul",
+      "shareId": 198
     },
     {
       "slug": "souffle-vert",
@@ -3487,7 +3685,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 402,
       "establishment": "Lycée les Bourdonnières",
-      "establishmentKey": "lycee-les-bourdonnieres"
+      "establishmentKey": "lycee-les-bourdonnieres",
+      "shareId": 199
     },
     {
       "slug": "sous-la-surface",
@@ -3505,7 +3704,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 32,
       "establishment": "les élèves de la Première B1 de l'Annonciation",
-      "establishmentKey": "les-eleves-de-la-premiere-b1-de-l-annonciation"
+      "establishmentKey": "les-eleves-de-la-premiere-b1-de-l-annonciation",
+      "shareId": 200
     },
     {
       "slug": "sous-mes-pieds-le-mali",
@@ -3523,7 +3723,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 251,
       "establishment": "Collège Jules Ferry de Beaune",
-      "establishmentKey": "college-jules-ferry-de-beaune"
+      "establishmentKey": "college-jules-ferry-de-beaune",
+      "shareId": 201
     },
     {
       "slug": "sur-les-pas-delisey",
@@ -3541,7 +3742,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 1061,
       "establishment": "Collège Louis Aragon",
-      "establishmentKey": "college-louis-aragon"
+      "establishmentKey": "college-louis-aragon",
+      "shareId": 202
     },
     {
       "slug": "tacos-des-alpages",
@@ -3559,7 +3761,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 259,
       "establishment": "Collège Europole de Grenoble",
-      "establishmentKey": "college-europole-de-grenoble"
+      "establishmentKey": "college-europole-de-grenoble",
+      "shareId": 203
     },
     {
       "slug": "tim-tembo-destins-croises",
@@ -3576,7 +3779,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 141,
       "establishment": "Lycée Denis Diderot",
-      "establishmentKey": "lycee-denis-diderot"
+      "establishmentKey": "lycee-denis-diderot",
+      "shareId": 204
     },
     {
       "slug": "toi-moi-et-notre-nouvelle-vie",
@@ -3594,7 +3798,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 468,
       "establishment": "Lycée Sacré-Cœur La Salle",
-      "establishmentKey": "lycee-sacre-c-ur-la-salle"
+      "establishmentKey": "lycee-sacre-c-ur-la-salle",
+      "shareId": 205
     },
     {
       "slug": "tony-le-protecteur-des-fleuves",
@@ -3611,7 +3816,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 122,
       "establishment": "Collège La Guicharde",
-      "establishmentKey": "college-la-guicharde"
+      "establishmentKey": "college-la-guicharde",
+      "shareId": 206
     },
     {
       "slug": "tor-tue-plastique",
@@ -3628,7 +3834,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 22,
       "establishment": "Collège Mathalin",
-      "establishmentKey": "college-mathalin"
+      "establishmentKey": "college-mathalin",
+      "shareId": 207
     },
     {
       "slug": "tour-du-monde-en-80-jours",
@@ -3645,7 +3852,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 147,
       "establishment": "Lycée International de La Havane \"Alejo Carpentier\"",
-      "establishmentKey": "lycee-international-de-la-havane-alejo-carpentier"
+      "establishmentKey": "lycee-international-de-la-havane-alejo-carpentier",
+      "shareId": 208
     },
     {
       "slug": "toxique-plastique",
@@ -3663,7 +3871,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 465,
       "establishment": "Lycée Gérard Ethève",
-      "establishmentKey": "lycee-gerard-etheve"
+      "establishmentKey": "lycee-gerard-etheve",
+      "shareId": 209
     },
     {
       "slug": "tragi-comedie-chez-les-albatar",
@@ -3681,7 +3890,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 149,
       "establishment": "Collège Edmond Lucien Valard",
-      "establishmentKey": "college-edmond-lucien-valard"
+      "establishmentKey": "college-edmond-lucien-valard",
+      "shareId": 210
     },
     {
       "slug": "trier-cest-gagner",
@@ -3699,7 +3909,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 639,
       "establishment": "Collège Emile ZOLA de la ville Le Haillan",
-      "establishmentKey": "college-emile-zola-de-la-ville-le-haillan"
+      "establishmentKey": "college-emile-zola-de-la-ville-le-haillan",
+      "shareId": 211
     },
     {
       "slug": "tsilaosa-et-le-ciel-etoile",
@@ -3717,7 +3928,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 1355,
       "establishment": "Collège La Salle Saint-Michel",
-      "establishmentKey": "college-la-salle-saint-michel"
+      "establishmentKey": "college-la-salle-saint-michel",
+      "shareId": 212
     },
     {
       "slug": "tukuna",
@@ -3734,7 +3946,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 538,
       "establishment": "Collège Florian d'Anduze",
-      "establishmentKey": "college-florian-d-anduze"
+      "establishmentKey": "college-florian-d-anduze",
+      "shareId": 213
     },
     {
       "slug": "un-echange-qui-te-change",
@@ -3750,7 +3963,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 123,
       "establishment": "Lycée \"G.Mazzini\" La Spezia ITALIE",
-      "establishmentKey": "lycee-g-mazzini-la-spezia-italie"
+      "establishmentKey": "lycee-g-mazzini-la-spezia-italie",
+      "shareId": 214
     },
     {
       "slug": "un-faux-refuge",
@@ -3767,7 +3981,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 424,
       "establishment": "Lycée de Port-Bouët",
-      "establishmentKey": "lycee-de-port-bouet"
+      "establishmentKey": "lycee-de-port-bouet",
+      "shareId": 215
     },
     {
       "slug": "un-monde-bouleverse",
@@ -3785,7 +4000,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 2161,
       "establishment": "LPO Marguerite Yourcenar",
-      "establishmentKey": "lpo-marguerite-yourcenar"
+      "establishmentKey": "lpo-marguerite-yourcenar",
+      "shareId": 216
     },
     {
       "slug": "un-monde-deux-verites",
@@ -3803,7 +4019,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 1581,
       "establishment": "Lycée St Joseph La Cordeille",
-      "establishmentKey": "lycee-st-joseph-la-cordeille"
+      "establishmentKey": "lycee-st-joseph-la-cordeille",
+      "shareId": 217
     },
     {
       "slug": "un-monde-sans-voix-0",
@@ -3819,7 +4036,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 3120,
       "establishment": "un groupe d'élèves de III G Esabac du Liceo Publio Virgilio Marone de Meta",
-      "establishmentKey": "un-groupe-d-eleves-de-iii-g-esabac-du-liceo-publio-virgilio-marone-de-meta"
+      "establishmentKey": "un-groupe-d-eleves-de-iii-g-esabac-du-liceo-publio-virgilio-marone-de-meta",
+      "shareId": 218
     },
     {
       "slug": "un-sandwich-et-reinventer-le-monde",
@@ -3837,7 +4055,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 495,
       "establishment": "Collège Louis Aragon",
-      "establishmentKey": "college-louis-aragon"
+      "establishmentKey": "college-louis-aragon",
+      "shareId": 219
     },
     {
       "slug": "une-cassette-la-mer",
@@ -3855,7 +4074,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 16,
       "establishment": "Lycée Gabriel Deshayes",
-      "establishmentKey": "lycee-gabriel-deshayes"
+      "establishmentKey": "lycee-gabriel-deshayes",
+      "shareId": 220
     },
     {
       "slug": "une-famille-au-burkina-faso",
@@ -3872,7 +4092,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 410,
       "establishment": "les élèves de la classe 3G, du Istituto Istruzione Superiore Antonio Meucci",
-      "establishmentKey": "les-eleves-de-la-classe-3g-du-istituto-istruzione-superiore-antonio-meucci"
+      "establishmentKey": "les-eleves-de-la-classe-3g-du-istituto-istruzione-superiore-antonio-meucci",
+      "shareId": 221
     },
     {
       "slug": "une-journee-sans-eau",
@@ -3889,7 +4110,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 3072,
       "establishment": "Lycée la Clairefontaine",
-      "establishmentKey": "lycee-la-clairefontaine"
+      "establishmentKey": "lycee-la-clairefontaine",
+      "shareId": 222
     },
     {
       "slug": "une-piece-sil-vous-plait",
@@ -3907,7 +4129,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 353,
       "establishment": "Collège Jules Marouzeau",
-      "establishmentKey": "college-jules-marouzeau"
+      "establishmentKey": "college-jules-marouzeau",
+      "shareId": 223
     },
     {
       "slug": "une-rencontre-qui-change-tout",
@@ -3923,7 +4146,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 161,
       "establishment": "Collège victor hugo de Ham",
-      "establishmentKey": "college-victor-hugo-de-ham"
+      "establishmentKey": "college-victor-hugo-de-ham",
+      "shareId": 224
     },
     {
       "slug": "une-sortie-au-musee",
@@ -3941,7 +4165,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 520,
       "establishment": "Collège Jules Marouzeau",
-      "establishmentKey": "college-jules-marouzeau"
+      "establishmentKey": "college-jules-marouzeau",
+      "shareId": 225
     },
     {
       "slug": "une-voix-contre-lexcision",
@@ -3959,7 +4184,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 131,
       "establishment": "Lycée de Coiffure Pierre Masson",
-      "establishmentKey": "lycee-de-coiffure-pierre-masson"
+      "establishmentKey": "lycee-de-coiffure-pierre-masson",
+      "shareId": 226
     },
     {
       "slug": "veloria-le-dernier-souffle",
@@ -3976,7 +4202,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 192,
       "establishment": "Lycée Louise Michel d'Epinay sur Seine",
-      "establishmentKey": "lycee-louise-michel-d-epinay-sur-seine"
+      "establishmentKey": "lycee-louise-michel-d-epinay-sur-seine",
+      "shareId": 227
     },
     {
       "slug": "vent-et-silence",
@@ -3993,7 +4220,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 1802,
       "establishment": "Lycée la Clairefontaine",
-      "establishmentKey": "lycee-la-clairefontaine"
+      "establishmentKey": "lycee-la-clairefontaine",
+      "shareId": 228
     },
     {
       "slug": "voyage-tortuguero",
@@ -4010,7 +4238,8 @@
       "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
       "lastVotes": 838,
       "establishment": "Collège La Guicharde",
-      "establishmentKey": "college-la-guicharde"
+      "establishmentKey": "college-la-guicharde",
+      "shareId": 229
     }
   ]
 }

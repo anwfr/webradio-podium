@@ -10,7 +10,7 @@ import {
 } from './lib/storage.js';
 import { runPublish } from './publish-data.js';
 import { formatParisIso, nowParis } from './lib/time.js';
-import { extractEstablishment } from './lib/establishment.js';
+import { assignShareIds } from './lib/share-id.js';
 
 const now = formatParisIso(nowParis());
 const base = '2026-06-01T06:00:00+02:00';
@@ -154,7 +154,7 @@ ensureDataFiles();
 
 writeJson(dataPath('participants.json'), {
   updatedAt: now,
-  participants,
+  participants: assignShareIds(participants),
 });
 
 writeJson(dataPath('votes-history.json'), { snapshots });
