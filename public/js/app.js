@@ -129,10 +129,7 @@ function refreshMonEcoleTab() {
   const entry = findEstablishmentEntry(state.establishmentEntries, key);
   const label = entry?.label || state.userEstablishment?.label || key;
 
-  renderMyEstablishmentSummary('my-establishment-summary', entry, {
-    label,
-    totalEstablishmentCount: state.establishmentEntries.length,
-  });
+  renderMyEstablishmentSummary('my-establishment-summary', entry, { label });
 
   renderMyEstablishmentNeighbors('my-establishment-neighbors', state.establishmentEntries, {
     mode: 'total',
@@ -283,13 +280,6 @@ function setupAppShellControls() {
     summaryWrap.addEventListener('click', (e) => {
       if (e.target.closest('#btn-change-school')) {
         showOnboarding({ reason: 'change' });
-        return;
-      }
-      if (e.target.closest('.establishment-summary-stats')) {
-        document.getElementById('my-establishment-neighbors')?.scrollIntoView({
-          behavior: 'smooth',
-          block: 'start',
-        });
       }
     });
   }

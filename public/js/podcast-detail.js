@@ -444,34 +444,6 @@ function renderNeighbors(rows, currentSlug, rankKey = 'rank') {
     .join('');
 }
 
-function getEstablishmentPeersSection(allRows, currentRow) {
-  const resolved = resolveEstablishment(currentRow);
-  const key = currentRow.establishmentKey || resolved.establishmentKey;
-  if (!key) return null;
-
-  const title =
-    context?.getCanonicalEstablishmentLabel?.(currentRow) ||
-    currentRow.establishment ||
-    resolved.establishment ||
-    currentRow.school ||
-    '';
-
-  const peers = allRows
-    .filter((r) => r.establishmentKey === key)
-    .sort((a, b) => b.votes - a.votes);
-
-  if (peers.length <= 1) return null;
-
-  return {
-    title,
-    rows: peers
-      .map((r, index) =>
-        renderPeerRow(r, { currentSlug: currentRow.slug, rank: index + 1 })
-      )
-      .join(''),
-  };
-}
-
 function renderSheetContent(row, allRows, history, { shareMode = false } = {}) {
   const intro = `
     ${podcastIdentityMarkup(row, { shareMode })}
@@ -484,8 +456,6 @@ function renderSheetContent(row, allRows, history, { shareMode = false } = {}) {
     return `${shareCtaMarkup(row)}${intro}${competition}${share}`;
   }
 
-  const establishmentPeersSection = getEstablishmentPeersSection(allRows, row);
-
   return `
     ${intro}
     ${competition}
@@ -494,15 +464,6 @@ function renderSheetContent(row, allRows, history, { shareMode = false } = {}) {
       <h3 class="podcast-section-title">Classement global</h3>
       <div class="rank-neighbors">${renderNeighbors(allRows, row.slug, 'rank')}</div>
     </div>
-
-    ${
-      establishmentPeersSection
-        ? `<div class="rank-neighbors-wrap">
-      <h3 class="podcast-section-title">Classement du ${escapeHtml(establishmentPeersSection.title)}</h3>
-      <div class="rank-neighbors">${establishmentPeersSection.rows}</div>
-    </div>`
-        : ''
-    }
 
     <div class="podcast-charts-grid">
       <div class="podcast-chart-wrap">

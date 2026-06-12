@@ -1,9 +1,6 @@
 import {
   formatDeltaMarkup,
-  formatRankDeltaMarkup,
-  formatRankOrdinal,
   podiumVotesDisplay,
-  totalRankDelta,
 } from './data.js';
 import {
   BOOST_STORY_BADGES,
@@ -80,7 +77,7 @@ export function renderEstablishmentBoostDuJour(entries, containerId) {
   container.innerHTML = renderBoostDuJourCards(cards);
 }
 
-export function renderMyEstablishmentSummary(containerId, entry, { label = '', totalEstablishmentCount = 0 } = {}) {
+export function renderMyEstablishmentSummary(containerId, entry, { label = '' } = {}) {
   const container = document.getElementById(containerId);
   if (!container) return;
 
@@ -92,13 +89,6 @@ export function renderMyEstablishmentSummary(containerId, entry, { label = '', t
 
   container.hidden = false;
   const establishmentLabel = label || entry.label || '';
-  const rankLabel = formatRankOrdinal(entry.rankByTotal);
-  const rankMeta =
-    totalEstablishmentCount > 0
-      ? `sur ${formatNumber(totalEstablishmentCount)} établissement${totalEstablishmentCount > 1 ? 's' : ''}`
-      : '';
-  const votesMarkup = formatDeltaMarkup(entry.deltaVotes, { trailing: ' votes' });
-  const progressionMarkup = formatRankDeltaMarkup(totalRankDelta(entry));
 
   container.innerHTML = `
     <div class="establishment-summary">
@@ -106,25 +96,6 @@ export function renderMyEstablishmentSummary(containerId, entry, { label = '', t
         <h2 class="establishment-summary-title">${escapeHtml(establishmentLabel)}</h2>
         <button type="button" class="btn btn-small btn-secondary" id="btn-change-school">Changer</button>
       </div>
-      <button type="button" class="establishment-summary-stats" aria-label="Voir le classement des écoles">
-        <div class="establishment-summary-stat">
-          <span class="establishment-summary-stat-label">Classement</span>
-          <span class="establishment-summary-stat-value">${escapeHtml(rankLabel)}</span>
-          ${rankMeta ? `<span class="establishment-summary-stat-meta">${escapeHtml(rankMeta)}</span>` : ''}
-        </div>
-        <div class="establishment-summary-stat">
-          <span class="establishment-summary-stat-label">Votes aujourd'hui</span>
-          <span class="establishment-summary-stat-value">${votesMarkup}</span>
-        </div>
-        ${
-          progressionMarkup
-            ? `<div class="establishment-summary-stat">
-          <span class="establishment-summary-stat-label">Progression</span>
-          <span class="establishment-summary-stat-value">${progressionMarkup}</span>
-        </div>`
-            : ''
-        }
-      </button>
     </div>`;
 }
 
