@@ -39,10 +39,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
+          # Après scrape/discover, le bot pousse un nouveau commit sur main
+          # (GITHUB_TOKEN → pas de re-déclenchement push). head_sha du run
+          # source pointe encore le commit *avant* le snapshot — prendre main.
           ref: >-
-            ${{ github.event_name == 'workflow_run'
-                && github.event.workflow_run.head_sha
-                || github.sha }}
+            ${{ github.event_name == 'workflow_run' && 'main' || github.sha }}
 
       - uses: actions/setup-node@v4
         with:
