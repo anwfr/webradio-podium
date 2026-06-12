@@ -18,6 +18,7 @@ function truncateText(text, max = 52) {
 }
 
 export const VOTE_AFD_BUTTON_LABEL = 'Aller voter';
+const FLYER_VOTE_BUTTON_LABEL = 'Voter';
 export const VOTE_AFD_STEP_HINT =
   'Sur la page qui va s\'ouvrir, clique sur « Je vote pour ce podcast ».';
 
@@ -46,7 +47,7 @@ function flyerActionButtonsMarkup() {
     <div class="flyer-actions" aria-hidden="true">
       <div class="flyer-btn flyer-btn--vote">
         <span class="flyer-btn-cursor">${flyerCursorSvg()}</span>
-        <span class="flyer-btn-label">${VOTE_AFD_BUTTON_LABEL}</span>
+        <span class="flyer-btn-label">${FLYER_VOTE_BUTTON_LABEL}</span>
       </div>
       <div class="flyer-btn flyer-btn--share">
         ${flyerShareIconSvg()}
@@ -60,18 +61,19 @@ function buildFlyerHtml({ title, establishment, qrDataUrl, emoji }) {
     <article class="flyer">
       <span class="flyer-fun-emoji" aria-hidden="true">${emoji}</span>
       <div class="flyer-head">
-        <p class="flyer-badge">VOTE SUR LE SITE AFD</p>
-        <p class="flyer-kicker">Concours webradio 2026</p>
-        <h1 class="flyer-title">${escapeHtml(truncateText(title, 34))}</h1>
-        ${establishment ? `<p class="flyer-establishment">🏫 ${escapeHtml(truncateText(establishment, 32))}</p>` : ''}
+        <p class="flyer-badge">CONCOURS DE PODCAST 2026</p>
       </div>
       <div class="flyer-qr-row">
         <div class="flyer-qr-wrap">
-          <img class="flyer-qr" src="${qrDataUrl}" width="148" height="148" alt="QR code pour voter" />
+          <img class="flyer-qr" src="${qrDataUrl}" width="240" height="240" alt="QR code pour voter" />
         </div>
-        ${flyerActionButtonsMarkup()}
+        <div class="flyer-side">
+          <h1 class="flyer-title">${escapeHtml(truncateText(title, 28))}</h1>
+          ${establishment ? `<p class="flyer-establishment">🏫 ${escapeHtml(truncateText(establishment, 30))}</p>` : ''}
+          ${flyerActionButtonsMarkup()}
+        </div>
       </div>
-      <p class="flyer-action">Scanne · Aller voter · Partage !</p>
+      <p class="flyer-action">Scanne · Vote · Partage !</p>
     </article>`;
 }
 
@@ -152,7 +154,7 @@ function buildPrintDocument({ flyersHtml, title }) {
       border-radius: 999px;
       background: linear-gradient(90deg, #ff6b8a, #ff9f43);
       color: #fff;
-      font-size: 8.5pt;
+      font-size: 9.5pt;
       font-weight: 900;
       letter-spacing: 0.03em;
       text-transform: uppercase;
@@ -161,31 +163,31 @@ function buildPrintDocument({ flyersHtml, title }) {
       print-color-adjust: exact;
     }
 
-    .flyer-kicker {
-      margin: 0;
-      font-size: 8.5pt;
-      font-weight: 800;
-      letter-spacing: 0.06em;
-      text-transform: uppercase;
-      color: #0d7f78;
+    .flyer-side {
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+      align-items: stretch;
+      justify-content: center;
+      gap: 1.4mm;
+      min-width: 0;
+      text-align: center;
     }
 
     .flyer-title {
       margin: 0;
-      font-size: 16pt;
-      line-height: 1.1;
+      font-size: 18pt;
+      line-height: 1.05;
       font-weight: 900;
       color: #2b235f;
-      max-width: 84mm;
     }
 
     .flyer-establishment {
       margin: 0;
-      font-size: 9pt;
-      line-height: 1.2;
-      font-weight: 700;
-      color: #3d4a6b;
-      max-width: 84mm;
+      font-size: 13.5pt;
+      line-height: 1.08;
+      font-weight: 800;
+      color: #2b235f;
     }
 
     .flyer-qr-row {
@@ -194,7 +196,7 @@ function buildPrintDocument({ flyersHtml, title }) {
       align-items: center;
       gap: 2mm;
       width: 100%;
-      max-width: 84mm;
+      max-width: 88mm;
       min-height: 0;
     }
 
@@ -203,7 +205,7 @@ function buildPrintDocument({ flyersHtml, title }) {
       align-items: center;
       justify-content: center;
       flex-shrink: 0;
-      padding: 1.5mm;
+      padding: 1.2mm;
       border-radius: 4mm;
       background: #fff;
       border: 2px solid #4ecdc4;
@@ -214,17 +216,18 @@ function buildPrintDocument({ flyersHtml, title }) {
 
     .flyer-qr {
       display: block;
-      width: 21mm;
-      height: 21mm;
+      width: 40mm;
+      height: 40mm;
     }
 
     .flyer-actions {
       display: flex;
-      flex: 1;
+      flex: 0 0 auto;
       flex-direction: column;
       justify-content: center;
-      gap: 1.5mm;
+      gap: 1.2mm;
       min-width: 0;
+      width: 100%;
     }
 
     .flyer-btn {
@@ -232,13 +235,13 @@ function buildPrintDocument({ flyersHtml, title }) {
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      gap: 1mm;
+      gap: 0.8mm;
       width: 100%;
-      flex: 1;
-      min-height: 9.5mm;
-      padding: 1.4mm 1.5mm;
-      border-radius: 2.8mm;
-      font-size: 9.5pt;
+      flex: 0 0 auto;
+      min-height: 8.2mm;
+      padding: 1.1mm 1.3mm;
+      border-radius: 2.4mm;
+      font-size: 9pt;
       font-weight: 900;
       letter-spacing: 0.04em;
       text-transform: uppercase;
@@ -262,10 +265,10 @@ function buildPrintDocument({ flyersHtml, title }) {
 
     .flyer-btn-cursor {
       position: absolute;
-      top: 0.8mm;
-      right: 1.5mm;
-      width: 6mm;
-      height: 6mm;
+      top: 0.5mm;
+      right: 1.1mm;
+      width: 4.8mm;
+      height: 4.8mm;
       transform: rotate(-6deg);
       filter: drop-shadow(0 1px 0 rgba(255, 255, 255, 0.85));
       pointer-events: none;
@@ -278,8 +281,8 @@ function buildPrintDocument({ flyersHtml, title }) {
     }
 
     .flyer-btn-icon-svg {
-      width: 3.2mm;
-      height: 3.2mm;
+      width: 2.6mm;
+      height: 2.6mm;
       flex-shrink: 0;
     }
 
@@ -289,7 +292,7 @@ function buildPrintDocument({ flyersHtml, title }) {
 
     .flyer-action {
       margin: 0;
-      font-size: 12.5pt;
+      font-size: 13.5pt;
       font-weight: 900;
       color: #7c5cff;
       letter-spacing: 0.05em;
@@ -334,7 +337,7 @@ export async function printPodcastFlyers({
   }
 
   const qrDataUrl = await QRCode.toDataURL(shareUrl, {
-    width: 200,
+    width: 400,
     margin: 0,
     errorCorrectionLevel: 'M',
     color: {

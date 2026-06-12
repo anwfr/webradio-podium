@@ -140,27 +140,20 @@ Le fichier `.github/workflows/scrape.yml` contient :
 ```yaml
 on:
   schedule:
-    - cron: '0 6,16 * * *'
+    - cron: '0 4,14 * * *'
   workflow_dispatch:
 ```
 
 ### Important : fuseau du cron
 
-GitHub interprète les crons en **UTC**, pas en heure de Paris.
+GitHub interprète les crons en **UTC**, pas en heure de Paris. La variable `TZ: Europe/Paris` du workflow n'affecte que l'exécution du job (horodatage des snapshots), **pas** l'heure de déclenchement.
 
 | Cron UTC | Paris (été, UTC+2) | Paris (hiver, UTC+1) |
 |----------|--------------------|----------------------|
-| 6h | 8h | 7h |
-| 16h | 18h | 17h |
+| 4h | 6h | 5h |
+| 14h | 16h | 15h |
 
-Pour viser **6h et 16h heure de Paris en été**, modifier dans `scrape.yml` :
-
-```yaml
-schedule:
-  - cron: '0 4,14 * * *'
-```
-
-Puis commit + push sur `main`.
+Le cron `0 4,14 * * *` vise **6h et 16h heure de Paris en été**. En hiver, les runs partent une heure plus tôt (5h / 15h Paris) — ajuster en `0 5,15 * * *` si besoin.
 
 ### Conditions d'exécution
 

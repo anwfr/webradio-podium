@@ -2,7 +2,9 @@ name: Scrape votes
 
 on:
   schedule:
-    - cron: '0 6,16 * * *'
+    # GitHub cron = UTC. 4h/14h UTC ≈ 6h/16h Europe/Paris (été UTC+2).
+    # En hiver (UTC+1) : déclenchement à 5h/15h Paris — ajuster si besoin.
+    - cron: '0 4,14 * * *'
   workflow_dispatch:
 
 env:
