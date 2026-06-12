@@ -2,6 +2,7 @@ import {
   sortPodcastsForMode,
   formatDeltaMarkup,
   formatRankDeltaMarkup,
+  totalRankDelta,
 } from './data.js';
 import {
   BOOST_STORY_BADGES,
@@ -133,7 +134,7 @@ export function buildPodcastSplashStories(rows) {
       makeStory('remontada', remontada, {
         label: resolveBoostBadgeLabel(BOOST_STORY_BADGES.remontada),
         badge: BOOST_STORY_BADGES.remontada,
-        statHtml: formatRankDeltaMarkup(remontada.deltaRankByDelta24h ?? 0),
+        statHtml: formatRankDeltaMarkup(totalRankDelta(remontada)),
         heroEmoji: BOOST_STORY_BADGES.remontada.emoji,
         variantIds: ['rocket-boost'],
       })
@@ -146,7 +147,7 @@ export function buildPodcastSplashStories(rows) {
       makeStory('flop', flop, {
         label: resolveBoostBadgeLabel(BOOST_STORY_BADGES.flop),
         badge: BOOST_STORY_BADGES.flop,
-        statHtml: formatRankDeltaMarkup(flop.deltaRankByDelta24h ?? 0),
+        statHtml: formatRankDeltaMarkup(totalRankDelta(flop)),
         heroEmoji: BOOST_STORY_BADGES.flop.emoji,
         variantIds: ['voltage-pulse'],
       })

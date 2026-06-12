@@ -162,6 +162,10 @@ export function formatRankOrdinal(rank) {
   return `${n}e`;
 }
 
+export function totalRankDelta(item) {
+  return item?.deltaRankByTotal ?? item?.deltaRank ?? 0;
+}
+
 export function formatRankDelta(n) {
   if (n === 0) return { text: '', class: 'delta-zero', direction: 'zero' };
   if (n > 0) {

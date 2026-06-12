@@ -1,4 +1,4 @@
-import { formatDeltaMarkup, formatRankDeltaMarkup } from './data.js';
+import { formatDeltaMarkup, formatRankDeltaMarkup, totalRankDelta } from './data.js';
 import {
   resolveEstablishment,
   podiumEstablishmentMarkup,
@@ -230,12 +230,12 @@ function shareCtaMarkup(row) {
 }
 
 function podcastHeroStatsMarkup(row) {
-  const rankDeltaMarkup = formatRankDeltaMarkup(row.deltaRankByDelta24h ?? row.deltaRank ?? 0);
+  const rankDeltaMarkup = formatRankDeltaMarkup(totalRankDelta(row));
 
   return `<div class="podcast-hero-stats podcast-card-stats">
     <span class="podcast-card-votes"><strong>${row.votes}</strong> votes</span>
     <span class="podcast-card-delta">${formatDeltaMarkup(row.deltaVotes, { trailing: ' aujourd\u2019hui' })}</span>
-    ${rankDeltaMarkup ? `<span class="podcast-card-delta">${rankDeltaMarkup}</span>` : '<span class="podcast-card-delta delta-zero">Stable</span>'}
+    ${rankDeltaMarkup ? `<span class="podcast-card-delta">${rankDeltaMarkup}</span>` : ''}
   </div>`;
 }
 

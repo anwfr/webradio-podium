@@ -3,9 +3,9 @@ const VARIANTS = {
   flop: ['Flop du jour', 'Grosse chute', 'Plot twist', 'Ils ont dormi', 'Chute libre'],
   underdog: ['Underdog', 'Surprise du jour', 'Dark horse', 'Personne l\'avait vu'],
   gem: ['Pépite', 'Top du jour', 'Hidden gem', 'Ça déchire'],
-  enFeu: ['En feu', 'Ça part en cacahuète', 'Mode rocket', 'Invincible'],
-  remontada: ['Remontada', 'Come-back', 'Ils reviennent', 'Mode escalier'],
-  meilleurRang: ['Meilleur rang', 'En haut de la pile', 'Le plus haut', 'Star locale'],
+  enFeu: ['En feu', 'Survolté', 'Mode rocket', 'Invincible'],
+  remontada: ['Remontada', 'Come-back', 'Ils reviennent', 'En ascension'],
+  meilleurRang: ['Meilleur rang', 'Au sommet', 'Le plus haut', 'Star locale'],
 };
 
 function daySeed() {

@@ -51,9 +51,6 @@ export function setActiveTab(tabId, { updateHash = true, notify = true } = {}) {
     btn.setAttribute('aria-selected', isActive ? 'true' : 'false');
   });
 
-  const schoolHeader = document.getElementById('school-header');
-  if (schoolHeader) schoolHeader.hidden = tabId !== 'mon-ecole';
-
   if (updateHash) {
     const current = location.hash.replace(/^#/, '');
     const target = tab.hash.replace(/^#/, '');

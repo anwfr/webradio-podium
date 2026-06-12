@@ -117,29 +117,16 @@ function getActiveEstablishmentKey() {
   return state.userEstablishment?.key;
 }
 
-function updateSchoolHeader() {
-  const key = getActiveEstablishmentKey();
-  if (!key) return;
-
-  const entry = findEstablishmentEntry(state.establishmentEntries, key);
-  const label = entry?.label || state.userEstablishment?.label || key;
-
-  const titleEl = document.getElementById('school-header-title');
-  if (titleEl) titleEl.textContent = label;
-
-  const podcastsTitleEl = document.getElementById('mon-ecole-podcasts-title');
-  if (podcastsTitleEl) podcastsTitleEl.textContent = `Podcasts du ${label}`;
-}
-
 function refreshMonEcoleTab() {
   const key = getActiveEstablishmentKey();
   if (!key) return;
 
   const rows = getEstablishmentRows(key);
-  updateSchoolHeader();
-
   const entry = findEstablishmentEntry(state.establishmentEntries, key);
+  const label = entry?.label || state.userEstablishment?.label || key;
+
   renderMyEstablishmentSummary('my-establishment-summary', entry, {
+    label,
     totalEstablishmentCount: state.establishmentEntries.length,
   });
 
@@ -274,11 +261,17 @@ function showAppShell({ openPendingPodcastAfter = false, showChampionSplashOnOpe
 }
 
 function setupAppShellControls() {
-  const changeBtn = document.getElementById('btn-change-school');
-  if (changeBtn && !changeBtn.dataset.bound) {
-    changeBtn.dataset.bound = '1';
-    changeBtn.addEventListener('click', () => {
-      showOnboarding({ reason: 'change' });
+  const summaryWrap = document.getElementById('my-establishment-summary');
+  if (summaryWrap && !summaryWrap.dataset.bound) {
+    summaryWrap.dataset.bound = '1';
+    summaryWrap.addEventListener('click', (e) => {
+      if (e.target.closest('#btn-change-school')) {
+        showOnboarding({ reason: 'change' });
+        return;
+      }
+      if (e.target.closest('.establishment-summary-stats')) {
+        setActiveTab('ecoles');
+      }
     });
   }
 

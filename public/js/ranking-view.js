@@ -3,6 +3,7 @@ import {
   formatRankDeltaMarkup,
   formatRankOrdinal,
   podiumVotesDisplay,
+  totalRankDelta,
 } from './data.js';
 import {
   BOOST_STORY_BADGES,
@@ -223,19 +224,18 @@ function rankDisplay(row, { showGlobalRankHint = false, sortMode = 'total', ordi
 }
 
 function podcastCardStatsMarkup(row, sortMode = 'total') {
+  const rankDeltaMarkup = formatRankDeltaMarkup(totalRankDelta(row));
+
   if (sortMode === 'delta24h') {
-    const rankDeltaMarkup = formatRankDeltaMarkup(row.deltaRankByDelta24h ?? 0);
     return `<div class="podcast-card-stats">
-          ${rankDeltaMarkup ? `<span class="podcast-card-delta">${rankDeltaMarkup}</span>` : '<span class="podcast-card-delta delta-zero">Stable</span>'}
+          ${rankDeltaMarkup ? `<span class="podcast-card-delta">${rankDeltaMarkup}</span>` : ''}
         </div>`;
   }
-
-  const rankDeltaMarkup = formatRankDeltaMarkup(row.deltaRankByDelta24h ?? row.deltaRank ?? 0);
 
   return `<div class="podcast-card-stats">
           <span class="podcast-card-votes"><strong>${row.votes}</strong> votes</span>
           <span class="podcast-card-delta">${formatDeltaMarkup(row.deltaVotes, { trailing: ' aujourd\u2019hui' })}</span>
-          ${rankDeltaMarkup ? `<span class="podcast-card-delta">${rankDeltaMarkup}</span>` : '<span class="podcast-card-delta delta-zero">Stable</span>'}
+          ${rankDeltaMarkup ? `<span class="podcast-card-delta">${rankDeltaMarkup}</span>` : ''}
         </div>`;
 }
 

@@ -1,5 +1,5 @@
 import { getBadgeLabel } from './badge-labels.js';
-import { formatHighlightNumberMarkup, formatDeltaMarkup } from './data.js';
+import { formatHighlightNumberMarkup, formatDeltaMarkup, totalRankDelta } from './data.js';
 import { findRemontada } from './boost-du-jour.js';
 import { parsePodiumEstablishmentDisplay, resolveEstablishmentCity } from './establishment.js';
 
@@ -65,10 +65,10 @@ export function computePodcastBadges(rows) {
   }
 
   const flop = [...rows]
-    .filter((row) => row.deltaRankByDelta24h <= -1)
-    .sort((a, b) => a.deltaRankByDelta24h - b.deltaRankByDelta24h)[0];
+    .filter((row) => totalRankDelta(row) <= -1)
+    .sort((a, b) => totalRankDelta(a) - totalRankDelta(b))[0];
   if (flop) {
-    const flopPlaces = Math.abs(flop.deltaRankByDelta24h);
+    const flopPlaces = Math.abs(totalRankDelta(flop));
     badges.push(
       badgeFromPodcast(flop, {
         emoji: '📉',
@@ -84,7 +84,7 @@ export function computePodcastBadges(rows) {
 
   const remontada = findRemontada(rows);
   if (remontada) {
-    const remontadaPlaces = remontada.deltaRankByDelta24h ?? 0;
+    const remontadaPlaces = totalRankDelta(remontada);
     badges.push(
       badgeFromPodcast(remontada, {
         emoji: '🚀',

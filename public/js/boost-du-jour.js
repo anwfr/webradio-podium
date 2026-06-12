@@ -3,6 +3,7 @@ import {
   formatRankDelta,
   formatDeltaMarkup,
   formatRankDeltaMarkup,
+  totalRankDelta,
 } from './data.js';
 import { getBadgeLabel } from './badge-labels.js';
 
@@ -14,19 +15,19 @@ function escapeHtml(str) {
     .replace(/"/g, '&quot;');
 }
 
-export function findRemontada(items, { rankDeltaField = 'deltaRankByDelta24h', minDelta = 1 } = {}) {
+export function findRemontada(items, { minDelta = 1 } = {}) {
   return (
     [...items]
-      .filter((item) => (item[rankDeltaField] ?? 0) >= minDelta)
-      .sort((a, b) => b[rankDeltaField] - a[rankDeltaField])[0] ?? null
+      .filter((item) => totalRankDelta(item) >= minDelta)
+      .sort((a, b) => totalRankDelta(b) - totalRankDelta(a))[0] ?? null
   );
 }
 
-export function findFlopDuJour(items, { rankDeltaField = 'deltaRankByDelta24h', maxDelta = -1 } = {}) {
+export function findFlopDuJour(items, { maxDelta = -1 } = {}) {
   return (
     [...items]
-      .filter((item) => (item[rankDeltaField] ?? 0) <= maxDelta)
-      .sort((a, b) => a[rankDeltaField] - b[rankDeltaField])[0] ?? null
+      .filter((item) => totalRankDelta(item) <= maxDelta)
+      .sort((a, b) => totalRankDelta(a) - totalRankDelta(b))[0] ?? null
   );
 }
 
@@ -41,10 +42,10 @@ export function resolveBoostBadgeLabel(badge) {
   return badge?.label || '';
 }
 
-export function buildBoostSecondaryStories(items, hero, { keyField, rankDeltaField = 'deltaRankByDelta24h' } = {}) {
+export function buildBoostSecondaryStories(items, hero, { keyField } = {}) {
   const heroKey = hero?.[keyField];
-  const remontada = findRemontada(items, { rankDeltaField });
-  const flop = findFlopDuJour(items, { rankDeltaField });
+  const remontada = findRemontada(items);
+  const flop = findFlopDuJour(items);
   const stories = [];
 
   if (remontada && remontada[keyField] !== heroKey) {
@@ -77,17 +78,17 @@ export function renderBoostStatsMarkup(story, { deltaVotes = 0, rankDelta = 0 } 
   return `${formatDelta(deltaVotes).text} votes`;
 }
 
-export function boostStoryStatMarkup(story, item, { rankDeltaField = 'deltaRankByDelta24h' } = {}) {
+export function boostStoryStatMarkup(story, item) {
   if (story === 'remontada' || story === 'flop') {
-    return formatRankDeltaMarkup(item[rankDeltaField] ?? 0);
+    return formatRankDeltaMarkup(totalRankDelta(item));
   }
 
   return formatDeltaMarkup(item.deltaVotes, { trailing: ' votes' });
 }
 
-export function boostStoryStatText(story, item, { rankDeltaField = 'deltaRankByDelta24h' } = {}) {
+export function boostStoryStatText(story, item) {
   if (story === 'remontada' || story === 'flop') {
-    return formatRankDelta(item[rankDeltaField] ?? 0).text;
+    return formatRankDelta(totalRankDelta(item)).text;
   }
 
   return `${formatDelta(item.deltaVotes).text} votes`;
