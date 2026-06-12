@@ -21,6 +21,8 @@ export const VOTE_AFD_BUTTON_LABEL = 'Aller voter';
 const FLYER_VOTE_BUTTON_LABEL = 'Voter';
 export const VOTE_AFD_STEP_HINT =
   'Sur la page qui va s\'ouvrir, clique sur « Je vote pour ce podcast ».';
+export const VOTE_AFD_BUTTON_SUBLABEL =
+  'Ensuite clique sur « Je vote pour ce podcast »';
 
 export function buildFlyerTeaser(title) {
   const podcastTitle = truncateText(title, 30);

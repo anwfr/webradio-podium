@@ -11,6 +11,10 @@ import {
 import { runPublish } from './publish-data.js';
 import { formatParisIso, nowParis } from './lib/time.js';
 import { assignShareIds } from './lib/share-id.js';
+import { extractEstablishment } from './lib/establishment.js';
+
+const DEMO_AUDIO_URL =
+  'https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/projet-final-505.mp3';
 
 const now = formatParisIso(nowParis());
 const base = '2026-06-01T06:00:00+02:00';
@@ -42,6 +46,7 @@ const participants = [
     firstSeenAt: base,
     lastValidatedAt: now,
     lastVotes: 439,
+    audioUrl: DEMO_AUDIO_URL,
   }),
   withEstablishmentFields({
     slug: 'faim-de-vie',

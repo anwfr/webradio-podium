@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-12T07:51:38.514+02:00",
+  "updatedAt": "2026-06-12T11:31:44.207+02:00",
   "participants": [
     {
       "slug": "2050-la-fin-des-poissons",
@@ -14,11 +14,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 1429,
       "establishment": "Lycée Blaise Pascal",
       "establishmentKey": "lycee-blaise-pascal",
-      "shareId": 1
+      "shareId": 1,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/la-vie-aquatique-yoan-charles-arno-thomas-2nd6-blaise-pascal.mp3"
     },
     {
       "slug": "2057",
@@ -32,11 +33,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 221,
       "establishment": "Lycée Jean Michel",
       "establishmentKey": "lycee-jean-michel",
-      "shareId": 2
+      "shareId": 2,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/2057-1.mp3"
     },
     {
       "slug": "2068-en-direct-du-futur",
@@ -51,11 +53,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 52,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 73,
       "establishment": "Collège La Salle Saint-Rosaire de Sarcelles",
       "establishmentKey": "college-la-salle-saint-rosaire-de-sarcelles",
-      "shareId": 3
+      "shareId": 3,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/2068-en-direct-du-futur-mp3.mp3"
     },
     {
       "slug": "3-wanted",
@@ -69,11 +72,12 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 632,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 641,
       "establishment": "les élèves de 2A, de l'Ecole Belge du Bujumbura, de Bujumbura, au Burundi",
       "establishmentKey": "les-eleves-de-2a-de-l-ecole-belge-du-bujumbura-de-bujumbura-au-burundi",
-      "shareId": 4
+      "shareId": 4,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/3wanted.mp3"
     },
     {
       "slug": "4-pour-lespoir",
@@ -88,11 +92,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 477,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 478,
       "establishment": "Collège Claudie Haigneré",
       "establishmentKey": "college-claudie-haignere",
-      "shareId": 5
+      "shareId": 5,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/4-pour-l-espoir-version-finale.mp3"
     },
     {
       "slug": "aicha-et-la-promesse-de-la-serre",
@@ -106,11 +111,12 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 277,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 282,
       "establishment": "Cours Sévigné d'Abidjan",
       "establishmentKey": "cours-sevigne-d-abidjan",
-      "shareId": 6
+      "shareId": 6,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/podcast-version-final-et-celui-a-deposer-mp3.mp3"
     },
     {
       "slug": "apocalypse-bleue",
@@ -125,11 +131,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 241,
       "establishment": "Lycée Philibert Delorme de l'Isle d'Abeau",
       "establishmentKey": "lycee-philibert-delorme-de-l-isle-d-abeau",
-      "shareId": 7
+      "shareId": 7,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/apocalypse-bleue.mp3"
     },
     {
       "slug": "aryo-le-prix-cache-de-la-mode",
@@ -143,11 +150,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 1007,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 1029,
       "establishment": "Lycée François Arago",
       "establishmentKey": "lycee-francois-arago",
-      "shareId": 8
+      "shareId": 8,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/lycee-francois-arago-1.mp3"
     },
     {
       "slug": "au-dela-des-dechets",
@@ -161,11 +169,12 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 1336,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 1344,
       "establishment": "Collège de l'ISC D'El Menzah",
       "establishmentKey": "college-de-l-isc-d-el-menzah",
-      "shareId": 9
+      "shareId": 9,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/mp3.mp3"
     },
     {
       "slug": "au-dela-du-hors-jeu",
@@ -179,11 +188,12 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 421,
       "establishment": "Institut Anna Frank-collège Einaudi",
       "establishmentKey": "institut-anna-frank-college-einaudi",
-      "shareId": 10
+      "shareId": 10,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/podcast-mix-ok-def.mp3"
     },
     {
       "slug": "aura",
@@ -196,11 +206,12 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 1437,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 1464,
       "establishment": "Lycée Franco",
       "establishmentKey": "lycee-franco",
-      "shareId": 11
+      "shareId": 11,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/lycee-voltaire-doha-podcasts.mp3"
     },
     {
       "slug": "avec-ou-sans-huile-de-palme",
@@ -215,11 +226,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 700,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 704,
       "establishment": "Collège Jean Jaurès",
       "establishmentKey": "college-jean-jaures",
-      "shareId": 12
+      "shareId": 12,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/podcast-avec-ou-sans-huile-de-palme-on-en-parle-college-jean-jaures-de-guerigny-2.mp3"
     },
     {
       "slug": "avoir-de-leau-plus-pres",
@@ -234,11 +246,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 213,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 214,
       "establishment": "Collège Alain Gerbault",
       "establishmentKey": "college-alain-gerbault",
-      "shareId": 13
+      "shareId": 13,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/avoir-de-l-eau-plus-pres-wav.mp3"
     },
     {
       "slug": "aya-et-la-maison-en-bidon",
@@ -252,11 +265,12 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 1281,
       "establishment": "Lycée 1 Abobo",
       "establishmentKey": "lycee-1-abobo",
-      "shareId": 14
+      "shareId": 14,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/aya.mp3"
     },
     {
       "slug": "bacterium-carbonivora",
@@ -271,11 +285,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 260,
       "establishment": "Collège Eric Tabarly",
       "establishmentKey": "college-eric-tabarly",
-      "shareId": 15
+      "shareId": 15,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/bacterium-carbonivora-compresse.mp3"
     },
     {
       "slug": "bas-prix-quel-cout",
@@ -290,11 +305,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 280,
       "establishment": "Lycée Les Bourdonnières",
       "establishmentKey": "lycee-les-bourdonnieres",
-      "shareId": 16
+      "shareId": 16,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/a-bas-prix-a-quel-cout-edition-1.mp3"
     },
     {
       "slug": "beirut-crie-le-liban-sest-leve",
@@ -308,11 +324,12 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 653,
       "establishment": "Collège des Filles de la Charité Dar En-Nour",
       "establishmentKey": "college-des-filles-de-la-charite-dar-en-nour",
-      "shareId": 17
+      "shareId": 17,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/vid-20260517-wa0030-video-converter-com.mp3"
     },
     {
       "slug": "bouchons-gratines-nou-le-fatigues",
@@ -327,11 +344,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 925,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 943,
       "establishment": "Collège La Salle Saint-Charles 2 Pierrefonds",
       "establishmentKey": "college-la-salle-saint-charles-2-pierrefonds",
-      "shareId": 18
+      "shareId": 18,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/podcast-3a-la-salle-st-charles-2.mp3"
     },
     {
       "slug": "bout-de-souffle",
@@ -346,11 +364,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 367,
       "establishment": "Lycée Marie Curie de Tarbes",
       "establishmentKey": "lycee-marie-curie-de-tarbes",
-      "shareId": 19
+      "shareId": 19,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/a-bout-de-souffle-podcast.mp3"
     },
     {
       "slug": "bout-de-souffle-0",
@@ -364,11 +383,12 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 33,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 36,
       "establishment": "Lycée Anna de Noailles de Bucarest",
       "establishmentKey": "lycee-anna-de-noailles-de-bucarest",
-      "shareId": 20
+      "shareId": 20,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/a-bout-de-souffle.mp3"
     },
     {
       "slug": "ce-que-lavenir-me-doit",
@@ -382,11 +402,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 736,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 741,
       "establishment": "Lycée Emiland Gauthey",
       "establishmentKey": "lycee-emiland-gauthey",
-      "shareId": 21
+      "shareId": 21,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/zimbabwe-1.mp3"
     },
     {
       "slug": "ce-quils-voyaientce-quelle-etait",
@@ -401,11 +422,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 188,
       "establishment": "Lycée l'Annonciation",
       "establishmentKey": "lycee-l-annonciation",
-      "shareId": 22
+      "shareId": 22,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/podcast-ce-qu-ils-voyaient-ce-qu-elle-etait.mp3"
     },
     {
       "slug": "chantons-contre-la-pollution",
@@ -419,11 +441,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 371,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 373,
       "establishment": "Collège Florian d'Anduze",
       "establishmentKey": "college-florian-d-anduze",
-      "shareId": 23
+      "shareId": 23,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/chantons-contre-la-pollution.mp3"
     },
     {
       "slug": "chaque-goutte-compte",
@@ -438,11 +461,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 106,
       "establishment": "Collège Louis Aragon",
       "establishmentKey": "college-louis-aragon",
-      "shareId": 24
+      "shareId": 24,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/podcast-petrola-5a1-def.mp3"
     },
     {
       "slug": "chimali",
@@ -457,11 +481,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 16,
       "establishment": "Collège Mathalin d'Auch",
       "establishmentKey": "college-mathalin-d-auch",
-      "shareId": 25
+      "shareId": 25,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/chimali-college-mathalin-4e3.mp3"
     },
     {
       "slug": "contre-futur",
@@ -475,11 +500,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 132,
       "establishment": "Lycée de la Nativité",
       "establishmentKey": "lycee-de-la-nativite",
-      "shareId": 26
+      "shareId": 26,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/a-contre-futur-2.mp3"
     },
     {
       "slug": "conversation-electrique-0",
@@ -494,11 +520,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 45,
       "establishment": "les élèves de",
       "establishmentKey": "les-eleves-de",
-      "shareId": 27
+      "shareId": 27,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/lycee-marcel-cachin-1.mp3"
     },
     {
       "slug": "coraux-chaud-devant",
@@ -513,11 +540,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 648,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 655,
       "establishment": "Collège Joseph Fontanet",
       "establishmentKey": "college-joseph-fontanet",
-      "shareId": 28
+      "shareId": 28,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/montage-7.mp3"
     },
     {
       "slug": "courir-pour-choisir",
@@ -532,11 +560,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 35,
       "establishment": "Collège La Madeleine",
       "establishmentKey": "college-la-madeleine",
-      "shareId": 29
+      "shareId": 29,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/mariage-fin-3.mp3"
     },
     {
       "slug": "de-vieux-tissus-de-nouvelles-idees",
@@ -551,11 +580,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 201,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 206,
       "establishment": "Collège Alain Gerbault",
       "establishmentKey": "college-alain-gerbault",
-      "shareId": 30
+      "shareId": 30,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/devieuxtissusdenouvellesideesfin2.mp3"
     },
     {
       "slug": "des-abeilles-et-des-hommes",
@@ -570,11 +600,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 1200,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 1201,
       "establishment": "Lycée Renaudeau de Cholet",
       "establishmentKey": "lycee-renaudeau-de-cholet",
-      "shareId": 31
+      "shareId": 31,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/poadcast-final-1-1.mp3"
     },
     {
       "slug": "des-algues-contre-le-plastique",
@@ -589,11 +620,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 83,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 84,
       "establishment": "Collège Paul Landowski",
       "establishmentKey": "college-paul-landowski",
-      "shareId": 32
+      "shareId": 32,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/gregoire-le-goeland-les-algues-et-le-plastique.mp3"
     },
     {
       "slug": "des-nuances-de-rouges",
@@ -608,11 +640,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 432,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 433,
       "establishment": "Lycée saint-martin",
       "establishmentKey": "lycee-saint-martin",
-      "shareId": 33
+      "shareId": 33,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/podcast-ism-concours-reinventer-le-monde.mp3"
     },
     {
       "slug": "des-voix-qui-comptent",
@@ -626,11 +659,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 679,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 680,
       "establishment": "Collège de même niveau",
       "establishmentKey": "college-de-meme-niveau",
-      "shareId": 34
+      "shareId": 34,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/podcast-rlm-irsam-levavasseur-1-1.mp3"
     },
     {
       "slug": "desinstallation-amoureuse",
@@ -645,11 +679,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 3381,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 3407,
       "establishment": "Lycée Charles de Foucauld",
       "establishmentKey": "lycee-charles-de-foucauld",
-      "shareId": 35
+      "shareId": 35,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/groupe-3-1.mp3"
     },
     {
       "slug": "deux-bateaux-un-avenir",
@@ -664,11 +699,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 472,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 477,
       "establishment": "LPO Marguerite Yourcenar",
       "establishmentKey": "lpo-marguerite-yourcenar",
-      "shareId": 36
+      "shareId": 36,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/lounah-marie-final-true.mp3"
     },
     {
       "slug": "deux-bidons-deau-par-jour",
@@ -683,11 +719,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 164,
       "establishment": "Collège Anjou Bretagne",
       "establishmentKey": "college-anjou-bretagne",
-      "shareId": 37
+      "shareId": 37,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/2026-05-podcast-3a-final-v2-compresse.mp3"
     },
     {
       "slug": "du-chocolat-au-gout-amer",
@@ -702,11 +739,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 86,
       "establishment": "Collège Louis Aragon",
       "establishmentKey": "college-louis-aragon",
-      "shareId": 38
+      "shareId": 38,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/podcast-feva-5b-g1-def-1.mp3"
     },
     {
       "slug": "du-local-au-global",
@@ -721,11 +759,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 137,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 138,
       "establishment": "Lycée Saint Vincent de Paul",
       "establishmentKey": "lycee-saint-vincent-de-paul",
-      "shareId": 39
+      "shareId": 39,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/terminale-ma-st-vincent-de-paul-nimes-podcast-reinventer-le_0.mp3"
     },
     {
       "slug": "eau-secours",
@@ -740,11 +779,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 1492,
       "establishment": "Collège Nestor de Kermadec",
       "establishmentKey": "college-nestor-de-kermadec",
-      "shareId": 40
+      "shareId": 40,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/pad-eau-secours-kermadec.mp3"
     },
     {
       "slug": "eco-systeme-d",
@@ -759,11 +799,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 730,
       "establishment": "Collège Gustave Courbet de Romainville",
       "establishmentKey": "college-gustave-courbet-de-romainville",
-      "shareId": 41
+      "shareId": 41,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/montagepodcastecodeleguerpodcastecodeleguecollegegustavecour.mp3"
     },
     {
       "slug": "elio",
@@ -778,11 +819,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 388,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 389,
       "establishment": "Collège Jules Marouzeau",
       "establishmentKey": "college-jules-marouzeau",
-      "shareId": 42
+      "shareId": 42,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/podcast-elio.mp3"
     },
     {
       "slug": "elyndor",
@@ -795,11 +837,12 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 630,
       "establishment": "Lycée Koumassi",
       "establishmentKey": "lycee-koumassi",
-      "shareId": 43
+      "shareId": 43,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/elyndor-parfait-lycee-koumassi-1.mp3"
     },
     {
       "slug": "enfances-volees",
@@ -814,11 +857,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 118,
       "establishment": "Collège Jules Verne aux Mureaux",
       "establishmentKey": "college-jules-verne-aux-mureaux",
-      "shareId": 44
+      "shareId": 44,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/enfances-volees.mp3"
     },
     {
       "slug": "entre-deux-lettres",
@@ -833,11 +877,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 347,
       "establishment": "Lycée des Bourdonnières de NANTES",
       "establishmentKey": "lycee-des-bourdonnieres-de-nantes",
-      "shareId": 45
+      "shareId": 45,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/entre-deux-lettre-finale-terminer.mp3"
     },
     {
       "slug": "fast-fashion-more-pression",
@@ -852,11 +897,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 586,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 587,
       "establishment": "Lycée Geoffroy Saint-Hilaire d’Étampes",
       "establishmentKey": "lycee-geoffroy-saint-hilaire-d-etampes",
-      "shareId": 46
+      "shareId": 46,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/lgt-geoffroy-saint-hilaire-fast-fashion-more-pression.mp3"
     },
     {
       "slug": "femmeland",
@@ -871,11 +917,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 149,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 150,
       "establishment": "Collège Jean Zay",
       "establishmentKey": "college-jean-zay",
-      "shareId": 47
+      "shareId": 47,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/femmeland.mp3"
     },
     {
       "slug": "femmes-cen-est-assez-battez-vous",
@@ -889,11 +936,12 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 94,
       "establishment": "les élèves de 4A",
       "establishmentKey": "les-eleves-de-4a",
-      "shareId": 48
+      "shareId": 48,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/podcast-4a-femmes-2c-c-en-est-assez-2c-battez-vous.mp3"
     },
     {
       "slug": "france-ghana",
@@ -908,11 +956,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 71,
       "establishment": "Lycée Charles Tillon de Rennes",
       "establishmentKey": "lycee-charles-tillon-de-rennes",
-      "shareId": 49
+      "shareId": 49,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/france-ghana.mp3"
     },
     {
       "slug": "fuir-pour-etre-libre",
@@ -927,11 +976,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 115,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 119,
       "establishment": "Lycée de Coiffure Pierre Masson",
       "establishmentKey": "lycee-de-coiffure-pierre-masson",
-      "shareId": 50
+      "shareId": 50,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/t3t4v3.mp3"
     },
     {
       "slug": "futur-ia",
@@ -946,11 +996,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 19,
       "establishment": "Collège Mathalin d'Auch",
       "establishmentKey": "college-mathalin-d-auch",
-      "shareId": 51
+      "shareId": 51,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/43-futuria-v2.mp3"
     },
     {
       "slug": "graine-dequite",
@@ -965,11 +1016,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 1554,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 1574,
       "establishment": "Lycée Nelson Mandela",
       "establishmentKey": "lycee-nelson-mandela",
-      "shareId": 52
+      "shareId": 52,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/graine-d-equite-1.mp3"
     },
     {
       "slug": "hors-jeu",
@@ -984,11 +1036,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 37,
       "establishment": "Collège La Madeleine",
       "establishmentKey": "college-la-madeleine",
-      "shareId": 53
+      "shareId": 53,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/foot-final.mp3"
     },
     {
       "slug": "il-etait-une-fois-une-astronaute",
@@ -1003,11 +1056,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 353,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 357,
       "establishment": "Collège Canterane de Castelnau-de-Médoc",
       "establishmentKey": "college-canterane-de-castelnau-de-medoc",
-      "shareId": 54
+      "shareId": 54,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/il-etait-une-fois-une-astronaute.mp3"
     },
     {
       "slug": "inaya-la-fille-de-leau",
@@ -1022,11 +1076,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 984,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 987,
       "establishment": "Collège Bracke Desrousseaux",
       "establishmentKey": "college-bracke-desrousseaux",
-      "shareId": 55
+      "shareId": 55,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/inaya-la-fille-de-l-eau.mp3"
     },
     {
       "slug": "isis-pharia-et-son-dernier-cri",
@@ -1040,11 +1095,12 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 334,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 343,
       "establishment": "École Girard",
       "establishmentKey": "ecole-girard",
-      "shareId": 56
+      "shareId": 56,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/isis-pharia-reinventer-le-monde-egypt-alexandrie.mp3"
     },
     {
       "slug": "je-lai-fait-pour-toi-et-ces-femmes",
@@ -1059,11 +1115,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 290,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 316,
       "establishment": "Collège Fernand Berthon",
       "establishmentKey": "college-fernand-berthon",
-      "shareId": 57
+      "shareId": 57,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/podcast-afd-4e4-je-l-ai-fait-pour-toi-et-ces-femmes-qui-souf.mp3"
     },
     {
       "slug": "journal-dune-refugiee-moderne",
@@ -1078,11 +1135,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 96,
       "establishment": "Collège de la Chrysalide",
       "establishmentKey": "college-de-la-chrysalide",
-      "shareId": 58
+      "shareId": 58,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/journal-intime-d-une-refugiee-moderne.mp3"
     },
     {
       "slug": "la-brique-de-washington-dc",
@@ -1096,11 +1154,12 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 226,
       "establishment": "Lycée Rochambeau",
       "establishmentKey": "lycee-rochambeau",
-      "shareId": 59
+      "shareId": 59,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/la-brique-de-washingtondc.mp3"
     },
     {
       "slug": "la-chasse-au-bonheur",
@@ -1114,11 +1173,12 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 1177,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 1178,
       "establishment": "Lycée Linguistique Section ESABAC",
       "establishmentKey": "lycee-linguistique-section-esabac",
-      "shareId": 60
+      "shareId": 60,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/aud-20260510-wa0000.mp3"
     },
     {
       "slug": "la-derniere-digue",
@@ -1132,11 +1192,12 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 1147,
       "establishment": "Lycée L. Spallanzani",
       "establishmentKey": "lycee-l-spallanzani",
-      "shareId": 61
+      "shareId": 61,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/25-la-derniere-digue-2-enhanced-v22.mp3"
     },
     {
       "slug": "la-derniere-humaine",
@@ -1151,11 +1212,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 390,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 395,
       "establishment": "Collège Anne Frank",
       "establishmentKey": "college-anne-frank",
-      "shareId": 62
+      "shareId": 62,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/la-derniere-humaine.mp3"
     },
     {
       "slug": "la-descolarisation",
@@ -1170,11 +1232,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 87,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 88,
       "establishment": "Lycée Saint Vincent de Paul",
       "establishmentKey": "lycee-saint-vincent-de-paul",
-      "shareId": 63
+      "shareId": 63,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/2nde-section-euro-espagnol-st-vincent-de-paul-nimes-podcast.mp3"
     },
     {
       "slug": "la-f1-au-feminin",
@@ -1189,11 +1252,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 199,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 200,
       "establishment": "Lycée du Golfe de Saint-Tropez",
       "establishmentKey": "lycee-du-golfe-de-saint-tropez",
-      "shareId": 64
+      "shareId": 64,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/podcast-femmes-dans-le-sport-automobile-final.mp3"
     },
     {
       "slug": "la-grande-aventure-de-fast",
@@ -1208,11 +1272,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 196,
       "establishment": "Collège Marc Bloch",
       "establishmentKey": "college-marc-bloch",
-      "shareId": 65
+      "shareId": 65,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/enora-khassy-gabriel-morgane.mp3"
     },
     {
       "slug": "la-lanterne-du-vent",
@@ -1226,11 +1291,12 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 288,
       "establishment": "Lycée filière langues modernes de IISS Eugenio Montale Nuovo IPC",
       "establishmentKey": "lycee-filiere-langues-modernes-de-iiss-eugenio-montale-nuovo-ipc",
-      "shareId": 66
+      "shareId": 66,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/la-lanterne-du-vent.mp3"
     },
     {
       "slug": "la-legende-du-micocoulier-de-st-charles",
@@ -1244,11 +1310,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 458,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 462,
       "establishment": "Collège St Charles",
       "establishmentKey": "college-st-charles",
-      "shareId": 67
+      "shareId": 67,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/la-legende-du-micocoulier-de-saint-charles.mp3"
     },
     {
       "slug": "la-lumiere-qui-est-venue-du-soleil",
@@ -1262,11 +1329,12 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 617,
       "establishment": "Lycée 12 Cadereyta UANL",
       "establishmentKey": "lycee-12-cadereyta-uanl",
-      "shareId": 68
+      "shareId": 68,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/la-lumiere-qui-est-venue-du-soleil.mp3"
     },
     {
       "slug": "la-malediction-de-sangha",
@@ -1279,11 +1347,12 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 56,
       "establishment": "Lycée de jeunes Filles de Yopougon",
       "establishmentKey": "lycee-de-jeunes-filles-de-yopougon",
-      "shareId": 69
+      "shareId": 69,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/la-malediction-de-sangha-lycee-yopougon-3.mp3"
     },
     {
       "slug": "la-mare-en-danger",
@@ -1298,11 +1367,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 295,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 297,
       "establishment": "Collège Alexandre Mauboussin de Mamers",
       "establishmentKey": "college-alexandre-mauboussin-de-mamers",
-      "shareId": 70
+      "shareId": 70,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/la-mare-en-danger-radio-mauboussin-1.mp3"
     },
     {
       "slug": "la-mer-nest-pas-un-piege",
@@ -1315,11 +1385,12 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 30,
       "establishment": "Lycée \"\"G.Mazzini\"\" La Spezia Italie\"",
       "establishmentKey": "lycee-g-mazzini-la-spezia-italie",
-      "shareId": 71
+      "shareId": 71,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/b44a024e-039b-4de9-966d-a1834edf327d-3.mp3"
     },
     {
       "slug": "la-mesaventure-de-niko",
@@ -1334,11 +1405,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 352,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 353,
       "establishment": "Collège Pierre SOULAGES",
       "establishmentKey": "college-pierre-soulages",
-      "shareId": 72
+      "shareId": 72,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/reinventer-le-monde-college-pierre-soulages.mp3"
     },
     {
       "slug": "la-messagere",
@@ -1351,11 +1423,12 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 1648,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 1650,
       "establishment": "Lycée Alassane Ouattara d' Anyama en Côte d'Ivoire",
       "establishmentKey": "lycee-alassane-ouattara-d-anyama-en-cote-d-ivoire",
-      "shareId": 73
+      "shareId": 73,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/podcast-final.mp3"
     },
     {
       "slug": "la-ou-la-mer-se-tait",
@@ -1369,11 +1442,12 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 737,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 738,
       "establishment": "Lycée International Victor Hugo",
       "establishmentKey": "lycee-international-victor-hugo",
-      "shareId": 74
+      "shareId": 74,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/la-ou-la-mer-se-tait.mp3"
     },
     {
       "slug": "la-ou-nos-vies-flottent",
@@ -1386,11 +1460,12 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 65,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 68,
       "establishment": "Lycée Lyautey de Casablanca au Maroc",
       "establishmentKey": "lycee-lyautey-de-casablanca-au-maroc",
-      "shareId": 75
+      "shareId": 75,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/audio-groupe8-lyautey.mp3"
     },
     {
       "slug": "la-petite-voix-de-letang",
@@ -1404,11 +1479,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 1808,
       "establishment": "Collège Olympe de Gouges de Loupian dans l'Hérault",
       "establishmentKey": "college-olympe-de-gouges-de-loupian-dans-l-herault",
-      "shareId": 76
+      "shareId": 76,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/la-petite-voix-de-letang-2.mp3"
     },
     {
       "slug": "la-planete-porte-plainte",
@@ -1422,11 +1498,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 1843,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 1847,
       "establishment": "Collège Panchon d'ARSAC",
       "establishmentKey": "college-panchon-d-arsac",
-      "shareId": 77
+      "shareId": 77,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/podcast-format-mp3.mp3"
     },
     {
       "slug": "la-plus-longue-migration-du-monde",
@@ -1441,11 +1518,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 653,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 654,
       "establishment": "Collège Octave Gachon de Parsac",
       "establishmentKey": "college-octave-gachon-de-parsac",
-      "shareId": 78
+      "shareId": 78,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/la-plus-longue-migration-du-monde.mp3"
     },
     {
       "slug": "la-quete-du-froid",
@@ -1460,11 +1538,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 368,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 369,
       "establishment": "Lycée Blaise Pascal d'Orsay",
       "establishmentKey": "lycee-blaise-pascal-d-orsay",
-      "shareId": 79
+      "shareId": 79,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/a-la-quete-du-froid-orsay-v6-3-1.mp3"
     },
     {
       "slug": "la-recherche-de-larbre-perdu",
@@ -1478,11 +1557,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 426,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 428,
       "establishment": "Collège Florian d'Anduze",
       "establishmentKey": "college-florian-d-anduze",
-      "shareId": 80
+      "shareId": 80,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/a-la-recherche-de-l-arbre-perdu-6min59.mp3"
     },
     {
       "slug": "la-recherche-du-poiscaille",
@@ -1496,11 +1576,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 75,
       "establishment": "Lycée Jean Monnet de Crepy en Valois",
       "establishmentKey": "lycee-jean-monnet-de-crepy-en-valois",
-      "shareId": 81
+      "shareId": 81,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/surpeche-en-thailand.mp3"
     },
     {
       "slug": "la-recherche-du-remede",
@@ -1515,11 +1596,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 160,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 161,
       "establishment": "Lycée Condé",
       "establishmentKey": "lycee-conde",
-      "shareId": 82
+      "shareId": 82,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/alarechercheduremede-1-1_0.mp3"
     },
     {
       "slug": "la-revanche",
@@ -1534,11 +1616,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 118,
       "establishment": "Campus Coulommiers",
       "establishmentKey": "campus-coulommiers",
-      "shareId": 83
+      "shareId": 83,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/la-revanche.mp3"
     },
     {
       "slug": "la-revolte-de-lamazonie",
@@ -1551,11 +1634,12 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 63,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 66,
       "establishment": "Lycée Lyautey de Casablanca au Maroc",
       "establishmentKey": "lycee-lyautey-de-casablanca-au-maroc",
-      "shareId": 84
+      "shareId": 84,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/audio-groupe3-lyautey.mp3"
     },
     {
       "slug": "la-revolte-des-fils-invisibles",
@@ -1570,11 +1654,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 204,
       "establishment": "Collège Grévy",
       "establishmentKey": "college-grevy",
-      "shareId": 85
+      "shareId": 85,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/podcast-19-04-2026-20-09-1.mp3"
     },
     {
       "slug": "la-sororite-face-la-fatalite",
@@ -1588,11 +1673,12 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 84,
       "establishment": "Lycée IV de Zagreb",
       "establishmentKey": "lycee-iv-de-zagreb",
-      "shareId": 86
+      "shareId": 86,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/podcast-odd-3e-1.mp3"
     },
     {
       "slug": "la-sortie-de-lea",
@@ -1606,11 +1692,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 295,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 296,
       "establishment": "Collège JEAN RACINE",
       "establishmentKey": "college-jean-racine",
-      "shareId": 87
+      "shareId": 87,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/lasortiedeleajeanracine.mp3"
     },
     {
       "slug": "la-vie-dun-survivant",
@@ -1624,11 +1711,12 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 86,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 89,
       "establishment": "Lycée français Anna de Noailles",
       "establishmentKey": "lycee-francais-anna-de-noailles",
-      "shareId": 88
+      "shareId": 88,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/la-vie-d-un-survivant.mp3"
     },
     {
       "slug": "la-ville-de-mes-reves",
@@ -1643,11 +1731,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 254,
       "establishment": "Collège Pierre Mendès",
       "establishmentKey": "college-pierre-mendes",
-      "shareId": 89
+      "shareId": 89,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/elizlise-podcastodd-1.mp3"
     },
     {
       "slug": "la-voix-des-oublies",
@@ -1662,11 +1751,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 73,
       "establishment": "Campus Coulommiers",
       "establishmentKey": "campus-coulommiers",
-      "shareId": 90
+      "shareId": 90,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/la-voix-des-oubliees-2.mp3"
     },
     {
       "slug": "lacademie-de-starlight",
@@ -1681,11 +1771,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 76,
       "establishment": "Lycée La Nativité",
       "establishmentKey": "lycee-la-nativite",
-      "shareId": 91
+      "shareId": 91,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/enregistrement-starlighta-fr-6.mp3"
     },
     {
       "slug": "lame-bleue-le-voyage-dune-goutte",
@@ -1699,11 +1790,12 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 354,
       "establishment": "Collège \"A. Gramsci\" Lodi Vecchio",
       "establishmentKey": "college-a-gramsci-lodi-vecchio",
-      "shareId": 92
+      "shareId": 92,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/podcast-mpeg.mp3"
     },
     {
       "slug": "lappel-qui-sauve",
@@ -1718,11 +1810,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 113,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 114,
       "establishment": "Lycée du Golfe de Saint-Tropez",
       "establishmentKey": "lycee-du-golfe-de-saint-tropez",
-      "shareId": 93
+      "shareId": 93,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/podcast-match-de-foot-final.mp3"
     },
     {
       "slug": "lassemblee-des-possibles",
@@ -1737,11 +1830,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 433,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 435,
       "establishment": "Lycée les Mandailles",
       "establishmentKey": "lycee-les-mandailles",
-      "shareId": 94
+      "shareId": 94,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/assemblee-des-possibles.mp3"
     },
     {
       "slug": "lavancee-vers-leau",
@@ -1755,11 +1849,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 464,
       "establishment": "Lycée Vauvenargues d'Aix-en-Provence",
       "establishmentKey": "lycee-vauvenargues-d-aix-en-provence",
-      "shareId": 95
+      "shareId": 95,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/podcast-eco-delegues.mp3"
     },
     {
       "slug": "le-bambou-monde",
@@ -1774,11 +1869,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 2993,
       "establishment": "Collège Saint Dominique",
       "establishmentKey": "college-saint-dominique",
-      "shareId": 96
+      "shareId": 96,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/podcast-le-bambou-monde-saint-dominique-pau.mp3"
     },
     {
       "slug": "le-bruit-dans-sa-tete",
@@ -1792,11 +1888,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 327,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 328,
       "establishment": "Lycée Marie de Tarbes",
       "establishmentKey": "lycee-marie-de-tarbes",
-      "shareId": 97
+      "shareId": 97,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/podcast-audio-lou.mp3"
     },
     {
       "slug": "le-carnaval-de-la-digestion",
@@ -1811,11 +1908,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 1262,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 1266,
       "establishment": "Collège Aurélie Lambourde",
       "establishmentKey": "college-aurelie-lambourde",
-      "shareId": 98
+      "shareId": 98,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/pad-lambourde-carnaval-de-la-digestion.mp3"
     },
     {
       "slug": "le-ceta-com",
@@ -1830,11 +1928,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 246,
       "establishment": "Collège Henri Wallon",
       "establishmentKey": "college-henri-wallon",
-      "shareId": 99
+      "shareId": 99,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/le-ceta-com.mp3"
     },
     {
       "slug": "le-chant-des-oliviers",
@@ -1848,11 +1947,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 2216,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 2310,
       "establishment": "Collège des Frères Mont La Salle",
       "establishmentKey": "college-des-freres-mont-la-salle",
-      "shareId": 100
+      "shareId": 100,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-04/podcast-le-chant-des-oliviers.mp3"
     },
     {
       "slug": "le-chant-du-corail",
@@ -1867,11 +1967,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 932,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 934,
       "establishment": "Lycée Antoine Kéla",
       "establishmentKey": "lycee-antoine-kela",
-      "shareId": 101
+      "shareId": 101,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/le-chant-du-corail-2version-finale-fichier-audio-complet.mp3"
     },
     {
       "slug": "le-coeur-de-la-martinique",
@@ -1886,11 +1987,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 179,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 180,
       "establishment": "Lycée Victor Schoelcher",
       "establishmentKey": "lycee-victor-schoelcher",
-      "shareId": 102
+      "shareId": 102,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/podcast-le-coeur-de-la-martinique.mp3"
     },
     {
       "slug": "le-crepuscule-des-lois-la-chute",
@@ -1904,11 +2006,12 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 37,
       "establishment": "Lycée international",
       "establishmentKey": "lycee-international",
-      "shareId": 103
+      "shareId": 103,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/podcast-emcgavin-louis-aidan-enzo.mp3"
     },
     {
       "slug": "le-cri-de-locean",
@@ -1923,11 +2026,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 275,
       "establishment": "Lycée François Villon",
       "establishmentKey": "lycee-francois-villon",
-      "shareId": 104
+      "shareId": 104,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/podcast-le-cri-de-l-ocean.mp3"
     },
     {
       "slug": "le-cri-dun-monde-en-desespoir",
@@ -1940,11 +2044,12 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 230,
       "establishment": "Lycée Municipal 1 Attécoubé Abidjan Cote d'Ivoire",
       "establishmentKey": "lycee-municipal-1-attecoube-abidjan-cote-d-ivoire",
-      "shareId": 105
+      "shareId": 105,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/le-cri-d-un-monde-en-desespoir.mp3"
     },
     {
       "slug": "le-dernier-jour-de-la-tour-eiffel",
@@ -1958,11 +2063,12 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 1739,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 1762,
       "establishment": "Cours DE EMC LYCEE FRANCAIS INTERNATIONAL GEORGES POMPIDOU DUBAI EMIRATS ARABES UNIS",
       "establishmentKey": "cours-de-emc-lycee-francais-international-georges-pompidou-dubai-emirats-arabes-unis",
-      "shareId": 106
+      "shareId": 106,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/marie-1ere1-emc-podcast-2026-kesl-final-1-1-1.mp3"
     },
     {
       "slug": "le-dernier-kwh",
@@ -1977,11 +2083,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 332,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 336,
       "establishment": "Lycée Saint Paul",
       "establishmentKey": "lycee-saint-paul",
-      "shareId": 107
+      "shareId": 107,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/le-dernier-kwh.mp3"
     },
     {
       "slug": "le-dernier-souffle-du-corail",
@@ -1996,11 +2103,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 190,
       "establishment": "Lycée Gaston Bachelard",
       "establishmentKey": "lycee-gaston-bachelard",
-      "shareId": 108
+      "shareId": 108,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/barriere-de-corail-muse-manon-viduja-sacha.mp3"
     },
     {
       "slug": "le-fabuleux-destin-dun-plancton",
@@ -2015,11 +2123,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 129,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 132,
       "establishment": "Lycée Honoré de Balzac",
       "establishmentKey": "lycee-honore-de-balzac",
-      "shareId": 109
+      "shareId": 109,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/lycee-honore-de-balzac.mp3"
     },
     {
       "slug": "le-grand-soulevement",
@@ -2034,11 +2143,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 161,
       "establishment": "Collège Pierre Mendès",
       "establishmentKey": "college-pierre-mendes",
-      "shareId": 110
+      "shareId": 110,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/le-grand-soulevement.mp3"
     },
     {
       "slug": "le-grand-voyage-de-bob",
@@ -2051,11 +2161,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 367,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 368,
       "establishment": "Collège JEAN RACINE",
       "establishmentKey": "college-jean-racine",
-      "shareId": 111
+      "shareId": 111,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/boblebouteillonjeanracine.mp3"
     },
     {
       "slug": "le-livre-de-faida",
@@ -2069,11 +2180,12 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 56,
       "establishment": "Lycée de Taipei",
       "establishmentKey": "lycee-de-taipei",
-      "shareId": 112
+      "shareId": 112,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/reinventer-le-monde-le-livre-de-faida.mp3"
     },
     {
       "slug": "le-lutin-de-poche",
@@ -2087,11 +2199,12 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 8,
       "establishment": "Lycée secondaire pilote",
       "establishmentKey": "lycee-secondaire-pilote",
-      "shareId": 113
+      "shareId": 113,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/le-lutin-de-poche.mp3"
     },
     {
       "slug": "le-maillot-numero-dix",
@@ -2105,11 +2218,12 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 681,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 682,
       "establishment": "Collège “ Antonio Gramsci”",
       "establishmentKey": "college-antonio-gramsci",
-      "shareId": 114
+      "shareId": 114,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/le-maillot-numero-dix-02-05-26-10-27.mp3"
     },
     {
       "slug": "le-mirage-de-labondance",
@@ -2123,11 +2237,12 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 505,
       "establishment": "Lycée du Plateau",
       "establishmentKey": "lycee-du-plateau",
-      "shareId": 115
+      "shareId": 115,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/deuxieme-enregistrement-mixage-final.mp3"
     },
     {
       "slug": "le-monde-apres-le-coma",
@@ -2141,11 +2256,12 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 352,
       "establishment": "Lycée de Cuenca",
       "establishmentKey": "lycee-de-cuenca",
-      "shareId": 116
+      "shareId": 116,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/le-monde-apres-le-coma.mp3"
     },
     {
       "slug": "le-monde-de-lena",
@@ -2160,11 +2276,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 859,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 862,
       "establishment": "Lycée Anne Veaute",
       "establishmentKey": "lycee-anne-veaute",
-      "shareId": 117
+      "shareId": 117,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/le-monde-de-lena.mp3"
     },
     {
       "slug": "le-peintre-lerudite-et-le-tableau",
@@ -2179,11 +2296,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 162,
       "establishment": "Lycée Marie Curie de Tarbes",
       "establishmentKey": "lycee-marie-curie-de-tarbes",
-      "shareId": 118
+      "shareId": 118,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/le-peintre-l-erudite-et-le-tableau.mp3"
     },
     {
       "slug": "le-poids-du-panier-vide",
@@ -2197,11 +2315,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 318,
       "establishment": "Lycée Léopold Elfort de Mana en Guyane",
       "establishmentKey": "lycee-leopold-elfort-de-mana-en-guyane",
-      "shareId": 119
+      "shareId": 119,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/le-poids-du-panier-vide.mp3"
     },
     {
       "slug": "le-poisson-aux-mille-histoires",
@@ -2215,11 +2334,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 103,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 105,
       "establishment": "Collège et lycée",
       "establishmentKey": "college-et-lycee",
-      "shareId": 120
+      "shareId": 120,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/cmja1-le-poisson-aux-mille-histoires.mp3"
     },
     {
       "slug": "le-poisson-qui-change-le-monde",
@@ -2234,11 +2354,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 357,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 365,
       "establishment": "Collège Anne Frank",
       "establishmentKey": "college-anne-frank",
-      "shareId": 121
+      "shareId": 121,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/le-poisson-qui-a-change-le-monde.mp3"
     },
     {
       "slug": "le-prix-du-savoir",
@@ -2253,11 +2374,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 6,
       "establishment": "Collège Stanislas",
       "establishmentKey": "college-stanislas",
-      "shareId": 122
+      "shareId": 122,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/le-prix-du-savoir-mp3-1.mp3"
     },
     {
       "slug": "le-proces",
@@ -2272,11 +2394,12 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 1138,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 1169,
       "establishment": "Lycée Charles de Foucauld",
       "establishmentKey": "lycee-charles-de-foucauld",
-      "shareId": 123
+      "shareId": 123,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/le-proces-mp3.mp3"
     },
     {
       "slug": "le-proces-de-la-clim-404",
@@ -2291,11 +2414,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 119,
       "establishment": "Collège Henri Matisse",
       "establishmentKey": "college-henri-matisse",
-      "shareId": 124
+      "shareId": 124,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/proces-de-la-clim-404.mp3"
     },
     {
       "slug": "le-proces-du-dessert",
@@ -2310,11 +2434,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 315,
       "establishment": "Lycée Albert Ramassamy",
       "establishmentKey": "lycee-albert-ramassamy",
-      "shareId": 125
+      "shareId": 125,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/le-proces-du-dessert-lp-a-ramassamy.mp3"
     },
     {
       "slug": "le-remede-vert",
@@ -2329,11 +2454,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 322,
       "establishment": "LPO Marguerite Yourcenar",
       "establishmentKey": "lpo-marguerite-yourcenar",
-      "shareId": 126
+      "shareId": 126,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/lpoyourcenar-amandine-nolann-leremedevert.mp3"
     },
     {
       "slug": "le-reve-impossible",
@@ -2347,11 +2473,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 143,
       "establishment": "les élèves de la classe européenne +",
       "establishmentKey": "les-eleves-de-la-classe-europeenne",
-      "shareId": 127
+      "shareId": 127,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/podcast-1.mp3"
     },
     {
       "slug": "le-salaire-discrimine-aussi",
@@ -2365,11 +2492,12 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 827,
       "establishment": "Lycée 12 Cadereyta UANL",
       "establishmentKey": "lycee-12-cadereyta-uanl",
-      "shareId": 128
+      "shareId": 128,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/podcast-e4.mp3"
     },
     {
       "slug": "le-sexisme-cest-pas-foot",
@@ -2383,11 +2511,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 193,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 195,
       "establishment": "Collège Pierre MENDES",
       "establishmentKey": "college-pierre-mendes",
-      "shareId": 129
+      "shareId": 129,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/le-sexisme-c-est-pas-foot-avec-credits.mp3"
     },
     {
       "slug": "le-souffle-des-baleines",
@@ -2402,11 +2531,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 686,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 688,
       "establishment": "Collège Octave Gachon de Parsac",
       "establishmentKey": "college-octave-gachon-de-parsac",
-      "shareId": 130
+      "shareId": 130,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/le-souffle-des-baleines.mp3"
     },
     {
       "slug": "le-temps-dune-soiree",
@@ -2421,11 +2551,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 159,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 160,
       "establishment": "Lycée du Golfe de Saint-Tropez",
       "establishmentKey": "lycee-du-golfe-de-saint-tropez",
-      "shareId": 131
+      "shareId": 131,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/podcast-egalite-final.mp3"
     },
     {
       "slug": "le-terrain-qui-disparait",
@@ -2439,11 +2570,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 293,
       "establishment": "Collège La Guicharde",
       "establishmentKey": "college-la-guicharde",
-      "shareId": 132
+      "shareId": 132,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/6eme-4-le-terrain-qui-disparait-2.mp3"
     },
     {
       "slug": "le-vent-douest",
@@ -2457,11 +2589,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 3216,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 3220,
       "establishment": "Lycée Jean Michel de Lons le Saunier",
       "establishmentKey": "lycee-jean-michel-de-lons-le-saunier",
-      "shareId": 133
+      "shareId": 133,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/vent-d-ouest.mp3"
     },
     {
       "slug": "le-village-des-cendres",
@@ -2476,11 +2609,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 85,
       "establishment": "Lycée Auguste Renoir de Limoges",
       "establishmentKey": "lycee-auguste-renoir-de-limoges",
-      "shareId": 134
+      "shareId": 134,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/projet-final-503-groupe-1.mp3"
     },
     {
       "slug": "le-vivasea",
@@ -2495,11 +2629,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 284,
       "establishment": "Lycée Victor Schoelcher de Fort-de-",
       "establishmentKey": "lycee-victor-schoelcher-de-fort-de",
-      "shareId": 135
+      "shareId": 135,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/le-vivasea.mp3"
     },
     {
       "slug": "le-voyage-dafak",
@@ -2514,11 +2649,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 589,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 1061,
       "establishment": "Collège Anne Frank",
       "establishmentKey": "college-anne-frank",
-      "shareId": 136
+      "shareId": 136,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/le-voyage-dafak.mp3"
     },
     {
       "slug": "le-voyage-de-la-riviere",
@@ -2533,11 +2669,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 299,
       "establishment": "Lycée Technique Privé Les Mandailles",
       "establishmentKey": "lycee-technique-prive-les-mandailles",
-      "shareId": 137
+      "shareId": 137,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/le-voyage-de-la-riviere-v2.mp3"
     },
     {
       "slug": "le-voyage-dun-fil-de-coton",
@@ -2552,11 +2689,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 187,
       "establishment": "Collège Marcel Pagnol de Noyen sur Sarthe",
       "establishmentKey": "college-marcel-pagnol-de-noyen-sur-sarthe",
-      "shareId": 138
+      "shareId": 138,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/projet-podcast3.mp3"
     },
     {
       "slug": "le-voyage-extraordinaire-de-bicou",
@@ -2570,11 +2708,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 5514,
       "establishment": "Collège Max Linder de Saint-Loubès",
       "establishmentKey": "college-max-linder-de-saint-loubes",
-      "shareId": 139
+      "shareId": 139,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/voyage-extraordinaire-de-bicou_0.mp3"
     },
     {
       "slug": "leau-un-luxe-qui-separe-deux-vies",
@@ -2588,11 +2727,12 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 1125,
       "establishment": "les élèves de 1ère 4, du LFIGP",
       "establishmentKey": "les-eleves-de-1ere-4-du-lfigp",
-      "shareId": 140
+      "shareId": 140,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/1ere4-podcast-dana-nala-waliya.mp3"
     },
     {
       "slug": "lecho-des-jardins-invisibles",
@@ -2606,11 +2746,12 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 531,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 535,
       "establishment": "les élèves de",
       "establishmentKey": "les-eleves-de",
-      "shareId": 141
+      "shareId": 141,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/podcast.mp3"
     },
     {
       "slug": "lechoue",
@@ -2624,11 +2765,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 42,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 43,
       "establishment": "Lycée Louis Pasteur",
       "establishmentKey": "lycee-louis-pasteur",
-      "shareId": 142
+      "shareId": 142,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/echoue.mp3"
     },
     {
       "slug": "lenvers-du-decor-le-fil-empoisonne",
@@ -2643,11 +2785,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 41,
       "establishment": "Lycée Gaston Bachelard",
       "establishmentKey": "lycee-gaston-bachelard",
-      "shareId": 143
+      "shareId": 143,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/podcast-gwendoline-sophie-clemence-paul-1.mp3"
     },
     {
       "slug": "les-animaux-de-la-resistance",
@@ -2662,11 +2805,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 447,
       "establishment": "Collège Les Deux-Rivières",
       "establishmentKey": "college-les-deux-rivieres",
-      "shareId": 144
+      "shareId": 144,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/les-animaux-de-la-resistance-1.mp3"
     },
     {
       "slug": "les-aventures-de-toru-et-coco",
@@ -2680,11 +2824,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 240,
       "establishment": "Collège Victor Hugo de Ham",
       "establishmentKey": "college-victor-hugo-de-ham",
-      "shareId": 145
+      "shareId": 145,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/podcast-les-aventures-de-toru-et-coco.mp3"
     },
     {
       "slug": "les-commerages-de-lespace",
@@ -2699,11 +2844,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 172,
       "establishment": "Lycée Lumina Sophie",
       "establishmentKey": "lycee-lumina-sophie",
-      "shareId": 146
+      "shareId": 146,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/les-commerages-de-l-espace.mp3"
     },
     {
       "slug": "les-deux-mondes",
@@ -2718,11 +2864,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 158,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 166,
       "establishment": "Lycée Louise Weiss",
       "establishmentKey": "lycee-louise-weiss",
-      "shareId": 147
+      "shareId": 147,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/les-deux-mondes.mp3"
     },
     {
       "slug": "les-echos-de-lemploi",
@@ -2736,11 +2883,12 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 199,
       "establishment": "les élèves de 1º Bachillerato, de l'IES Leonardo Torres Quevedo",
       "establishmentKey": "les-eleves-de-1-bachillerato-de-l-ies-leonardo-torres-quevedo",
-      "shareId": 148
+      "shareId": 148,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/les-echos-de-l-emploi.mp3"
     },
     {
       "slug": "les-filles-aussi-ont-des-ailes",
@@ -2755,11 +2903,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 445,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 448,
       "establishment": "Collège de Kawéni 1",
       "establishmentKey": "college-de-kaweni-1",
-      "shareId": 149
+      "shareId": 149,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-04/les-filles-aussi-ont-des-ailes.mp3"
     },
     {
       "slug": "les-murmures-dune-eau-blessee",
@@ -2773,12 +2922,13 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 341,
       "establishment": "Lycée Caucadis",
       "establishmentKey": "lycee-caucadis",
       "academy": "Académie de Starlight Podcast (concours Réinventer le monde) La Malédiction de Sangha Podcast (concours Réinventer le monde) Le lutin de poche Podcast (concours Réinventer le monde) Mon combat contre les inégalités Podcast (concours Réinventer le monde) Abonnez-vous à notre lettre d’information - Inscrivez-vous !Vous souhaitez suivre notre actualité et/ou participer à nos événements ? Découvrez nos newsletters Nos programmes pédagogiques Réinventer le monde Négociation internationale Nos ressources pédagogiques Le quiz ODD ! Livret pédagogique - Agir pour un monde en commun Livret enseignant - Océan Bibliothèque de ressources Actus FAQ Qui sommes-nous ? Siège de l'AFD 5 rue Roland Barthes 75 598 PARIS CEDEX 12, FRANCE afd.fr tilt.fr Contactez-nous Mentions légales Plan du site Accessibilité numérique : partiellement conforme Back to top of page {\"path\":{\"baseUrl\":\"\\/\",\"pathPrefix\":\"fr\\/\",\"currentPath\":\"node\\/200\",\"currentPathIsAdmin\":false,\"isFront\":false,\"currentLanguage\":\"fr\"},\"pluralDelimiter\":\"\\u0003\",\"suppressDeprecationErrors\":true,\"dsfr4drupal\":{\"production\":1,\"verbose\":0,\"level\":\"info\"},\"ajaxPageState\":{\"libraries\":\"eJyNlO12gyAMhm9I9M_uxxMgIhUIg7C1d7-4rqftVs_4o0KefPgmAIudLS7QAs-8YsTJBdIQ1FIo8QCJvSaeft7jQiUOGpmxzHjOVNHOiw-yrJPDhAXCYKjgZChmSpi4jvA7hVJgBLKeUg-sC4I1pUXdQxsotoez-IGBchS7kvJj7XFaKAT67CNJovaTiikrKab1uKwiSF9wH8GhMpQvKqA0qEua4NOmNHc1J5AjlUA-LVbT45HgwzvgzuYnslL_Cpm66X51HvBrDoXWM_X7sueAPXQ1RUZnb3IXvfm8N-HvTNq6lDdbWpYTqnRjpqRcofY37BP5M2Mv5-sJ3Nv5P6Eoy0l_JdQTyuD-BQ6qz2jBkfN4k-RbaVXR3AfnGmWEE5yvGz7JTybZOr03LJfrZfWQ8J5gNCuaTdP5wOxTbnxgi2Tlkntte2-i84GNQYdDW4FUA4hv8BtO-2PIUMAVyGu9_el9Z2xSoA6-rmiHX1o9X-DZQ6IZRJULe1On7_Wez2w-uaFeKmOcNFT8AkpoVIA\",\"theme\":\"pedagogie_theme\",\"theme_token\":null},\"ajaxTrustedUrl\":{\"form_action_p_pvdeGsVG5zNF_XLGPTvYSKCf43t8qZYSwcfZl2uzM\":true,\"\\/fr\\/ressources\\/les-murmures-dune-eau-blessee?ajax_form=1\":true,\"\\/fr\\/recherche\":true},\"pianoAnalytics\":{\"token\":\"649508\",\"dataLayer\":{\"site_name\":\"Offre p\\u00e9dagogique AFD \\u2013 Monde \\u00e9ducatif\",\"path\":\"\\/node\\/200\",\"route\":\"entity.node.canonical\",\"url\":\"https:\\/\\/offre-pedagogique.afd.fr\\/fr\\/ressources\\/les-murmures-dune-eau-blessee\",\"query\":[],\"language\":\"fr\",\"page\":\"Les murmures d\\u0027une eau bless\\u00e9e\",\"content_type\":\"resource\",\"content_id\":\"200\",\"content_page\":\"Les murmures d\\u0027une eau bless\\u00e9e\",\"content_language\":\"fr\",\"content_created\":\"1780027044\",\"content_changed\":1780027371,\"content_status\":true},\"click_tracking_enabled\":true,\"click_selectors\":\"a, button, input[type=\\u0022button\\u0022], input[type=\\u0022submit\\u0022]\",\"download_tracking_enabled\":true,\"download_extensions\":\"pdf,zip,tar,gz,doc,docx,xls,xlsx,ppt,pptx,mp3,mp4,avi\",\"respect_dnt\":true,\"anonymize_ip\":true},\"like\":{\"node:200\":{\"entity_type\":\"node\",\"entity_id\":\"200\",\"default_state\":\"Je vote pour ce podcast\",\"liked_state\":\"Vous avez d\\u00e9j\\u00e0 vot\\u00e9 pour ce podcast.\"}},\"antibot\":{\"forms\":{\"like-form-node-200\":{\"id\":\"like-form-node-200\",\"key\":\"sHu3cgWGCSGxFhh5FUlxIriCJINw-Psj1-MLrjSVQOF\"}}},\"ajax\":{\"edit-like-toggle\":{\"wrapper\":\"like-form-node-200\",\"callback\":[{},\"ajaxSubmit\"],\"effect\":\"fade\",\"progress\":{\"type\":\"none\"},\"event\":\"change\",\"url\":\"\\/fr\\/ressources\\/les-murmures-dune-eau-blessee?ajax_form=1\",\"httpMethod\":\"POST\",\"dialogType\":\"ajax\",\"submit\":{\"_triggering_element_name\":\"like_toggle\"}}},\"user\":{\"uid\":0,\"permissionsHash\":\"20cd5112f7c6416962511446b1b76cf86cc489cc5ef8ba83836cb4f75c79e2d9\"}}",
-      "shareId": 150
+      "shareId": 150,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/les-murmures-d-une-eau-blessee-1.mp3"
     },
     {
       "slug": "les-ruines-de-lancien-monde",
@@ -2791,11 +2941,12 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 47,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 49,
       "establishment": "Lycée Lyautey de Casablanca au Maroc",
       "establishmentKey": "lycee-lyautey-de-casablanca-au-maroc",
-      "shareId": 151
+      "shareId": 151,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/audio-groupe5-lyautey-1.mp3"
     },
     {
       "slug": "letant-de-lor-en-colere",
@@ -2810,11 +2961,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 436,
       "establishment": "Collège Saint François Régis de Montpellier",
       "establishmentKey": "college-saint-francois-regis-de-montpellier",
-      "shareId": 152
+      "shareId": 152,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/l-etang-de-l-or-en-colere-college-sfr-montpellier-1.mp3"
     },
     {
       "slug": "lets-go",
@@ -2829,11 +2981,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 476,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 496,
       "establishment": "Collège Vallée du Lys",
       "establishmentKey": "college-vallee-du-lys",
-      "shareId": 153
+      "shareId": 153,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/podcast-6a-college-vallee-du-lys.mp3"
     },
     {
       "slug": "lhommiculture",
@@ -2848,11 +3001,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 6917,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 6935,
       "establishment": "Lycée Auguste Renoir de Limoges",
       "establishmentKey": "lycee-auguste-renoir-de-limoges",
-      "shareId": 154
+      "shareId": 154,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/projet-final-505.mp3"
     },
     {
       "slug": "limposture-de-la-machine",
@@ -2867,11 +3021,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 203,
       "establishment": "Collège Jules Ferry de Beaune",
       "establishmentKey": "college-jules-ferry-de-beaune",
-      "shareId": 155
+      "shareId": 155,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/montage-gaspillage-alimentaire-voix-ok-bruit-en-cours-ordi-job-1.mp3"
     },
     {
       "slug": "linvention-du-film-denrupatate",
@@ -2886,11 +3041,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 220,
       "establishment": "Collège Marc Bloch",
       "establishmentKey": "college-marc-bloch",
-      "shareId": 156
+      "shareId": 156,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/jules-thom-alexis.mp3"
     },
     {
       "slug": "lontan-aster-domin",
@@ -2905,11 +3061,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 381,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 385,
       "establishment": "Collège Jules Reydellet de St Denis de la Réunion",
       "establishmentKey": "college-jules-reydellet-de-st-denis-de-la-reunion",
-      "shareId": 157
+      "shareId": 157,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/podcast-rlm-reydellet-final.mp3"
     },
     {
       "slug": "loup-que-fais-tu",
@@ -2924,11 +3081,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 103,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 104,
       "establishment": "Collège Sainte Jeanne d'Arc",
       "establishmentKey": "college-sainte-jeanne-d-arc",
-      "shareId": 158
+      "shareId": 158,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/podcast-loup-que-fais-tu.mp3"
     },
     {
       "slug": "lunion-des-differences",
@@ -2943,11 +3101,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 438,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 440,
       "establishment": "Lycée Etienne-Jules Marey de Boulogne-Billancourt",
       "establishmentKey": "lycee-etienne-jules-marey-de-boulogne-billancourt",
-      "shareId": 159
+      "shareId": 159,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/final-reinventer-le-monde-afd-2026-v2-copie.mp3"
     },
     {
       "slug": "luxoria",
@@ -2962,11 +3121,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 165,
       "establishment": "Lycée Dumas JEAN-JOSEPH",
       "establishmentKey": "lycee-dumas-jean-joseph",
-      "shareId": 160
+      "shareId": 160,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/luxoria.mp3"
     },
     {
       "slug": "ma-conscience-en-soldes",
@@ -2980,11 +3140,12 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 329,
       "establishment": "Lycée International de La Havane \"Alejo Carpentier\"",
       "establishmentKey": "lycee-international-de-la-havane-alejo-carpentier",
-      "shareId": 161
+      "shareId": 161,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/pocast-final.mp3"
     },
     {
       "slug": "ma-vie-de-garcon-ma-prison-0",
@@ -2998,11 +3159,12 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 608,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 630,
       "establishment": "Collège Saint-Exupéry",
       "establishmentKey": "college-saint-exupery",
-      "shareId": 162
+      "shareId": 162,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/proces-masculinite-v-7min-saint-ex-rabat-1.mp3"
     },
     {
       "slug": "madagascar-2037",
@@ -3017,11 +3179,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 117,
       "establishment": "Lycée Condé",
       "establishmentKey": "lycee-conde",
-      "shareId": 163
+      "shareId": 163,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/madagascar-2037.mp3"
     },
     {
       "slug": "mariage-ou-exil",
@@ -3035,11 +3198,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 217,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 218,
       "establishment": "Ecodélégués du collège",
       "establishmentKey": "ecodelegues-du-college",
-      "shareId": 164
+      "shareId": 164,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/montage-audio-college.mp3"
     },
     {
       "slug": "marseille-2040",
@@ -3053,11 +3217,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 127,
       "establishment": "Collège Chape",
       "establishmentKey": "college-chape",
-      "shareId": 165
+      "shareId": 165,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/marseille-2040-fiction.mp3"
     },
     {
       "slug": "memoires-dune-terre-perdue",
@@ -3071,11 +3236,12 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 139,
       "establishment": "Lycée G. Mazzini",
       "establishmentKey": "lycee-g-mazzini",
-      "shareId": 166
+      "shareId": 166,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/d9d3f422-5879-4c11-9186-4f3ef88160a3.mp3"
     },
     {
       "slug": "memoriam",
@@ -3088,11 +3254,12 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 68,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 93,
       "establishment": "les élèves de 4ème C: Cemre Smaranda Farah Tymeo Mara",
       "establishmentKey": "les-eleves-de-4eme-c-cemre-smaranda-farah-tymeo-mara",
-      "shareId": 167
+      "shareId": 167,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/in-memoriam-2-1.mp3"
     },
     {
       "slug": "mentalites-oubliees-dans-le-congele",
@@ -3106,11 +3273,12 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 35,
       "establishment": "Lycée Metodova de Bratislava en Slovaquie",
       "establishmentKey": "lycee-metodova-de-bratislava-en-slovaquie",
-      "shareId": 168
+      "shareId": 168,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/podcast-projet-fr.mp3"
     },
     {
       "slug": "message-du-futur",
@@ -3124,11 +3292,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 774,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 776,
       "establishment": "Collège Sainte Clotilde",
       "establishmentKey": "college-sainte-clotilde",
-      "shareId": 169
+      "shareId": 169,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/message-du-futur.mp3"
     },
     {
       "slug": "mets-toi-sa-place",
@@ -3143,11 +3312,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 23,
       "establishment": "Lycée Jean-Marc Boivin",
       "establishmentKey": "lycee-jean-marc-boivin",
-      "shareId": 170
+      "shareId": 170,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/mets-toi-a-sa-place-2.mp3"
     },
     {
       "slug": "mexique-eau-empathie",
@@ -3162,11 +3332,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 324,
       "establishment": "Lycée Martin Luther King",
       "establishmentKey": "lycee-martin-luther-king",
-      "shareId": 171
+      "shareId": 171,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/mexique-eau-empathie-mlk-1.mp3"
     },
     {
       "slug": "mon-combat-contre-les-inegalites",
@@ -3181,11 +3352,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 173,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 184,
       "establishment": "Lycée Georges Cabanis de Brive-la-Gaillarde",
       "establishmentKey": "lycee-georges-cabanis-de-brive-la-gaillarde",
-      "shareId": 172
+      "shareId": 172,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/mon-combat-contre-les-inegalites-4.mp3"
     },
     {
       "slug": "mon-espoir",
@@ -3200,11 +3372,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 224,
       "establishment": "Lycée Jean Michel",
       "establishmentKey": "lycee-jean-michel",
-      "shareId": 173
+      "shareId": 173,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/mon-espoir-vf-1.mp3"
     },
     {
       "slug": "new-york-40degc-la-nuit",
@@ -3219,11 +3392,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 179,
       "establishment": "Lycée Gaston Bachelard",
       "establishmentKey": "lycee-gaston-bachelard",
-      "shareId": 174
+      "shareId": 174,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/podcast-40-degres-la-nuit.mp3"
     },
     {
       "slug": "oceane-la-petite-goutte-deau",
@@ -3237,11 +3411,12 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 588,
       "establishment": "Lycée de Cocody",
       "establishmentKey": "lycee-de-cocody",
-      "shareId": 175
+      "shareId": 175,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/oceane-la-petite-goutte-d-eau-podcast-cocody.mp3"
     },
     {
       "slug": "pauvrete-brisee-grace-leducation",
@@ -3255,11 +3430,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 365,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 377,
       "establishment": "Lycée Emiland Gauthey",
       "establishmentKey": "lycee-emiland-gauthey",
-      "shareId": 176
+      "shareId": 176,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/podcast-ghana.mp3"
     },
     {
       "slug": "pleyben-demain",
@@ -3274,11 +3450,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 203,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 204,
       "establishment": "Collège Louis Hémon de Pleyben",
       "establishmentKey": "college-louis-hemon-de-pleyben",
-      "shareId": 177
+      "shareId": 177,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/odo-pleyben-2075.mp3"
     },
     {
       "slug": "polatouche",
@@ -3292,11 +3469,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 40,
       "establishment": "Collège Mathalin",
       "establishmentKey": "college-mathalin",
-      "shareId": 178
+      "shareId": 178,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/polatouche.mp3"
     },
     {
       "slug": "pourquoi-nous",
@@ -3311,11 +3489,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 24,
       "establishment": "Lycée Jean-Marc Boivin",
       "establishmentKey": "lycee-jean-marc-boivin",
-      "shareId": 179
+      "shareId": 179,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/pourquoi-nous-1.mp3"
     },
     {
       "slug": "prends-soin-de-toi",
@@ -3329,11 +3508,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 615,
       "establishment": "Lycée Marguerite de Valois en Charente ont souhaité s’interroger",
       "establishmentKey": "lycee-marguerite-de-valois-en-charente-ont-souhaite-s-interroger",
-      "shareId": 180
+      "shareId": 180,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/prends-soin-de-toi.mp3"
     },
     {
       "slug": "promo-tout-prix",
@@ -3347,11 +3527,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 1004,
       "establishment": "Collège Maurice Satineau de la viklle de Baie-Mahault en Guadeloupe",
       "establishmentKey": "college-maurice-satineau-de-la-viklle-de-baie-mahault-en-guadeloupe",
-      "shareId": 181
+      "shareId": 181,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/pad-satineau-promo-a-tout-prix.mp3"
     },
     {
       "slug": "proteger-les-hirondelles-voyageuses",
@@ -3366,11 +3547,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 199,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 200,
       "establishment": "Lycée Jean Rostand",
       "establishmentKey": "lycee-jean-rostand",
-      "shareId": 182
+      "shareId": 182,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/la-protection-des-hirondelles-voyageuses-1.mp3"
     },
     {
       "slug": "quand-la-terre-seteint",
@@ -3385,11 +3567,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 84,
       "establishment": "Lycée Pierre Corneille",
       "establishmentKey": "lycee-pierre-corneille",
-      "shareId": 183
+      "shareId": 183,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/podcast-lycee-pierre-corneille.mp3"
     },
     {
       "slug": "quand-la-ville-grignote-le-vivant",
@@ -3403,11 +3586,12 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 112,
       "establishment": "Lycée de Taipei",
       "establishmentKey": "lycee-de-taipei",
-      "shareId": 184
+      "shareId": 184,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/kelly-yao-audio.mp3"
     },
     {
       "slug": "quand-ma-mere-est-devenue-personne",
@@ -3422,11 +3606,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 168,
       "establishment": "Lycée l'Annonciation",
       "establishmentKey": "lycee-l-annonciation",
-      "shareId": 185
+      "shareId": 185,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/quand-ma-mere-est-devenue-personne.mp3"
     },
     {
       "slug": "qui-viendra-me-sauver",
@@ -3441,11 +3626,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 135,
       "establishment": "Lycée Charles Tillon de Rennes",
       "establishmentKey": "lycee-charles-tillon-de-rennes",
-      "shareId": 186
+      "shareId": 186,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/qui-viendra-me-sauver-1.mp3"
     },
     {
       "slug": "reinventer-le-quotidien",
@@ -3459,11 +3645,12 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 623,
       "establishment": "Lycée #16 UANL",
       "establishmentKey": "lycee-16-uanl",
-      "shareId": 187
+      "shareId": 187,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/podcast-1-frances-completo.mp3"
     },
     {
       "slug": "renaissance-au-coeur-de-loasis",
@@ -3477,11 +3664,12 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 1052,
       "establishment": "Lycée international Louis Massignon",
       "establishmentKey": "lycee-international-louis-massignon",
-      "shareId": 188
+      "shareId": 188,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/podcast-renaissance-2.mp3"
     },
     {
       "slug": "repecher-le-futur",
@@ -3495,11 +3683,12 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 202,
       "establishment": "Lycée Istituto \"Cipriani Colombo\"",
       "establishmentKey": "lycee-istituto-cipriani-colombo",
-      "shareId": 189
+      "shareId": 189,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/podcast-repecher-le-futur-iis-cipriani-colombo-italie.mp3"
     },
     {
       "slug": "robert-et-la-riviere",
@@ -3514,11 +3703,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 560,
       "establishment": "Lycée des métiers de l'hôtellerie et du tourisme Violetta Chaville",
       "establishmentKey": "lycee-des-metiers-de-l-hotellerie-et-du-tourisme-violetta-chaville",
-      "shareId": 190
+      "shareId": 190,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/robert-et-la-riviere-podcast-lmht-2026.mp3"
     },
     {
       "slug": "sante-et-bien-etre",
@@ -3532,11 +3722,12 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 16,
       "establishment": "Lycée Metodova de Bratislava en Slovaquie",
       "establishmentKey": "lycee-metodova-de-bratislava-en-slovaquie",
-      "shareId": 191
+      "shareId": 191,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/sante-et-bien-etre.mp3"
     },
     {
       "slug": "sargasses-sante-environnement",
@@ -3550,11 +3741,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 448,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 449,
       "establishment": "Collège Lisette Moutachi situé au Lamentin Martinique",
       "establishmentKey": "college-lisette-moutachi-situe-au-lamentin-martinique",
-      "shareId": 192
+      "shareId": 192,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/aud-20260429-wa0012.mp3"
     },
     {
       "slug": "sauvons-les-limules",
@@ -3569,11 +3761,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 87,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 103,
       "establishment": "Collège Paul Landowski",
       "establishmentKey": "college-paul-landowski",
-      "shareId": 193
+      "shareId": 193,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/sauvons-les-limules.mp3"
     },
     {
       "slug": "sauvons-patty-et-son-bebe",
@@ -3588,11 +3781,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 313,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 317,
       "establishment": "Collège François Mitterrand d’Arras",
       "establishmentKey": "college-francois-mitterrand-d-arras",
-      "shareId": 194
+      "shareId": 194,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-04/sauvons-patty-dern-version2.mp3"
     },
     {
       "slug": "se-battre-comme-des-chiffonniers",
@@ -3607,11 +3801,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 61,
       "establishment": "Lycée Jacques Decour du 9éme arrondissement de Paris",
       "establishmentKey": "lycee-jacques-decour-du-9eme-arrondissement-de-paris",
-      "shareId": 195
+      "shareId": 195,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/v3-decour-chiffonniers-1.mp3"
     },
     {
       "slug": "silence-au-bout-du-fil",
@@ -3625,11 +3820,12 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 261,
       "establishment": "les élèves de 1ere 6 en EMC, du LFIGP",
       "establishmentKey": "les-eleves-de-1ere-6-en-emc-du-lfigp",
-      "shareId": 196
+      "shareId": 196,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/silence-au-bout-du-fil-2.mp3"
     },
     {
       "slug": "silver-et-le-souffle-du-plancton",
@@ -3644,11 +3840,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 630,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 639,
       "establishment": "Collège Camille Claudel",
       "establishmentKey": "college-camille-claudel",
-      "shareId": 197
+      "shareId": 197,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/podcas.mp3"
     },
     {
       "slug": "sky-de-la-bouteille",
@@ -3663,11 +3860,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 310,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 311,
       "establishment": "Collège Chevreul",
       "establishmentKey": "college-chevreul",
-      "shareId": 198
+      "shareId": 198,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/sky-a-de-la-bouteille.mp3"
     },
     {
       "slug": "souffle-vert",
@@ -3682,11 +3880,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 402,
       "establishment": "Lycée les Bourdonnières",
       "establishmentKey": "lycee-les-bourdonnieres",
-      "shareId": 199
+      "shareId": 199,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/le-souffle-vert.mp3"
     },
     {
       "slug": "sous-la-surface",
@@ -3701,11 +3900,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 32,
       "establishment": "les élèves de la Première B1 de l'Annonciation",
       "establishmentKey": "les-eleves-de-la-premiere-b1-de-l-annonciation",
-      "shareId": 200
+      "shareId": 200,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/sous-la-surface.mp3"
     },
     {
       "slug": "sous-mes-pieds-le-mali",
@@ -3720,11 +3920,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 251,
       "establishment": "Collège Jules Ferry de Beaune",
       "establishmentKey": "college-jules-ferry-de-beaune",
-      "shareId": 201
+      "shareId": 201,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/sous-mes-pieds-le-mali-1.mp3"
     },
     {
       "slug": "sur-les-pas-delisey",
@@ -3739,11 +3940,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 1061,
       "establishment": "Collège Louis Aragon",
       "establishmentKey": "college-louis-aragon",
-      "shareId": 202
+      "shareId": 202,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/podcast-elisey-5a2-def-1.mp3"
     },
     {
       "slug": "tacos-des-alpages",
@@ -3758,11 +3960,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 259,
       "establishment": "Collège Europole de Grenoble",
       "establishmentKey": "college-europole-de-grenoble",
-      "shareId": 203
+      "shareId": 203,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/fiction-sonore-montage-version-2.mp3"
     },
     {
       "slug": "tim-tembo-destins-croises",
@@ -3776,11 +3979,12 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 141,
       "establishment": "Lycée Denis Diderot",
       "establishmentKey": "lycee-denis-diderot",
-      "shareId": 204
+      "shareId": 204,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/tim-et-tembo-destins-croises.mp3"
     },
     {
       "slug": "toi-moi-et-notre-nouvelle-vie",
@@ -3795,11 +3999,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 468,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 469,
       "establishment": "Lycée Sacré-Cœur La Salle",
       "establishmentKey": "lycee-sacre-c-ur-la-salle",
-      "shareId": 205
+      "shareId": 205,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/podcast-toi-moi-et-notre-nouvelle-vie.mp3"
     },
     {
       "slug": "tony-le-protecteur-des-fleuves",
@@ -3813,11 +4018,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 122,
       "establishment": "Collège La Guicharde",
       "establishmentKey": "college-la-guicharde",
-      "shareId": 206
+      "shareId": 206,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/podcast-5eme-5-fleuves-1-1.mp3"
     },
     {
       "slug": "tor-tue-plastique",
@@ -3831,11 +4037,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 22,
       "establishment": "Collège Mathalin",
       "establishmentKey": "college-mathalin",
-      "shareId": 207
+      "shareId": 207,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/tor-tue-plastique.mp3"
     },
     {
       "slug": "tour-du-monde-en-80-jours",
@@ -3849,11 +4056,12 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 147,
       "establishment": "Lycée International de La Havane \"Alejo Carpentier\"",
       "establishmentKey": "lycee-international-de-la-havane-alejo-carpentier",
-      "shareId": 208
+      "shareId": 208,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/podcast-groupe-youssef-betsalel-renzo-gaston-1-1.mp3"
     },
     {
       "slug": "toxique-plastique",
@@ -3868,11 +4076,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 465,
       "establishment": "Lycée Gérard Ethève",
       "establishmentKey": "lycee-gerard-etheve",
-      "shareId": 209
+      "shareId": 209,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/podcast-rlm-g-etheve-final-4-1.mp3"
     },
     {
       "slug": "tragi-comedie-chez-les-albatar",
@@ -3887,11 +4096,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 149,
       "establishment": "Collège Edmond Lucien Valard",
       "establishmentKey": "college-edmond-lucien-valard",
-      "shareId": 210
+      "shareId": 210,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/famille-albatar-final-v1.mp3"
     },
     {
       "slug": "trier-cest-gagner",
@@ -3906,11 +4116,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 639,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 641,
       "establishment": "Collège Emile ZOLA de la ville Le Haillan",
       "establishmentKey": "college-emile-zola-de-la-ville-le-haillan",
-      "shareId": 211
+      "shareId": 211,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/trier-c-est-gagner-college-emile-zola.mp3"
     },
     {
       "slug": "tsilaosa-et-le-ciel-etoile",
@@ -3925,11 +4136,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 1355,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 1360,
       "establishment": "Collège La Salle Saint-Michel",
       "establishmentKey": "college-la-salle-saint-michel",
-      "shareId": 212
+      "shareId": 212,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/podcast-rlm-saint-michel-final-2-1.mp3"
     },
     {
       "slug": "tukuna",
@@ -3943,11 +4155,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 538,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 544,
       "establishment": "Collège Florian d'Anduze",
       "establishmentKey": "college-florian-d-anduze",
-      "shareId": 213
+      "shareId": 213,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/tukuna.mp3"
     },
     {
       "slug": "un-echange-qui-te-change",
@@ -3960,11 +4173,12 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 123,
       "establishment": "Lycée \"G.Mazzini\" La Spezia ITALIE",
       "establishmentKey": "lycee-g-mazzini-la-spezia-italie",
-      "shareId": 214
+      "shareId": 214,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/un-echange-qui-te-change.mp3"
     },
     {
       "slug": "un-faux-refuge",
@@ -3978,11 +4192,12 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 424,
       "establishment": "Lycée de Port-Bouët",
       "establishmentKey": "lycee-de-port-bouet",
-      "shareId": 215
+      "shareId": 215,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/un-faux-refuge-lycee-port-bouet.mp3"
     },
     {
       "slug": "un-monde-bouleverse",
@@ -3997,11 +4212,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 2161,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 2162,
       "establishment": "LPO Marguerite Yourcenar",
       "establishmentKey": "lpo-marguerite-yourcenar",
-      "shareId": 216
+      "shareId": 216,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/anaelle-jade-jade-et-al-final.mp3"
     },
     {
       "slug": "un-monde-deux-verites",
@@ -4016,11 +4232,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 1581,
       "establishment": "Lycée St Joseph La Cordeille",
       "establishmentKey": "lycee-st-joseph-la-cordeille",
-      "shareId": 217
+      "shareId": 217,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/un-monde-deux-verites.mp3"
     },
     {
       "slug": "un-monde-sans-voix-0",
@@ -4033,11 +4250,12 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 3120,
       "establishment": "un groupe d'élèves de III G Esabac du Liceo Publio Virgilio Marone de Meta",
       "establishmentKey": "un-groupe-d-eleves-de-iii-g-esabac-du-liceo-publio-virgilio-marone-de-meta",
-      "shareId": 218
+      "shareId": 218,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/un-monde-sans-voix-lycee-publio-virgilio-meta_0.mp3"
     },
     {
       "slug": "un-sandwich-et-reinventer-le-monde",
@@ -4052,11 +4270,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 495,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 496,
       "establishment": "Collège Louis Aragon",
       "establishmentKey": "college-louis-aragon",
-      "shareId": 219
+      "shareId": 219,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/podcast-sandwich-5b2-def.mp3"
     },
     {
       "slug": "une-cassette-la-mer",
@@ -4071,11 +4290,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 16,
       "establishment": "Lycée Gabriel Deshayes",
       "establishmentKey": "lycee-gabriel-deshayes",
-      "shareId": 220
+      "shareId": 220,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/une-cassette-a-la-mer.mp3"
     },
     {
       "slug": "une-famille-au-burkina-faso",
@@ -4089,11 +4309,12 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 410,
       "establishment": "les élèves de la classe 3G, du Istituto Istruzione Superiore Antonio Meucci",
       "establishmentKey": "les-eleves-de-la-classe-3g-du-istituto-istruzione-superiore-antonio-meucci",
-      "shareId": 221
+      "shareId": 221,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-05/podcast-une-famille-au-burkina-faso-3g-iis-a-meucci-carpi-it.mp3"
     },
     {
       "slug": "une-journee-sans-eau",
@@ -4107,11 +4328,12 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 3072,
       "establishment": "Lycée la Clairefontaine",
       "establishmentKey": "lycee-la-clairefontaine",
-      "shareId": 222
+      "shareId": 222,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/une-journee-sans-eau-reinventer-le-monde-2026-clairefontaine.mp3"
     },
     {
       "slug": "une-piece-sil-vous-plait",
@@ -4126,11 +4348,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 353,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 354,
       "establishment": "Collège Jules Marouzeau",
       "establishmentKey": "college-jules-marouzeau",
-      "shareId": 223
+      "shareId": 223,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/une-piece-s-il-vous-plait.mp3"
     },
     {
       "slug": "une-rencontre-qui-change-tout",
@@ -4143,11 +4366,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
       "lastVotes": 161,
       "establishment": "Collège victor hugo de Ham",
       "establishmentKey": "college-victor-hugo-de-ham",
-      "shareId": 224
+      "shareId": 224,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/podcast-une-rencontre-qui-change-tout.mp3"
     },
     {
       "slug": "une-sortie-au-musee",
@@ -4162,11 +4386,12 @@
       "status": "Demi-finaliste de la catégorie Cycle 4 (12-14 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 520,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 521,
       "establishment": "Collège Jules Marouzeau",
       "establishmentKey": "college-jules-marouzeau",
-      "shareId": 225
+      "shareId": 225,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/podcast-une-sortie-au-musee.mp3"
     },
     {
       "slug": "une-voix-contre-lexcision",
@@ -4181,11 +4406,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 131,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 144,
       "establishment": "Lycée de Coiffure Pierre Masson",
       "establishmentKey": "lycee-de-coiffure-pierre-masson",
-      "shareId": 226
+      "shareId": 226,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/t1t2v2.mp3"
     },
     {
       "slug": "veloria-le-dernier-souffle",
@@ -4199,11 +4425,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 192,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 193,
       "establishment": "Lycée Louise Michel d'Epinay sur Seine",
       "establishmentKey": "lycee-louise-michel-d-epinay-sur-seine",
-      "shareId": 227
+      "shareId": 227,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/veloria-le-dernier-souffle-lm-epinay-sur-seine-1.mp3"
     },
     {
       "slug": "vent-et-silence",
@@ -4217,11 +4444,12 @@
       "status": "Demi-finaliste de la catégorie Internationale",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 1802,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 1805,
       "establishment": "Lycée la Clairefontaine",
       "establishmentKey": "lycee-la-clairefontaine",
-      "shareId": 228
+      "shareId": 228,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/vent-et-silence-reinventer-le-monde-2026-clairefontaine-fd.mp3"
     },
     {
       "slug": "voyage-tortuguero",
@@ -4235,11 +4463,12 @@
       "status": "Demi-finaliste de la catégorie Lycée (15-18 ans)",
       "voteStatus": "open",
       "active": true,
-      "lastValidatedAt": "2026-06-12T07:51:38.514+02:00",
-      "lastVotes": 838,
+      "lastValidatedAt": "2026-06-12T11:31:44.207+02:00",
+      "lastVotes": 839,
       "establishment": "Collège La Guicharde",
       "establishmentKey": "college-la-guicharde",
-      "shareId": 229
+      "shareId": 229,
+      "audioUrl": "https://offre-pedagogique.afd.fr/sites/pedagogie/files/2026-06/le-voyage-a-tortuguero-2-1.mp3"
     }
   ]
 }

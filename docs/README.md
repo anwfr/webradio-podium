@@ -109,7 +109,7 @@ Résumé :
 2. **Settings → Pages** : source **GitHub Actions** (le site est dans `public/`, pas à la racine).
 3. **Settings → Actions** : **Read and write permissions**.
 4. Lancer **Deploy site to GitHub Pages**, puis **Scrape votes** (ou **Discover** si catalogue vide).
-5. Cron votes : 2×/jour par défaut (`scrape.yml` — horaires en UTC, voir doc déploiement).
+5. Cron votes : 3×/jour par défaut (`scrape.yml` — horaires en UTC, voir doc déploiement).
 
 En Actions, `GITHUB_REPOSITORY` suffit — pas besoin de `.env` sur le serveur.
 

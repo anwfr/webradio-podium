@@ -23,7 +23,7 @@ Guide pas à pas pour mettre en ligne le site et configurer la mise à jour auto
 |-----------|------|
 | **Deploy site to GitHub Pages** (`pages.yml`) | Publie le dossier `public/` sur GitHub Pages |
 | **Discover participants** (`discover.yml`) | Re-scan complet AFD — **manuel**, une fois avant le 1er cron (ou après gros changement catalogue) |
-| **Scrape votes** (`scrape.yml`) | Collecte les votes + publish — **cron 2×/jour** + lancement manuel |
+| **Scrape votes** (`scrape.yml`) | Collecte les votes + publish — **cron 3×/jour** + lancement manuel |
 
 Le site statique vit dans `public/`. Les scripts écrivent dans `data/` (source de vérité) puis copient vers `public/data/` via `npm run publish` (appelé par les pipelines).
 
@@ -140,7 +140,7 @@ Le fichier `.github/workflows/scrape.yml` contient :
 ```yaml
 on:
   schedule:
-    - cron: '0 4,14 * * *'
+    - cron: '0 4,9,14 * * *'
   workflow_dispatch:
 ```
 
@@ -151,15 +151,16 @@ GitHub interprète les crons en **UTC**, pas en heure de Paris. La variable `TZ:
 | Cron UTC | Paris (été, UTC+2) | Paris (hiver, UTC+1) |
 |----------|--------------------|----------------------|
 | 4h | 6h | 5h |
+| 9h | 11h | 10h |
 | 14h | 16h | 15h |
 
-Le cron `0 4,14 * * *` vise **6h et 16h heure de Paris en été**. En hiver, les runs partent une heure plus tôt (5h / 15h Paris) — ajuster en `0 5,15 * * *` si besoin.
+Le cron `0 4,9,14 * * *` vise **6h, 11h et 16h heure de Paris en été**. En hiver, les runs partent une heure plus tôt (5h / 10h / 15h Paris) — ajuster en `0 5,10,15 * * *` si besoin.
 
 ### Conditions d'exécution
 
 - Le cron ne tourne que sur la branche **par défaut** (`main`)
 - Repos inactifs 60 jours : GitHub peut désactiver les crons → relancer un run manuel pour réactiver
-- Fréquence recommandée : **2×/jour** (éviter le rate-limit AFD)
+- Fréquence recommandée : **3×/jour** (éviter le rate-limit AFD)
 
 ---
 

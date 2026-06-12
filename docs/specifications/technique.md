@@ -29,7 +29,7 @@ Deux pipelines **séparés** : votes automatiques vs découverte manuelle.
 
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
-│  PIPELINE A — scrape.yml (automatique 06h/16h + manuel optionnel)   │
+│  PIPELINE A — scrape.yml (automatique 06h/11h/16h + manuel optionnel)   │
 │                                                                      │
 │  scrape-votes → publish-data                                       │
 │                                                                      │
@@ -114,7 +114,7 @@ concurrency:
 ```
 webradio-podium/
 ├── .github/workflows/
-│   ├── scrape.yml               # Cron votes 06h/16h
+│   ├── scrape.yml               # Cron votes 06h/11h/16h
 │   └── discover.yml             # Découverte manuelle uniquement
 ├── docs/
 │   ├── README.md            # Prise en main rapide
@@ -191,7 +191,7 @@ En GitHub Actions, `GITHUB_REPOSITORY` est injecté automatiquement — pas beso
 ### 5.1 Pipeline A — Votes (automatique)
 
 ```
-[cron 06h/16h Europe/Paris]
+[cron 06h/11h/16h Europe/Paris]
         │
         ▼
   run-pipeline.js
@@ -447,8 +447,8 @@ name: Scrape votes
 
 on:
   schedule:
-    # GitHub cron = UTC (pas le TZ du job). 4h/14h UTC ≈ 6h/16h Paris en été.
-    - cron: '0 4,14 * * *'
+    # GitHub cron = UTC (pas le TZ du job). 4h/9h/14h UTC ≈ 6h/11h/16h Paris en été.
+    - cron: '0 4,9,14 * * *'
   workflow_dispatch:
 
 env:
@@ -587,7 +587,7 @@ Voir schéma `sync-report.json` dans [donnees.md](donnees.md#10-datasync-reportj
 - quels podcasts sont **nouveaux** dans notre base ;
 - ce qui n'a **pas changé** (compteur uniquement, section repliée).
 
-Les runs automatiques 06h/16h **ne modifient pas** le statut des inactifs connus — seul Pipeline B le fait. Tableau comparatif et FAQ : [pipelines.md](pipelines.md).
+Les runs automatiques 06h/11h/16h **ne modifient pas** le statut des inactifs connus — seul Pipeline B le fait. Tableau comparatif et FAQ : [pipelines.md](pipelines.md).
 
 ---
 
@@ -624,7 +624,7 @@ Contraintes détaillées : **[public-repo.md](public-repo.md)**.
 
 **Pipeline A (votes)**
 - [ ] `npm run pipeline` exécutable en local
-- [ ] Cron 06h/16h ne re-visite pas les fiches inactives connues
+- [ ] Cron 06h/11h/16h ne re-visite pas les fiches inactives connues
 - [ ] Nouveaux slugs sur la liste détectés et intégrés automatiquement
 - [ ] Relance même jour = pas de snapshot doublon
 

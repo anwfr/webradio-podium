@@ -141,31 +141,24 @@
       <div id="tab-podium" class="tab-panel" data-tab-panel="podium">
         <h2 class="section-title">🏆 Podium</h2>
         <div id="vote-countdown" class="vote-countdown" hidden aria-label="Temps restant avant la fin des votes">
-          <div class="vote-countdown-inner">
-            <span class="vote-countdown-badge"><span aria-hidden="true">⏳</span> Fin des votes</span>
-            <p class="vote-countdown-lead">Encore</p>
-            <div class="vote-countdown-timer" role="timer" aria-live="polite">
-              <div class="vote-countdown-unit" data-countdown-unit="days">
-                <span class="vote-countdown-value" data-countdown="days">0</span>
-                <span class="vote-countdown-label">j</span>
-              </div>
-              <span class="vote-countdown-sep" aria-hidden="true">:</span>
-              <div class="vote-countdown-unit">
-                <span class="vote-countdown-value" data-countdown="hours">00</span>
-                <span class="vote-countdown-label">h</span>
-              </div>
-              <span class="vote-countdown-sep" aria-hidden="true">:</span>
-              <div class="vote-countdown-unit">
-                <span class="vote-countdown-value" data-countdown="minutes">00</span>
-                <span class="vote-countdown-label">min</span>
-              </div>
-              <span class="vote-countdown-sep" aria-hidden="true">:</span>
-              <div class="vote-countdown-unit vote-countdown-unit--seconds">
-                <span class="vote-countdown-value" data-countdown="seconds">00</span>
-                <span class="vote-countdown-label">s</span>
-              </div>
-            </div>
-          </div>
+          <p class="vote-countdown-line" role="timer" aria-live="polite">
+            <span class="vote-countdown-prefix">Fin des votes dans</span>
+            <span class="vote-countdown-timer">
+              <span class="vote-countdown-unit" data-countdown-unit="days">
+                <span class="vote-countdown-value" data-countdown="days">0</span><span class="vote-countdown-label">j</span>
+              </span>
+              <span class="vote-countdown-unit">
+                <span class="vote-countdown-value" data-countdown="hours">00</span><span class="vote-countdown-label">h</span>
+              </span>
+              <span class="vote-countdown-unit">
+                <span class="vote-countdown-value" data-countdown="minutes">00</span><span class="vote-countdown-label">min</span>
+              </span>
+              <span class="vote-countdown-unit vote-countdown-unit--seconds">
+                <span class="vote-countdown-value" data-countdown="seconds">00</span><span class="vote-countdown-label">s</span>
+              </span>
+            </span>
+            <span class="vote-countdown-suffix">!</span>
+          </p>
         </div>
         <div class="podium" id="podium-global"></div>
         <div id="podcast-badges" class="establishment-badges" hidden></div>

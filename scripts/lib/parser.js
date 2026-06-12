@@ -29,6 +29,12 @@ export function extractSlugsFromListHtml(html) {
   return [...slugs];
 }
 
+export function resolveAudioUrl(src) {
+  if (!src) return null;
+  if (/^https?:\/\//i.test(src)) return src;
+  return `${config.afdBaseUrl}${src.startsWith('/') ? src : `/${src}`}`;
+}
+
 export function extractLastPageIndex(html) {
   const $ = cheerio.load(html);
   const lastLink = $('a.fr-pagination__link--last').attr('href') || '';
@@ -131,6 +137,9 @@ export function parsePodcastPage(html, slug) {
     }
   }
 
+  const audioSrc = $('audio source').first().attr('src') || null;
+  const audioUrl = resolveAudioUrl(audioSrc);
+
   let voteStatus;
   let active;
 
@@ -163,6 +172,7 @@ export function parsePodcastPage(html, slug) {
     active,
     votes,
     scrapeError,
+    audioUrl,
   };
 }
 
@@ -197,6 +207,10 @@ export function mergeParticipant(existing, parsed, validatedAt) {
 
   if (parsed.votes != null) {
     merged.lastVotes = parsed.votes;
+  }
+
+  if (parsed.audioUrl) {
+    merged.audioUrl = parsed.audioUrl;
   }
 
   const school = merged.school ?? null;

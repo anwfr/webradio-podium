@@ -52,7 +52,7 @@ La découverte passe par la liste paginée, mais **chaque fiche est validée** a
 | Édition | Uniquement **2026**, votes ouverts |
 | Accès | **Tout public** — site, données JSON, rapport découverte, repo git ; sans authentification |
 | Fuseau horaire | **Europe/Paris** |
-| Mise à jour des votes | **Automatique** (fréquence configurable via cron GitHub Actions, ex. 2×/jour) |
+| Mise à jour des votes | **Automatique** (fréquence configurable via cron GitHub Actions, ex. 3×/jour) |
 | Sync liste participants | **Figée** en prod (Pipeline A) · **Complet manuel** via Pipeline B si resync |
 | Stockage | **Fichiers JSON** + backups rotatifs (pas de BDD) |
 | Qualité code | Quick & dirty, acceptable pour la durée du projet |

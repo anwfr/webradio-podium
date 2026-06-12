@@ -27,7 +27,7 @@ Page web ludique affichant le classement en temps quasi réel des podcasts du [c
 
 - **Source :** [liste des podcasts AFD](https://offre-pedagogique.afd.fr/fr/publications/liste?words=&type%5B6%5D=6&thematic%5B389%5D=389&location=) (filtre Edition 2026)
 - **Pipelines :** **A** = votes auto sur actifs · **B** = audit complet manuel — [pipelines.md](pipelines.md)
-- **Votes :** mise à jour automatique via cron (fréquence configurable, ex. 2×/jour)
+- **Votes :** mise à jour automatique via cron (fréquence configurable, ex. 3×/jour)
 - **Stack :** GitHub Actions + GitHub Pages + fichiers JSON
 - **Livrable :** classement public (`index.html`)
 - **Contrainte :** [repo 100 % public](public-repo.md) — aucun secret ni donnée confidentielle

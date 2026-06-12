@@ -52,6 +52,7 @@
 | `active` | boolean | `true` seulement si `voteStatus === open` |
 | `firstSeenAt` | ISO 8601 | Date de première découverte, jamais modifiée |
 | `lastValidatedAt` | ISO 8601 | Dernière visite de la fiche (Pipeline B ou scrape-votes) |
+| `audioUrl` | string \| null | URL absolue du MP3 officiel (extrait de `<audio source>` sur la fiche AFD) |
 
 ---
 

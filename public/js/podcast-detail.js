@@ -19,6 +19,7 @@ import {
   buildFlyerTeaser,
   printPodcastFlyers,
   VOTE_AFD_BUTTON_LABEL,
+  VOTE_AFD_BUTTON_SUBLABEL,
   VOTE_AFD_STEP_HINT,
 } from './flyer-print.js';
 import {
@@ -26,6 +27,7 @@ import {
   buildPodcastShareUrl,
   parseShareIdFromUrl,
 } from './router.js';
+import { podcastAudioMarkup, initPodcastAudioPlayer } from './podcast-audio.js';
 
 const PODCAST_PARAM = 'podcast';
 const SHARE_PARAM = 'partage';
@@ -38,6 +40,13 @@ let activeShareMode = false;
 let popstateBound = false;
 let podcastUrlPushed = false;
 let sheetControlsBound = false;
+let activeAudioPlayer = null;
+
+function stopActiveAudio() {
+  if (!activeAudioPlayer) return;
+  activeAudioPlayer.stop();
+  activeAudioPlayer = null;
+}
 
 function escapeHtml(str) {
   return String(str)
@@ -212,7 +221,14 @@ function sheetActionIcon(type) {
   return `<span class="sheet-action-btn-icon" aria-hidden="true">${svg}</span>`;
 }
 
-function copyLinkButtonHtml(copied = false, shareUrl = '') {
+function copyLinkButtonHtml(copied = false, shareUrl = '', { compact = false } = {}) {
+  if (compact) {
+    if (copied) {
+      return `${sheetActionIcon('check')}<span>Copié !</span>`;
+    }
+    return `${sheetActionIcon('link')}<span>Copier</span>`;
+  }
+
   if (copied) {
     return `
       <span class="sheet-action-btn-copy-link-body">
@@ -256,24 +272,27 @@ function buildNativeSharePayload(shareText, shareUrl) {
 }
 
 function nativeShareButtonMarkup() {
-  return `<button type="button" class="sheet-action-btn sheet-action-btn--accent sheet-action-btn--native-share" id="podcast-share-btn">
-    ${sheetActionIcon('share')} Partager
+  return `<button type="button" class="podcast-share-action podcast-share-action--accent" id="podcast-share-btn">
+    ${sheetActionIcon('share')}<span>Partager</span>
   </button>`;
 }
 
-function shareActionsMarkup({ shareMode = false, shareUrl = '' } = {}) {
-  const modeClass = shareMode ? ' podcast-hero-share-actions--share-mode' : '';
+function shareActionsMarkup() {
+  const hasNativeShare = canUseNativeShare();
+  const gridClass = hasNativeShare ? '' : ' podcast-share-actions--dual';
 
   return `
-    <div class="podcast-hero-share-actions${modeClass}">
-      ${canUseNativeShare() ? nativeShareButtonMarkup() : ''}
-      <button type="button" class="sheet-action-btn sheet-action-btn--muted sheet-action-btn--copy-link" id="podcast-copy-link">
-        ${copyLinkButtonHtml(false, shareUrl)}
-      </button>
-      <button type="button" class="sheet-action-btn sheet-action-btn--muted sheet-action-btn--print-flyer" id="podcast-print-flyer">
-        ${sheetActionIcon('print')} Imprimer des flyers
-      </button>
-    </div>
+    <section class="podcast-sheet-share" aria-label="Partager">
+      <div class="podcast-share-actions${gridClass}">
+        ${hasNativeShare ? nativeShareButtonMarkup() : ''}
+        <button type="button" class="podcast-share-action" id="podcast-copy-link">
+          ${copyLinkButtonHtml(false, '', { compact: true })}
+        </button>
+        <button type="button" class="podcast-share-action" id="podcast-print-flyer">
+          ${sheetActionIcon('print')}<span>Flyers</span>
+        </button>
+      </div>
+    </section>
   `;
 }
 
@@ -291,7 +310,7 @@ function shareCtaMarkup(row) {
   `;
 }
 
-function podcastHeroStatsMarkup(row) {
+function podcastStatsMarkup(row) {
   const rankDeltaMarkup = formatRankDeltaMarkup(totalRankDelta(row));
 
   return `<div class="podcast-hero-stats podcast-card-stats">
@@ -301,28 +320,69 @@ function podcastHeroStatsMarkup(row) {
   </div>`;
 }
 
-function voteButtonMarkup(row) {
+function competitionVoteBlockMarkup(row) {
   if (!row.url) return '';
-  const votingOpen = row.voteStatus === 'open';
-  if (votingOpen) {
+
+  if (row.voteStatus === 'open') {
     const ariaLabel = `${VOTE_AFD_BUTTON_LABEL} sur le site AFD — ${VOTE_AFD_STEP_HINT}`;
     return `
-      <div class="podcast-vote-action">
-        <a href="${escapeHtml(row.url)}" class="sheet-action-btn sheet-action-btn--vote" target="_blank" rel="noopener" title="${escapeHtml(ariaLabel)}" aria-label="${escapeHtml(ariaLabel)}">
+      <a href="${escapeHtml(row.url)}" class="sheet-action-btn sheet-action-btn--vote sheet-action-btn--vote-promo" target="_blank" rel="noopener" title="${escapeHtml(ariaLabel)}" aria-label="${escapeHtml(ariaLabel)}">
+        <span class="sheet-action-btn-vote-row">
           <span class="sheet-action-btn-vote-icon">${sheetActionIcon('vote')}</span>
           <span class="sheet-action-btn-vote-label">${escapeHtml(VOTE_AFD_BUTTON_LABEL)}</span>
-        </a>
-        <p class="podcast-vote-hint">Sur la page qui va s'ouvrir, clique sur <strong>« Je vote pour ce podcast »</strong>.</p>
-      </div>`;
+        </span>
+        <span class="sheet-action-btn-vote-hint">${escapeHtml(VOTE_AFD_BUTTON_SUBLABEL)}</span>
+      </a>`;
   }
 
   const hint = 'Voir la fiche officielle sur le site de l\'AFD';
-  return `<a href="${escapeHtml(row.url)}" class="sheet-action-btn sheet-action-btn--muted" target="_blank" rel="noopener" title="${escapeHtml(hint)}" aria-label="${escapeHtml(hint)}">${sheetActionIcon('external')}Fiche AFD</a>`;
+  return `<a href="${escapeHtml(row.url)}" class="sheet-action-btn sheet-action-btn--muted sheet-action-btn--competition-link" target="_blank" rel="noopener" title="${escapeHtml(hint)}" aria-label="${escapeHtml(hint)}">${sheetActionIcon('external')}Fiche AFD</a>`;
 }
 
-function rankMarkerPercent(rank, total) {
-  if (total <= 1) return 0;
-  return ((rank - 1) / (total - 1)) * 100;
+function podcastIdentityMarkup(row, { shareMode = false } = {}) {
+  return `
+    <header class="podcast-sheet-identity podcast-hero rank-tier-${Math.min(row.rank, 3)}${shareMode ? ' podcast-hero--share' : ''}">
+      <div class="podcast-hero-main">
+        <div class="podcast-hero-rank" aria-label="Rang ${row.rank}">${rankHeroMarkup(row.rank)}</div>
+        <div class="podcast-hero-body">
+          <h2 class="podcast-hero-title" id="podcast-sheet-title">${escapeHtml(row.title)}</h2>
+          <div class="podcast-hero-meta">${renderEstablishmentMeta(row)}</div>
+        </div>
+      </div>
+      ${podcastStatsMarkup(row)}
+    </header>
+  `;
+}
+
+function rankTrackMarkup(row, allRows, { shareMode = false, trackMessage } = {}) {
+  const total = allRows.length;
+
+  return `
+    <div class="rank-track rank-track--nested${shareMode ? ' rank-track--share' : ''}" aria-label="Place au classement global : ${row.rank} sur ${total}">
+      <p class="rank-track-summary">
+        Ce podcast est
+        <strong class="rank-track-summary-rank">${row.rank}<sup>e</sup></strong>
+        sur <strong class="rank-track-summary-total">${total}</strong> podcasts
+      </p>
+      <p class="rank-track-message">${trackMessage}</p>
+    </div>
+  `;
+}
+
+function podcastCompetitionMarkup(row, allRows, { shareMode = false } = {}) {
+  const total = allRows.length;
+  const trackMessage = shareMode
+    ? (row.voteStatus === 'open'
+        ? 'Chaque vote peut faire la différence — fais-le monter dans le classement !'
+        : rankTrackMessage(row.rank, total))
+    : rankTrackMessage(row.rank, total);
+
+  return `
+    <section class="podcast-sheet-competition" aria-label="Concours">
+      ${competitionVoteBlockMarkup(row)}
+      ${rankTrackMarkup(row, allRows, { shareMode, trackMessage })}
+    </section>
+  `;
 }
 
 function rankTrackMessage(rank, total) {
@@ -413,66 +473,23 @@ function getEstablishmentPeersSection(allRows, currentRow) {
 }
 
 function renderSheetContent(row, allRows, history, { shareMode = false } = {}) {
-  const total = allRows.length;
-  const rankPct = rankMarkerPercent(row.rank, total);
-  const shareUrl = buildShareUrlForSlug(row.slug);
-  const trackMessage = shareMode
-    ? (row.voteStatus === 'open'
-        ? 'Chaque vote peut faire la différence — fais-le monter dans le classement !'
-        : rankTrackMessage(row.rank, total))
-    : rankTrackMessage(row.rank, total);
-
-  const heroBlock = `
-    <div class="podcast-hero rank-tier-${Math.min(row.rank, 3)}${shareMode ? ' podcast-hero--share' : ''}">
-      <div class="podcast-hero-rank" aria-label="Rang ${row.rank}">${rankHeroMarkup(row.rank)}</div>
-      <div class="podcast-hero-body">
-        <h2 class="podcast-hero-title" id="podcast-sheet-title">${escapeHtml(row.title)}</h2>
-        <div class="podcast-hero-meta">${renderEstablishmentMeta(row)}</div>
-        ${podcastHeroStatsMarkup(row)}
-        <div class="podcast-hero-actions">
-          ${voteButtonMarkup(row)}
-          ${shareActionsMarkup({ shareMode, shareUrl })}
-        </div>
-      </div>
-    </div>
+  const intro = `
+    ${podcastIdentityMarkup(row, { shareMode })}
+    ${podcastAudioMarkup(row)}
   `;
-
-  const rankTrackBlock = `
-    <div class="rank-track${shareMode ? ' rank-track--share' : ''}" aria-label="Place au classement global : ${row.rank} sur ${total}">
-      <p class="rank-track-summary">
-        Ce podcast est
-        <strong class="rank-track-summary-rank">${row.rank}<sup>e</sup></strong>
-        sur <strong class="rank-track-summary-total">${total}</strong> podcasts
-      </p>
-      <p class="rank-track-message">${trackMessage}</p>
-      <div class="rank-track-bar-wrap">
-        <div class="rank-track-ends">
-          <span class="rank-track-end rank-track-end--best">🥇 1er</span>
-          <span class="rank-track-end rank-track-end--last">Dernier</span>
-        </div>
-        <div class="rank-track-bar">
-          <div class="rank-track-zones" aria-hidden="true"></div>
-          <div class="rank-track-marker" style="left: ${rankPct}%">
-            <span class="rank-track-marker-badge">${row.rank}<sup>e</sup></span>
-          </div>
-        </div>
-        <div class="rank-track-direction" aria-hidden="true">
-          <span>← Mieux classé</span>
-          <span>Moins bien classé →</span>
-        </div>
-      </div>
-    </div>
-  `;
+  const competition = podcastCompetitionMarkup(row, allRows, { shareMode });
+  const share = shareActionsMarkup();
 
   if (shareMode) {
-    return `${shareCtaMarkup(row)}${heroBlock}${rankTrackBlock}`;
+    return `${shareCtaMarkup(row)}${intro}${competition}${share}`;
   }
 
   const establishmentPeersSection = getEstablishmentPeersSection(allRows, row);
 
   return `
-    ${heroBlock}
-    ${rankTrackBlock}
+    ${intro}
+    ${competition}
+    ${share}
     <div class="rank-neighbors-wrap">
       <h3 class="podcast-section-title">Classement global</h3>
       <div class="rank-neighbors">${renderNeighbors(allRows, row.slug, 'rank')}</div>
@@ -536,6 +553,7 @@ function goToAllParticipants() {
 }
 
 export function closePodcastDetail(fromPopstate = false) {
+  stopActiveAudio();
   const sheet = getSheet();
   const wasOpen = sheet && !sheet.hidden;
 
@@ -590,8 +608,12 @@ export function openPodcastDetail(slug, { replaceUrl = false, shareMode = false 
   const content = document.getElementById('podcast-sheet-content');
 
   try {
+    stopActiveAudio();
     content.innerHTML = renderSheetContent(row, allRows, history, { shareMode });
     updateSheetHeaderMode(shareMode);
+
+    const playerRoot = content.querySelector('[data-podcast-audio]');
+    activeAudioPlayer = playerRoot ? initPodcastAudioPlayer(playerRoot) : null;
 
     sheet.hidden = false;
     document.body.classList.add('sheet-open');
@@ -636,11 +658,11 @@ export function openPodcastDetail(slug, { replaceUrl = false, shareMode = false 
       if (!copyBtn) return;
       try {
         await navigator.clipboard.writeText(shareUrl);
-        copyBtn.classList.add('sheet-action-btn--copied');
-        copyBtn.innerHTML = copyLinkButtonHtml(true, shareUrl);
+        copyBtn.classList.add('podcast-share-action--copied');
+        copyBtn.innerHTML = copyLinkButtonHtml(true, shareUrl, { compact: true });
         window.setTimeout(() => {
-          copyBtn.classList.remove('sheet-action-btn--copied');
-          copyBtn.innerHTML = copyLinkButtonHtml(false, shareUrl);
+          copyBtn.classList.remove('podcast-share-action--copied');
+          copyBtn.innerHTML = copyLinkButtonHtml(false, shareUrl, { compact: true });
         }, 3500);
       } catch {
         /* clipboard unavailable */

@@ -13,7 +13,7 @@ Le site AFD expose ~180 fiches podcasts pour l'édition 2026, mais seules ~60–
 1. **Mettre à jour le classement** plusieurs fois par jour → rapide, automatique.
 2. **Re-vérifier l'état de toutes les fiches** (ouvert / fermé / inéligible) → lent, à la demande (Pipeline B).
 
-Un seul pipeline qui visiterait ~180 fiches à chaque cron (2×/jour) serait trop long (~30+ min) et inutilement agressif envers le site AFD. D'où la séparation :
+Un seul pipeline qui visiterait ~180 fiches à chaque cron (3×/jour) serait trop long (~30+ min) et inutilement agressif envers le site AFD. D'où la séparation :
 
 | Pipeline | Rôle | Fréquence |
 |----------|------|-----------|
@@ -29,7 +29,7 @@ Un seul pipeline qui visiterait ~180 fiches à chaque cron (2×/jour) serait tro
 | **Workflow GitHub** | `scrape.yml` | `discover.yml` |
 | **Script** | `run-pipeline.js` | `run-discover.js` |
 | **Commande locale** | `npm run pipeline` | `npm run discover` |
-| **Déclenchement** | Cron 06h / 16h (Paris) + manuel possible | **Manuel uniquement** (collaborateur repo) |
+| **Déclenchement** | Cron 06h / 11h / 16h (Paris) + manuel possible | **Manuel uniquement** (collaborateur repo) |
 | **Durée typique** | ~4–8 min | ~10–18 min |
 | **Pages liste AFD** | Non | Oui (~11 pages) |
 | **Fiches visitées** | Actifs (`active: true`) uniquement | **Toutes** (~180) |
@@ -71,7 +71,7 @@ Copie `data/` → `public/data/`, commit + push (en Actions).
 | Rapport détaillé ouvert / fermé / nouveau | **Non** — utiliser Pipeline B |
 | Nouveau slug sur la liste AFD | **Non détecté** — lancer Pipeline B |
 
-> Les runs automatiques 06h/16h **ne modifient pas** le statut des inactifs connus — sauf clôture détectée sur un participant encore marqué actif. Pour un audit complet, lancer **Pipeline B**.
+> Les runs automatiques 06h/11h/16h **ne modifient pas** le statut des inactifs connus — sauf clôture détectée sur un participant encore marqué actif. Pour un audit complet, lancer **Pipeline B**.
 
 ---
 
