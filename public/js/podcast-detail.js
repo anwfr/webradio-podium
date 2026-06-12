@@ -362,7 +362,7 @@ function rankTrackMarkup(row, allRows, { shareMode = false, trackMessage } = {})
       <p class="rank-track-summary">
         Ce podcast est
         <strong class="rank-track-summary-rank">${row.rank}<sup>e</sup></strong>
-        sur <strong class="rank-track-summary-total">${total}</strong> podcasts
+        sur <strong class="rank-track-summary-total">${total}</strong>
       </p>
       <p class="rank-track-message">${trackMessage}</p>
     </div>
