@@ -1,4 +1,5 @@
-import { formatDeltaMarkup, formatRankDeltaMarkup, totalRankDelta } from './data.js';
+import { formatDeltaMarkup, formatRankDeltaMarkup } from './data.js';
+import { getPodcastDayOverDayDeltas } from './day-series.js';
 import {
   resolveEstablishment,
   podiumEstablishmentMarkup,
@@ -310,12 +311,21 @@ function shareCtaMarkup(row) {
   `;
 }
 
-function podcastStatsMarkup(row) {
-  const rankDeltaMarkup = formatRankDeltaMarkup(totalRankDelta(row));
+function podcastStatsMarkup(row, history, activeSlugs) {
+  const { deltaVotes, deltaRank } = getPodcastDayOverDayDeltas(
+    history,
+    row.slug,
+    activeSlugs,
+  );
+  const voteDeltaMarkup =
+    deltaVotes != null
+      ? formatDeltaMarkup(deltaVotes, { trailing: ' votes', hideZero: true })
+      : '';
+  const rankDeltaMarkup = formatRankDeltaMarkup(deltaRank ?? 0);
 
   return `<div class="podcast-hero-stats podcast-card-stats">
     <span class="podcast-card-votes"><strong>${row.votes}</strong> votes</span>
-    <span class="podcast-card-delta">${formatDeltaMarkup(row.deltaVotes, { trailing: ' aujourd\u2019hui' })}</span>
+    ${voteDeltaMarkup ? `<span class="podcast-card-delta">${voteDeltaMarkup}</span>` : ''}
     ${rankDeltaMarkup ? `<span class="podcast-card-delta">${rankDeltaMarkup}</span>` : ''}
   </div>`;
 }
@@ -339,7 +349,8 @@ function competitionVoteBlockMarkup(row) {
   return `<a href="${escapeHtml(row.url)}" class="sheet-action-btn sheet-action-btn--muted sheet-action-btn--competition-link" target="_blank" rel="noopener" title="${escapeHtml(hint)}" aria-label="${escapeHtml(hint)}">${sheetActionIcon('external')}Fiche AFD</a>`;
 }
 
-function podcastIdentityMarkup(row, { shareMode = false } = {}) {
+function podcastIdentityMarkup(row, allRows, history, { shareMode = false } = {}) {
+  const activeSlugs = allRows.map((r) => r.slug);
   return `
     <header class="podcast-sheet-identity podcast-hero rank-tier-${Math.min(row.rank, 3)}${shareMode ? ' podcast-hero--share' : ''}">
       <div class="podcast-hero-main">
@@ -349,7 +360,7 @@ function podcastIdentityMarkup(row, { shareMode = false } = {}) {
           <div class="podcast-hero-meta">${renderEstablishmentMeta(row)}</div>
         </div>
       </div>
-      ${podcastStatsMarkup(row)}
+      ${podcastStatsMarkup(row, history, activeSlugs)}
     </header>
   `;
 }
@@ -446,7 +457,7 @@ function renderNeighbors(rows, currentSlug, rankKey = 'rank') {
 
 function renderSheetContent(row, allRows, history, { shareMode = false } = {}) {
   const intro = `
-    ${podcastIdentityMarkup(row, { shareMode })}
+    ${podcastIdentityMarkup(row, allRows, history, { shareMode })}
     ${podcastAudioMarkup(row)}
   `;
   const competition = podcastCompetitionMarkup(row, allRows, { shareMode });

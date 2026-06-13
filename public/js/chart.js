@@ -1,5 +1,12 @@
+import {
+  buildDayOverDayDeltas,
+  rankAtSnapshot,
+  snapshotDayLabel,
+  snapshotVotes,
+  snapshotsLatestPerDay,
+  sortSnapshotsByTime,
+} from './day-series.js';
 import { formatDelta, formatRankDelta } from './data.js';
-import { findReferenceSnapshot } from './snapshot-window.js';
 
 const COLORS = [
   '#ff6b6b', '#4ecdc4', '#7c5cff', '#ffd166', '#6ee7a0',
@@ -36,92 +43,27 @@ const CHART_OPTIONS = {
   },
 };
 
-function snapshotDayKey(timestamp) {
-  const parts = new Intl.DateTimeFormat('fr-CA', {
-    timeZone: 'Europe/Paris',
-    year: 'numeric',
-    month: '2-digit',
-    day: '2-digit',
-  }).formatToParts(new Date(timestamp));
-  const get = (type) => parts.find((p) => p.type === type).value;
-  return `${get('year')}-${get('month')}-${get('day')}`;
-}
-
-function snapshotsOnePerDay(snapshots) {
-  const byDay = new Map();
-  for (const snap of snapshots) {
-    byDay.set(snapshotDayKey(snap.timestamp), snap);
-  }
-  return [...byDay.values()].sort(
-    (a, b) => new Date(a.timestamp) - new Date(b.timestamp),
-  );
-}
-
 function snapshotLabels(snapshots) {
-  return snapshots.map((s) => {
-    const d = new Date(s.timestamp);
-    return d.toLocaleDateString('fr-FR', {
-      day: 'numeric',
-      month: 'short',
-      timeZone: 'Europe/Paris',
-    });
-  });
-}
-
-function rankAtSnapshot(snapshot, slug, activeSlugs) {
-  const votesMap = new Map(snapshot.entries.map((e) => [e.slug, e.votes]));
-  const inSnapshot = snapshot.entries.some((e) => e.slug === slug);
-  if (!inSnapshot) return null;
-
-  const ranked = activeSlugs
-    .map((s) => ({ slug: s, votes: votesMap.get(s) ?? 0 }))
-    .sort((a, b) => b.votes - a.votes);
-  const idx = ranked.findIndex((r) => r.slug === slug);
-  return idx >= 0 ? idx + 1 : null;
+  return snapshots.map((s) => snapshotDayLabel(s.timestamp));
 }
 
 function rankSeries(snapshots, slug, activeSlugs) {
   return snapshots.map((snap) => rankAtSnapshot(snap, slug, activeSlugs));
 }
 
-function snapshotVotes(snapshot, slug) {
-  const entry = snapshot?.entries?.find((e) => e.slug === slug);
-  return entry != null ? entry.votes : null;
+function rankDayOverDayDeltas(dailySnapshots, slug, activeSlugs) {
+  return dailySnapshots.map((snap, index) => {
+    if (index === 0) return null;
+
+    const rank = rankAtSnapshot(snap, slug, activeSlugs);
+    const prevRank = rankAtSnapshot(dailySnapshots[index - 1], slug, activeSlugs);
+    if (rank == null || prevRank == null) return null;
+
+    return prevRank - rank;
+  });
 }
 
-function voteDeltaAtSnapshot(allSnapshots, snap, slug) {
-  const ref = findReferenceSnapshot(allSnapshots, snap.timestamp);
-  if (!ref || ref.timestamp === snap.timestamp) return null;
-
-  const votes = snapshotVotes(snap, slug);
-  if (votes == null) return null;
-
-  const refEntry = ref.entries.find((e) => e.slug === slug);
-  const refVotes = refEntry != null ? refEntry.votes : votes;
-  return votes - refVotes;
-}
-
-function rankDeltaAtSnapshot(allSnapshots, snap, slug, activeSlugs) {
-  const ref = findReferenceSnapshot(allSnapshots, snap.timestamp);
-  if (!ref || ref.timestamp === snap.timestamp) return null;
-
-  const rank = rankAtSnapshot(snap, slug, activeSlugs);
-  const refRank = rankAtSnapshot(ref, slug, activeSlugs);
-  if (rank == null || refRank == null) return null;
-  return refRank - rank;
-}
-
-function voteDeltasForSnapshots(allSnapshots, dailySnapshots, slug) {
-  return dailySnapshots.map((snap) => voteDeltaAtSnapshot(allSnapshots, snap, slug));
-}
-
-function rankDeltasForSnapshots(allSnapshots, dailySnapshots, slug, activeSlugs) {
-  return dailySnapshots.map((snap) =>
-    rankDeltaAtSnapshot(allSnapshots, snap, slug, activeSlugs),
-  );
-}
-
-function appendDelta(base, delta, formatter) {
+function formatDayOverDayTooltip(base, delta, formatter) {
   if (delta == null) return base;
   const formatted = formatter(delta);
   if (!formatted) return base;
@@ -183,12 +125,14 @@ function rankScale(values, maxRank) {
 }
 
 export function initDetailVoteChart(canvas, history, slug, label) {
-  const allSnapshots = history.snapshots || [];
-  const snapshots = snapshotsOnePerDay(allSnapshots);
+  const allSnapshots = sortSnapshotsByTime(history.snapshots || []);
+  const snapshots = snapshotsLatestPerDay(allSnapshots);
   const labels = snapshotLabels(snapshots);
   const color = COLORS[1];
   const data = snapshots.map((snap) => snapshotVotes(snap, slug));
-  const voteDeltas = voteDeltasForSnapshots(allSnapshots, snapshots, slug);
+  const voteDayDeltas = buildDayOverDayDeltas(snapshots, (snap) =>
+    snapshotVotes(snap, slug),
+  );
   const voteY = voteScale(data);
 
   if (detailVoteChartInstance) {
@@ -203,7 +147,7 @@ export function initDetailVoteChart(canvas, history, slug, label) {
         {
           label,
           data,
-          voteDeltas,
+          voteDayDeltas,
           borderColor: color,
           backgroundColor: color + '33',
           tension: 0.25,
@@ -226,8 +170,12 @@ export function initDetailVoteChart(canvas, history, slug, label) {
               const votes = ctx.parsed.y;
               if (votes == null) return '—';
               const formatted = `${new Intl.NumberFormat('fr-FR').format(votes)} votes`;
-              const delta = ctx.dataset.voteDeltas?.[ctx.dataIndex];
-              return appendDelta(formatted, delta, (n) => formatDelta(n, ' votes').text);
+              const dayDelta = ctx.dataset.voteDayDeltas?.[ctx.dataIndex];
+              return formatDayOverDayTooltip(
+                formatted,
+                dayDelta,
+                (n) => formatDelta(n, ' votes').text,
+              );
             },
           },
         },
@@ -252,12 +200,12 @@ export function initDetailVoteChart(canvas, history, slug, label) {
 }
 
 export function initDetailRankChart(canvas, history, slug, activeSlugs) {
-  const allSnapshots = history.snapshots || [];
-  const snapshots = snapshotsOnePerDay(allSnapshots);
+  const allSnapshots = sortSnapshotsByTime(history.snapshots || []);
+  const snapshots = snapshotsLatestPerDay(allSnapshots);
   const labels = snapshotLabels(snapshots);
   const color = COLORS[2];
   const data = rankSeries(snapshots, slug, activeSlugs);
-  const rankDeltas = rankDeltasForSnapshots(allSnapshots, snapshots, slug, activeSlugs);
+  const rankDayDeltas = rankDayOverDayDeltas(snapshots, slug, activeSlugs);
   const maxRank = Math.max(1, activeSlugs.length);
   const rankY = rankScale(data, maxRank);
 
@@ -273,7 +221,7 @@ export function initDetailRankChart(canvas, history, slug, activeSlugs) {
         {
           label: 'Rang',
           data,
-          rankDeltas,
+          rankDayDeltas,
           borderColor: color,
           backgroundColor: color + '33',
           tension: 0.25,
@@ -296,8 +244,12 @@ export function initDetailRankChart(canvas, history, slug, activeSlugs) {
               const rank = ctx.parsed.y;
               if (rank == null) return 'Non classé';
               const base = `Rang : ${rank}`;
-              const delta = ctx.dataset.rankDeltas?.[ctx.dataIndex];
-              return appendDelta(base, delta, (n) => formatRankDelta(n).text);
+              const dayDelta = ctx.dataset.rankDayDeltas?.[ctx.dataIndex];
+              return formatDayOverDayTooltip(
+                base,
+                dayDelta,
+                (n) => formatRankDelta(n).text,
+              );
             },
           },
         },
