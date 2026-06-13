@@ -48,7 +48,16 @@ jobs:
           git add data/ public/data/
           if git diff --staged --quiet; then
             echo "No changes"
-          else
-            git commit -m "data: snapshot $(date +%Y-%m-%d_%H-%M)"
-            git push
+            exit 0
           fi
+          git commit -m "data: snapshot $(date +%Y-%m-%d_%H-%M)"
+          for attempt in 1 2 3; do
+            git pull --rebase origin main
+            if git push origin main; then
+              exit 0
+            fi
+            echo "Push rejected (attempt ${attempt}/3), retrying..."
+            sleep 5
+          done
+          echo "Push failed after 3 attempts"
+          exit 1
