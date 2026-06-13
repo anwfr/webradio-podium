@@ -447,8 +447,10 @@ name: Scrape votes
 
 on:
   schedule:
-    # GitHub cron = UTC (pas le TZ du job). 4h/9h/14h UTC ≈ 6h/11h/16h Paris en été.
-    - cron: '0 4,9,14 * * *'
+    # GitHub cron = UTC. Minutes décalées (éviter :00 — runs souvent ignorés).
+    - cron: '17 4 * * *'
+    - cron: '23 9 * * *'
+    - cron: '41 14 * * *'
   workflow_dispatch:
 
 env:

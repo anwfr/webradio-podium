@@ -2,9 +2,12 @@ name: Scrape votes
 
 on:
   schedule:
-    # GitHub cron = UTC. 4h/9h/14h UTC ≈ 6h/11h/16h Europe/Paris (été UTC+2).
-    # En hiver (UTC+1) : déclenchement à 5h/10h/15h Paris — ajuster si besoin.
-    - cron: '0 4,9,14 * * *'
+    # GitHub cron = UTC. Minutes décalées : les créneaux à :00 UTC sont souvent
+    # retardés ou ignorés (surtout 4h/9h UTC). Voir docs/specifications/deploiement.md.
+    # Été (UTC+2) : ~6h17 / ~11h23 / ~16h41 Paris. Hiver : -1h.
+    - cron: '17 4 * * *'
+    - cron: '23 9 * * *'
+    - cron: '41 14 * * *'
   workflow_dispatch:
 
 env:

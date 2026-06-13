@@ -140,7 +140,9 @@ Le fichier `.github/workflows/scrape.yml` contient :
 ```yaml
 on:
   schedule:
-    - cron: '0 4,9,14 * * *'
+    - cron: '17 4 * * *'
+    - cron: '23 9 * * *'
+    - cron: '41 14 * * *'
   workflow_dispatch:
 ```
 
@@ -150,17 +152,20 @@ GitHub interprète les crons en **UTC**, pas en heure de Paris. La variable `TZ:
 
 | Cron UTC | Paris (été, UTC+2) | Paris (hiver, UTC+1) |
 |----------|--------------------|----------------------|
-| 4h | 6h | 5h |
-| 9h | 11h | 10h |
-| 14h | 16h | 15h |
+| 4h17 | ~6h17 | ~5h17 |
+| 9h23 | ~11h23 | ~10h23 |
+| 14h41 | ~16h41 | ~15h41 |
 
-Le cron `0 4,9,14 * * *` vise **6h, 11h et 16h heure de Paris en été**. En hiver, les runs partent une heure plus tôt (5h / 10h / 15h Paris) — ajuster en `0 5,10,15 * * *` si besoin.
+Les minutes sont **volontairement décalées** (pas `:00`) : GitHub Actions traite les schedules en best-effort ; les créneaux à pile l'heure sont souvent retardés de 10–60 min ou **complètement ignorés** (constaté en prod sur les slots 4h et 9h UTC). Le slot 14h UTC passait, mais avec 2–5 h de retard.
+
+En hiver (UTC+1), les runs partent une heure plus tôt — ajuster les heures UTC si besoin (`5,10,15` au lieu de `4,9,14`).
 
 ### Conditions d'exécution
 
 - Le cron ne tourne que sur la branche **par défaut** (`main`)
 - Repos inactifs 60 jours : GitHub peut désactiver les crons → relancer un run manuel pour réactiver
 - Fréquence recommandée : **3×/jour** (éviter le rate-limit AFD)
+- **Pas d'alerte GitHub** si un créneau est manqué — vérifier l'historique Actions ou `meta.json` → `lastRunAt`
 
 ---
 
