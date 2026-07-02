@@ -1,13 +1,13 @@
 {
-  "lastRunAt": "2026-07-02T09:54:19.733+02:00",
+  "lastRunAt": "2026-07-02T13:54:47.770+02:00",
   "lastRunStatus": "success",
-  "lastRunDurationMs": 586613,
+  "lastRunDurationMs": 609839,
   "trigger": "schedule",
-  "snapshotTimestamp": "2026-07-02T09:44:33+02:00",
+  "snapshotTimestamp": "2026-07-02T13:44:37+02:00",
   "counts": {
     "participantsActive": 229,
     "participantsTotal": 229,
-    "snapshotsTotal": 66,
+    "snapshotsTotal": 67,
     "scrapeErrors": 0,
     "newParticipants": 0
   },
