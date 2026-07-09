@@ -80126,6 +80126,927 @@
           "votes": 858
         }
       ]
+    },
+    {
+      "timestamp": "2026-07-09T14:22:45+02:00",
+      "entries": [
+        {
+          "slug": "2050-la-fin-des-poissons",
+          "votes": 4956
+        },
+        {
+          "slug": "2057",
+          "votes": 233
+        },
+        {
+          "slug": "2068-en-direct-du-futur",
+          "votes": 94
+        },
+        {
+          "slug": "3-wanted",
+          "votes": 710
+        },
+        {
+          "slug": "4-pour-lespoir",
+          "votes": 489
+        },
+        {
+          "slug": "aicha-et-la-promesse-de-la-serre",
+          "votes": 300
+        },
+        {
+          "slug": "apocalypse-bleue",
+          "votes": 248
+        },
+        {
+          "slug": "aryo-le-prix-cache-de-la-mode",
+          "votes": 1155
+        },
+        {
+          "slug": "au-dela-des-dechets",
+          "votes": 5000
+        },
+        {
+          "slug": "au-dela-du-hors-jeu",
+          "votes": 460
+        },
+        {
+          "slug": "aura",
+          "votes": 2373
+        },
+        {
+          "slug": "avec-ou-sans-huile-de-palme",
+          "votes": 1182
+        },
+        {
+          "slug": "avoir-de-leau-plus-pres",
+          "votes": 249
+        },
+        {
+          "slug": "aya-et-la-maison-en-bidon",
+          "votes": 1312
+        },
+        {
+          "slug": "bacterium-carbonivora",
+          "votes": 331
+        },
+        {
+          "slug": "bas-prix-quel-cout",
+          "votes": 289
+        },
+        {
+          "slug": "beirut-crie-le-liban-sest-leve",
+          "votes": 655
+        },
+        {
+          "slug": "bouchons-gratines-nou-le-fatigues",
+          "votes": 1086
+        },
+        {
+          "slug": "bout-de-souffle",
+          "votes": 368
+        },
+        {
+          "slug": "bout-de-souffle-0",
+          "votes": 53
+        },
+        {
+          "slug": "ce-que-lavenir-me-doit",
+          "votes": 774
+        },
+        {
+          "slug": "ce-quils-voyaientce-quelle-etait",
+          "votes": 189
+        },
+        {
+          "slug": "chantons-contre-la-pollution",
+          "votes": 446
+        },
+        {
+          "slug": "chaque-goutte-compte",
+          "votes": 118
+        },
+        {
+          "slug": "chimali",
+          "votes": 17
+        },
+        {
+          "slug": "contre-futur",
+          "votes": 134
+        },
+        {
+          "slug": "conversation-electrique-0",
+          "votes": 48
+        },
+        {
+          "slug": "coraux-chaud-devant",
+          "votes": 837
+        },
+        {
+          "slug": "courir-pour-choisir",
+          "votes": 38
+        },
+        {
+          "slug": "de-vieux-tissus-de-nouvelles-idees",
+          "votes": 251
+        },
+        {
+          "slug": "des-abeilles-et-des-hommes",
+          "votes": 1269
+        },
+        {
+          "slug": "des-algues-contre-le-plastique",
+          "votes": 95
+        },
+        {
+          "slug": "des-nuances-de-rouges",
+          "votes": 472
+        },
+        {
+          "slug": "des-voix-qui-comptent",
+          "votes": 1126
+        },
+        {
+          "slug": "desinstallation-amoureuse",
+          "votes": 3604
+        },
+        {
+          "slug": "deux-bateaux-un-avenir",
+          "votes": 490
+        },
+        {
+          "slug": "deux-bidons-deau-par-jour",
+          "votes": 186
+        },
+        {
+          "slug": "du-chocolat-au-gout-amer",
+          "votes": 88
+        },
+        {
+          "slug": "du-local-au-global",
+          "votes": 147
+        },
+        {
+          "slug": "eau-secours",
+          "votes": 2102
+        },
+        {
+          "slug": "eco-systeme-d",
+          "votes": 766
+        },
+        {
+          "slug": "elio",
+          "votes": 404
+        },
+        {
+          "slug": "elyndor",
+          "votes": 673
+        },
+        {
+          "slug": "enfances-volees",
+          "votes": 137
+        },
+        {
+          "slug": "entre-deux-lettres",
+          "votes": 355
+        },
+        {
+          "slug": "fast-fashion-more-pression",
+          "votes": 596
+        },
+        {
+          "slug": "femmeland",
+          "votes": 153
+        },
+        {
+          "slug": "femmes-cen-est-assez-battez-vous",
+          "votes": 98
+        },
+        {
+          "slug": "france-ghana",
+          "votes": 72
+        },
+        {
+          "slug": "fuir-pour-etre-libre",
+          "votes": 122
+        },
+        {
+          "slug": "futur-ia",
+          "votes": 21
+        },
+        {
+          "slug": "graine-dequite",
+          "votes": 1648
+        },
+        {
+          "slug": "hors-jeu",
+          "votes": 38
+        },
+        {
+          "slug": "il-etait-une-fois-une-astronaute",
+          "votes": 386
+        },
+        {
+          "slug": "inaya-la-fille-de-leau",
+          "votes": 1002
+        },
+        {
+          "slug": "isis-pharia-et-son-dernier-cri",
+          "votes": 355
+        },
+        {
+          "slug": "je-lai-fait-pour-toi-et-ces-femmes",
+          "votes": 483
+        },
+        {
+          "slug": "journal-dune-refugiee-moderne",
+          "votes": 99
+        },
+        {
+          "slug": "la-brique-de-washington-dc",
+          "votes": 234
+        },
+        {
+          "slug": "la-chasse-au-bonheur",
+          "votes": 1279
+        },
+        {
+          "slug": "la-derniere-digue",
+          "votes": 1150
+        },
+        {
+          "slug": "la-derniere-humaine",
+          "votes": 477
+        },
+        {
+          "slug": "la-descolarisation",
+          "votes": 94
+        },
+        {
+          "slug": "la-f1-au-feminin",
+          "votes": 204
+        },
+        {
+          "slug": "la-grande-aventure-de-fast",
+          "votes": 196
+        },
+        {
+          "slug": "la-lanterne-du-vent",
+          "votes": 293
+        },
+        {
+          "slug": "la-legende-du-micocoulier-de-st-charles",
+          "votes": 541
+        },
+        {
+          "slug": "la-lumiere-qui-est-venue-du-soleil",
+          "votes": 634
+        },
+        {
+          "slug": "la-malediction-de-sangha",
+          "votes": 63
+        },
+        {
+          "slug": "la-mare-en-danger",
+          "votes": 321
+        },
+        {
+          "slug": "la-mer-nest-pas-un-piege",
+          "votes": 30
+        },
+        {
+          "slug": "la-mesaventure-de-niko",
+          "votes": 364
+        },
+        {
+          "slug": "la-messagere",
+          "votes": 1711
+        },
+        {
+          "slug": "la-ou-la-mer-se-tait",
+          "votes": 763
+        },
+        {
+          "slug": "la-ou-nos-vies-flottent",
+          "votes": 74
+        },
+        {
+          "slug": "la-petite-voix-de-letang",
+          "votes": 1901
+        },
+        {
+          "slug": "la-planete-porte-plainte",
+          "votes": 2012
+        },
+        {
+          "slug": "la-plus-longue-migration-du-monde",
+          "votes": 683
+        },
+        {
+          "slug": "la-quete-du-froid",
+          "votes": 379
+        },
+        {
+          "slug": "la-recherche-de-larbre-perdu",
+          "votes": 492
+        },
+        {
+          "slug": "la-recherche-du-poiscaille",
+          "votes": 80
+        },
+        {
+          "slug": "la-recherche-du-remede",
+          "votes": 165
+        },
+        {
+          "slug": "la-revanche",
+          "votes": 118
+        },
+        {
+          "slug": "la-revolte-de-lamazonie",
+          "votes": 73
+        },
+        {
+          "slug": "la-revolte-des-fils-invisibles",
+          "votes": 208
+        },
+        {
+          "slug": "la-sororite-face-la-fatalite",
+          "votes": 88
+        },
+        {
+          "slug": "la-sortie-de-lea",
+          "votes": 313
+        },
+        {
+          "slug": "la-vie-dun-survivant",
+          "votes": 160
+        },
+        {
+          "slug": "la-ville-de-mes-reves",
+          "votes": 261
+        },
+        {
+          "slug": "la-voix-des-oublies",
+          "votes": 74
+        },
+        {
+          "slug": "lacademie-de-starlight",
+          "votes": 76
+        },
+        {
+          "slug": "lame-bleue-le-voyage-dune-goutte",
+          "votes": 387
+        },
+        {
+          "slug": "lappel-qui-sauve",
+          "votes": 120
+        },
+        {
+          "slug": "lassemblee-des-possibles",
+          "votes": 479
+        },
+        {
+          "slug": "lavancee-vers-leau",
+          "votes": 478
+        },
+        {
+          "slug": "le-bambou-monde",
+          "votes": 3008
+        },
+        {
+          "slug": "le-bruit-dans-sa-tete",
+          "votes": 334
+        },
+        {
+          "slug": "le-carnaval-de-la-digestion",
+          "votes": 1861
+        },
+        {
+          "slug": "le-ceta-com",
+          "votes": 259
+        },
+        {
+          "slug": "le-chant-des-oliviers",
+          "votes": 5835
+        },
+        {
+          "slug": "le-chant-du-corail",
+          "votes": 963
+        },
+        {
+          "slug": "le-coeur-de-la-martinique",
+          "votes": 200
+        },
+        {
+          "slug": "le-crepuscule-des-lois-la-chute",
+          "votes": 41
+        },
+        {
+          "slug": "le-cri-de-locean",
+          "votes": 288
+        },
+        {
+          "slug": "le-cri-dun-monde-en-desespoir",
+          "votes": 238
+        },
+        {
+          "slug": "le-dernier-jour-de-la-tour-eiffel",
+          "votes": 1939
+        },
+        {
+          "slug": "le-dernier-kwh",
+          "votes": 342
+        },
+        {
+          "slug": "le-dernier-souffle-du-corail",
+          "votes": 191
+        },
+        {
+          "slug": "le-fabuleux-destin-dun-plancton",
+          "votes": 189
+        },
+        {
+          "slug": "le-grand-soulevement",
+          "votes": 166
+        },
+        {
+          "slug": "le-grand-voyage-de-bob",
+          "votes": 385
+        },
+        {
+          "slug": "le-livre-de-faida",
+          "votes": 56
+        },
+        {
+          "slug": "le-lutin-de-poche",
+          "votes": 9
+        },
+        {
+          "slug": "le-maillot-numero-dix",
+          "votes": 714
+        },
+        {
+          "slug": "le-mirage-de-labondance",
+          "votes": 515
+        },
+        {
+          "slug": "le-monde-apres-le-coma",
+          "votes": 519
+        },
+        {
+          "slug": "le-monde-de-lena",
+          "votes": 950
+        },
+        {
+          "slug": "le-peintre-lerudite-et-le-tableau",
+          "votes": 165
+        },
+        {
+          "slug": "le-poids-du-panier-vide",
+          "votes": 319
+        },
+        {
+          "slug": "le-poisson-aux-mille-histoires",
+          "votes": 148
+        },
+        {
+          "slug": "le-poisson-qui-change-le-monde",
+          "votes": 451
+        },
+        {
+          "slug": "le-prix-du-savoir",
+          "votes": 9
+        },
+        {
+          "slug": "le-proces",
+          "votes": 1341
+        },
+        {
+          "slug": "le-proces-de-la-clim-404",
+          "votes": 125
+        },
+        {
+          "slug": "le-proces-du-dessert",
+          "votes": 576
+        },
+        {
+          "slug": "le-remede-vert",
+          "votes": 331
+        },
+        {
+          "slug": "le-reve-impossible",
+          "votes": 206
+        },
+        {
+          "slug": "le-salaire-discrimine-aussi",
+          "votes": 845
+        },
+        {
+          "slug": "le-sexisme-cest-pas-foot",
+          "votes": 203
+        },
+        {
+          "slug": "le-souffle-des-baleines",
+          "votes": 760
+        },
+        {
+          "slug": "le-temps-dune-soiree",
+          "votes": 165
+        },
+        {
+          "slug": "le-terrain-qui-disparait",
+          "votes": 297
+        },
+        {
+          "slug": "le-vent-douest",
+          "votes": 4143
+        },
+        {
+          "slug": "le-village-des-cendres",
+          "votes": 87
+        },
+        {
+          "slug": "le-vivasea",
+          "votes": 301
+        },
+        {
+          "slug": "le-voyage-dafak",
+          "votes": 4712
+        },
+        {
+          "slug": "le-voyage-de-la-riviere",
+          "votes": 312
+        },
+        {
+          "slug": "le-voyage-dun-fil-de-coton",
+          "votes": 203
+        },
+        {
+          "slug": "le-voyage-extraordinaire-de-bicou",
+          "votes": 5859
+        },
+        {
+          "slug": "leau-un-luxe-qui-separe-deux-vies",
+          "votes": 2634
+        },
+        {
+          "slug": "lecho-des-jardins-invisibles",
+          "votes": 564
+        },
+        {
+          "slug": "lechoue",
+          "votes": 44
+        },
+        {
+          "slug": "lenvers-du-decor-le-fil-empoisonne",
+          "votes": 41
+        },
+        {
+          "slug": "les-animaux-de-la-resistance",
+          "votes": 465
+        },
+        {
+          "slug": "les-aventures-de-toru-et-coco",
+          "votes": 252
+        },
+        {
+          "slug": "les-commerages-de-lespace",
+          "votes": 195
+        },
+        {
+          "slug": "les-deux-mondes",
+          "votes": 170
+        },
+        {
+          "slug": "les-echos-de-lemploi",
+          "votes": 200
+        },
+        {
+          "slug": "les-filles-aussi-ont-des-ailes",
+          "votes": 567
+        },
+        {
+          "slug": "les-murmures-dune-eau-blessee",
+          "votes": 341
+        },
+        {
+          "slug": "les-ruines-de-lancien-monde",
+          "votes": 60
+        },
+        {
+          "slug": "letant-de-lor-en-colere",
+          "votes": 505
+        },
+        {
+          "slug": "lets-go",
+          "votes": 547
+        },
+        {
+          "slug": "lhommiculture",
+          "votes": 7036
+        },
+        {
+          "slug": "limposture-de-la-machine",
+          "votes": 236
+        },
+        {
+          "slug": "linvention-du-film-denrupatate",
+          "votes": 221
+        },
+        {
+          "slug": "lontan-aster-domin",
+          "votes": 519
+        },
+        {
+          "slug": "loup-que-fais-tu",
+          "votes": 378
+        },
+        {
+          "slug": "lunion-des-differences",
+          "votes": 601
+        },
+        {
+          "slug": "luxoria",
+          "votes": 211
+        },
+        {
+          "slug": "ma-conscience-en-soldes",
+          "votes": 335
+        },
+        {
+          "slug": "ma-vie-de-garcon-ma-prison-0",
+          "votes": 719
+        },
+        {
+          "slug": "madagascar-2037",
+          "votes": 123
+        },
+        {
+          "slug": "mariage-ou-exil",
+          "votes": 256
+        },
+        {
+          "slug": "marseille-2040",
+          "votes": 146
+        },
+        {
+          "slug": "memoires-dune-terre-perdue",
+          "votes": 143
+        },
+        {
+          "slug": "memoriam",
+          "votes": 239
+        },
+        {
+          "slug": "mentalites-oubliees-dans-le-congele",
+          "votes": 35
+        },
+        {
+          "slug": "message-du-futur",
+          "votes": 1100
+        },
+        {
+          "slug": "mets-toi-sa-place",
+          "votes": 27
+        },
+        {
+          "slug": "mexique-eau-empathie",
+          "votes": 328
+        },
+        {
+          "slug": "mon-combat-contre-les-inegalites",
+          "votes": 212
+        },
+        {
+          "slug": "mon-espoir",
+          "votes": 231
+        },
+        {
+          "slug": "new-york-40degc-la-nuit",
+          "votes": 219
+        },
+        {
+          "slug": "oceane-la-petite-goutte-deau",
+          "votes": 627
+        },
+        {
+          "slug": "pauvrete-brisee-grace-leducation",
+          "votes": 399
+        },
+        {
+          "slug": "pleyben-demain",
+          "votes": 241
+        },
+        {
+          "slug": "polatouche",
+          "votes": 46
+        },
+        {
+          "slug": "pourquoi-nous",
+          "votes": 26
+        },
+        {
+          "slug": "prends-soin-de-toi",
+          "votes": 627
+        },
+        {
+          "slug": "promo-tout-prix",
+          "votes": 1202
+        },
+        {
+          "slug": "proteger-les-hirondelles-voyageuses",
+          "votes": 206
+        },
+        {
+          "slug": "quand-la-terre-seteint",
+          "votes": 86
+        },
+        {
+          "slug": "quand-la-ville-grignote-le-vivant",
+          "votes": 112
+        },
+        {
+          "slug": "quand-ma-mere-est-devenue-personne",
+          "votes": 208
+        },
+        {
+          "slug": "qui-viendra-me-sauver",
+          "votes": 136
+        },
+        {
+          "slug": "reinventer-le-quotidien",
+          "votes": 627
+        },
+        {
+          "slug": "renaissance-au-coeur-de-loasis",
+          "votes": 1064
+        },
+        {
+          "slug": "repecher-le-futur",
+          "votes": 250
+        },
+        {
+          "slug": "robert-et-la-riviere",
+          "votes": 585
+        },
+        {
+          "slug": "sante-et-bien-etre",
+          "votes": 17
+        },
+        {
+          "slug": "sargasses-sante-environnement",
+          "votes": 532
+        },
+        {
+          "slug": "sauvons-les-limules",
+          "votes": 131
+        },
+        {
+          "slug": "sauvons-patty-et-son-bebe",
+          "votes": 384
+        },
+        {
+          "slug": "se-battre-comme-des-chiffonniers",
+          "votes": 62
+        },
+        {
+          "slug": "silence-au-bout-du-fil",
+          "votes": 264
+        },
+        {
+          "slug": "silver-et-le-souffle-du-plancton",
+          "votes": 752
+        },
+        {
+          "slug": "sky-de-la-bouteille",
+          "votes": 360
+        },
+        {
+          "slug": "souffle-vert",
+          "votes": 408
+        },
+        {
+          "slug": "sous-la-surface",
+          "votes": 33
+        },
+        {
+          "slug": "sous-mes-pieds-le-mali",
+          "votes": 296
+        },
+        {
+          "slug": "sur-les-pas-delisey",
+          "votes": 1088
+        },
+        {
+          "slug": "tacos-des-alpages",
+          "votes": 303
+        },
+        {
+          "slug": "tim-tembo-destins-croises",
+          "votes": 144
+        },
+        {
+          "slug": "toi-moi-et-notre-nouvelle-vie",
+          "votes": 479
+        },
+        {
+          "slug": "tony-le-protecteur-des-fleuves",
+          "votes": 129
+        },
+        {
+          "slug": "tor-tue-plastique",
+          "votes": 24
+        },
+        {
+          "slug": "tour-du-monde-en-80-jours",
+          "votes": 151
+        },
+        {
+          "slug": "toxique-plastique",
+          "votes": 547
+        },
+        {
+          "slug": "tragi-comedie-chez-les-albatar",
+          "votes": 266
+        },
+        {
+          "slug": "trier-cest-gagner",
+          "votes": 651
+        },
+        {
+          "slug": "tsilaosa-et-le-ciel-etoile",
+          "votes": 3616
+        },
+        {
+          "slug": "tukuna",
+          "votes": 828
+        },
+        {
+          "slug": "un-echange-qui-te-change",
+          "votes": 126
+        },
+        {
+          "slug": "un-faux-refuge",
+          "votes": 448
+        },
+        {
+          "slug": "un-monde-bouleverse",
+          "votes": 2195
+        },
+        {
+          "slug": "un-monde-deux-verites",
+          "votes": 1603
+        },
+        {
+          "slug": "un-monde-sans-voix-0",
+          "votes": 6597
+        },
+        {
+          "slug": "un-sandwich-et-reinventer-le-monde",
+          "votes": 1221
+        },
+        {
+          "slug": "une-cassette-la-mer",
+          "votes": 16
+        },
+        {
+          "slug": "une-famille-au-burkina-faso",
+          "votes": 410
+        },
+        {
+          "slug": "une-journee-sans-eau",
+          "votes": 3442
+        },
+        {
+          "slug": "une-piece-sil-vous-plait",
+          "votes": 373
+        },
+        {
+          "slug": "une-rencontre-qui-change-tout",
+          "votes": 182
+        },
+        {
+          "slug": "une-sortie-au-musee",
+          "votes": 559
+        },
+        {
+          "slug": "une-voix-contre-lexcision",
+          "votes": 161
+        },
+        {
+          "slug": "veloria-le-dernier-souffle",
+          "votes": 237
+        },
+        {
+          "slug": "vent-et-silence",
+          "votes": 2331
+        },
+        {
+          "slug": "voyage-tortuguero",
+          "votes": 858
+        }
+      ]
     }
   ]
 }
