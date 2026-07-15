@@ -1,15 +1,22 @@
 {
-  "lastRunAt": "2026-07-15T08:40:09.182+02:00",
-  "lastRunStatus": "success",
-  "lastRunDurationMs": 671755,
+  "lastRunAt": "2026-07-15T13:15:11.312+02:00",
+  "lastRunStatus": "partial",
+  "lastRunDurationMs": 698552,
   "trigger": "schedule",
-  "snapshotTimestamp": "2026-07-15T08:28:57+02:00",
+  "snapshotTimestamp": "2026-07-15T13:03:32+02:00",
   "counts": {
     "participantsActive": 229,
     "participantsTotal": 229,
-    "snapshotsTotal": 105,
-    "scrapeErrors": 0,
+    "snapshotsTotal": 106,
+    "scrapeErrors": 1,
     "newParticipants": 0
   },
-  "errors": []
+  "errors": [
+    {
+      "slug": "bacterium-carbonivora",
+      "step": "scrape-votes",
+      "code": "fetch_error",
+      "message": "HTTP 404 for https://offre-pedagogique.afd.fr/fr/ressources/bacterium-carbonivora"
+    }
+  ]
 }
